@@ -1,0 +1,18 @@
+[jul] 22:39:29,662 INFO  [org.jboss.modules] JBoss Modules version 1.8.6.Final
+[jul] 22:39:29,789 INFO  [org.jboss.msc] JBoss MSC version 1.4.5.Final
+[jul] 22:39:29,801 INFO  [org.jboss.threads] JBoss Threads version 2.3.2.Final
+[jul] 22:39:29,973 INFO  [org.jboss.as] WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[jul] 22:39:30,712 INFO  [org.wildfly.security] ELY00001: WildFly Elytron version 1.7.0.CR2
+[jul] 22:39:31,005 INFO  [org.jboss.as.controller.management-deprecated] WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[jul] 22:39:31,082 INFO  [org.jboss.as.server] WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[jul] 22:39:31,112 INFO  [org.xnio] XNIO version 3.6.5.Final
+[jul] 22:39:31,126 INFO  [org.xnio.nio] XNIO NIO Implementation Version 3.6.5.Final
+[jul] 22:39:31,190 INFO  [org.jboss.remoting] JBoss Remoting version 5.0.8.Final
+[jul] 22:39:31,413 INFO  [org.jboss.as.patching] WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[jul] 22:39:31,441 WARN  [org.jboss.as.domain.management.security] WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/embedded/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[jul] 22:39:31,617 WARN  [org.jboss.as.domain.http.api.undertow] WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[jul] 22:39:31,815 INFO  [org.jboss.as.server] WFLYSRV0212: Resuming server
+[jul] 22:39:31,819 INFO  [org.jboss.as] WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[jul] 22:39:31,821 INFO  [org.jboss.as] WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[jul] 22:39:31,823 INFO  [org.jboss.as] WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2112ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[jul] 22:39:31,873 INFO  [org.jboss.as] WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 17ms

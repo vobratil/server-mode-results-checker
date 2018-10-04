@@ -1,0 +1,48 @@
+Oct 03, 2018 5:15:30 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:30 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:30 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'username' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:30 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:30 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'protocol' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.1.5.Final-redhat-1
+Oct 03, 2018 5:15:31 PM org.xnio.Xnio <clinit>
+INFO: XNIO Version 3.0.13.GA-redhat-1
+Oct 03, 2018 5:15:31 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+Oct 03, 2018 5:15:31 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 3.3.4.Final-redhat-1
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'protocol' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'username' in the resource at address '/subsystem=remoting/remote-outbound-connection=remoting-outbound2' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'protocol' in the resource at address '/subsystem=remoting/remote-outbound-connection=remoting-outbound2' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'username' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'protocol' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'username' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:31 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'protocol' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:32 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.2.6.Final
+Oct 03, 2018 5:15:33 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.1.5.Final-redhat-1
+Oct 03, 2018 5:15:33 PM org.xnio.Xnio <clinit>
+INFO: XNIO Version 3.0.13.GA-redhat-1
+Oct 03, 2018 5:15:33 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+Oct 03, 2018 5:15:33 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 3.3.4.Final-redhat-1
+Oct 03, 2018 5:15:33 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.2.6.Final

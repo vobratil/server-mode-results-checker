@@ -1,0 +1,207 @@
+=========  New Test 
+
+Oct 03, 2018 4:56:26 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:56:26 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:56:27 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block") failed - address: (undefined) - failure description: "failfailfail"
+Oct 03, 2018 4:56:28 PM org.jboss.as.controller.AbstractOperationContext$Step handleResult
+ERROR: WFLYCTL0190: Step handler org.jboss.as.controller.OperationTimeoutUnitTestCase$BlockingServiceHandler$1@47630ab6 for operation block at address [] failed handling operation rollback -- java.util.concurrent.TimeoutException
+java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:521)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1518)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:756)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$41.000000008C029350.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$42.000000008C0262F0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$40.000000008C028D50.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$39.000000008C0047A0.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 4:56:29 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[]'
+=========  New Test 
+
+Oct 03, 2018 4:56:29 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block") failed - address: (undefined) - failure description: "failfailfail"
+=========  New Test 
+
+Oct 03, 2018 4:56:30 PM org.jboss.as.controller.OperationContextImpl awaitServiceContainerStability
+ERROR: WFLYCTL0348: Timeout after [1] seconds waiting for service container stability. Operation will roll back. Step that first updated the service container was 'block' at address '[]'
+Oct 03, 2018 4:56:31 PM org.jboss.as.controller.AbstractOperationContext$Step handleResult
+ERROR: WFLYCTL0190: Step handler org.jboss.as.controller.OperationTimeoutUnitTestCase$BlockingServiceHandler$1@68aabca7 for operation block at address [] failed handling operation rollback -- java.util.concurrent.TimeoutException
+java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:521)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1518)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:726)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$41.000000008C029350.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$42.000000008C0262F0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$40.000000008C028D50.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$39.000000008C0047A0.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 4:56:32 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[]'
+Oct 03, 2018 4:56:33 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block") failed - address: (undefined) - failure description: "WFLYCTL0343: The service container has been destabilized by a previous operation and further runtime updates cannot be processed. Restart is required."
+Oct 03, 2018 4:56:34 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[]'
+=========  New Test 
+
+Oct 03, 2018 4:56:35 PM org.jboss.as.controller.OperationContextImpl awaitServiceContainerStability
+ERROR: WFLYCTL0348: Timeout after [1] seconds waiting for service container stability. Operation will roll back. Step that first updated the service container was 'block' at address '[]'
+Oct 03, 2018 4:56:36 PM org.jboss.as.controller.AbstractOperationContext$Step handleResult
+ERROR: WFLYCTL0190: Step handler org.jboss.as.controller.OperationTimeoutUnitTestCase$BlockingServiceHandler$1@7823b85f for operation block at address [] failed handling operation rollback -- java.util.concurrent.TimeoutException
+java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:521)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1518)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:726)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$41.000000008C029350.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$42.000000008C0262F0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$40.000000008C028D50.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$39.000000008C0047A0.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 4:56:37 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[]'
+=========  New Test 
+
+Oct 03, 2018 4:56:38 PM org.jboss.as.controller.OperationContextImpl awaitServiceContainerStability
+ERROR: WFLYCTL0348: Timeout after [1] seconds waiting for service container stability. Operation will roll back. Step that first updated the service container was 'block' at address '[]'
+Oct 03, 2018 4:56:39 PM org.jboss.as.controller.AbstractOperationContext$Step handleResult
+ERROR: WFLYCTL0190: Step handler org.jboss.as.controller.OperationTimeoutUnitTestCase$BlockingServiceHandler$1@f0a09492 for operation block at address [] failed handling operation rollback -- java.util.concurrent.TimeoutException
+java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:521)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1518)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:726)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$41.000000008C029350.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$42.000000008C0262F0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$40.000000008C028D50.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$39.000000008C0047A0.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 4:56:40 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[]'
+=========  New Test 
+
+Oct 03, 2018 4:56:41 PM org.jboss.as.controller.OperationContextImpl awaitServiceContainerStability
+ERROR: WFLYCTL0348: Timeout after [1] seconds waiting for service container stability. Operation will roll back. Step that first updated the service container was 'block' at address '[]'
+Oct 03, 2018 4:56:42 PM org.jboss.as.controller.AbstractOperationContext$Step handleResult
+ERROR: WFLYCTL0190: Step handler org.jboss.as.controller.OperationTimeoutUnitTestCase$BlockingServiceHandler$1@3dc0f3bb for operation block at address [] failed handling operation rollback -- java.util.concurrent.TimeoutException
+java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:521)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1518)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:726)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$41.000000008C029350.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$42.000000008C0262F0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$40.000000008C028D50.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$39.000000008C0047A0.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 4:56:43 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[]'

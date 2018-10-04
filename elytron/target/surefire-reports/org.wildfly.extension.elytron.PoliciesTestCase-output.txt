@@ -1,0 +1,589 @@
+ELY00001: WildFly Elytron version 1.7.0.CR2
+JBoss MSC version 1.4.5.Final
+JBoss Threads version 2.3.2.Final
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+WFLYCTL0028: Attribute 'default-policy' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.lambda$configureCustomPolicy$0(PolicyDefinitions.java:305)
+	at org.wildfly.extension.elytron.PolicyDefinitions$$Lambda$122.00000000DC063460.get(Unknown Source)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 11 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "custom-b")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.c.CustomPolicy]
+    Caused by: java.lang.ClassNotFoundException: a.b.c.CustomPolicy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+
+MSC000001: Failed to start service org.wildfly.security.policy
+org.jboss.msc.service.StartException in service org.wildfly.security.policy: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:456)
+	at org.wildfly.extension.elytron.PolicyDefinitions.access$200(PolicyDefinitions.java:100)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:332)
+	at org.wildfly.extension.elytron.PolicyDefinitions$5.get(PolicyDefinitions.java:321)
+	at org.wildfly.extension.elytron.PolicyDefinitions$2$1.start(PolicyDefinitions.java:196)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: a.b.Policy
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.PolicyDefinitions.newPolicy(PolicyDefinitions.java:453)
+	... 12 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("policy" => "elytron-a")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.policy" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY01025: Failed to create policy [a.b.Policy]
+    Caused by: java.lang.ClassNotFoundException: a.b.Policy"}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.policy: Failed to start service
+

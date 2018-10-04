@@ -1,0 +1,37 @@
+2018-10-03 22:45:11,402 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:45:11,871 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:45:11,879 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:45:12,009 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:45:12,087 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+2018-10-03 22:45:12,093 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:45:12,129 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:45:12,493 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:45:13,300 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:45:13,380 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("socket-binding-group" => "reload-sockets")]): java.lang.IllegalStateException: Container is down
+	at org.jboss.msc.service.ServiceContainerImpl.install(ServiceContainerImpl.java:749)
+	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)
+	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)
+	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)
+	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)
+	at org.jboss.msc.service.ServiceBuilderImpl.install(ServiceBuilderImpl.java:189)
+	at org.jboss.as.controller.OperationContextImpl.installService(OperationContextImpl.java:2034)
+	at org.jboss.as.controller.OperationContextImpl.access$600(OperationContextImpl.java:132)
+	at org.jboss.as.controller.OperationContextImpl$2$1.installService(OperationContextImpl.java:761)
+	at org.jboss.as.controller.OperationContextImpl$ContextServiceBuilder.install(OperationContextImpl.java:2165)
+	at org.jboss.msc.service.DelegatingServiceBuilder.install(DelegatingServiceBuilder.java:104)
+	at org.jboss.as.server.services.net.BindingGroupAddHandler.performRuntime(BindingGroupAddHandler.java:115)
+	at org.jboss.as.controller.AbstractAddStepHandler.performRuntime(AbstractAddStepHandler.java:338)
+	at org.jboss.as.controller.AbstractAddStepHandler$1.execute(AbstractAddStepHandler.java:159)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:521)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:470)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:432)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:427)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:386)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:811)
+
+2018-10-03 22:45:13,435 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 74ms

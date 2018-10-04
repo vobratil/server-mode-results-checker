@@ -1,0 +1,81 @@
+Oct 03, 2018 4:54:41 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.8.Final
+Oct 03, 2018 4:54:41 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 4:54:41 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 4:54:42 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:54:42 PM org.wildfly.security.Version <clinit>
+INFO: ELY00001: WildFly Elytron version 1.7.0.CR2
+Oct 03, 2018 4:54:43 PM org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler doExecute
+ERROR: WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "test" => "123",
+    "address" => undefined,
+    "operation" => undefined
+}]
+java.lang.RuntimeException: Crap
+	at org.jboss.as.controller.test.RemoteProxyControllerProtocolTestCase$5.execute(RemoteProxyControllerProtocolTestCase.java:197)
+	at org.jboss.as.controller.MockModelController.execute(MockModelController.java:43)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.SimpleDirectExecutor.execute(SimpleDirectExecutor.java:29)
+	at org.jboss.threads.QueueExecutor.runTask(QueueExecutor.java:789)
+	at org.jboss.threads.QueueExecutor.access$100(QueueExecutor.java:44)
+	at org.jboss.threads.QueueExecutor$Worker.run(QueueExecutor.java:809)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+Oct 03, 2018 4:54:44 PM org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler doExecute
+ERROR: WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "address" => undefined,
+    "operation" => undefined
+}]
+java.lang.IllegalStateException
+	at org.jboss.as.controller.test.RemoteProxyControllerProtocolTestCase$13.execute(RemoteProxyControllerProtocolTestCase.java:396)
+	at org.jboss.as.controller.MockModelController.execute(MockModelController.java:43)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.SimpleDirectExecutor.execute(SimpleDirectExecutor.java:29)
+	at org.jboss.threads.QueueExecutor.runTask(QueueExecutor.java:789)
+	at org.jboss.threads.QueueExecutor.access$100(QueueExecutor.java:44)
+	at org.jboss.threads.QueueExecutor$Worker.run(QueueExecutor.java:809)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+Oct 03, 2018 4:54:44 PM org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestContext failed
+ERROR: WFLYCTL0408: Failed sending failure response undefined for 791457098
+org.jboss.remoting3.NotOpenException: Writes closed
+	at org.jboss.remoting3.remote.RemoteConnectionChannel.openOutboundMessage(RemoteConnectionChannel.java:106)
+	at org.jboss.remoting3.remote.RemoteConnectionChannel.writeMessage(RemoteConnectionChannel.java:291)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl.writeMessage(ManagementRequestContextImpl.java:122)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$1.execute(TransactionalProtocolOperationHandler.java:612)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.SimpleDirectExecutor.execute(SimpleDirectExecutor.java:29)
+	at org.jboss.threads.QueueExecutor.runTask(QueueExecutor.java:789)
+	at org.jboss.threads.QueueExecutor.access$100(QueueExecutor.java:44)
+	at org.jboss.threads.QueueExecutor$Worker.run(QueueExecutor.java:809)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+Oct 03, 2018 4:54:44 PM org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner cancel
+INFO: WFLYPRT0057:  cancelled task by interrupting thread Thread[Remoting 8 thread 2,5,Remoting]

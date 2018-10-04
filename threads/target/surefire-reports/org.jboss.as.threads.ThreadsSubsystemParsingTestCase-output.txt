@@ -1,0 +1,40 @@
+Oct 03, 2018 5:08:14 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:08:14 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:08:14 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:14 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:15 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:16 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:16 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:16 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:16 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:16 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.
+Oct 03, 2018 5:08:16 PM org.jboss.as.threads.ThreadsParser parseScaledCount
+WARN: WFLYTHR0001: The 'per-cpu' attribute is no longer supported. The value [1.000000] of the 'count' attribute is being combined with the value [2.000000] of the 'per-cpu' attribute and the current processor count [4] to derive a new value of [9] for 'count'.

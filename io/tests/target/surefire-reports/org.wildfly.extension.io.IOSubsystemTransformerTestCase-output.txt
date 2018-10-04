@@ -1,0 +1,50 @@
+Oct 03, 2018 5:15:09 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:09 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:09 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.2.6.Final
+Oct 03, 2018 5:15:10 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.2.7.SP1
+Oct 03, 2018 5:15:10 PM org.jboss.as.server.ServerEnvironment <init>
+ERROR: WFLYSRV0024: Cannot add module 'org.jboss.vfs' as URLStreamHandlerFactory provider
+org.jboss.modules.ModuleNotFoundException: org.jboss.vfs
+	at org.jboss.modules.ModuleLoader.loadModule(ModuleLoader.java:294)
+	at org.jboss.modules.ModuleLoader.loadModule(ModuleLoader.java:280)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:605)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:337)
+	at org.wildfly.legacy.test.controller.subsystem_11_0_0.TestModelControllerService11_0_0.getServerEnvironment(TestModelControllerService11_0_0.java:151)
+	at org.wildfly.legacy.test.controller.subsystem_11_0_0.TestModelControllerService11_0_0.initExtraModel(TestModelControllerService11_0_0.java:88)
+	at org.jboss.as.model.test.ModelTestModelControllerService.initModel(ModelTestModelControllerService.java:312)
+	at org.wildfly.legacy.test.controller.subsystem_11_0_0.TestModelControllerService11_0_0.initModel(TestModelControllerService11_0_0.java:99)
+	at org.jboss.as.controller.AbstractControllerService.start(AbstractControllerService.java:340)
+	at org.jboss.as.model.test.ModelTestModelControllerService.start(ModelTestModelControllerService.java:407)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 5:15:11 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.2.6.Final
+Oct 03, 2018 5:15:11 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.2.7.SP1
+Oct 03, 2018 5:15:12 PM org.jboss.as.server.ServerEnvironment <init>
+ERROR: WFLYSRV0024: Cannot add module 'org.jboss.vfs' as URLStreamHandlerFactory provider
+org.jboss.modules.ModuleNotFoundException: org.jboss.vfs
+	at org.jboss.modules.ModuleLoader.loadModule(ModuleLoader.java:294)
+	at org.jboss.modules.ModuleLoader.loadModule(ModuleLoader.java:280)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:605)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:337)
+	at org.wildfly.legacy.test.controller.subsystem_11_0_0.TestModelControllerService11_0_0.getServerEnvironment(TestModelControllerService11_0_0.java:151)
+	at org.wildfly.legacy.test.controller.subsystem_11_0_0.TestModelControllerService11_0_0.initExtraModel(TestModelControllerService11_0_0.java:88)
+	at org.jboss.as.model.test.ModelTestModelControllerService.initModel(ModelTestModelControllerService.java:312)
+	at org.wildfly.legacy.test.controller.subsystem_11_0_0.TestModelControllerService11_0_0.initModel(TestModelControllerService11_0_0.java:99)
+	at org.jboss.as.controller.AbstractControllerService.start(AbstractControllerService.java:340)
+	at org.jboss.as.model.test.ModelTestModelControllerService.start(ModelTestModelControllerService.java:407)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+

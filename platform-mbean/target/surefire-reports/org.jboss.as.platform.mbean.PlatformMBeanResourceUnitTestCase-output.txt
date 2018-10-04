@@ -1,0 +1,264 @@
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_code_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "JIT_data_cache")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "class_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "miscellaneous_non-heap_storage")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-allocate")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-allocate")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-allocate")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-allocate")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support usage threshold."
+Oct 03, 2018 4:58:07 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-attribute") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory-pool"),
+    ("name" => "nursery-survivor")
+]) - failure description: "java.lang.UnsupportedOperationException: VM does not support collection usage threshold."

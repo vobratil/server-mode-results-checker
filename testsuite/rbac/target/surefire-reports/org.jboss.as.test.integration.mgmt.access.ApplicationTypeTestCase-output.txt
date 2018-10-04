@@ -1,0 +1,2048 @@
+set user Auditor
+set user Auditor
+set user Auditor
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+set user Operator
+set user Operator
+set user Operator
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+set user SuperUser
+set user SuperUser
+set user SuperUser
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+set user Maintainer
+set user Maintainer
+set user Maintainer
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+set user Monitor
+set user Monitor
+set user Monitor
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+set user Administrator
+set user Administrator
+set user Administrator
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+set user Deployer
+set user Deployer
+set user Deployer
+set password t3stSu!tePassword
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => true,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+Calssifications {
+    "outcome" => "success",
+    "result" => {"type" => {
+        "core" => {"classification" => {"deployment" => {
+            "configured-application" => undefined,
+            "default-application" => true,
+            "applies-to" => {
+                "/" => {
+                    "address" => "/",
+                    "attributes" => [],
+                    "entire-resource" => false,
+                    "operations" => [
+                        "full-replace-deployment",
+                        "upload-deployment-stream",
+                        "upload-deployment-bytes",
+                        "upload-deployment-url"
+                    ]
+                },
+                "/deployment=*" => {
+                    "address" => "/deployment=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                },
+                "/deployment-overlay=*" => {
+                    "address" => "/deployment-overlay=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }
+            }
+        }}},
+        "elytron" => {"classification" => {"elytron-security" => {
+            "configured-application" => undefined,
+            "default-application" => false,
+            "applies-to" => {"/subsystem=elytron" => {
+                "address" => "/subsystem=elytron",
+                "attributes" => [],
+                "entire-resource" => true,
+                "operations" => []
+            }}
+        }}},
+        "logging" => {"classification" => {
+            "logger" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {
+                    "/subsystem=logging/logger=*" => {
+                        "address" => "/subsystem=logging/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    },
+                    "/subsystem=logging/logging-profile=*/logger=*" => {
+                        "address" => "/subsystem=logging/logging-profile=*/logger=*",
+                        "attributes" => [],
+                        "entire-resource" => true,
+                        "operations" => []
+                    }
+                }
+            },
+            "logging-profile" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=logging/logging-profile=*" => {
+                    "address" => "/subsystem=logging/logging-profile=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }},
+        "rbac" => {"classification" => {
+            "datasource" => {
+                "configured-application" => false,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-constrained=*" => {
+                    "address" => "/subsystem=rbac/rbac-constrained=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            },
+            "security-domain" => {
+                "configured-application" => undefined,
+                "default-application" => false,
+                "applies-to" => {"/subsystem=rbac/rbac-sensitive=*" => {
+                    "address" => "/subsystem=rbac/rbac-sensitive=*",
+                    "attributes" => [],
+                    "entire-resource" => true,
+                    "operations" => []
+                }}
+            }
+        }}
+    }}
+}
+[0m22:42:46,012 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:42:46,015 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:42:46,049 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 26ms
+[0m

@@ -1,0 +1,13 @@
+Oct 03, 2018 5:14:16 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:14:16 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:14:17 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:14:17 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/core-service=management/management-interface=native-interface' are not available:
+    org.wildfly.network.interface.management in context 'global'; Possible registration points for this capability: 
+		/interface=*
+		/server-config=*/interface=*
+		/host=master/interface=*
+		/host=master/server-config=*/interface=*

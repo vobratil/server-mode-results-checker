@@ -1,0 +1,227 @@
+Oct 03, 2018 4:55:30 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:55:30 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+{
+    "description" => "description",
+    "max-occurs" => 2147483647,
+    "attributes" => {},
+    "operations" => "-TRIMMED-",
+    "notifications" => undefined,
+    "children" => {
+        "application-resource" => {
+            "description" => "application-resource",
+            "model-description" => {"*" => {
+                "description" => "description",
+                "access-constraints" => {"application" => {"deployment" => {"type" => "core"}}},
+                "attributes" => {
+                    "attribute-with-application-constraints" => {
+                        "type" => STRING,
+                        "description" => "attribute-with-application-constraints",
+                        "expressions-allowed" => false,
+                        "required" => true,
+                        "nillable" => false,
+                        "min-length" => 1L,
+                        "max-length" => 2147483647L,
+                        "access-constraints" => {"application" => {
+                            "deployment" => {"type" => "core"},
+                            "APPLICATION-CONSTRAINT" => {"type" => "test"}
+                        }},
+                        "access-type" => "read-write",
+                        "storage" => "configuration",
+                        "restart-required" => "no-services"
+                    },
+                    "attribute-with-no-constraints" => {
+                        "type" => STRING,
+                        "description" => "attribute-with-no-constraints",
+                        "expressions-allowed" => false,
+                        "required" => true,
+                        "nillable" => false,
+                        "min-length" => 1L,
+                        "max-length" => 2147483647L,
+                        "access-type" => "read-write",
+                        "storage" => "configuration",
+                        "restart-required" => "no-services"
+                    }
+                },
+                "operations" => {
+                    "add" => {
+                        "operation-name" => "add",
+                        "description" => "add",
+                        "request-properties" => {
+                            "attribute-with-application-constraints" => {
+                                "type" => STRING,
+                                "description" => "add-attribute-with-application-constraints",
+                                "expressions-allowed" => false,
+                                "required" => true,
+                                "nillable" => false,
+                                "min-length" => 1L,
+                                "max-length" => 2147483647L
+                            },
+                            "attribute-with-no-constraints" => {
+                                "type" => STRING,
+                                "description" => "add-attribute-with-no-constraints",
+                                "expressions-allowed" => false,
+                                "required" => true,
+                                "nillable" => false,
+                                "min-length" => 1L,
+                                "max-length" => 2147483647L
+                            }
+                        },
+                        "reply-properties" => {},
+                        "read-only" => false,
+                        "runtime-only" => false
+                    },
+                    "remove" => {
+                        "operation-name" => "remove",
+                        "description" => "remove",
+                        "request-properties" => {},
+                        "reply-properties" => {},
+                        "read-only" => false,
+                        "restart-required" => "all-services",
+                        "runtime-only" => false
+                    }
+                },
+                "notifications" => undefined,
+                "children" => {}
+            }}
+        },
+        "nonconstrained-resource" => {
+            "description" => "nonconstrained-resource",
+            "model-description" => {"*" => {
+                "description" => "description",
+                "attributes" => {"attribute-with-no-constraints" => {
+                    "type" => STRING,
+                    "description" => "attribute-with-no-constraints",
+                    "expressions-allowed" => false,
+                    "required" => true,
+                    "nillable" => false,
+                    "min-length" => 1L,
+                    "max-length" => 2147483647L,
+                    "access-type" => "read-write",
+                    "storage" => "configuration",
+                    "restart-required" => "no-services"
+                }},
+                "operations" => {
+                    "add" => {
+                        "operation-name" => "add",
+                        "description" => "add",
+                        "request-properties" => {"attribute-with-no-constraints" => {
+                            "type" => STRING,
+                            "description" => "add-attribute-with-no-constraints",
+                            "expressions-allowed" => false,
+                            "required" => true,
+                            "nillable" => false,
+                            "min-length" => 1L,
+                            "max-length" => 2147483647L
+                        }},
+                        "reply-properties" => {},
+                        "read-only" => false,
+                        "runtime-only" => false
+                    },
+                    "remove" => {
+                        "operation-name" => "remove",
+                        "description" => "remove",
+                        "request-properties" => {},
+                        "reply-properties" => {},
+                        "read-only" => false,
+                        "restart-required" => "all-services",
+                        "runtime-only" => false
+                    }
+                },
+                "notifications" => undefined,
+                "children" => {}
+            }}
+        },
+        "constrained-resource" => {
+            "description" => "constrained-resource",
+            "model-description" => {"*" => {
+                "description" => "description",
+                "access-constraints" => {"sensitive" => {"socket-config" => {"type" => "core"}}},
+                "attributes" => {
+                    "attribute-with-no-constraints" => {
+                        "type" => STRING,
+                        "description" => "attribute-with-no-constraints",
+                        "expressions-allowed" => false,
+                        "required" => true,
+                        "nillable" => false,
+                        "min-length" => 1L,
+                        "max-length" => 2147483647L,
+                        "access-type" => "read-write",
+                        "storage" => "configuration",
+                        "restart-required" => "no-services"
+                    },
+                    "attribute-with-sensitive-constraints" => {
+                        "type" => STRING,
+                        "description" => "attribute-with-sensitive-constraints",
+                        "expressions-allowed" => false,
+                        "required" => true,
+                        "nillable" => false,
+                        "min-length" => 1L,
+                        "max-length" => 2147483647L,
+                        "access-constraints" => {"sensitive" => {
+                            "socket-config" => {"type" => "core"},
+                            "SENSITIVE-CONSTRAINT" => {"type" => "test"}
+                        }},
+                        "access-type" => "read-write",
+                        "storage" => "configuration",
+                        "restart-required" => "no-services"
+                    }
+                },
+                "operations" => {
+                    "add" => {
+                        "operation-name" => "add",
+                        "description" => "add",
+                        "request-properties" => {
+                            "attribute-with-no-constraints" => {
+                                "type" => STRING,
+                                "description" => "add-attribute-with-no-constraints",
+                                "expressions-allowed" => false,
+                                "required" => true,
+                                "nillable" => false,
+                                "min-length" => 1L,
+                                "max-length" => 2147483647L
+                            },
+                            "attribute-with-sensitive-constraints" => {
+                                "type" => STRING,
+                                "description" => "add-attribute-with-sensitive-constraints",
+                                "expressions-allowed" => false,
+                                "required" => true,
+                                "nillable" => false,
+                                "min-length" => 1L,
+                                "max-length" => 2147483647L
+                            }
+                        },
+                        "reply-properties" => {},
+                        "read-only" => false,
+                        "runtime-only" => false
+                    },
+                    "custom" => {
+                        "operation-name" => "custom",
+                        "description" => "custom",
+                        "request-properties" => {},
+                        "reply-properties" => {},
+                        "access-constraints" => {"sensitive" => {"socket-config" => {"type" => "core"}}},
+                        "read-only" => false,
+                        "runtime-only" => false
+                    },
+                    "remove" => {
+                        "operation-name" => "remove",
+                        "description" => "remove",
+                        "request-properties" => {},
+                        "reply-properties" => {},
+                        "read-only" => false,
+                        "restart-required" => "all-services",
+                        "runtime-only" => false
+                    }
+                },
+                "notifications" => undefined,
+                "children" => {}
+            }}
+        }
+    }
+}
+{"type" => "core"}
+{"type" => "core"}
+{"type" => "test"}
+{"type" => "core"}

@@ -1,0 +1,32 @@
+2018-10-03 23:15:37,664 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:15:38,716 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:15:38,736 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:15:39,062 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:15:39,142 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+2018-10-03 23:15:39,147 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:15:39,185 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:15:39,937 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 23:15:40,761 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-10-03 23:15:40,817 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+23:15:40,893 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+23:15:40,896 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4832ms - Started 49 of 68 services (26 services are lazy, passive or on-demand)
+23:15:55,192 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+23:15:55,300 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+23:15:55,301 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+23:15:55,302 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+23:15:55,302 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+23:15:55,584 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+23:15:55,642 INFO  [stdout] (XNIO-1 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+23:15:56,624 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0236: Suspending server with no timeout.
+23:15:56,715 INFO  [stdout] (XNIO-1 task-2) Skipping request 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+23:15:56,728 INFO  [stdout] (XNIO-1 task-1) Attempting 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+23:15:56,730 INFO  [stdout] (XNIO-1 I/O-1) Rejected 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+23:15:56,784 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0212: Resuming server
+23:15:56,892 INFO  [stdout] (XNIO-1 task-2) Attempting 4 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+23:15:56,896 INFO  [stdout] (XNIO-1 task-2) Skipping request 5 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+23:15:57,025 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 37ms
+23:15:57,111 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainSuspendResumeTestCase/master/servers/main-one/data/content/d5/78ad9db76d77ddee65ecf11ecb7eb8802ad4ba/content
+23:15:57,112 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+23:15:57,621 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+23:15:57,624 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+23:15:57,655 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms

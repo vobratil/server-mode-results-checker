@@ -1,0 +1,259 @@
+[0m22:21:10,342 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:10,384 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:10,475 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "cli-test-app1-deploy.war" (runtime-name : "cli-test-app1-deploy.war")
+[0m[0m22:21:10,489 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:10,493 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:10,522 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "cli-test-another-deploy.war" (runtime-name : "cli-test-another-deploy.war")
+[0m[0m22:21:10,535 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:10,538 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:10,563 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "cli-test-app2-deploy.war" (runtime-name : "cli-test-app2-deploy.war")
+[0m[0m22:21:10,633 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app1-deploy.war (runtime-name: cli-test-app1-deploy.war) in 5ms
+[0m[0m22:21:10,646 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:10,681 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-another-deploy.war (runtime-name: cli-test-another-deploy.war) in 4ms
+[0m[0m22:21:10,682 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app2-deploy.war (runtime-name: cli-test-app2-deploy.war) in 4ms
+[0m[0m22:21:10,693 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:10,693 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:10,725 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:10,751 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app2-deploy.war" (runtime-name : "cli-test-app2-deploy.war")
+[0m[0m22:21:10,818 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:10,820 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:10,883 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app1-deploy.war" (runtime-name : "cli-test-app1-deploy.war")
+[0m[0m22:21:10,883 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-another-deploy.war" (runtime-name : "cli-test-another-deploy.war")
+[0m[0m22:21:10,944 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app2-deploy.war (runtime-name: cli-test-app2-deploy.war) in 6ms
+[0m[0m22:21:10,958 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:10,958 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:11,014 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cli-test-another-deploy.war (runtime-name: cli-test-another-deploy.war) in 6ms
+[0m[0m22:21:11,015 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cli-test-app1-deploy.war (runtime-name: cli-test-app1-deploy.war) in 7ms
+[0m[0m22:21:11,027 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:11,028 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,029 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:11,029 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0morg.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+[0m22:21:11,107 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:11,119 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:11,180 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app1-deploy.war" (runtime-name : "cli-test-app1-deploy.war")
+[0m[0m22:21:11,227 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,235 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:11,302 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-another-deploy.war" (runtime-name : "cli-test-another-deploy.war")
+[0m[0m22:21:11,329 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:11,335 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:11,372 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app2-deploy.war" (runtime-name : "cli-test-app2-deploy.war")
+[0m[0m22:21:11,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app2-deploy.war (runtime-name: cli-test-app2-deploy.war) in 6ms
+[0m[0m22:21:11,416 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app1-deploy.war (runtime-name: cli-test-app1-deploy.war) in 6ms
+[0m[0m22:21:11,418 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-another-deploy.war (runtime-name: cli-test-another-deploy.war) in 9ms
+[0m[0m22:21:11,429 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:11,431 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:11,432 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,432 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:11,432 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:11,433 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:11,486 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,491 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:11,518 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-another-deploy.war" (runtime-name : "cli-test-another-deploy.war")
+[0m[0m22:21:11,598 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-another-deploy.war (runtime-name: cli-test-another-deploy.war) in 5ms
+[0m[0m22:21:11,619 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,619 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:11,644 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,674 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:11,679 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:11,705 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0010: Deployed "cli-test-app1-deploy.war" (runtime-name : "cli-test-app1-deploy.war")
+[0m[0m22:21:11,809 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app1-deploy.war (runtime-name: cli-test-app1-deploy.war) in 3ms
+[0m[0m22:21:11,828 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:11,830 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:11,830 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0009: Undeployed "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0morg.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+org.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+ATTRIBUTE                   VALUE                                TYPE   
+launch-type                 STANDALONE                           STRING 
+management-major-version    9                                    INT    
+management-micro-version    0                                    INT    
+management-minor-version    0                                    INT    
+name                        test                                 STRING 
+namespaces                  []                                   OBJECT 
+organization                undefined                            STRING 
+process-type                Server                               STRING 
+product-name                undefined                            STRING 
+product-version             undefined                            STRING 
+profile-name                undefined                            STRING 
+release-codename                                                 STRING 
+release-version             7.0.0.Alpha3-SNAPSHOT                STRING 
+running-mode                NORMAL                               STRING 
+runtime-configuration-state ok                                   STRING 
+schema-locations            []                                   OBJECT 
+server-state                running                              STRING 
+suspend-state               RUNNING                              STRING 
+uuid                        780b2be6-c6f2-4231-b556-c4f8f12c329d STRING 
+
+CHILD                MIN-OCCURS MAX-OCCURS 
+core-service         n/a        n/a        
+deployment           n/a        n/a        
+deployment-overlay   n/a        n/a        
+extension            n/a        n/a        
+interface            n/a        n/a        
+path                 n/a        n/a        
+socket-binding-group n/a        n/a        
+subsystem            n/a        n/a        
+system-property      n/a        n/a        
+org.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+[0m22:21:12,103 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:12,163 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:12,170 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:12,190 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app1-deploy.war" (runtime-name : "cli-test-app1-deploy.war")
+[0m[0m22:21:12,273 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app1-deploy.war (runtime-name: cli-test-app1-deploy.war) in 2ms
+[0m[0m22:21:12,286 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:12,287 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:12,287 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:12,300 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/82/3169f6634aaa02f9b4affb389315172069476d/content
+[0m[0m22:21:12,304 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app-redeploy.war" (runtime-name: "cli-test-app-redeploy.war")
+[0m[0m22:21:12,323 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app-redeploy.war" (runtime-name : "cli-test-app-redeploy.war")
+[0m[0m22:21:12,346 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/64/3806160f815a905ffda33138c01d215517e57c/content
+[0m[0m22:21:12,352 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app-redeploy.war (runtime-name: cli-test-app-redeploy.war) in 2ms
+[0m[0m22:21:12,354 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app-redeploy.war" (runtime-name: "cli-test-app-redeploy.war")
+[0m[0m22:21:12,370 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "cli-test-app-redeploy.war" with deployment "cli-test-app-redeploy.war"
+[0m[0m22:21:12,371 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/82/3169f6634aaa02f9b4affb389315172069476d/content
+[0m[0m22:21:12,395 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app-redeploy.war (runtime-name: cli-test-app-redeploy.war) in 3ms
+[0m[0m22:21:12,409 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/64/3806160f815a905ffda33138c01d215517e57c/content
+[0m[0m22:21:12,409 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0009: Undeployed "cli-test-app-redeploy.war" (runtime-name: "cli-test-app-redeploy.war")
+[0mATTRIBUTE                   VALUE                                TYPE   
+launch-type                 STANDALONE                           STRING 
+management-major-version    9                                    INT    
+management-micro-version    0                                    INT    
+management-minor-version    0                                    INT    
+name                        test                                 STRING 
+namespaces                  []                                   OBJECT 
+organization                undefined                            STRING 
+process-type                Server                               STRING 
+product-name                undefined                            STRING 
+product-version             undefined                            STRING 
+profile-name                undefined                            STRING 
+release-codename                                                 STRING 
+release-version             7.0.0.Alpha3-SNAPSHOT                STRING 
+running-mode                NORMAL                               STRING 
+runtime-configuration-state ok                                   STRING 
+schema-locations            []                                   OBJECT 
+server-state                running                              STRING 
+suspend-state               RUNNING                              STRING 
+uuid                        780b2be6-c6f2-4231-b556-c4f8f12c329d STRING 
+
+CHILD                MIN-OCCURS MAX-OCCURS 
+core-service         n/a        n/a        
+deployment           n/a        n/a        
+deployment-overlay   n/a        n/a        
+extension            n/a        n/a        
+interface            n/a        n/a        
+path                 n/a        n/a        
+socket-binding-group n/a        n/a        
+subsystem            n/a        n/a        
+system-property      n/a        n/a        
+org.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+[0m22:21:12,498 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:12,502 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:12,520 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "cli-test-app2-deploy.war" (runtime-name : "cli-test-app2-deploy.war")
+[0m[0m22:21:12,601 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app2-deploy.war (runtime-name: cli-test-app2-deploy.war) in 9ms
+[0m[0m22:21:12,643 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:12,645 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:12,696 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:12,811 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:12,877 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:12,950 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:12,952 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:12,954 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:13,003 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "cli-test-app2-deploy.war" (runtime-name : "cli-test-app2-deploy.war")
+[0m[0m22:21:13,004 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "cli-test-app1-deploy.war" (runtime-name : "cli-test-app1-deploy.war")
+[0m[0m22:21:13,004 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "cli-test-another-deploy.war" (runtime-name : "cli-test-another-deploy.war")
+[0m[0m22:21:13,075 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-another-deploy.war (runtime-name: cli-test-another-deploy.war) in 6ms
+[0m[0m22:21:13,077 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app2-deploy.war (runtime-name: cli-test-app2-deploy.war) in 8ms
+[0m[0m22:21:13,077 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app1-deploy.war (runtime-name: cli-test-app1-deploy.war) in 7ms
+[0m[0m22:21:13,101 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "cli-test-app2-deploy.war" (runtime-name: "cli-test-app2-deploy.war")
+[0m[0m22:21:13,101 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "cli-test-app1-deploy.war" (runtime-name: "cli-test-app1-deploy.war")
+[0m[0m22:21:13,102 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0009: Undeployed "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:13,182 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/63/680bc63e40d122c97321ea9cc8f016b4ede11b/content
+[0m[0m22:21:13,185 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/96/e47289dbde30bf19975fdc73419654fc38676c/content
+[0m[0m22:21:13,188 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0morg.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+[0m22:21:13,256 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:13,261 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:13,297 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "cli-test-another-deploy.war" (runtime-name : "cli-test-another-deploy.war")
+[0m[0m22:21:13,410 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-another-deploy.war (runtime-name: cli-test-another-deploy.war) in 6ms
+[0m[0m22:21:13,438 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/f6/d603210bce2eddd9fc5f3561954fa916418e21/content
+[0m[0m22:21:13,438 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "cli-test-another-deploy.war" (runtime-name: "cli-test-another-deploy.war")
+[0m[0m22:21:13,491 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/82/3169f6634aaa02f9b4affb389315172069476d/content
+[0m[0m22:21:13,498 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app-redeploy.war" (runtime-name: "cli-test-app-redeploy.war")
+[0m[0m22:21:13,523 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0010: Deployed "cli-test-app-redeploy.war" (runtime-name : "cli-test-app-redeploy.war")
+[0m[0m22:21:13,587 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/64/3806160f815a905ffda33138c01d215517e57c/content
+[0m[0m22:21:13,600 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app-redeploy.war (runtime-name: cli-test-app-redeploy.war) in 6ms
+[0m[0m22:21:13,604 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app-redeploy.war" (runtime-name: "cli-test-app-redeploy.war")
+[0m[0m22:21:13,654 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0016: Replaced deployment "cli-test-app-redeploy.war" with deployment "cli-test-app-redeploy.war"
+[0m[0m22:21:13,656 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/82/3169f6634aaa02f9b4affb389315172069476d/content
+[0m[0m22:21:13,730 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app-redeploy.war (runtime-name: cli-test-app-redeploy.war) in 7ms
+[0m[0m22:21:13,756 INFO  [org.jboss.as.repository] (management-handler-thread - 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/64/3806160f815a905ffda33138c01d215517e57c/content
+[0m[0m22:21:13,757 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0009: Undeployed "cli-test-app-redeploy.war" (runtime-name: "cli-test-app-redeploy.war")
+[0morg.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+ATTRIBUTE                   VALUE                                TYPE   
+launch-type                 STANDALONE                           STRING 
+management-major-version    9                                    INT    
+management-micro-version    0                                    INT    
+management-minor-version    0                                    INT    
+name                        test                                 STRING 
+namespaces                  []                                   OBJECT 
+organization                undefined                            STRING 
+process-type                Server                               STRING 
+product-name                undefined                            STRING 
+product-version             undefined                            STRING 
+profile-name                undefined                            STRING 
+release-codename                                                 STRING 
+release-version             7.0.0.Alpha3-SNAPSHOT                STRING 
+running-mode                NORMAL                               STRING 
+runtime-configuration-state ok                                   STRING 
+schema-locations            []                                   OBJECT 
+server-state                running                              STRING 
+suspend-state               RUNNING                              STRING 
+uuid                        780b2be6-c6f2-4231-b556-c4f8f12c329d STRING 
+
+CHILD                MIN-OCCURS MAX-OCCURS 
+core-service         n/a        n/a        
+deployment           n/a        n/a        
+deployment-overlay   n/a        n/a        
+extension            n/a        n/a        
+interface            n/a        n/a        
+path                 n/a        n/a        
+socket-binding-group n/a        n/a        
+subsystem            n/a        n/a        
+system-property      n/a        n/a        
+org.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+ATTRIBUTE                   VALUE                                TYPE   
+launch-type                 STANDALONE                           STRING 
+management-major-version    9                                    INT    
+management-micro-version    0                                    INT    
+management-minor-version    0                                    INT    
+name                        test                                 STRING 
+namespaces                  []                                   OBJECT 
+organization                undefined                            STRING 
+process-type                Server                               STRING 
+product-name                undefined                            STRING 
+product-version             undefined                            STRING 
+profile-name                undefined                            STRING 
+release-codename                                                 STRING 
+release-version             7.0.0.Alpha3-SNAPSHOT                STRING 
+running-mode                NORMAL                               STRING 
+runtime-configuration-state ok                                   STRING 
+schema-locations            []                                   OBJECT 
+server-state                running                              STRING 
+suspend-state               RUNNING                              STRING 
+uuid                        780b2be6-c6f2-4231-b556-c4f8f12c329d STRING 
+
+CHILD                MIN-OCCURS MAX-OCCURS 
+core-service         n/a        n/a        
+deployment           n/a        n/a        
+deployment-overlay   n/a        n/a        
+extension            n/a        n/a        
+interface            n/a        n/a        
+path                 n/a        n/a        
+socket-binding-group n/a        n/a        
+subsystem            n/a        n/a        
+system-property      n/a        n/a        
+org.jboss.as.cli.CommandFormatException: No deployment matched wildcard expression *
+[0m22:21:14,030 INFO  [org.jboss.as.server] (management-handler-thread - 4) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:21:14,034 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:21:14,065 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 24ms
+[0m

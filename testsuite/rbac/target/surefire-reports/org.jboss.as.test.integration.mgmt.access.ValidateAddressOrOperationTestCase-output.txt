@@ -1,0 +1,32 @@
+set user Auditor
+set user Auditor
+set user Auditor
+set password t3stSu!tePassword
+set user Operator
+set user Operator
+set user Operator
+set password t3stSu!tePassword
+set user SuperUser
+set user SuperUser
+set user SuperUser
+set password t3stSu!tePassword
+set user Maintainer
+set user Maintainer
+set user Maintainer
+set password t3stSu!tePassword
+set user Monitor
+set user Monitor
+set user Monitor
+set password t3stSu!tePassword
+set user Administrator
+set user Administrator
+set user Administrator
+set password t3stSu!tePassword
+set user Deployer
+set user Deployer
+set user Deployer
+set password t3stSu!tePassword
+[0m22:41:25,397 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:41:25,400 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:41:25,436 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 31ms
+[0m

@@ -1,0 +1,6 @@
+Oct 03, 2018 4:54:51 PM org.jboss.as.controller.interfaces.OverallInterfaceCriteria warnMultipleValidInterfaces
+WARN: WFLYCTL0022: Multiple addresses or network interfaces matched the selection criteria for interface 'test'. Matching addresses: [/0:0:0:0:0:0:0:1%lo, /127.0.0.1].  Matching network interfaces: [lo]. The interface will use address /0:0:0:0:0:0:0:1%lo and network interface lo.
+Oct 03, 2018 4:54:51 PM org.jboss.as.controller.interfaces.OverallInterfaceCriteria warnMultipleValidInterfaces
+WARN: WFLYCTL0022: Multiple addresses or network interfaces matched the selection criteria for interface 'test'. Matching addresses: [/0:0:0:0:0:0:0:1%lo, /127.0.0.1, /2620:52:0:1350:beed:16:130:151%eth0, /2620:52:0:1350:beec:16:130:151%eth0, /172.16.180.151, /172.16.130.151, /fe80:0:0:0:f816:3eff:febb:d499%eth0].  Matching network interfaces: [lo, eth0]. The interface will use address /2620:52:0:1350:beed:16:130:151%eth0 and network interface eth0.
+Oct 03, 2018 4:54:51 PM org.jboss.as.controller.interfaces.OverallInterfaceCriteria warnMultipleValidInterfaces
+WARN: WFLYCTL0022: Multiple addresses or network interfaces matched the selection criteria for interface 'test'. Matching addresses: [/0:0:0:0:0:0:0:1%lo, /127.0.0.1].  Matching network interfaces: [lo]. The interface will use address /0:0:0:0:0:0:0:1%lo and network interface lo.

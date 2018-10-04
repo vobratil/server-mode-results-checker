@@ -1,0 +1,10 @@
+[0m22:40:29,778 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/11/ca9646772ed70c57e97c4ee0b9eb50d3e3bdc6/content
+[0m[0m22:40:29,800 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "test-scanner-deployment.jar" (runtime-name: "test-scanner-deployment.jar")
+[0m[0m22:40:29,854 INFO  [stdout] (MSC service thread 1-3) Properties found
+[0m[0m22:40:29,855 INFO  [stdout] (MSC service thread 1-3) Setting rbac to is working
+[0m[0m22:40:29,873 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "test-scanner-deployment.jar" (runtime-name : "test-scanner-deployment.jar")
+[0m[0m22:40:29,997 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:40:30,000 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:40:30,028 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment test-scanner-deployment.jar (runtime-name: test-scanner-deployment.jar) in 22ms
+[0m[0m22:40:30,046 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 38ms
+[0m

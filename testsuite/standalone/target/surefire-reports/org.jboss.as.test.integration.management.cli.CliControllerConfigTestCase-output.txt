@@ -1,0 +1,4 @@
+[0m22:23:20,205 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:23:20,208 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:23:20,237 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 18ms
+[0m

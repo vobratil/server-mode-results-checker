@@ -1,0 +1,4 @@
+ELY00001: WildFly Elytron version 1.7.0.CR2
+JBoss MSC version 1.4.5.Final
+JBoss Threads version 2.3.2.Final
+[uid=server,dc=users,dc=elytron,dc=wildfly,dc=org, uid=x509User,dc=users,dc=elytron,dc=wildfly,dc=org, uid=refUser,dc=referredUsers,dc=elytron,dc=wildfly,dc=org, uid=plainUser,dc=users,dc=elytron,dc=wildfly,dc=org]

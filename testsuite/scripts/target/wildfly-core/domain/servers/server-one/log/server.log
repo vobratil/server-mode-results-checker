@@ -1,0 +1,121 @@
+2018-10-03 22:40:04,106 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:40:05,364 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:40:05,386 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:40:05,711 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:40:05,712 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Server:server-one] = 
+	[pcid:398952851] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	com.ibm.cpu.endian = little
+	com.ibm.jcl.checkClassPath = 
+	com.ibm.oti.configuration = scar
+	com.ibm.oti.shared.enabled = false
+	com.ibm.oti.vm.bootstrap.library.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64
+	com.ibm.oti.vm.library.version = 29
+	com.ibm.system.agent.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64
+	com.ibm.util.extralibs.properties = 
+	com.ibm.vm.bitmode = 64
+	com.ibm.zero.version = 2
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ibm.signalhandling.rs = false
+	ibm.signalhandling.sigchain = true
+	ibm.signalhandling.sigint = true
+	ibm.system.encoding = UTF-8
+	java.awt.fonts = 
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/jboss-modules.jar
+	java.class.version = 52.0
+	java.compiler = j9jit29
+	java.endorsed.dirs = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/endorsed
+	java.ext.dirs = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ext
+	java.fullversion = 8.0.5.20 - pxa6480sr5fp20-20180802_01(SR5 FP20)
+JRE 1.8.0 Linux amd64-64-Bit Compressed References 20180731_393394 (JIT enabled, AOT enabled)
+OpenJ9   - bd23af8
+OMR      - ca1411c
+IBM      - 98805ca
+	java.home = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64:/usr/lib64:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 8.0.5.20 - pxa6480sr5fp20-20180802_01(SR5 FP20)
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.util.prefs.PreferencesFactory = java.util.prefs.FileSystemPreferencesFactory
+	java.vendor = IBM Corporation
+	java.vendor.url = http://www.ibm.com
+	java.version = 1.8.0_181
+	java.vm.info = JRE 1.8.0 Linux amd64-64-Bit Compressed References 20180731_393394 (JIT enabled, AOT enabled)
+OpenJ9   - bd23af8
+OMR      - ca1411c
+IBM      - 98805ca
+	java.vm.name = IBM J9 VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = IBM Corporation
+	java.vm.version = 2.9
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address.management = 127.0.0.1
+	jboss.domain.base.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain
+	jboss.domain.config.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/configuration
+	jboss.home.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core
+	jboss.host.name = rhel7-large-81357
+	jboss.management.http.port = 9990
+	jboss.modules.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = master:server-one
+	jboss.qualified.host.name = rhel7-large-81357
+	jboss.server.base.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one
+	jboss.server.config.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/configuration
+	jboss.server.data.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/data
+	jboss.server.deploy.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/data/content
+	jboss.server.log.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/log
+	jboss.server.name = server-one
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/configuration/default-server-logging.properties
+	maven.repo.local = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/maven-repo-local
+	module.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/modules
+	org.jboss.boot.log.file = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.encoding = UTF-8
+	os.name = Linux
+	os.version = 3.10.0-862.el7.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs/jclSC180/vm.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/se-service.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/cuda4j.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/math.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmorb.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmorbapi.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmcfw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmpkcs.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmcertpathfw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmjgssfw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmjssefw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmsaslfw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmjcefw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmjgssprovider.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmjsseprovider2.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ibmcertpathprovider.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/xmldsigfw.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/xml.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/charsets.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/resources.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/rt.jar:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/dataaccess.jar
+	sun.boot.library.path = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/jboss-modules.jar -mp /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/modules org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.java.launcher.pid = 26639
+	sun.jnu.encoding = UTF-8
+	user.country = US
+	user.dir = /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core
+	user.home = /home/hudson
+	user.language = en
+	user.name = hudson
+	user.timezone = UTC
+	user.variant = 
+2018-10-03 22:40:05,713 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Xoptionsfile=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs/options.default -Xlockword:mode=default,noLockword=java/lang/String,noLockword=java/util/MapEntry,noLockword=java/util/HashMap$Entry,noLockword=org/apache/harmony/luni/util/ModifiedMap$Entry,noLockword=java/util/Hashtable$Entry,noLockword=java/lang/invoke/MethodType,noLockword=java/lang/invoke/MethodHandle,noLockword=java/lang/invoke/CollectHandle,noLockword=java/lang/invoke/ConstructorHandle,noLockword=java/lang/invoke/ConvertHandle,noLockword=java/lang/invoke/ArgumentConversionHandle,noLockword=java/lang/invoke/AsTypeHandle,noLockword=java/lang/invoke/ExplicitCastHandle,noLockword=java/lang/invoke/FilterReturnHandle,noLockword=java/lang/invoke/DirectHandle,noLockword=java/lang/invoke/ReceiverBoundHandle,noLockword=java/lang/invoke/DynamicInvokerHandle,noLockword=java/lang/invoke/FieldHandle,noLockword=java/lang/invoke/FieldGetterHandle,noLockword=java/lang/invoke/FieldSetterHandle,noLockword=java/lang/invoke/StaticFieldGetterHandle,noLockword=java/lang/invoke/StaticFieldSetterHandle,noLockword=java/lang/invoke/IndirectHandle,noLockword=java/lang/invoke/InterfaceHandle,noLockword=java/lang/invoke/VirtualHandle,noLockword=java/lang/invoke/PrimitiveHandle,noLockword=java/lang/invoke/InvokeExactHandle,noLockword=java/lang/invoke/InvokeGenericHandle,noLockword=java/lang/invoke/VarargsCollectorHandle,noLockword=java/lang/invoke/ThunkTuple -Xjcl:jclse7b_29 -Dcom.ibm.oti.vm.bootstrap.library.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64 -Dsun.boot.library.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64 -Djava.library.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64:/usr/lib64:/usr/lib -Djava.home=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre -Djava.ext.dirs=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ext -Duser.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core -Djava.runtime.version=pxa6480sr5fp20-20180802_01 (SR5 FP20) -Djava.class.path=. -D[Server:server-one] -D[pcid:398952851] -Xms64m -Xmx512m -server -XX:MetaspaceSize=96m -XX:MaxMetaspaceSize=256m -Dcom.ibm.oti.vm.bootstrap.library.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64 -Djava.awt.headless=true -Djava.class.path=. -Djava.ext.dirs=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/ext -Djava.home=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre -Djava.library.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64:/usr/lib64:/usr/lib -Djava.net.preferIPv4Stack=true -Djava.runtime.version=pxa6480sr5fp20-20180802_01 (SR5 FP20) -Djboss.bind.address.management=127.0.0.1 -Djboss.home.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core -Djboss.management.http.port=9990 -Djboss.modules.system.pkgs=org.jboss.byteman -Dmaven.repo.local=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/maven-repo-local -Dsun.boot.library.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64/compressedrefs:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/jre/lib/amd64 -Dsun.java.command=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/jboss-modules.jar -mp /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/modules org.jboss.as.host-controller -mp /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/modules --pc-address 127.0.0.1 --pc-port 43971 -default-jvm /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java/bin/java -Djboss.management.http.port=9990 -Djboss.bind.address.management=127.0.0.1 -Djboss.home.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core -Dsun.java.launcher=SUN_STANDARD -Dsun.java.launcher.pid=26573 -Duser.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core -Djboss.server.log.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/log -Djboss.server.temp.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/tmp -Djboss.server.data.dir=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/data -Dorg.jboss.boot.log.file=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/servers/server-one/log/server.log -Dlogging.configuration=file:/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/domain/configuration/default-server-logging.properties -Djava.class.path=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/jboss-modules.jar -Dsun.java.command=/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/jboss-modules.jar -mp /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/scripts/target/wildfly-core/modules org.jboss.as.server -Dsun.java.launcher=SUN_STANDARD -Dsun.java.launcher.pid=26639 
+2018-10-03 22:40:05,800 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+2018-10-03 22:40:05,806 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:40:05,849 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:40:06,225 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:40:07,437 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:40:07,555 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2018-10-03 22:40:07,558 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4501ms - Started 67 of 74 services (17 services are lazy, passive or on-demand)
+2018-10-03 22:40:10,197 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:40:10,202 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+2018-10-03 22:40:10,319 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 97ms

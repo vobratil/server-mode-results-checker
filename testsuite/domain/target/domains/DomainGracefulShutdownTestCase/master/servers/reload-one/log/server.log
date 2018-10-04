@@ -1,0 +1,272 @@
+2018-10-03 23:16:35,624 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:16:36,141 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:16:36,163 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:16:36,523 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:16:36,662 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+2018-10-03 23:16:36,667 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:16:36,714 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:16:37,145 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0260: Starting server in suspended mode
+2018-10-03 23:16:37,148 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 23:16:38,076 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+23:16:38,094 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Entered VERIFY stage; waiting for service container to settle
+23:16:38,109 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) persisting org.jboss.as.controller.registry.BasicResource@ad938408 from org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@df6a442c
+23:16:38,119 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Prepared response is {"outcome" => undefined}
+23:16:38,119 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) published org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@df6a442c
+23:16:38,123 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.DeployerChainAddHandler$1@db6f1b32 handling add-deployer-chains in address [] is {"outcome" => "success"}
+23:16:38,124 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractControllerService$ModelControllerServiceInitializationBootStepHandler$1@b5a8e1cf handling boottime-controller-initializer-step in address [] is {"outcome" => "success"}
+23:16:38,124 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Committed transaction for security-manager subsystem MODEL stage boot operations
+23:16:38,124 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 6) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@2112fe0 handling add in address [("subsystem" => "security-manager")] is {"outcome" => "success"}
+23:16:38,125 TRACE [org.jboss.as.controller.client] (ServerService Thread Pool -- 6) WFLYCTL0161: Operation succeeded, committing
+23:16:38,125 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.ParallelBootOperationStepHandler$2@3ddba885 handling parallel-subsystem-boot in address [] is {"outcome" => "success"}
+23:16:38,125 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@6cbc5928 handling add in address [
+    ("subsystem" => "logging"),
+    ("root-logger" => "ROOT")
+] is {"outcome" => "success"}
+23:16:38,126 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@ed25c63f handling add in address [
+    ("subsystem" => "logging"),
+    ("logger" => "org.jboss.as.controller")
+] is {"outcome" => "success"}
+23:16:38,126 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@6ad13e47 handling add in address [
+    ("subsystem" => "logging"),
+    ("periodic-rotating-file-handler" => "FILE")
+] is {"outcome" => "success"}
+23:16:38,126 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@7b181124 handling add in address [
+    ("subsystem" => "logging"),
+    ("console-handler" => "CONSOLE")
+] is {"outcome" => "success"}
+23:16:38,127 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@447d9f59 handling add in address [("subsystem" => "logging")] is {"outcome" => "success"}
+23:16:38,127 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@9f1c2f1a handling add in address [("socket-binding-group" => "reload-sockets")] is {"outcome" => "success"}
+23:16:38,127 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@6ee7d2a4 handling add in address [("interface" => "public")] is {"outcome" => "success"}
+23:16:38,127 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@a0a2325a handling add in address [("interface" => "management")] is {"outcome" => "success"}
+23:16:38,128 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.access.PrincipalAdd$1@f49dc309 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "authorization"),
+    ("role-mapping" => "SuperUser"),
+    ("include" => "user-$local")
+] is {"outcome" => "success"}
+23:16:38,128 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.access.RoleMappingAdd$1@ff1ff334 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "authorization"),
+    ("role-mapping" => "SuperUser")
+] is {"outcome" => "success"}
+23:16:38,129 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractWriteAttributeHandler$1@36355361 handling write-attribute in address [
+    ("core-service" => "management"),
+    ("access" => "authorization")
+] is {"outcome" => "success"}
+23:16:38,129 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@ab46e688 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("logger" => "audit-log"),
+    ("handler" => "server-file")
+] is {"outcome" => "success"}
+23:16:38,129 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.AuditLogLoggerResourceDefinition$AuditLogLoggerAddHandler$1@3a688579 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("logger" => "audit-log")
+] is {"outcome" => "success"}
+23:16:38,130 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@70d7ece8 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("file-handler" => "server-file")
+] is {"outcome" => "success"}
+23:16:38,130 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@976f3f3 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("file-handler" => "host-file")
+] is {"outcome" => "success"}
+23:16:38,131 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@3a1afd1f handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("json-formatter" => "json-formatter")
+] is {"outcome" => "success"}
+23:16:38,131 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@ac16c9a9 handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+] is {"outcome" => "success"}
+23:16:38,131 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@7768ba22 handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+] is {"outcome" => "success"}
+23:16:38,132 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.services.path.PathAddHandler$1@e2505187 handling add in address [("path" => "domainTestPath")] is {"outcome" => "success"}
+23:16:38,132 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.services.net.BindingGroupAddHandler$1@f83d50a7 handling add in address [("socket-binding-group" => "reload-sockets")] is {"outcome" => "success"}
+23:16:38,132 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.AbstractFileAuditLogHandlerResourceDefinition$AbstractFileAuditLogHandlerAddHandler$$Lambda$155/0000000058349130@4a0c2acd handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("file-handler" => "server-file")
+] is {"outcome" => "success"}
+23:16:38,133 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.AbstractFileAuditLogHandlerResourceDefinition$AbstractFileAuditLogHandlerAddHandler$$Lambda$155/0000000058349130@7c1fcbcc handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("file-handler" => "host-file")
+] is {"outcome" => "success"}
+23:16:38,133 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.AuthorizationValidatingHandler@3f75c307 handling validate-authorization in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+] is {"outcome" => "success"}
+23:16:38,133 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.AuthenticationValidatingHandler@5657e3c1 handling validate-authentication in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+] is {"outcome" => "success"}
+23:16:38,134 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.AuthorizationValidatingHandler@3f75c307 handling validate-authorization in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+] is {"outcome" => "success"}
+23:16:38,134 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.AuthenticationValidatingHandler@5657e3c1 handling validate-authentication in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+] is {"outcome" => "success"}
+23:16:38,134 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.DeployerChainAddHandler@3d257742 handling add-deployer-chains in address [] is {"outcome" => "success"}
+23:16:38,135 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.AbstractControllerService$ModelControllerServiceInitializationBootStepHandler@697eb55f handling boottime-controller-initializer-step in address [] is {"outcome" => "success"}
+23:16:38,135 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Committed transaction for security-manager subsystem RUNTIME stage boot operations
+23:16:38,135 DEBUG [org.jboss.as.controller.management-operation] (Controller Boot Thread) Committed transaction for logging subsystem RUNTIME stage boot operations
+23:16:38,135 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) Final response for step handler org.jboss.as.controller.ReloadRequiredAddStepHandler@7901326f handling add in address [
+    ("subsystem" => "security-manager"),
+    ("deployment-permissions" => "default")
+] is {"outcome" => "success"}
+23:16:38,135 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.logging.loggers.LoggerOperations$LoggerAddOperationStepHandler@10c00f handling add in address [
+    ("subsystem" => "logging"),
+    ("root-logger" => "ROOT")
+] is {"outcome" => "success"}
+23:16:38,136 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) Final response for step handler org.wildfly.extension.security.manager.SecurityManagerSubsystemAdd@5c523db9 handling add in address [("subsystem" => "security-manager")] is {"outcome" => "success"}
+23:16:38,136 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.logging.loggers.LoggerOperations$LoggerAddOperationStepHandler@fd2300c handling add in address [
+    ("subsystem" => "logging"),
+    ("logger" => "org.jboss.as.controller")
+] is {"outcome" => "success"}
+23:16:38,136 TRACE [org.jboss.as.controller.client] (ServerService Thread Pool -- 4) WFLYCTL0161: Operation succeeded, committing
+23:16:38,136 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.logging.handlers.HandlerOperations$HandlerAddOperationStepHandler@be9ffff7 handling add in address [
+    ("subsystem" => "logging"),
+    ("periodic-rotating-file-handler" => "FILE")
+] is {"outcome" => "success"}
+23:16:38,136 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.logging.handlers.HandlerOperations$HandlerAddOperationStepHandler@eea14a2b handling add in address [
+    ("subsystem" => "logging"),
+    ("console-handler" => "CONSOLE")
+] is {"outcome" => "success"}
+23:16:38,137 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.logging.LoggingSubsystemAdd@d946f0dc handling add in address [("subsystem" => "logging")] is {"outcome" => "success"}
+23:16:38,137 TRACE [org.jboss.as.controller.client] (ServerService Thread Pool -- 5) WFLYCTL0161: Operation succeeded, committing
+23:16:38,137 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.ParallelBootOperationStepHandler@aec202b6 handling parallel-subsystem-boot in address [] is {"outcome" => "success"}
+23:16:38,137 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.services.net.BindingGroupAddHandler@eb67957a handling add in address [("socket-binding-group" => "reload-sockets")] is {"outcome" => "success"}
+23:16:38,137 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.services.net.SpecifiedInterfaceAddHandler@65f49bc1 handling add in address [("interface" => "public")] is {"outcome" => "success"}
+23:16:38,138 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.services.net.SpecifiedInterfaceAddHandler@65f49bc1 handling add in address [("interface" => "management")] is {"outcome" => "success"}
+23:16:38,138 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.access.PrincipalAdd@ff0a0e9a handling add in address [
+    ("core-service" => "management"),
+    ("access" => "authorization"),
+    ("role-mapping" => "SuperUser"),
+    ("include" => "user-$local")
+] is {"outcome" => "success"}
+23:16:38,138 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.access.RoleMappingAdd@434c91db handling add in address [
+    ("core-service" => "management"),
+    ("access" => "authorization"),
+    ("role-mapping" => "SuperUser")
+] is {"outcome" => "success"}
+23:16:38,139 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.operations.global.WriteAttributeHandler@e63a374d handling write-attribute in address [
+    ("core-service" => "management"),
+    ("access" => "authorization")
+] is {"outcome" => "success"}
+23:16:38,139 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.AuditLogHandlerReferenceResourceDefinition$AuditLogHandlerReferenceAddHandler@5d50b4d9 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("logger" => "audit-log"),
+    ("handler" => "server-file")
+] is {"outcome" => "success"}
+23:16:38,140 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.AuditLogLoggerResourceDefinition$AuditLogLoggerAddHandler@afe1b728 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("logger" => "audit-log")
+] is {"outcome" => "success"}
+23:16:38,140 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.FileAuditLogHandlerResourceDefinition$FileAuditLogHandlerAddHandler@1339396d handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("file-handler" => "server-file")
+] is {"outcome" => "success"}
+23:16:38,140 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.FileAuditLogHandlerResourceDefinition$FileAuditLogHandlerAddHandler@1339396d handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("file-handler" => "host-file")
+] is {"outcome" => "success"}
+23:16:38,141 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.JsonAuditLogFormatterResourceDefinition$JsonAuditLogFormatterAddHandler@9fa27e34 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("json-formatter" => "json-formatter")
+] is {"outcome" => "success"}
+23:16:38,141 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.audit.AccessAuditResourceDefinition$1@3d6a1874 handling add in address [
+    ("core-service" => "management"),
+    ("access" => "audit")
+] is {"outcome" => "success"}
+23:16:38,141 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.SecurityRealmChildAddHandler@bfcc6a9 handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm"),
+    ("authentication" => "properties")
+] is {"outcome" => "success"}
+23:16:38,142 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.SecurityRealmChildAddHandler@db25836d handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm"),
+    ("authentication" => "local")
+] is {"outcome" => "success"}
+23:16:38,142 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.SecurityRealmAddHandler@57b7ef95 handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+] is {"outcome" => "success"}
+23:16:38,143 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.SecurityRealmChildAddHandler@bfcc6a9 handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm"),
+    ("authentication" => "properties")
+] is {"outcome" => "success"}
+23:16:38,143 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.SecurityRealmChildAddHandler@db25836d handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm"),
+    ("authentication" => "local")
+] is {"outcome" => "success"}
+23:16:38,143 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.domain.management.security.SecurityRealmAddHandler@57b7ef95 handling add in address [
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+] is {"outcome" => "success"}
+23:16:38,144 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.operations.SystemPropertyAddHandler@5ad8d2df handling add in address [("system-property" => "jboss.domain.test.property.two")] is {"outcome" => "success"}
+23:16:38,144 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.server.operations.SystemPropertyAddHandler@5ad8d2df handling add in address [("system-property" => "jboss.domain.test.property.one")] is {"outcome" => "success"}
+23:16:38,144 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.services.path.PathAddHandler@17c1cc58 handling add in address [("path" => "domainTestPath")] is {"outcome" => "success"}
+23:16:38,144 TRACE [org.jboss.as.controller.client] (Controller Boot Thread) WFLYCTL0161: Operation succeeded, committing
+23:16:38,161 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Prepared response is {"outcome" => undefined}
+23:16:38,162 TRACE [org.jboss.as.controller.management-operation] (Controller Boot Thread) Final response for step handler org.jboss.as.controller.ValidateModelStepHandler@354b7c56 handling internal-model-validation in address [] is {"outcome" => "success"}
+23:16:38,162 TRACE [org.jboss.as.controller.client] (Controller Boot Thread) WFLYCTL0161: Operation succeeded, committing
+23:16:38,164 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3364ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+23:16:51,164 TRACE [org.jboss.as.controller.management-operation] (management task-1) Handling transactional ExecuteRequest for 1641956095
+23:16:51,180 TRACE [org.jboss.as.controller.management-operation] (management task-1) Initialized for 1641956095
+23:16:51,182 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Executing transactional ExecuteRequest for 1641956095
+23:16:51,182 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Initialized for 1641956095
+23:16:51,184 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Executing {
+    "operation" => "resume",
+    "address" => []
+}
+23:16:51,185 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Executing "resume" []
+23:16:51,188 DEBUG [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Entered VERIFY stage; waiting for service container to settle
+23:16:51,188 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Prepared response is {"outcome" => undefined}
+23:16:51,188 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) sending prepared response for 1641956095  --- interrupted: false
+23:16:51,189 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 2) Transmitting response for 1641956095
+23:16:51,222 TRACE [org.jboss.as.controller.management-operation] (management task-1) completeTx (true) for 1641956095
+23:16:51,223 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0212: Resuming server
+23:16:51,223 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.server.operations.ServerResumeHandler$1@fc66126e handling resume in address [] is {"outcome" => "success"}
+23:16:51,223 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.server.operations.ServerResumeHandler@83eb5326 handling resume in address [] is {"outcome" => "success"}
+23:16:51,224 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@5ae7931a handling resume in address [] is {"outcome" => "success"}
+23:16:51,225 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) sending completed response {"outcome" => "success"} for 1641956095  --- interrupted: false
+23:16:51,225 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) Transmitting response for 1641956095
+23:16:53,399 TRACE [org.jboss.as.controller.management-operation] (management task-1) Handling transactional ExecuteRequest for 674150680
+23:16:53,400 TRACE [org.jboss.as.controller.management-operation] (management task-1) Initialized for 674150680
+23:16:53,401 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Executing transactional ExecuteRequest for 674150680
+23:16:53,401 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Initialized for 674150680
+23:16:53,402 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Executing {
+    "operation" => "shutdown",
+    "address" => [],
+    "timeout" => 60
+}
+23:16:53,402 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Executing "shutdown" []
+23:16:53,404 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Prepared response is {"outcome" => undefined}
+23:16:53,404 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) sending prepared response for 674150680  --- interrupted: false
+23:16:53,405 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) Transmitting response for 674150680
+23:16:53,408 TRACE [org.jboss.as.controller.management-operation] (management task-1) completeTx (true) for 674150680
+23:16:53,409 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0211: Suspending server with 60000 ms timeout.
+23:16:53,410 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.server.operations.ServerDomainProcessShutdownHandler$1@93c37e3 handling shutdown in address [] is {"outcome" => "success"}
+23:16:53,411 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.server.operations.ServerDomainProcessShutdownHandler@6ebd29af handling shutdown in address [] is {"outcome" => "success"}
+23:16:53,411 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@5ae7931a handling shutdown in address [] is {"outcome" => "success"}
+23:16:53,412 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) sending completed response {"outcome" => "success"} for 674150680  --- interrupted: false
+23:16:53,413 TRACE [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) Transmitting response for 674150680
+23:16:53,450 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+23:16:53,550 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 87ms

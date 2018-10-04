@@ -1,0 +1,70 @@
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+AccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:31:05,085 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:31:05,877 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:31:05,888 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:31:06,033 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:31:06,761 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:31:06,934 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:31:06,975 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:31:07,000 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[0m[0m23:31:07,010 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:31:07,124 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+[0m[0m23:31:07,215 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:31:07,244 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:31:07,304 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-1) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:31:07,393 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:31:07,395 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:31:07,395 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:31:07,395 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3038ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[0m[0m23:31:08,418 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) Registered blocker-test operations
+[0m[0m23:31:08,532 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by unknown for undefined/undefined(SERVICE_START)
+[0m[0m23:31:08,532 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) will block at SERVICE_START for 10000
+[0m[0m23:31:08,535 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (MSC service thread 1-8) BlockService blocking in start
+[0m[31m23:31:09,535 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0348: Timeout after [1] seconds waiting for service container stability. Operation will roll back. Step that first updated the service container was 'block' at address '[("subsystem" => "blocker-test")]'
+[0m[0m23:31:09,537 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) BlockingService step completed: result = ROLLBACK
+[0m[31m23:31:10,538 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0190: Step handler org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler$1@e057503e for operation block at address [("subsystem" => "blocker-test")] failed handling operation rollback -- java.util.concurrent.TimeoutException: java.util.concurrent.TimeoutException
+	at org.jboss.as.controller.OperationContextImpl.waitForRemovals(OperationContextImpl.java:521)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1518)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:726)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$285.0000000010009950.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$286.000000001000A060.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$284.00000000100095A0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+[0m[31m23:31:11,541 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0349: Timeout after [1] seconds waiting for service container stability while finalizing an operation. Process must be restarted. Step that first updated the service container was 'block' at address '[("subsystem" => "blocker-test")]'
+[0m[0m23:31:11,653 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:31:11,656 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:31:18,537 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (MSC service thread 1-8) BlockService Stopping
+[0m[0m23:31:18,540 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 6876ms
+[0m

@@ -1,0 +1,74 @@
+Oct 03, 2018 5:12:56 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:12:56 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:12:57 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/dev.wildfly.org@WILDFLY.ORG"
+org.jboss.msc.service.StartException in service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/dev.wildfly.org@WILDFLY.ORG": WFLYDM0109: The Keytab file 'dev.keytab' does not exist.
+	at org.jboss.as.domain.management.security.KeytabService.start(KeytabService.java:131)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 5:12:57 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "OneKeyTab")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.OneKeyTab is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:12:57 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "TwoKeyTabs")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory.\"HTTP/dev.wildfly.org@WILDFLY.ORG\"" => "WFLYDM0109: The Keytab file 'dev.keytab' does not exist."},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.TwoKeyTabs is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:12:57 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "AuthenticationEnabled")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.AuthenticationEnabled is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.AuthenticationEnabled.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:12:57 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.OneKeyTab, service org.wildfly.core.management.security.realm.AuthenticationEnabled, service org.wildfly.core.management.security.realm.TwoKeyTabs] 
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.AuthenticationEnabled.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/localhost@WILDFLY.ORG"] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.AuthenticationEnabled.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/localhost@WILDFLY.ORG"] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/dev.wildfly.org@WILDFLY.ORG": WFLYDM0109: The Keytab file 'dev.keytab' does not exist.
+WFLYCTL0448: 6 additional services are down due to their dependencies being missing or failed

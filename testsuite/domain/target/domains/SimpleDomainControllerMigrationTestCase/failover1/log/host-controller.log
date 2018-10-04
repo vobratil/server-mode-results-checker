@@ -1,0 +1,29 @@
+2018-10-03 23:19:40,568 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:19:40,919 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:19:40,930 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:19:40,982 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:19:41,578 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=failover-h1/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:19:41,580 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=failover-h1/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:19:41,605 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)
+2018-10-03 23:19:41,633 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+2018-10-03 23:19:41,655 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:19:41,698 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:19:41,722 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:19:41,783 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) WFLYRMT0001: Listening on 127.0.0.1:9999
+2018-10-03 23:19:41,814 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-2) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2018-10-03 23:19:42,655 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server failover-one
+2018-10-03 23:19:45,176 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:failover-one] connected using connection [Channel ID 05682a9a (inbound) of Remoting connection b95c0cb9 to rhel7-large-81357/127.0.0.1:45914 of endpoint "failover-h1:MANAGEMENT" <b771286e>]
+2018-10-03 23:19:45,209 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server failover-one
+2018-10-03 23:19:45,228 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management
+2018-10-03 23:19:45,229 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1
+2018-10-03 23:19:45,230 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 5350ms - Started 52 of 54 services (15 services are lazy, passive or on-demand)
+2018-10-03 23:19:51,173 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 4) WFLYHC0019: Registered remote slave host "failover-h2", WildFly 7.0.0.Alpha3-SNAPSHOT ""
+2018-10-03 23:20:00,498 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 4) WFLYHC0019: Registered remote slave host "failover-h3", WildFly 7.0.0.Alpha3-SNAPSHOT ""
+2018-10-03 23:20:04,781 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleDomainControllerMigrationTestCase/failover1/data/content/b8/75e7ad01369b95fb22b094da085a68aab1466c/content
+2018-10-03 23:20:04,933 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 23:20:04,953 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 12) WFLYHC0024: Stopping server failover-one
+2018-10-03 23:20:04,991 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server failover-one
+2018-10-03 23:20:05,049 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server failover-one
+2018-10-03 23:20:05,094 WARN  [org.jboss.as.domain.controller] (MSC service thread 1-5) WFLYHC0030: Connection to remote host "failover-h2" closed unexpectedly
+2018-10-03 23:20:05,097 WARN  [org.jboss.as.domain.controller] (MSC service thread 1-5) WFLYHC0030: Connection to remote host "failover-h3" closed unexpectedly
+2018-10-03 23:20:05,115 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 169ms

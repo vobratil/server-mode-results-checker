@@ -1,0 +1,32 @@
+Oct 03, 2018 4:59:09 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:59:09 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server
+Oct 03, 2018 4:59:10 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server

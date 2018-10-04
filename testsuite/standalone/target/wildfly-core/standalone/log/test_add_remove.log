@@ -1,0 +1,121 @@
+22:29:13,891 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) persisting org.jboss.as.controller.registry.BasicResource@75c42ca from org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@d6c02a9c
+22:29:13,921 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Prepared response is {"outcome" => undefined}
+22:29:13,922 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) published org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@d6c02a9c
+22:29:13,926 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.AbstractAddStepHandler$1@c77e54ec handling add in address [
+    ("subsystem" => "logging"),
+    ("logger" => "org.jboss.as.controller")
+] is {"outcome" => "success"}
+22:29:13,927 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.ValidateModelStepHandler@ba9e9aca handling internal-model-validation in address [] is {"outcome" => "success"}
+22:29:13,927 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.logging.loggers.LoggerOperations$LoggerAddOperationStepHandler@4a3cff0f handling add in address [
+    ("subsystem" => "logging"),
+    ("logger" => "org.jboss.as.controller")
+] is {"outcome" => "success"}
+22:29:13,928 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@5a5f21b handling add in address [
+    ("subsystem" => "logging"),
+    ("logger" => "org.jboss.as.controller")
+] is {"outcome" => "success"}
+22:29:13,928 TRACE [org.jboss.as.controller.client] (External Management Request Threads -- 1) WFLYCTL0161: Operation succeeded, committing
+22:29:13,933 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Executing {
+    "address" => [
+        {"subsystem" => "logging"},
+        {"file-handler" => "test_add_remove"}
+    ],
+    "operation" => "resolve-path",
+    "operation-headers" => {
+        "access-mechanism" => "HTTP",
+        "caller-type" => "user"
+    }
+}
+22:29:13,933 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Executing "resolve-path" [
+    {"subsystem" => "logging"},
+    {"file-handler" => "test_add_remove"}
+]
+22:29:13,934 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Prepared response is {
+    "outcome" => undefined,
+    "result" => "/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/log/test_add_remove.log"
+}
+22:29:13,934 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.services.path.ResolvePathHandler@598c49aa handling resolve-path in address [
+    ("subsystem" => "logging"),
+    ("file-handler" => "test_add_remove")
+] is {
+    "outcome" => "success",
+    "result" => "/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/log/test_add_remove.log"
+}
+22:29:13,934 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@5a5f21b handling resolve-path in address [
+    ("subsystem" => "logging"),
+    ("file-handler" => "test_add_remove")
+] is {
+    "outcome" => "success",
+    "result" => "/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/log/test_add_remove.log"
+}
+22:29:13,935 TRACE [org.jboss.as.controller.client] (External Management Request Threads -- 1) WFLYCTL0161: Operation succeeded, committing
+22:29:13,940 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Executing {
+    "address" => [
+        {"subsystem" => "logging"},
+        {"file-handler" => "test_add_remove"}
+    ],
+    "operation" => "remove",
+    "operation-headers" => {
+        "access-mechanism" => "HTTP",
+        "caller-type" => "user"
+    }
+}
+22:29:13,940 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Executing "remove" [
+    {"subsystem" => "logging"},
+    {"file-handler" => "test_add_remove"}
+]
+22:29:13,941 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) cloned to org.jboss.as.controller.registry.BasicResource@75c42ca to create org.jboss.as.controller.registry.BasicResource@2a92f69b and org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@bff710ea
+22:29:13,943 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("remove") failed - address: ([
+    {"subsystem" => "logging"},
+    {"file-handler" => "test_add_remove"}
+]) - failure description: "WFLYLOG0045: Handler test_add_remove is attached to the following loggers and cannot be removed; [org.jboss.as.controller]"
+22:29:13,944 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Rolling back on failed response {
+    "outcome" => "failed",
+    "failure-description" => "WFLYLOG0045: Handler test_add_remove is attached to the following loggers and cannot be removed; [org.jboss.as.controller]",
+    "rolled-back" => true
+} to operation remove on address [
+    ("subsystem" => "logging"),
+    ("file-handler" => "test_add_remove")
+] in stage RUNTIME
+22:29:13,945 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) discarded org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@bff710ea
+22:29:13,945 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.AbstractRemoveStepHandler$1@a853a0e handling remove in address [
+    ("subsystem" => "logging"),
+    ("file-handler" => "test_add_remove")
+] is {
+    "outcome" => "failed",
+    "failure-description" => "WFLYLOG0045: Handler test_add_remove is attached to the following loggers and cannot be removed; [org.jboss.as.controller]",
+    "rolled-back" => true
+}
+22:29:13,945 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.logging.handlers.HandlerOperations$LogHandlerRemoveHandler@7d55f8fd handling remove in address [
+    ("subsystem" => "logging"),
+    ("file-handler" => "test_add_remove")
+] is {
+    "outcome" => "failed",
+    "failure-description" => "WFLYLOG0045: Handler test_add_remove is attached to the following loggers and cannot be removed; [org.jboss.as.controller]",
+    "rolled-back" => true
+}
+22:29:13,946 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Final response for step handler org.jboss.as.controller.ModelControllerImpl$DefaultPrepareStepHandler@5a5f21b handling remove in address [
+    ("subsystem" => "logging"),
+    ("file-handler" => "test_add_remove")
+] is {
+    "outcome" => "failed",
+    "failure-description" => "WFLYLOG0045: Handler test_add_remove is attached to the following loggers and cannot be removed; [org.jboss.as.controller]",
+    "rolled-back" => true
+}
+22:29:13,946 TRACE [org.jboss.as.controller.client] (External Management Request Threads -- 1) WFLYCTL0160: Operation rolling back
+22:29:13,951 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Executing {
+    "address" => [
+        {"subsystem" => "logging"},
+        {"logger" => "org.jboss.as.controller"}
+    ],
+    "operation" => "remove",
+    "operation-headers" => {
+        "access-mechanism" => "HTTP",
+        "caller-type" => "user"
+    }
+}
+22:29:13,952 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) Executing "remove" [
+    {"subsystem" => "logging"},
+    {"logger" => "org.jboss.as.controller"}
+]
+22:29:13,952 TRACE [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) cloned to org.jboss.as.controller.registry.BasicResource@75c42ca to create org.jboss.as.controller.registry.BasicResource@809aa223 and org.jboss.as.controller.ModelControllerImpl$ManagementModelImpl@ab9b3ab6

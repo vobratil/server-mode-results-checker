@@ -1,0 +1,53 @@
+Oct 03, 2018 5:13:11 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:13:12 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:13:12 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:12 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:12 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:12 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:13 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/server-group=test/jvm=full' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:14 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("server-group" => "test"),
+    ("deployment" => "test-deployment")
+]) - failure description: "WFLYDC0063: There is already a deployment called other-test-deployment with the same runtime name foo.war on server group test"

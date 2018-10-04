@@ -1,0 +1,42 @@
+[0m22:41:29,554 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[31m22:41:30,302 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    {"core-service" => "platform-mbean"},
+    {"type" => "memory"}
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0m[31m22:41:30,403 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("shutdown") failed - address: ([]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[]' -- \"WFLYCTL0332: Permission denied\""
+[0m[0m22:41:30,441 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:30,462 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:30,804 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:30,829 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:31,430 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:31,465 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:31,816 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:31,845 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[31m22:41:32,032 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    {"core-service" => "platform-mbean"},
+    {"type" => "memory"}
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0m[31m22:41:32,064 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("shutdown") failed - address: ([]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[]' -- \"WFLYCTL0332: Permission denied\""
+[0m[0m22:41:32,075 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:32,095 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:32,714 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:32,748 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[31m22:41:32,985 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    {"core-service" => "platform-mbean"},
+    {"type" => "memory"}
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0m[31m22:41:33,044 ERROR [org.jboss.as.controller.management-operation] (External Management Request Threads -- 1) WFLYCTL0013: Operation ("shutdown") failed - address: ([]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[]' -- \"WFLYCTL0332: Permission denied\""
+[0m[0m22:41:33,098 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:41:33,305 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:41:33,308 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:41:33,342 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 29ms
+[0m

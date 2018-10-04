@@ -1,0 +1,2 @@
+Oct 03, 2018 4:58:42 PM org.jboss.as.server.controller.git.GitRepository <init>
+INFO: The configuration history is managed through Git

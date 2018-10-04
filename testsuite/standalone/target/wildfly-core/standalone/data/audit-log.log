@@ -1,0 +1,62 @@
+2018-10-03 22:31:18 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:31:20 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}

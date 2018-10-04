@@ -1,0 +1,32 @@
+2018-10-03 23:16:29,325 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:16:29,748 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:16:29,757 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:16:29,895 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:16:29,979 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+2018-10-03 23:16:29,986 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:16:30,021 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:16:30,371 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0260: Starting server in suspended mode
+2018-10-03 23:16:30,374 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 23:16:31,192 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-10-03 23:16:31,262 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+23:16:31,310 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+23:16:31,643 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+23:16:31,644 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+23:16:31,645 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+23:16:31,645 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+23:16:31,863 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+23:16:31,932 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3331ms - Started 69 of 86 services (28 services are lazy, passive or on-demand)
+23:16:51,216 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0212: Resuming server
+23:16:51,588 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 48ms
+23:16:51,749 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 7) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/servers/main-two/data/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content
+23:16:51,750 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+23:16:52,036 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+23:16:52,112 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+23:16:52,113 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+23:16:52,113 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+23:16:52,114 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+23:16:52,372 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+23:16:53,394 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0211: Suspending server with 60000 ms timeout.
+23:16:53,442 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+23:16:53,511 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 45ms
+23:16:53,556 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 89ms

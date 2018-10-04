@@ -1,0 +1,32 @@
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-agentlib:jdwp=ignoreme" for jvm 'test' since 'DEBUG_OPTIONS' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-Xms1024M" for jvm 'test' since 'HEAP' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-Xmx1024M" for jvm 'test' since 'HEAP' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-XX:PermSize=1024M" for jvm 'test' since 'PERMGEN' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-XX:MaxPermSize=1024M" for jvm 'test' since 'PERMGEN' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-Xss100M" for jvm 'test' since 'STACK' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-agentlib:other=x" for jvm 'test' since 'AGENT_LIB' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-javaagent:other.jar=x" for jvm 'test' since 'AGENT_LIB' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-agentlib:jdwp=ignoreme" for jvm 'test' since 'DEBUG_OPTIONS' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-Xms1024M" for jvm 'test' since 'HEAP' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-Xmx1024M" for jvm 'test' since 'HEAP' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-XX:PermSize=1024M" for jvm 'test' since 'PERMGEN' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-XX:MaxPermSize=1024M" for jvm 'test' since 'PERMGEN' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-Xss100M" for jvm 'test' since 'STACK' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-agentlib:other=x" for jvm 'test' since 'AGENT_LIB' was set
+Oct 03, 2018 4:59:19 PM org.jboss.as.host.controller.model.jvm.JvmOptionsBuilderFactory checkOption
+WARN: WFLYHC0016: Ignoring <option value="-javaagent:other.jar=x" for jvm 'test' since 'AGENT_LIB' was set

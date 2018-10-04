@@ -1,0 +1,36 @@
+ELY00001: WildFly Elytron version 1.7.0.CR2
+JBoss MSC version 1.4.5.Final
+JBoss Threads version 2.3.2.Final
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "ClearPropertyRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.ClearPropertyRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.ClearPropertyRealm] 
+WFLYCTL0448: 5 additional services are down due to their dependencies being missing or failed
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "ClearPropertyRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.ClearPropertyRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.ClearPropertyRealm] 
+WFLYCTL0448: 5 additional services are down due to their dependencies being missing or failed
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "ClearPropertyRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.ClearPropertyRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.ClearPropertyRealm] 
+WFLYCTL0448: 5 additional services are down due to their dependencies being missing or failed

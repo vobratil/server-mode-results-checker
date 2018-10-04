@@ -1,0 +1,127 @@
+set user Auditor
+set user Auditor
+set user Auditor
+set password t3stSu!tePassword
+[Host Controller] [0m[31m22:52:19,254 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Server:master-a] [31m[0m[31m22:52:19,258 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 7) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Server:master-a] [31m    ("core-service" => "platform-mbean"),[0m
+[Server:master-a] [31m    ("type" => "memory")[0m
+[Server:master-a] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Server:master-a] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Server:master-a] [31m    (\"type\" => \"memory\")[0m
+[Server:master-a] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m22:52:19,266 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("restart") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("server-config" => "master-a")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"server-config\" => \"master-a\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m22:52:19,268 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("shutdown") failed - address: ([("host" => "master")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[(\"host\" => \"master\")]' -- \"WFLYCTL0332: Permission denied\""[0m
+set user Operator
+set user Operator
+set user Operator
+set password t3stSu!tePassword
+[Host Controller] [31m[0m[0m22:52:19,552 INFO  [org.jboss.as.host.controller] (management-handler-thread - 4) WFLYHC0024: Stopping server master-a[0m
+[Server:master-a] [31m[0m[0m22:52:19,559 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 6) WFLYSRV0236: Suspending server with no timeout.[0m
+[0m22:52:19,563 INFO  [org.jboss.as.process.Server:master-a.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:master-a'
+[0m[Server:master-a] [0m[0m22:52:19,567 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down[0m
+[Host Controller] [0m[0m22:52:19,625 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server master-a[0m
+[Server:master-a] [0m[0m22:52:19,645 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 57ms[0m
+[Server:master-a] [0m[0m
+[0m22:52:19,666 INFO  [org.jboss.as.process.Server:master-a.status] (reaper for Server:master-a) WFLYPC0011: Process 'Server:master-a' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:52:19,708 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server master-a[0m
+[Host Controller] [0m[0m22:52:19,750 INFO  [org.jboss.as.host.controller] (management-handler-thread - 4) WFLYHC0023: Starting server master-a[0m
+[0m22:52:19,921 INFO  [org.jboss.as.process.Server:master-a.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:master-a'
+[0m[Server:master-a] [0m22:52:21,420 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:master-a] [0m[0m22:52:21,869 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:master-a] [0m[0m22:52:21,877 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:master-a] [0m[0m22:52:22,022 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:master-a] [0m[0m22:52:22,173 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final[0m
+[Server:master-a] [0m[0m22:52:22,185 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:master-a] [0m[0m22:52:22,259 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final[0m
+[Server:master-a] [0m[0m22:52:22,660 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m22:52:23,158 INFO  [org.jboss.as.host.controller] (management task-4) WFLYHC0021: Server [Server:master-a] connected using connection [Channel ID 6ae9ea52 (inbound) of Remoting connection 4757d1af to rhel7-large-81357/127.0.0.1:37448 of endpoint "master:MANAGEMENT" <9cf8d19f>][0m
+[Host Controller] [0m[0m22:52:23,161 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server master-a[0m
+[Server:master-a] [0m[0m22:52:23,454 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 12) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors[0m
+[Server:master-a] [0m[0m22:52:23,511 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:master-a] [0m[0m22:52:23,557 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Listening on 127.0.0.1:12345[0m
+[Server:master-a] [0m[0m22:52:23,597 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:master-a] [0m[0m22:52:23,600 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3317ms - Started 53 of 61 services (18 services are lazy, passive or on-demand)[0m
+set user SuperUser
+set user SuperUser
+set user SuperUser
+set password t3stSu!tePassword
+set user Maintainer
+set user Maintainer
+set user Maintainer
+set password t3stSu!tePassword
+set user Monitor
+set user Monitor
+set user Monitor
+set password t3stSu!tePassword
+[Host Controller] [0m[31m22:52:25,023 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Server:master-a] [0m[31m22:52:25,027 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Server:master-a] [31m    ("core-service" => "platform-mbean"),[0m
+[Server:master-a] [31m    ("type" => "memory")[0m
+[Server:master-a] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Server:master-a] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Server:master-a] [31m    (\"type\" => \"memory\")[0m
+[Server:master-a] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m22:52:25,034 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("restart") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("server-config" => "master-a")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"server-config\" => \"master-a\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m22:52:25,036 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("shutdown") failed - address: ([("host" => "master")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[(\"host\" => \"master\")]' -- \"WFLYCTL0332: Permission denied\""[0m
+set user Administrator
+set user Administrator
+set user Administrator
+set password t3stSu!tePassword
+set user Deployer
+set user Deployer
+set user Deployer
+set password t3stSu!tePassword
+[Host Controller] [31m[0m[31m22:52:25,519 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Server:master-a] [31m[0m[31m22:52:25,523 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 4) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Server:master-a] [31m    ("core-service" => "platform-mbean"),[0m
+[Server:master-a] [31m    ("type" => "memory")[0m
+[Server:master-a] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Server:master-a] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Server:master-a] [31m    (\"type\" => \"memory\")[0m
+[Server:master-a] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m22:52:25,544 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("restart") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("server-config" => "master-a")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"server-config\" => \"master-a\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m22:52:25,546 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("shutdown") failed - address: ([("host" => "master")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[(\"host\" => \"master\")]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[0m22:52:25,891 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content[0m

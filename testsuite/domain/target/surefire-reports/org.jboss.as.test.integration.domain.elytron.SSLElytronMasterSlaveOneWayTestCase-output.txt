@@ -1,0 +1,1 @@
+[Host Controller] [0m[0m23:00:52,658 INFO  [org.jboss.as.domain.controller] (management task-1) WFLYHC0026: Unregistered remote slave host "slave"[0m

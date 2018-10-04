@@ -1,0 +1,7 @@
+[Host Controller] [0m[0m22:54:59,248 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/21/61dce24660244cbfda4be6c9fbd126c2ad02ee/content[0m
+[Server:main-one] 22:54:59,284 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "WFCORE-1577.jar" (runtime-name: "WFCORE-1577.jar")
+[Server:main-three] 22:54:59,293 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "WFCORE-1577.jar" (runtime-name: "WFCORE-1577.jar")
+[Server:main-one] 22:54:59,321 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "WFCORE-1577.jar" (runtime-name : "WFCORE-1577.jar")
+[Server:main-three] 22:54:59,325 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "WFCORE-1577.jar" (runtime-name : "WFCORE-1577.jar")
+[Server:main-one] 22:54:59,379 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment WFCORE-1577.jar (runtime-name: WFCORE-1577.jar) in 9ms
+[Server:main-one] 22:54:59,406 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "WFCORE-1577.jar" (runtime-name: "WFCORE-1577.jar")

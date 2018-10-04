@@ -1,0 +1,16 @@
+[0m22:35:53,588 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[0m[0m22:35:53,613 INFO  [stdout] (XNIO-1 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m22:35:54,601 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:35:54,615 INFO  [stdout] (XNIO-1 task-2) Skipping request 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m22:35:54,626 INFO  [stdout] (XNIO-1 task-1) Attempting 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m22:35:54,629 INFO  [stdout] (XNIO-1 I/O-3) Rejected 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m22:35:54,632 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0212: Resuming server
+[0m[0m22:35:54,635 INFO  [stdout] (XNIO-1 task-2) Attempting 4 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m22:35:54,638 INFO  [stdout] (XNIO-1 task-2) Skipping request 5 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m22:35:54,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 13ms
+[0m[0m22:35:54,699 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/84/15f9111e5b3d0368a0462263b4f1e884809e1f/content
+[0m[0m22:35:54,699 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[0m[0m22:35:54,728 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:35:54,733 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:35:54,792 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 53ms
+[0m

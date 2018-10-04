@@ -1,0 +1,77 @@
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:40:50,435 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("show-logs") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("in-memory-handler" => "changes")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'show-logs' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\"),
+    (\"in-memory-handler\" => \"changes\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:40:50,627 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("show-logs") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("in-memory-handler" => "changes")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'show-logs' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\"),
+    (\"in-memory-handler\" => \"changes\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:40:50,731 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("show-logs") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("in-memory-handler" => "changes")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'show-logs' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\"),
+    (\"in-memory-handler\" => \"changes\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:40:50,835 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("show-logs") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("in-memory-handler" => "changes")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'show-logs' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\"),
+    (\"in-memory-handler\" => \"changes\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:40:51,084 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("show-logs") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit"),
+    ("in-memory-handler" => "changes")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'show-logs' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\"),
+    (\"in-memory-handler\" => \"changes\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+[0m22:40:51,489 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:40:51,491 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:40:51,533 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 30ms
+[0m

@@ -1,0 +1,196 @@
+Oct 03, 2018 5:10:58 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:10:58 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.controller.temp.dir\"",
+        "jboss.server.path.\"jboss.domain.config.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ManagementRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.controller.temp.dir\"",
+        "jboss.server.path.\"jboss.domain.config.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ApplicationRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:10:59 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm, service org.wildfly.core.management.security.realm.ManagementRealm] 
+      service jboss.server.path."jboss.domain.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+WFLYCTL0448: 3 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.domain.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication is missing [jboss.server.path.\"jboss.domain.config.dir\", org.wildfly.management.path-manager]",
+        "org.wildfly.core.management.security.realm.ManagementRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.controller.temp.dir\"",
+        "jboss.server.path.\"jboss.domain.config.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ApplicationRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication is missing [jboss.server.path.\"jboss.domain.config.dir\", org.wildfly.management.path-manager]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization is missing [jboss.server.path.\"jboss.domain.config.dir\", org.wildfly.management.path-manager]"
+    ]
+}
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm, service org.wildfly.core.management.security.realm.ManagementRealm] 
+      service jboss.server.path."jboss.domain.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+WFLYCTL0448: 3 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.domain.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ManagementRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.domain.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm, service org.wildfly.core.management.security.realm.ManagementRealm] 
+      service jboss.server.path."jboss.domain.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+WFLYCTL0448: 3 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'max-permgen-size' in the resource at address '/host=master/jvm=default' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.domain.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ManagementRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ApplicationRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.domain.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]",
+        "org.wildfly.core.management.security.realm.ApplicationRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:11:00 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm, service org.wildfly.core.management.security.realm.ManagementRealm] 
+      service jboss.server.path."jboss.domain.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authentication, service org.wildfly.core.management.security.realm.ApplicationRealm.properties_authorization, service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+WFLYCTL0448: 3 additional services are down due to their dependencies being missing or failed

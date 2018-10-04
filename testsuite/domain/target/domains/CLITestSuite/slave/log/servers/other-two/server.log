@@ -1,0 +1,341 @@
+2018-10-03 22:59:09,140 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:59:10,235 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:59:10,243 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:59:10,378 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:59:10,607 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+2018-10-03 22:59:10,628 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:59:10,697 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:59:11,080 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:59:11,870 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 9) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-10-03 22:59:11,954 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+22:59:12,064 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+22:59:12,066 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3710ms - Started 50 of 69 services (27 services are lazy, passive or on-demand)
+22:59:18,693 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:18,783 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:18,850 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:18,898 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:19,015 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:19,124 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:19,444 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 7ms
+22:59:19,451 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 15ms
+22:59:19,490 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:19,491 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:19,492 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:19,493 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:19,748 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 8ms
+22:59:19,854 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:19,855 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:20,399 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:20,439 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:20,546 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:20,614 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:20,726 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:20,821 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:21,104 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 14ms
+22:59:21,105 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 15ms
+22:59:21,164 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:21,165 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:21,167 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:21,167 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:21,332 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 4ms
+22:59:21,371 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:21,372 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:21,960 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:21,997 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:22,053 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:22,087 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:22,158 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:22,227 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:22,480 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 29ms
+22:59:22,483 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 31ms
+22:59:22,635 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:22,636 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:22,637 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:22,638 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:22,882 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 18ms
+22:59:22,944 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:22,945 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:23,305 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:23,330 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:23,377 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:23,400 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:23,475 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:23,524 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:23,828 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 19ms
+22:59:23,830 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 16ms
+22:59:23,835 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 28ms
+22:59:23,970 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:23,970 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:23,971 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:23,972 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:23,973 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:23,974 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:24,299 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:24,324 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:24,402 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:24,426 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:24,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:24,574 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:24,761 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 5ms
+22:59:24,763 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 7ms
+22:59:24,812 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:24,813 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:24,814 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:24,815 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:25,041 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 2ms
+22:59:25,087 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:25,087 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:25,411 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:25,465 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:25,533 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:25,565 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:25,656 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:25,717 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:25,965 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 3ms
+22:59:25,970 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 6ms
+22:59:26,020 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:26,020 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:26,025 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:26,025 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:26,214 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 3ms
+22:59:26,253 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:26,254 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:26,587 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:26,618 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:26,677 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:26,701 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:26,819 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:26,860 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:27,045 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 9ms
+22:59:27,067 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 31ms
+22:59:27,105 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:27,105 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:27,106 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:27,107 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:27,322 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 10ms
+22:59:27,342 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:27,342 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:27,654 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:27,689 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:27,735 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:27,760 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:27,821 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:27,885 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:28,035 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 9ms
+22:59:28,037 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 9ms
+22:59:28,069 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:28,069 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:28,071 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:28,071 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:28,215 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 3ms
+22:59:28,228 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:28,229 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:28,487 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:28,512 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:28,559 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:28,583 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:28,634 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:28,675 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:28,824 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 6ms
+22:59:28,825 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 8ms
+22:59:28,882 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:28,882 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:28,883 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:28,884 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:29,138 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 2ms
+22:59:29,152 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:29,152 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:29,410 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:29,431 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:29,471 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:29,489 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:29,543 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:29,590 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:29,769 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 26ms
+22:59:29,774 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 35ms
+22:59:29,820 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:29,820 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:29,822 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:29,822 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:29,918 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 2ms
+22:59:29,933 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:29,933 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:30,164 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:30,188 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:30,248 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:30,270 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:30,334 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:30,400 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:30,583 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 2ms
+22:59:30,586 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 5ms
+22:59:30,609 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 17ms
+22:59:30,635 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:30,636 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:30,637 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:30,637 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:30,638 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:30,639 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:30,866 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:30,884 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app2.war" (runtime-name : "cli-test-app2.war")
+22:59:30,922 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:30,961 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "diffcli-persistendtest.wars" (runtime-name : "diffcli-persistendtest.wars")
+22:59:31,027 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:31,052 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3.war" (runtime-name : "cli-test-app3.war")
+22:59:31,181 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app3.war (runtime-name: cli-test-app3.war) in 6ms
+22:59:31,182 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app2.war (runtime-name: cli-test-app2.war) in 7ms
+22:59:31,210 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/69/c80265025a234e35cf5f1be274f49b7beaf7b3/content
+22:59:31,210 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3.war" (runtime-name: "cli-test-app3.war")
+22:59:31,212 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/70/0701315d2db09fccd8c6b5cf8592ed14099335/content
+22:59:31,212 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app2.war" (runtime-name: "cli-test-app2.war")
+22:59:31,301 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment diffcli-persistendtest.wars (runtime-name: diffcli-persistendtest.wars) in 2ms
+22:59:31,314 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/c6/c04b040d4f8ac2731fd4c42c639e44864485af/content
+22:59:31,314 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "diffcli-persistendtest.wars" (runtime-name: "diffcli-persistendtest.wars")
+22:59:32,664 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-undeploy-test-app1.war" (runtime-name: "cli-undeploy-test-app1.war")
+22:59:32,690 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-undeploy-test-app1.war" (runtime-name : "cli-undeploy-test-app1.war")
+22:59:32,845 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-undeploy-test-app1.war (runtime-name: cli-undeploy-test-app1.war) in 5ms
+22:59:32,861 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/e0/d14baf3f73e83b0e44fe62bec41569a023c575/content
+22:59:32,861 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-undeploy-test-app1.war" (runtime-name: "cli-undeploy-test-app1.war")
+22:59:32,995 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-undeploy-test-app1.war" (runtime-name: "cli-undeploy-test-app1.war")
+22:59:33,048 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-undeploy-test-app1.war" (runtime-name : "cli-undeploy-test-app1.war")
+22:59:33,289 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cli-undeploy-test-app1.war (runtime-name: cli-undeploy-test-app1.war) in 10ms
+22:59:33,320 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/e0/d14baf3f73e83b0e44fe62bec41569a023c575/content
+22:59:33,320 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-undeploy-test-app1.war" (runtime-name: "cli-undeploy-test-app1.war")
+22:59:41,512 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:41,550 INFO  [stdout] (MSC service thread 1-8) Properties found
+22:59:41,551 INFO  [stdout] (MSC service thread 1-8) Setting service to is new
+22:59:41,566 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "other-deployment.jar")
+22:59:42,301 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: other-deployment.jar) in 2ms
+22:59:42,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:42,318 INFO  [stdout] (MSC service thread 1-5) Properties found
+22:59:42,319 INFO  [stdout] (MSC service thread 1-5) Setting service to is added
+22:59:42,330 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0013: Redeployed "other-deployment.jar"
+22:59:42,421 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: other-deployment.jar) in 7ms
+22:59:42,424 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:42,436 INFO  [stdout] (MSC service thread 1-2) Properties found
+22:59:42,437 INFO  [stdout] (MSC service thread 1-2) Setting service to is added
+22:59:42,442 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0013: Redeployed "other-deployment.jar"
+22:59:42,501 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: other-deployment.jar) in 2ms
+22:59:42,504 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:42,514 INFO  [stdout] (MSC service thread 1-6) Properties found
+22:59:42,515 INFO  [stdout] (MSC service thread 1-6) Setting service to is new
+22:59:42,529 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0013: Redeployed "other-deployment.jar"
+22:59:42,733 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: other-deployment.jar) in 3ms
+22:59:42,737 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:42,757 INFO  [stdout] (MSC service thread 1-3) Properties found
+22:59:42,758 INFO  [stdout] (MSC service thread 1-3) Setting service to is added
+22:59:42,763 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0013: Redeployed "other-deployment.jar"
+22:59:42,852 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: other-deployment.jar) in 7ms
+22:59:42,855 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:42,875 INFO  [stdout] (MSC service thread 1-2) Properties found
+22:59:42,876 INFO  [stdout] (MSC service thread 1-2) Setting service to is new
+22:59:42,905 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0013: Redeployed "other-deployment.jar"
+22:59:43,099 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: other-deployment.jar) in 24ms
+22:59:43,116 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/01/382f1f529b6a3ebcacb6c6073af7c84e5f975a/content
+22:59:43,117 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "other-deployment.jar")
+22:59:43,322 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:43,344 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:43,391 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:43,431 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:43,515 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 3ms
+22:59:43,526 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:43,639 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 2ms
+22:59:43,653 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:43,810 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:43,811 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:44,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:44,034 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:44,090 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:44,111 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:44,210 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 1ms
+22:59:44,220 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:44,399 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 6ms
+22:59:44,422 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:44,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:44,503 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:44,559 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:44,559 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:44,631 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 2ms
+22:59:44,644 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:44,644 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:44,763 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 6ms
+22:59:44,801 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:44,801 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:45,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:45,072 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:45,119 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:45,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:45,202 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 2ms
+22:59:45,212 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:45,274 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 9ms
+22:59:45,295 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:45,528 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:45,529 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:45,781 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:45,800 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:45,890 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:45,939 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:46,046 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 5ms
+22:59:46,073 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:46,238 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 30ms
+22:59:46,292 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:46,648 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:46,649 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:47,190 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:47,219 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:47,272 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:47,301 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:47,387 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 2ms
+22:59:47,399 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:47,555 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 2ms
+22:59:47,577 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:47,696 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:47,697 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:47,924 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:47,941 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:47,986 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:48,038 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:48,109 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 1ms
+22:59:48,121 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:48,257 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 7ms
+22:59:48,279 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:48,318 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:48,354 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:48,522 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 11ms
+22:59:48,543 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:48,543 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:48,544 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:48,745 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:48,769 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:48,837 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:48,884 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:48,960 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 3ms
+22:59:48,976 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:49,104 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 6ms
+22:59:49,121 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:49,142 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:49,164 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:49,270 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 5ms
+22:59:49,294 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:49,294 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:49,295 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:49,521 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:49,545 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:49,629 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:49,695 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:49,810 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 4ms
+22:59:49,822 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:50,000 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 9ms
+22:59:50,033 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:50,104 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:50,106 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:50,156 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app3-deploy-all.war" (runtime-name : "cli-test-app3-deploy-all.war")
+22:59:50,156 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "cli-test-app2-deploy-all.war" (runtime-name : "cli-test-app2-deploy-all.war")
+22:59:50,222 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment cli-test-app2-deploy-all.war (runtime-name: cli-test-app2-deploy-all.war) in 4ms
+22:59:50,237 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/b1/d06b66223a49f58f32569495fc11ecd6e32edf/content
+22:59:50,237 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0009: Undeployed "cli-test-app2-deploy-all.war" (runtime-name: "cli-test-app2-deploy-all.war")
+22:59:50,343 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment cli-test-app3-deploy-all.war (runtime-name: cli-test-app3-deploy-all.war) in 4ms
+22:59:50,363 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/CLITestSuite/slave/data/servers/other-two/content/8e/25da0ab4ddc253d8747a37b9a3b1c8c6b8bc4a/content
+22:59:50,363 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "cli-test-app3-deploy-all.war" (runtime-name: "cli-test-app3-deploy-all.war")
+22:59:50,422 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+22:59:50,425 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+22:59:50,467 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 22ms

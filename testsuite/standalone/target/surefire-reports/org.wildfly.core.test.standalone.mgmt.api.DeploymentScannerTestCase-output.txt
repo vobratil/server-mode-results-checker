@@ -1,0 +1,9 @@
+[0m22:34:22,028 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /tmp/DeploymentScannerTestCase/nonExistingPath
+[0m[33m22:34:22,047 WARN  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0037: /tmp/DeploymentScannerTestCase/nonExistingPath does not exist
+[0m[33m22:34:22,047 WARN  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0043: Deployment directory scan failed due to inaccessible deployment directory: /tmp/DeploymentScannerTestCase/nonExistingPath
+[0m[0m22:34:22,220 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/tempDeployment
+[0m[0m22:34:22,461 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/tempDeployment
+[0m[0m22:34:22,537 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:34:22,539 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:34:22,626 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 75ms
+[0m

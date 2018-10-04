@@ -1,0 +1,84 @@
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+AccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:34:19,501 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:34:20,273 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:34:20,282 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:34:20,426 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:34:20,784 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0260: Starting server in suspended mode
+[0m[0m23:34:21,006 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:34:21,173 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:34:21,214 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:34:21,236 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[0m[0m23:34:21,243 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:34:21,309 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+[0m[0m23:34:21,417 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:34:21,468 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:34:21,563 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:34:21,771 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:34:21,771 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:34:21,772 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3144ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[0m[0m23:34:22,359 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/2b/932d989e851610e92d5b4b0c8b626ec3581a09/content
+[0m[0m23:34:22,381 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[0m[33m23:34:22,431 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[0m[33m23:34:22,432 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[0m[33m23:34:22,432 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[0m[33m23:34:22,432 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[0m[0m23:34:22,491 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[0m[0m23:34:22,534 INFO  [stdout] (XNIO-1 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,537 INFO  [stdout] (XNIO-1 I/O-3) Rejected 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,543 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0212: Resuming server
+[0m[0m23:34:22,548 INFO  [stdout] (XNIO-1 task-2) Skipping request 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,552 INFO  [stdout] (XNIO-1 task-2) Attempting 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,599 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 36ms
+[0m[0m23:34:22,613 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 51ms
+[0m[0m23:34:22,616 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:34:22,654 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0260: Starting server in suspended mode
+[0m[0m23:34:22,723 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:34:22,752 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:34:22,806 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[0m23:34:22,809 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[0m[33m23:34:22,810 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:34:22,814 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-6) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[33m23:34:22,830 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[0m[33m23:34:22,831 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[0m[33m23:34:22,831 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[0m[33m23:34:22,832 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[0m[0m23:34:22,846 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[0m[0m23:34:22,868 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:34:22,868 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:34:22,868 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 245ms - Started 103 of 106 services (25 services are lazy, passive or on-demand)
+[0m[0m23:34:22,913 INFO  [stdout] (XNIO-2 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,915 INFO  [stdout] (XNIO-2 I/O-3) Rejected 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,919 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0212: Resuming server
+[0m[0m23:34:22,923 INFO  [stdout] (XNIO-2 task-2) Skipping request 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,926 INFO  [stdout] (XNIO-2 task-2) Attempting 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:22,944 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 10ms
+[0m[0m23:34:22,950 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m[0m23:34:22,952 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:34:23,025 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:34:23,045 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:34:23,086 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[0m23:34:23,087 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[0m[33m23:34:23,098 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:34:23,111 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-4) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[33m23:34:23,120 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[0m[33m23:34:23,121 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[0m[33m23:34:23,122 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[0m[33m23:34:23,122 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[0m[0m23:34:23,144 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[0m[0m23:34:23,165 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:34:23,166 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:34:23,166 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:34:23,167 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 206ms - Started 103 of 106 services (25 services are lazy, passive or on-demand)
+[0m[0m23:34:23,216 INFO  [stdout] (XNIO-3 task-1) Skipping request 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:23,240 INFO  [stdout] (XNIO-3 task-1) Attempting 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[0m[0m23:34:23,274 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 11ms
+[0m[0m23:34:23,321 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/2b/932d989e851610e92d5b4b0c8b626ec3581a09/content
+[0m[0m23:34:23,323 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[0m[0m23:34:23,330 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:34:23,333 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:34:23,351 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 13ms
+[0m

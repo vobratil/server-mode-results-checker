@@ -1,0 +1,4 @@
+Oct 03, 2018 4:55:55 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:55:55 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final

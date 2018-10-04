@@ -1,0 +1,102 @@
+2018-10-03 22:53:49 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "d142754c-32de-43ff-8974-524d46746a1a",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "host" : "slave"
+            },
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:53:49 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "1741f4b0-f532-4c1a-b926-8800577bfaf2",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "host" : "slave"
+            },
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "server-logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:53:58 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "2b190b19-6ab1-4d9b-aa5f-fe0056a092e8",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "host" : "slave"
+            },
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}

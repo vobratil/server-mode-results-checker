@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<server xmlns="urn:jboss:domain:6.0">
+<extensions>
+<extension module="org.wildfly.extension.security.manager"/>
+<extension module="org.jboss.as.logging"/>
+<extension module="org.jboss.as.jmx"/>
+<extension module="org.jboss.as.deployment-scanner"/>
+<extension module="org.wildfly.extension.core-management"/>
+<extension module="org.wildfly.extension.elytron"/>
+<extension module="org.wildfly.extension.discovery"/>
+<extension module="org.wildfly.extension.request-controller"/>
+<extension module="org.wildfly.extension.io"/>
+<extension module="org.jboss.as.remoting"/>
+</extensions>
+</server>

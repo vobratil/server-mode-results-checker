@@ -1,0 +1,1518 @@
+ELY00001: WildFly Elytron version 1.7.0.CR2
+JBoss MSC version 1.4.5.Final
+JBoss Threads version 2.3.2.Final
+WFLYCTL0028: Attribute 'permissions' in the resource at address '/subsystem=elytron/constant-permission-mapper=ConstantPermissionMapperLegacy' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/sasl-authentication-factory=KerberosHttpMgmtSaslTestCase' are not available:
+    org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/custom-credential-security-factory=*
+		/subsystem=elytron/kerberos-security-factory=*
+    org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/security-domain=*
+    org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-sasl-server-factory=*
+		/subsystem=elytron/configurable-sasl-server-factory=*
+		/subsystem=elytron/mechanism-provider-filtering-sasl-server-factory=*
+		/subsystem=elytron/provider-sasl-server-factory=*
+		/subsystem=elytron/service-loader-sasl-server-factory=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/client-ssl-context=client' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-store=Custom_PKCS_11' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/provider-sasl-server-factory=ProviderSaslFactory' are not available:
+    org.wildfly.security.providers.TestProviderLoader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/sasl-authentication-factory=SaslAuthenticationDefinition' are not available:
+    org.wildfly.security.principal-transformer.FinalNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PreRealmNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.realm-mapper.RegexMapper_II; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.realm-mapper.RegexMapper; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.principal-transformer.PostRealmNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PreRealmNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.FinalNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PostRealmNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-manager=serverKey2' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+    org.wildfly.security.credential-store.credstore1; Possible registration points for this capability: 
+		/subsystem=elytron/credential-store=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/jdbc-realm=NewJdbcScramSha384' are not available:
+    org.wildfly.data-source.ExampleDS; There are no known registration points which can provide this capability.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/trust-manager=serverTrust2' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-manager=clientKey' are not available:
+    org.wildfly.security.credential-store.credstore1; Possible registration points for this capability: 
+		/subsystem=elytron/credential-store=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/jdbc-realm=NewJdbcScramSha512' are not available:
+    org.wildfly.data-source.ExampleDS; There are no known registration points which can provide this capability.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/server-ssl-context=server' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+    org.wildfly.security.realm-mapper.d; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.principal-transformer.b; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.a; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.c; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+MSC000001: Failed to start service org.wildfly.security.security-factory.credential.CustomFactory
+org.jboss.msc.service.StartException in service org.wildfly.security.security-factory.credential.CustomFactory: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.createValue(CustomComponentDefinition.java:170)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.lambda$performRuntime$0(CustomComponentDefinition.java:135)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler$$Lambda$125.000000006C05CF70.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.createValue(CustomComponentDefinition.java:149)
+	... 11 more
+MSC000001: Failed to start service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:396)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createSimplePermissionMapper(PermissionMapperDefinitions.java:340)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.access$000(PermissionMapperDefinitions.java:76)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$3.lambda$getValueSupplier$0(PermissionMapperDefinitions.java:328)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$3$$Lambda$136.000000006C0F9290.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:396)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createConstantPermissionMapper(PermissionMapperDefinitions.java:391)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.access$100(PermissionMapperDefinitions.java:76)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$4.lambda$getValueSupplier$0(PermissionMapperDefinitions.java:383)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$4$$Lambda$137.000000006C0659A0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.my-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.my-permissions: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.user-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.user-permissions: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.john-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.john-permissions: WFLYELY00038: Could not load permission class 'a.b.JohnPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("credential-store" => "test2")
+]) - failure description: "WFLYELY00921: Location parameter is not specified for filebased keystore type 'JCEKS'"
+MSC000001: Failed to start service org.wildfly.security.key-store.PKCS_11
+org.jboss.msc.service.StartException in service org.wildfly.security.key-store.PKCS_11: WFLYELY00004: Unable to start the service.
+	at org.wildfly.extension.elytron.KeyStoreService.start(KeyStoreService.java:149)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: org.jboss.msc.service.StartException in anonymous service: WFLYELY00012: No suitable provider found for type 'PKCS#11'
+	at org.wildfly.extension.elytron.KeyStoreService.resolveProvider(KeyStoreService.java:158)
+	at org.wildfly.extension.elytron.KeyStoreService.start(KeyStoreService.java:111)
+	... 8 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("jdbc-realm" => "NewJdbcScramSha384")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.data-source.ExampleDS"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NewJdbcScramSha384 is missing [org.wildfly.data-source.ExampleDS]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("jdbc-realm" => "NewJdbcScramSha512")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.data-source.ExampleDS"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NewJdbcScramSha512 is missing [org.wildfly.data-source.ExampleDS]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "PropRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.PropRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "NonDomainRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NonDomainRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FileRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.modifiable-security-realm.FileRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("custom-credential-security-factory" => "CustomFactory")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.security-factory.credential.CustomFactory" => "java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+    Caused by: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("kerberos-security-factory" => "KerberosFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-factory.credential.KerberosFactory is missing [jboss.server.path.\"server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("kerberos-security-factory" => "OptionLessKerberosFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-factory.credential.OptionLessKerberosFactory is missing [jboss.server.path.\"server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("simple-permission-mapper" => "SimplePermissionMapperLegacy")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy" => "WFLYELY00038: Could not load permission class 'a.b.MyPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("constant-permission-mapper" => "ConstantPermissionMapperLegacy")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy" => "WFLYELY00038: Could not load permission class 'a.b.UserPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "my-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.my-permissions" => "WFLYELY00038: Could not load permission class 'a.b.MyPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "john-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.john-permissions" => "WFLYELY00038: Could not load permission class 'a.b.JohnPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "user-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.user-permissions" => "WFLYELY00038: Could not load permission class 'a.b.UserPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("sasl-authentication-factory" => "SaslAuthenticationDefinition")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.principal-transformer.PostRealmNameRewriter_II",
+        "org.wildfly.security.realm-mapper.RegexMapper_II",
+        "org.wildfly.security.principal-transformer.FinalNameRewriter",
+        "org.wildfly.security.principal-transformer.FinalNameRewriter_II",
+        "org.wildfly.security.realm-mapper.RegexMapper",
+        "org.wildfly.security.principal-transformer.PreRealmNameRewriter_II",
+        "org.wildfly.security.principal-transformer.PostRealmNameRewriter",
+        "org.wildfly.security.principal-transformer.PreRealmNameRewriter"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition is missing [org.wildfly.security.realm-mapper.RegexMapper, org.wildfly.security.principal-transformer.PreRealmNameRewriter_II, org.wildfly.security.principal-transformer.PostRealmNameRewriter, org.wildfly.security.principal-transformer.FinalNameRewriter_II, org.wildfly.security.principal-transformer.PreRealmNameRewriter, org.wildfly.security.principal-transformer.PostRealmNameRewriter_II, org.wildfly.security.realm-mapper.RegexMapper_II, org.wildfly.security.principal-transformer.FinalNameRewriter]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("sasl-authentication-factory" => "KerberosHttpMgmtSaslTestCase")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase",
+        "org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase",
+        "org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase is missing [org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase, org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase, org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("provider-sasl-server-factory" => "ProviderSaslFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.TestProviderLoader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-server-factory.ProviderSaslFactory is missing [org.wildfly.security.providers.TestProviderLoader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "PKCS_11")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.key-store.PKCS_11" => "WFLYELY00004: Unable to start the service.
+    Caused by: org.jboss.msc.service.StartException in anonymous service: WFLYELY00012: No suitable provider found for type 'PKCS#11'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "jks_store")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.jks_store is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "jceks_store")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.jceks_store is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "Custom_PKCS_11")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.Custom_PKCS_11 is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "accounts.keystore")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.\"accounts.keystore\" is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-manager" => "serverKey2")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.credential-store.credstore1",
+        "org.wildfly.security.providers.custom-loader"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-manager.serverKey2 is missing [org.wildfly.security.providers.custom-loader, org.wildfly.security.credential-store.credstore1]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-manager" => "clientKey")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.credential-store.credstore1"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-manager.clientKey is missing [org.wildfly.security.credential-store.credstore1]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("trust-manager" => "serverTrust2")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.trust-manager.serverTrust2 is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("trust-manager" => "trust-with-crl")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.trust-manager.trust-with-crl is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("server-ssl-context" => "server")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.realm-mapper.d",
+        "org.wildfly.security.principal-transformer.b",
+        "org.wildfly.security.principal-transformer.c",
+        "org.wildfly.security.principal-transformer.a",
+        "org.wildfly.security.providers.custom-loader"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.ssl-context.server is missing [org.wildfly.security.principal-transformer.c, org.wildfly.security.realm-mapper.d, org.wildfly.security.principal-transformer.a, org.wildfly.security.providers.custom-loader, org.wildfly.security.principal-transformer.b]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("client-ssl-context" => "client")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.ssl-context.client is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("credential-store" => "test1")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.data.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.credential-store.test1 is missing [jboss.server.path.\"jboss.server.data.dir\"]"]
+}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.NonDomainRealm, service org.wildfly.security.key-store.jceks_store, service org.wildfly.security.key-store.jks_store, service org.wildfly.security.trust-manager.trust-with-crl, WFLYCTL0208: ... and 4 more ] 
+      service jboss.server.path."jboss.server.data.dir" (missing) dependents: [service org.wildfly.security.credential-store.test1] 
+      service jboss.server.path."server.config.dir" (missing) dependents: [service org.wildfly.security.security-factory.credential.OptionLessKerberosFactory, service org.wildfly.security.security-factory.credential.KerberosFactory] 
+      service org.wildfly.data-source.ExampleDS (missing) dependents: [service org.wildfly.security.security-realm.NewJdbcScramSha512, service org.wildfly.security.security-realm.NewJdbcScramSha384] 
+      service org.wildfly.security.credential-store.credstore1 (missing) dependents: [service org.wildfly.security.key-manager.serverKey2, service org.wildfly.security.key-manager.clientKey] 
+      service org.wildfly.security.principal-transformer.FinalNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.FinalNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PostRealmNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PostRealmNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PreRealmNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PreRealmNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.a (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.principal-transformer.b (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.principal-transformer.c (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.providers.TestProviderLoader (missing) dependents: [service org.wildfly.security.sasl-server-factory.ProviderSaslFactory] 
+      service org.wildfly.security.providers.custom-loader (missing) dependents: [service org.wildfly.security.ssl-context.client, service org.wildfly.security.key-manager.serverKey2, service org.wildfly.security.trust-manager.serverTrust2, service org.wildfly.security.ssl-context.server, WFLYCTL0208: ... and 2 more ] 
+      service org.wildfly.security.realm-mapper.RegexMapper (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.realm-mapper.RegexMapper_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.realm-mapper.d (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+      service org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+      service org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.permission-set.my-permissions: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+      service org.wildfly.security.key-store.PKCS_11: WFLYELY00004: Unable to start the service.
+      service org.wildfly.security.permission-set.john-permissions: WFLYELY00038: Could not load permission class 'a.b.JohnPermission'
+      service org.wildfly.security.security-factory.credential.CustomFactory: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+      service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+      service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+      service org.wildfly.security.permission-set.user-permissions: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+WFLYCTL0448: 18 additional services are down due to their dependencies being missing or failed
+WFLYCTL0028: Attribute 'permissions' in the resource at address '/subsystem=elytron/constant-permission-mapper=ConstantPermissionMapperLegacy' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-manager=serverKey2' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+    org.wildfly.security.credential-store.credstore1; Possible registration points for this capability: 
+		/subsystem=elytron/credential-store=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-store=Custom_PKCS_11' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/provider-sasl-server-factory=ProviderSaslFactory' are not available:
+    org.wildfly.security.providers.TestProviderLoader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-manager=clientKey' are not available:
+    org.wildfly.security.credential-store.credstore1; Possible registration points for this capability: 
+		/subsystem=elytron/credential-store=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/server-ssl-context=server' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+    org.wildfly.security.realm-mapper.d; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.principal-transformer.b; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.a; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.c; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/sasl-authentication-factory=SaslAuthenticationDefinition' are not available:
+    org.wildfly.security.principal-transformer.FinalNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PreRealmNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.realm-mapper.RegexMapper_II; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.realm-mapper.RegexMapper; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.principal-transformer.PostRealmNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PreRealmNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.FinalNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PostRealmNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/trust-manager=serverTrust2' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/jdbc-realm=NewJdbcScramSha384' are not available:
+    org.wildfly.data-source.ExampleDS; There are no known registration points which can provide this capability.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/jdbc-realm=NewJdbcScramSha512' are not available:
+    org.wildfly.data-source.ExampleDS; There are no known registration points which can provide this capability.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/client-ssl-context=client' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/sasl-authentication-factory=KerberosHttpMgmtSaslTestCase' are not available:
+    org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/custom-credential-security-factory=*
+		/subsystem=elytron/kerberos-security-factory=*
+    org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/security-domain=*
+    org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-sasl-server-factory=*
+		/subsystem=elytron/configurable-sasl-server-factory=*
+		/subsystem=elytron/mechanism-provider-filtering-sasl-server-factory=*
+		/subsystem=elytron/provider-sasl-server-factory=*
+		/subsystem=elytron/service-loader-sasl-server-factory=*
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("credential-store" => "test2")
+]) - failure description: "WFLYELY00921: Location parameter is not specified for filebased keystore type 'JCEKS'"
+MSC000001: Failed to start service org.wildfly.security.security-factory.credential.CustomFactory
+org.jboss.msc.service.StartException in service org.wildfly.security.security-factory.credential.CustomFactory: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.createValue(CustomComponentDefinition.java:170)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.lambda$performRuntime$0(CustomComponentDefinition.java:135)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler$$Lambda$125.000000006C05CF70.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.createValue(CustomComponentDefinition.java:149)
+	... 11 more
+MSC000001: Failed to start service org.wildfly.security.permission-set.my-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.my-permissions: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.key-store.PKCS_11
+org.jboss.msc.service.StartException in service org.wildfly.security.key-store.PKCS_11: WFLYELY00004: Unable to start the service.
+	at org.wildfly.extension.elytron.KeyStoreService.start(KeyStoreService.java:149)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: org.jboss.msc.service.StartException in anonymous service: WFLYELY00012: No suitable provider found for type 'PKCS#11'
+	at org.wildfly.extension.elytron.KeyStoreService.resolveProvider(KeyStoreService.java:158)
+	at org.wildfly.extension.elytron.KeyStoreService.start(KeyStoreService.java:111)
+	... 8 more
+MSC000001: Failed to start service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:396)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createSimplePermissionMapper(PermissionMapperDefinitions.java:340)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.access$000(PermissionMapperDefinitions.java:76)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$3.lambda$getValueSupplier$0(PermissionMapperDefinitions.java:328)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$3$$Lambda$136.000000006C0F9290.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.john-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.john-permissions: WFLYELY00038: Could not load permission class 'a.b.JohnPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.user-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.user-permissions: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:396)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createConstantPermissionMapper(PermissionMapperDefinitions.java:391)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.access$100(PermissionMapperDefinitions.java:76)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$4.lambda$getValueSupplier$0(PermissionMapperDefinitions.java:383)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$4$$Lambda$137.000000006C0659A0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("jdbc-realm" => "NewJdbcScramSha384")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.data-source.ExampleDS"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NewJdbcScramSha384 is missing [org.wildfly.data-source.ExampleDS]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("jdbc-realm" => "NewJdbcScramSha512")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.data-source.ExampleDS"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NewJdbcScramSha512 is missing [org.wildfly.data-source.ExampleDS]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "PropRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.PropRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "NonDomainRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NonDomainRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FileRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.modifiable-security-realm.FileRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("custom-credential-security-factory" => "CustomFactory")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.security-factory.credential.CustomFactory" => "java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+    Caused by: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("kerberos-security-factory" => "KerberosFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-factory.credential.KerberosFactory is missing [jboss.server.path.\"server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("kerberos-security-factory" => "OptionLessKerberosFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-factory.credential.OptionLessKerberosFactory is missing [jboss.server.path.\"server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("simple-permission-mapper" => "SimplePermissionMapperLegacy")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy" => "WFLYELY00038: Could not load permission class 'a.b.MyPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("constant-permission-mapper" => "ConstantPermissionMapperLegacy")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy" => "WFLYELY00038: Could not load permission class 'a.b.UserPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "my-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.my-permissions" => "WFLYELY00038: Could not load permission class 'a.b.MyPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "john-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.john-permissions" => "WFLYELY00038: Could not load permission class 'a.b.JohnPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "user-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.user-permissions" => "WFLYELY00038: Could not load permission class 'a.b.UserPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("sasl-authentication-factory" => "SaslAuthenticationDefinition")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.principal-transformer.PostRealmNameRewriter_II",
+        "org.wildfly.security.principal-transformer.FinalNameRewriter",
+        "org.wildfly.security.realm-mapper.RegexMapper_II",
+        "org.wildfly.security.principal-transformer.FinalNameRewriter_II",
+        "org.wildfly.security.realm-mapper.RegexMapper",
+        "org.wildfly.security.principal-transformer.PreRealmNameRewriter_II",
+        "org.wildfly.security.principal-transformer.PostRealmNameRewriter",
+        "org.wildfly.security.principal-transformer.PreRealmNameRewriter"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition is missing [org.wildfly.security.principal-transformer.FinalNameRewriter, org.wildfly.security.principal-transformer.PreRealmNameRewriter_II, org.wildfly.security.principal-transformer.PostRealmNameRewriter, org.wildfly.security.principal-transformer.PreRealmNameRewriter, org.wildfly.security.principal-transformer.FinalNameRewriter_II, org.wildfly.security.realm-mapper.RegexMapper, org.wildfly.security.principal-transformer.PostRealmNameRewriter_II, org.wildfly.security.realm-mapper.RegexMapper_II]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("sasl-authentication-factory" => "KerberosHttpMgmtSaslTestCase")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase",
+        "org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase",
+        "org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase is missing [org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase, org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase, org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("provider-sasl-server-factory" => "ProviderSaslFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.TestProviderLoader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-server-factory.ProviderSaslFactory is missing [org.wildfly.security.providers.TestProviderLoader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "PKCS_11")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.key-store.PKCS_11" => "WFLYELY00004: Unable to start the service.
+    Caused by: org.jboss.msc.service.StartException in anonymous service: WFLYELY00012: No suitable provider found for type 'PKCS#11'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "jks_store")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.jks_store is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "jceks_store")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.jceks_store is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "Custom_PKCS_11")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.Custom_PKCS_11 is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "accounts.keystore")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.\"accounts.keystore\" is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-manager" => "serverKey2")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.credential-store.credstore1",
+        "org.wildfly.security.providers.custom-loader"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-manager.serverKey2 is missing [org.wildfly.security.credential-store.credstore1, org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-manager" => "clientKey")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.credential-store.credstore1"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-manager.clientKey is missing [org.wildfly.security.credential-store.credstore1]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("trust-manager" => "serverTrust2")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.trust-manager.serverTrust2 is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("trust-manager" => "trust-with-crl")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.trust-manager.trust-with-crl is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("server-ssl-context" => "server")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.realm-mapper.d",
+        "org.wildfly.security.principal-transformer.b",
+        "org.wildfly.security.principal-transformer.c",
+        "org.wildfly.security.principal-transformer.a",
+        "org.wildfly.security.providers.custom-loader"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.ssl-context.server is missing [org.wildfly.security.principal-transformer.c, org.wildfly.security.principal-transformer.a, org.wildfly.security.realm-mapper.d, org.wildfly.security.principal-transformer.b, org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("client-ssl-context" => "client")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.ssl-context.client is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("credential-store" => "test1")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.data.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.credential-store.test1 is missing [jboss.server.path.\"jboss.server.data.dir\"]"]
+}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.NonDomainRealm, service org.wildfly.security.key-store.jceks_store, service org.wildfly.security.key-store.jks_store, service org.wildfly.security.trust-manager.trust-with-crl, WFLYCTL0208: ... and 4 more ] 
+      service jboss.server.path."jboss.server.data.dir" (missing) dependents: [service org.wildfly.security.credential-store.test1] 
+      service jboss.server.path."server.config.dir" (missing) dependents: [service org.wildfly.security.security-factory.credential.OptionLessKerberosFactory, service org.wildfly.security.security-factory.credential.KerberosFactory] 
+      service org.wildfly.data-source.ExampleDS (missing) dependents: [service org.wildfly.security.security-realm.NewJdbcScramSha512, service org.wildfly.security.security-realm.NewJdbcScramSha384] 
+      service org.wildfly.security.credential-store.credstore1 (missing) dependents: [service org.wildfly.security.key-manager.serverKey2, service org.wildfly.security.key-manager.clientKey] 
+      service org.wildfly.security.principal-transformer.FinalNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.FinalNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PostRealmNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PostRealmNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PreRealmNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PreRealmNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.a (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.principal-transformer.b (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.principal-transformer.c (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.providers.TestProviderLoader (missing) dependents: [service org.wildfly.security.sasl-server-factory.ProviderSaslFactory] 
+      service org.wildfly.security.providers.custom-loader (missing) dependents: [service org.wildfly.security.ssl-context.client, service org.wildfly.security.trust-manager.serverTrust2, service org.wildfly.security.key-manager.serverKey2, service org.wildfly.security.ssl-context.server, WFLYCTL0208: ... and 2 more ] 
+      service org.wildfly.security.realm-mapper.RegexMapper (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.realm-mapper.RegexMapper_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.realm-mapper.d (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+      service org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+      service org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+      service org.wildfly.security.permission-set.user-permissions: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+      service org.wildfly.security.key-store.PKCS_11: WFLYELY00004: Unable to start the service.
+      service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+      service org.wildfly.security.permission-set.my-permissions: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+      service org.wildfly.security.permission-set.john-permissions: WFLYELY00038: Could not load permission class 'a.b.JohnPermission'
+      service org.wildfly.security.security-factory.credential.CustomFactory: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+WFLYCTL0448: 18 additional services are down due to their dependencies being missing or failed
+WFLYCTL0028: Attribute 'permissions' in the resource at address '/subsystem=elytron/constant-permission-mapper=ConstantPermissionMapperLegacy' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-store=Custom_PKCS_11' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-manager=serverKey2' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+    org.wildfly.security.credential-store.credstore1; Possible registration points for this capability: 
+		/subsystem=elytron/credential-store=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/sasl-authentication-factory=SaslAuthenticationDefinition' are not available:
+    org.wildfly.security.principal-transformer.FinalNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PreRealmNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.realm-mapper.RegexMapper_II; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.realm-mapper.RegexMapper; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.principal-transformer.PostRealmNameRewriter_II; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PreRealmNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.FinalNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.PostRealmNameRewriter; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/sasl-authentication-factory=KerberosHttpMgmtSaslTestCase' are not available:
+    org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/custom-credential-security-factory=*
+		/subsystem=elytron/kerberos-security-factory=*
+    org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/security-domain=*
+    org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-sasl-server-factory=*
+		/subsystem=elytron/configurable-sasl-server-factory=*
+		/subsystem=elytron/mechanism-provider-filtering-sasl-server-factory=*
+		/subsystem=elytron/provider-sasl-server-factory=*
+		/subsystem=elytron/service-loader-sasl-server-factory=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/jdbc-realm=NewJdbcScramSha512' are not available:
+    org.wildfly.data-source.ExampleDS; There are no known registration points which can provide this capability.
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/server-ssl-context=server' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+    org.wildfly.security.realm-mapper.d; Possible registration points for this capability: 
+		/subsystem=elytron/constant-realm-mapper=*
+		/subsystem=elytron/custom-realm-mapper=*
+		/subsystem=elytron/mapped-regex-realm-mapper=*
+		/subsystem=elytron/simple-regex-realm-mapper=*
+    org.wildfly.security.principal-transformer.b; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.a; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+    org.wildfly.security.principal-transformer.c; Possible registration points for this capability: 
+		/subsystem=elytron/concatenating-principal-decoder=*
+		/subsystem=elytron/constant-principal-decoder=*
+		/subsystem=elytron/x500-attribute-principal-decoder=*
+		/subsystem=elytron/aggregate-principal-transformer=*
+		/subsystem=elytron/chained-principal-transformer=*
+		/subsystem=elytron/constant-principal-transformer=*
+		/subsystem=elytron/custom-principal-transformer=*
+		/subsystem=elytron/regex-principal-transformer=*
+		/subsystem=elytron/regex-validating-principal-transformer=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/trust-manager=serverTrust2' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/client-ssl-context=client' are not available:
+    org.wildfly.security.providers.custom-loader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/key-manager=clientKey' are not available:
+    org.wildfly.security.credential-store.credstore1; Possible registration points for this capability: 
+		/subsystem=elytron/credential-store=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/provider-sasl-server-factory=ProviderSaslFactory' are not available:
+    org.wildfly.security.providers.TestProviderLoader; Possible registration points for this capability: 
+		/subsystem=elytron/aggregate-providers=*
+		/subsystem=elytron/provider-loader=*
+WFLYCTL0362: Capabilities required by resource '/subsystem=elytron/jdbc-realm=NewJdbcScramSha384' are not available:
+    org.wildfly.data-source.ExampleDS; There are no known registration points which can provide this capability.
+MSC000001: Failed to start service org.wildfly.security.security-factory.credential.CustomFactory
+org.jboss.msc.service.StartException in service org.wildfly.security.security-factory.credential.CustomFactory: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.createValue(CustomComponentDefinition.java:170)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.lambda$performRuntime$0(CustomComponentDefinition.java:135)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler$$Lambda$125.000000006C05CF70.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:609)
+	at java.lang.ClassLoader.loadClassHelper(ClassLoader.java:925)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:870)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:343)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:853)
+	at org.wildfly.extension.elytron.CustomComponentDefinition$ComponentAddHandler.createValue(CustomComponentDefinition.java:149)
+	... 11 more
+MSC000001: Failed to start service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:396)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createConstantPermissionMapper(PermissionMapperDefinitions.java:391)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.access$100(PermissionMapperDefinitions.java:76)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$4.lambda$getValueSupplier$0(PermissionMapperDefinitions.java:383)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$4$$Lambda$137.000000006C0659A0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:396)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createSimplePermissionMapper(PermissionMapperDefinitions.java:340)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.access$000(PermissionMapperDefinitions.java:76)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$3.lambda$getValueSupplier$0(PermissionMapperDefinitions.java:328)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions$3$$Lambda$136.000000006C0F9290.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.my-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.my-permissions: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.john-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.john-permissions: WFLYELY00038: Could not load permission class 'a.b.JohnPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.permission-set.user-permissions
+org.jboss.msc.service.StartException in service org.wildfly.security.permission-set.user-permissions: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermission(PermissionMapperDefinitions.java:432)
+	at org.wildfly.extension.elytron.PermissionMapperDefinitions.createPermissions(PermissionMapperDefinitions.java:410)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1.lambda$getValueSupplier$0(PermissionSetDefinition.java:75)
+	at org.wildfly.extension.elytron.PermissionSetDefinition$1$$Lambda$153.000000006C0FC2F0.get(Unknown Source)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+MSC000001: Failed to start service org.wildfly.security.key-store.PKCS_11
+org.jboss.msc.service.StartException in service org.wildfly.security.key-store.PKCS_11: WFLYELY00004: Unable to start the service.
+	at org.wildfly.extension.elytron.KeyStoreService.start(KeyStoreService.java:149)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: org.jboss.msc.service.StartException in anonymous service: WFLYELY00012: No suitable provider found for type 'PKCS#11'
+	at org.wildfly.extension.elytron.KeyStoreService.resolveProvider(KeyStoreService.java:158)
+	at org.wildfly.extension.elytron.KeyStoreService.start(KeyStoreService.java:111)
+	... 8 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("credential-store" => "test2")
+]) - failure description: "WFLYELY00921: Location parameter is not specified for filebased keystore type 'JCEKS'"
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("jdbc-realm" => "NewJdbcScramSha384")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.data-source.ExampleDS"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NewJdbcScramSha384 is missing [org.wildfly.data-source.ExampleDS]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("jdbc-realm" => "NewJdbcScramSha512")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.data-source.ExampleDS"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NewJdbcScramSha512 is missing [org.wildfly.data-source.ExampleDS]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "PropRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.PropRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "NonDomainRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.NonDomainRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FileRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.modifiable-security-realm.FileRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("custom-credential-security-factory" => "CustomFactory")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.security-factory.credential.CustomFactory" => "java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+    Caused by: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("kerberos-security-factory" => "KerberosFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-factory.credential.KerberosFactory is missing [jboss.server.path.\"server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("kerberos-security-factory" => "OptionLessKerberosFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-factory.credential.OptionLessKerberosFactory is missing [jboss.server.path.\"server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("simple-permission-mapper" => "SimplePermissionMapperLegacy")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy" => "WFLYELY00038: Could not load permission class 'a.b.MyPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("constant-permission-mapper" => "ConstantPermissionMapperLegacy")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy" => "WFLYELY00038: Could not load permission class 'a.b.UserPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "my-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.my-permissions" => "WFLYELY00038: Could not load permission class 'a.b.MyPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "john-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.john-permissions" => "WFLYELY00038: Could not load permission class 'a.b.JohnPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("permission-set" => "user-permissions")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.permission-set.user-permissions" => "WFLYELY00038: Could not load permission class 'a.b.UserPermission'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("sasl-authentication-factory" => "SaslAuthenticationDefinition")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.principal-transformer.PostRealmNameRewriter_II",
+        "org.wildfly.security.principal-transformer.FinalNameRewriter",
+        "org.wildfly.security.realm-mapper.RegexMapper_II",
+        "org.wildfly.security.principal-transformer.FinalNameRewriter_II",
+        "org.wildfly.security.realm-mapper.RegexMapper",
+        "org.wildfly.security.principal-transformer.PreRealmNameRewriter_II",
+        "org.wildfly.security.principal-transformer.PostRealmNameRewriter",
+        "org.wildfly.security.principal-transformer.PreRealmNameRewriter"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition is missing [org.wildfly.security.principal-transformer.FinalNameRewriter, org.wildfly.security.principal-transformer.FinalNameRewriter_II, org.wildfly.security.principal-transformer.PostRealmNameRewriter_II, org.wildfly.security.realm-mapper.RegexMapper, org.wildfly.security.principal-transformer.PostRealmNameRewriter, org.wildfly.security.principal-transformer.PreRealmNameRewriter, org.wildfly.security.realm-mapper.RegexMapper_II, org.wildfly.security.principal-transformer.PreRealmNameRewriter_II]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("sasl-authentication-factory" => "KerberosHttpMgmtSaslTestCase")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase",
+        "org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase",
+        "org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase is missing [org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase, org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase, org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("provider-sasl-server-factory" => "ProviderSaslFactory")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.TestProviderLoader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.sasl-server-factory.ProviderSaslFactory is missing [org.wildfly.security.providers.TestProviderLoader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "PKCS_11")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.key-store.PKCS_11" => "WFLYELY00004: Unable to start the service.
+    Caused by: org.jboss.msc.service.StartException in anonymous service: WFLYELY00012: No suitable provider found for type 'PKCS#11'"}}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "jks_store")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.jks_store is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "jceks_store")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.jceks_store is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "Custom_PKCS_11")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.Custom_PKCS_11 is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-store" => "accounts.keystore")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-store.\"accounts.keystore\" is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-manager" => "serverKey2")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.credential-store.credstore1",
+        "org.wildfly.security.providers.custom-loader"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-manager.serverKey2 is missing [org.wildfly.security.providers.custom-loader, org.wildfly.security.credential-store.credstore1]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("key-manager" => "clientKey")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.credential-store.credstore1"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.key-manager.clientKey is missing [org.wildfly.security.credential-store.credstore1]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("trust-manager" => "serverTrust2")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.trust-manager.serverTrust2 is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("trust-manager" => "trust-with-crl")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.trust-manager.trust-with-crl is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("server-ssl-context" => "server")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.security.realm-mapper.d",
+        "org.wildfly.security.principal-transformer.b",
+        "org.wildfly.security.principal-transformer.c",
+        "org.wildfly.security.principal-transformer.a",
+        "org.wildfly.security.providers.custom-loader"
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.ssl-context.server is missing [org.wildfly.security.principal-transformer.a, org.wildfly.security.principal-transformer.c, org.wildfly.security.realm-mapper.d, org.wildfly.security.principal-transformer.b, org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("client-ssl-context" => "client")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["org.wildfly.security.providers.custom-loader"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.ssl-context.client is missing [org.wildfly.security.providers.custom-loader]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("credential-store" => "test1")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.data.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.credential-store.test1 is missing [jboss.server.path.\"jboss.server.data.dir\"]"]
+}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.NonDomainRealm, service org.wildfly.security.key-store.jceks_store, service org.wildfly.security.key-store.jks_store, service org.wildfly.security.trust-manager.trust-with-crl, WFLYCTL0208: ... and 4 more ] 
+      service jboss.server.path."jboss.server.data.dir" (missing) dependents: [service org.wildfly.security.credential-store.test1] 
+      service jboss.server.path."server.config.dir" (missing) dependents: [service org.wildfly.security.security-factory.credential.OptionLessKerberosFactory, service org.wildfly.security.security-factory.credential.KerberosFactory] 
+      service org.wildfly.data-source.ExampleDS (missing) dependents: [service org.wildfly.security.security-realm.NewJdbcScramSha512, service org.wildfly.security.security-realm.NewJdbcScramSha384] 
+      service org.wildfly.security.credential-store.credstore1 (missing) dependents: [service org.wildfly.security.key-manager.serverKey2, service org.wildfly.security.key-manager.clientKey] 
+      service org.wildfly.security.principal-transformer.FinalNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.FinalNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PostRealmNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PostRealmNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PreRealmNameRewriter (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.PreRealmNameRewriter_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.principal-transformer.a (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.principal-transformer.b (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.principal-transformer.c (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.providers.TestProviderLoader (missing) dependents: [service org.wildfly.security.sasl-server-factory.ProviderSaslFactory] 
+      service org.wildfly.security.providers.custom-loader (missing) dependents: [service org.wildfly.security.ssl-context.client, service org.wildfly.security.key-manager.serverKey2, service org.wildfly.security.trust-manager.serverTrust2, service org.wildfly.security.ssl-context.server, WFLYCTL0208: ... and 2 more ] 
+      service org.wildfly.security.realm-mapper.RegexMapper (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.realm-mapper.RegexMapper_II (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.SaslAuthenticationDefinition] 
+      service org.wildfly.security.realm-mapper.d (missing) dependents: [service org.wildfly.security.ssl-context.server] 
+      service org.wildfly.security.sasl-server-factory.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+      service org.wildfly.security.security-domain.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+      service org.wildfly.security.security-factory.credential.KerberosHttpMgmtSaslTestCase (missing) dependents: [service org.wildfly.security.sasl-authentication-factory.KerberosHttpMgmtSaslTestCase] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.permission-set.my-permissions: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+      service org.wildfly.security.security-factory.credential.CustomFactory: java.lang.ClassNotFoundException: org.wildfly.security.ElytronFactory
+      service org.wildfly.security.permission-mapper.ConstantPermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+      service org.wildfly.security.permission-mapper.SimplePermissionMapperLegacy: WFLYELY00038: Could not load permission class 'a.b.MyPermission'
+      service org.wildfly.security.permission-set.john-permissions: WFLYELY00038: Could not load permission class 'a.b.JohnPermission'
+      service org.wildfly.security.key-store.PKCS_11: WFLYELY00004: Unable to start the service.
+      service org.wildfly.security.permission-set.user-permissions: WFLYELY00038: Could not load permission class 'a.b.UserPermission'
+WFLYCTL0448: 18 additional services are down due to their dependencies being missing or failed

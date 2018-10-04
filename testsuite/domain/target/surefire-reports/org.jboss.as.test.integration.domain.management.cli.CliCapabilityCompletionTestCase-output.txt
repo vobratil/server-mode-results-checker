@@ -1,0 +1,2 @@
+[Host Controller] [0m[0m22:59:14,430 INFO  [org.jboss.as.protocol] (management I/O-2) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread][0m
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.

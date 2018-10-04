@@ -1,0 +1,15 @@
+[0m22:17:16,908 INFO  [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-3) Logging test: Log4jCustomHandlerTestCase.defaultLoggingTest
+[0m[33m22:17:16,908 WARN  [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-3) Logging test: Log4jCustomHandlerTestCase.defaultLoggingTest
+[0m[31m22:17:16,908 ERROR [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-3) Logging test: Log4jCustomHandlerTestCase.defaultLoggingTest
+[0m[31m22:17:16,909 FATAL [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-3) Logging test: Log4jCustomHandlerTestCase.defaultLoggingTest
+[0m[0m22:17:17,030 INFO  [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-1) Logging Test: Log4jCustomHandlerTestCase.disabledLoggerTest
+[0m[33m22:17:17,031 WARN  [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-1) Logging Test: Log4jCustomHandlerTestCase.disabledLoggerTest
+[0m[31m22:17:17,031 ERROR [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-1) Logging Test: Log4jCustomHandlerTestCase.disabledLoggerTest
+[0m[31m22:17:17,031 FATAL [org.jboss.as.test.integration.logging.Log4jServiceActivator] (XNIO-1 I/O-1) Logging Test: Log4jCustomHandlerTestCase.disabledLoggerTest
+[0m[0m22:17:17,138 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 14ms
+[0m[0m22:17:17,177 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/ae/7b54cfeebe6e0ca5d202c31fae7945becef5a0/content
+[0m[0m22:17:17,178 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[0m22:17:17,249 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:17:17,251 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:17:17,281 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 24ms
+[0m

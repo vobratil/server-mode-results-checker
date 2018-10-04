@@ -1,0 +1,7 @@
+2018-10-03 22:16:24,546 [MSC service thread 1-1] INFO - Started Undertow on 127.0.0.1:8080
+2018-10-03 22:16:24,630 [XNIO-1 I/O-1] DEBUG - logTest: log4j.xml message - debug
+2018-10-03 22:16:24,630 [XNIO-1 I/O-1] TRACE - logTest: log4j.xml message - trace
+2018-10-03 22:16:24,630 [XNIO-1 I/O-1] INFO - logTest: log4j.xml message - info
+2018-10-03 22:16:24,630 [XNIO-1 I/O-1] WARN - logTest: log4j.xml message - warn
+2018-10-03 22:16:24,630 [XNIO-1 I/O-1] ERROR - logTest: log4j.xml message - error
+2018-10-03 22:16:24,630 [XNIO-1 I/O-1] FATAL - logTest: log4j.xml message - fatal

@@ -1,0 +1,13 @@
+[0m22:29:07,334 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-6) Added context 'static'
+[0m[0m22:29:07,337 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-6) Added context 'remap'
+[0m[0m22:29:07,338 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-6) Added context 'secured-dynamic'
+[0m[0m22:29:07,338 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-6) Added context 'unsecured-dynamic'
+[0mresp = HttpResponseProxy{HTTP/1.1 401 Unauthorized [Connection: keep-alive, WWW-Authenticate: Digest realm="ManagementRealm", nonce="AAAAAgAABGak1hY4UnvL3zdSX4ZwSvGmAk6IfiuZLEA9zTgvrvUFSpcqiUM=", opaque="00000000000000000000000000000000", algorithm=MD5, qop=auth, Content-Length: 77, Content-Type: text/html, Date: Wed, 03 Oct 2018 22:29:07 GMT] ResponseEntityProxy{[Content-Type: text/html,Content-Length: 77,Chunked: false]}}
+[0m22:29:07,610 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-5) Removed context 'static'
+[0m[0m22:29:07,610 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-5) Removed context 'remap'
+[0m[0m22:29:07,611 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-5) Removed context 'secured-dynamic'
+[0m[0m22:29:07,611 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-5) Removed context 'unsecured-dynamic'
+[0m[0m22:29:07,668 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:29:07,670 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:29:07,696 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 20ms
+[0m

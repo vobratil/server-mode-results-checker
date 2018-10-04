@@ -1,0 +1,139 @@
+{"outcome" => "success"}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {
+        "operation-requires-reload" => true,
+        "process-state" => "reload-required"
+    }
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}
+{
+    "outcome" => "success",
+    "response-headers" => {"process-state" => "reload-required"}
+}

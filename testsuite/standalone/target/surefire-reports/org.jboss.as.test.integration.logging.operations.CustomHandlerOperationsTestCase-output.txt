@@ -1,0 +1,198 @@
+[0m22:17:26,887 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 11ms
+[0m[0m22:17:26,905 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 28ms
+[0m[0m22:17:26,907 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m22:17:26,960 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m22:17:26,986 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m22:17:27,014 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m22:17:27,019 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0mFailed to invoke setter setAutoFlush with value false
+.java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:287)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:271)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doApplyPostCreate(LogContextConfigurationImpl.java:313)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doPrepare(LogContextConfigurationImpl.java:345)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.prepare(LogContextConfigurationImpl.java:289)
+	at org.jboss.as.logging.logmanager.ConfigurationPersistence.prepare(ConfigurationPersistence.java:299)
+	at org.jboss.as.logging.LoggingOperations$CommitOperationStepHandler.execute(LoggingOperations.java:106)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:521)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:470)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:432)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:427)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:386)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:811)
+Failed to invoke setter setTarget with value null
+.java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:287)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:271)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doApplyPostCreate(LogContextConfigurationImpl.java:313)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doPrepare(LogContextConfigurationImpl.java:345)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.prepare(LogContextConfigurationImpl.java:289)
+	at org.jboss.as.logging.logmanager.ConfigurationPersistence.prepare(ConfigurationPersistence.java:299)
+	at org.jboss.as.logging.LoggingOperations$CommitOperationStepHandler.execute(LoggingOperations.java:106)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.boot(ModelControllerImpl.java:521)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:470)
+	at org.jboss.as.controller.AbstractControllerService.boot(AbstractControllerService.java:432)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:427)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:386)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:811)
+[33m22:17:27,045 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-7) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m22:17:27,051 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[0m22:17:27,085 INFO  [org.wildfly.test.undertow.UndertowService] (MSC service thread 1-1) Started Undertow on 127.0.0.1:8080
+[0m[0m22:17:27,089 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "logging-test.jar" (runtime-name : "logging-test.jar")
+[0m[0m22:17:27,149 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m22:17:27,150 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m22:17:27,150 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m22:17:27,151 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 241ms - Started 103 of 106 services (25 services are lazy, passive or on-demand)
+[0m[0m22:17:27,201 INFO  [org.jboss.as.protocol] (management I/O-1) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread]
+[0m[0m22:17:27,595 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 14ms
+[0m[0m22:17:27,603 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 23ms
+[0m[0m22:17:27,606 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m22:17:27,699 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m22:17:27,737 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m22:17:27,816 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m22:17:27,823 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m22:17:27,826 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[33m22:17:27,874 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m22:17:27,920 INFO  [org.wildfly.test.undertow.UndertowService] (MSC service thread 1-1) Started Undertow on 127.0.0.1:8080
+[0m[0m22:17:27,926 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "logging-test.jar" (runtime-name : "logging-test.jar")
+[0m[0m22:17:27,953 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m22:17:27,956 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m22:17:27,957 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m22:17:27,958 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 349ms - Started 103 of 106 services (25 services are lazy, passive or on-demand)
+[0mFailed to invoke setter setAutoFlush with value false
+.java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:287)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:271)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doApplyPostCreate(LogContextConfigurationImpl.java:313)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doPrepare(LogContextConfigurationImpl.java:345)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.prepare(LogContextConfigurationImpl.java:289)
+	at org.jboss.as.logging.logmanager.ConfigurationPersistence.prepare(ConfigurationPersistence.java:299)
+	at org.jboss.as.logging.LoggingOperations$CommitOperationStepHandler.execute(LoggingOperations.java:106)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$277.00000000EC009A90.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$278.00000000EC00A1A0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$276.00000000EC0097D0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Failed to invoke setter setTarget with value null
+.java.lang.NullPointerException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:287)
+	at org.jboss.logmanager.config.AbstractPropertyConfiguration$2.applyPostCreate(AbstractPropertyConfiguration.java:271)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doApplyPostCreate(LogContextConfigurationImpl.java:313)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.doPrepare(LogContextConfigurationImpl.java:345)
+	at org.jboss.logmanager.config.LogContextConfigurationImpl.prepare(LogContextConfigurationImpl.java:289)
+	at org.jboss.as.logging.logmanager.ConfigurationPersistence.prepare(ConfigurationPersistence.java:299)
+	at org.jboss.as.logging.LoggingOperations$CommitOperationStepHandler.execute(LoggingOperations.java:106)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$277.00000000EC009A90.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$278.00000000EC00A1A0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$276.00000000EC0097D0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+[0m22:17:28,172 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 9ms
+[0m[0m22:17:28,177 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 14ms
+[0m[0m22:17:28,178 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m22:17:28,251 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m22:17:28,282 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m22:17:28,322 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m22:17:28,326 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m22:17:28,330 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[33m22:17:28,343 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-6) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m22:17:28,377 INFO  [org.wildfly.test.undertow.UndertowService] (MSC service thread 1-7) Started Undertow on 127.0.0.1:8080
+[0m[0m22:17:28,383 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "logging-test.jar" (runtime-name : "logging-test.jar")
+[0m[0m22:17:28,415 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m22:17:28,416 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m22:17:28,416 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m22:17:28,416 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 235ms - Started 103 of 106 services (25 services are lazy, passive or on-demand)
+[0m[0m22:17:28,437 INFO  [org.jboss.as.protocol] (management I/O-1) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread]
+[0m[0m22:17:28,520 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 6ms
+[0m[0m22:17:28,565 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/d9/9ea80d55d3cc36f6126b8baf51ce60d16dd542/content
+[0m[0m22:17:28,566 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[0m22:17:28,587 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 11ms
+[0m[0m22:17:28,589 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m22:17:28,643 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m22:17:28,665 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m22:17:28,704 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m22:17:28,713 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m22:17:28,728 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-8) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m22:17:28,843 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m22:17:28,845 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m22:17:28,845 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m22:17:28,846 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 254ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[0m[0m22:17:28,878 INFO  [org.jboss.as.protocol] (management I/O-1) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread]
+[0m[0m22:17:28,917 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:17:28,922 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:17:28,948 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m

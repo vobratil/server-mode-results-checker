@@ -1,0 +1,180 @@
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:56:44 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block-model") failed - address: ([])
+java.lang.RuntimeException: java.lang.InterruptedException
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:155)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.access$100(OperationCancellationUnitTestCase.java:77)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase$ModelStageBlocksHandler.execute(OperationCancellationUnitTestCase.java:420)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$43.0000000074009860.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$38.00000000043E0810.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$42.0000000074009260.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$41.0000000074004890.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1009)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1315)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:242)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:153)
+	... 26 more
+
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.OperationContextImpl$ActiveOperationResource cancel
+INFO: WFLYCTL0352: Cancelling operation 'composite' with id '-1420358837' running on thread 'pool-1-thread-1'
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0027: Operation was interrupted before service container stability could be reached. Process should be restarted. Step that first updated the service container was 'good-service' at address '[]'
+=========  New Test 
+
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.OperationContextImpl$ActiveOperationResource cancel
+INFO: WFLYCTL0352: Cancelling operation 'composite' with id '-1413603844' running on thread 'pool-1-thread-1'
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block-runtime") failed - address: ([])
+java.lang.RuntimeException: java.lang.InterruptedException
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:155)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.access$100(OperationCancellationUnitTestCase.java:77)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase$RuntimeStageBlocksHandler$1.execute(OperationCancellationUnitTestCase.java:449)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$43.0000000074009860.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$38.00000000043E0810.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$42.0000000074009260.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$41.0000000074004890.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1009)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1315)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:242)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:153)
+	... 26 more
+
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.OperationContextImpl$ActiveOperationResource cancel
+INFO: WFLYCTL0352: Cancelling operation 'composite' with id '-790296946' running on thread 'pool-1-thread-1'
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block-model") failed - address: ([])
+java.lang.RuntimeException: java.lang.InterruptedException
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:155)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.access$100(OperationCancellationUnitTestCase.java:77)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase$ModelStageBlocksHandler.execute(OperationCancellationUnitTestCase.java:420)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$43.0000000074009860.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$38.00000000043E0810.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$42.0000000074009260.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$41.0000000074004890.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1009)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1315)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:242)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:153)
+	... 26 more
+
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("block-runtime") failed - address: ([])
+java.lang.RuntimeException: java.lang.InterruptedException
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:155)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.access$100(OperationCancellationUnitTestCase.java:77)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase$RuntimeStageBlocksHandler$1.execute(OperationCancellationUnitTestCase.java:449)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$43.0000000074009860.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$38.00000000043E0810.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$42.0000000074009260.apply(Unknown Source)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.executeInModelControllerCl(ModelControllerClientFactoryImpl.java:259)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.lambda$runOperation$0(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$$Lambda$41.0000000074004890.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.controller.SecurityActions$InVmActions$1.runInVm(SecurityActions.java:149)
+	at org.jboss.as.controller.SecurityActions.runInVm(SecurityActions.java:49)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.runOperation(ModelControllerClientFactoryImpl.java:249)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient.access$600(ModelControllerClientFactoryImpl.java:114)
+	at org.jboss.as.controller.ModelControllerClientFactoryImpl$LocalClient$2.run(ModelControllerClientFactoryImpl.java:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1009)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1315)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:242)
+	at org.jboss.as.controller.OperationCancellationUnitTestCase.block(OperationCancellationUnitTestCase.java:153)
+	... 26 more
+
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.OperationContextImpl releaseStepLocks
+ERROR: WFLYCTL0027: Operation was interrupted before service container stability could be reached. Process should be restarted. Step that first updated the service container was 'good-service' at address '[]'
+=========  New Test 
+
+Oct 03, 2018 4:56:44 PM org.jboss.as.controller.OperationContextImpl$ActiveOperationResource cancel
+INFO: WFLYCTL0352: Cancelling operation 'good' with id '1436446254' running on thread 'pool-1-thread-2'

@@ -1,0 +1,18 @@
+[logback] 2018-10-03_22:39:19.350 [main] INFO  org.jboss.modules - JBoss Modules version 1.8.6.Final
+[logback] 2018-10-03_22:39:19.991 [main] INFO  org.jboss.msc - JBoss MSC version 1.4.5.Final
+[logback] 2018-10-03_22:39:20.019 [main] INFO  org.jboss.threads - JBoss Threads version 2.3.2.Final
+[logback] 2018-10-03_22:39:20.282 [MSC service thread 1-2] INFO  org.jboss.as - WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[logback] 2018-10-03_22:39:21.075 [ServerService Thread Pool -- 6] INFO  org.wildfly.security - ELY00001: WildFly Elytron version 1.7.0.CR2
+[logback] 2018-10-03_22:39:21.240 [Controller Boot Thread] INFO  o.j.a.c.management-deprecated - WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[logback] 2018-10-03_22:39:21.299 [Controller Boot Thread] INFO  org.jboss.as.server - WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[logback] 2018-10-03_22:39:21.361 [MSC service thread 1-6] INFO  org.xnio - XNIO version 3.6.5.Final
+[logback] 2018-10-03_22:39:21.374 [MSC service thread 1-6] INFO  org.xnio.nio - XNIO NIO Implementation Version 3.6.5.Final
+[logback] 2018-10-03_22:39:21.470 [MSC service thread 1-4] INFO  org.jboss.remoting - JBoss Remoting version 5.0.8.Final
+[logback] 2018-10-03_22:39:21.597 [MSC service thread 1-2] INFO  org.jboss.as.patching - WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[logback] 2018-10-03_22:39:21.631 [MSC service thread 1-6] WARN  o.j.as.domain.management.security - WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/embedded/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[logback] 2018-10-03_22:39:21.698 [MSC service thread 1-7] WARN  o.jboss.as.domain.http.api.undertow - WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[logback] 2018-10-03_22:39:21.862 [Controller Boot Thread] INFO  org.jboss.as.server - WFLYSRV0212: Resuming server
+[logback] 2018-10-03_22:39:21.867 [Controller Boot Thread] INFO  org.jboss.as - WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[logback] 2018-10-03_22:39:21.867 [Controller Boot Thread] INFO  org.jboss.as - WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[logback] 2018-10-03_22:39:21.868 [Controller Boot Thread] INFO  org.jboss.as - WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2505ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[logback] 2018-10-03_22:39:21.893 [MSC service thread 1-5] INFO  org.jboss.as - WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 15ms

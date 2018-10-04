@@ -1,0 +1,9 @@
+[Host Controller] [0m[0m22:54:55,611 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Added context 'static'[0m
+[Host Controller] [0m[0m22:54:55,612 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Added context 'remap'[0m
+[Host Controller] [0m[0m22:54:55,612 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Added context 'secured-dynamic'[0m
+[Host Controller] [0m[0m22:54:55,613 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Added context 'unsecured-dynamic'[0m
+resp = HttpResponseProxy{HTTP/1.1 401 Unauthorized [Connection: keep-alive, WWW-Authenticate: Digest realm="ManagementRealm", nonce="AAAAAgAABc8eBNvXl4RugU4+8qukedccG3eTogtYDbUT08SOtaKen4wGIAw=", opaque="00000000000000000000000000000000", algorithm=MD5, qop=auth, Content-Length: 77, Content-Type: text/html, Date: Wed, 03 Oct 2018 22:54:55 GMT] ResponseEntityProxy{[Content-Type: text/html,Content-Length: 77,Chunked: false]}}
+[Host Controller] [0m[0m22:54:55,780 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Removed context 'static'[0m
+[Host Controller] [0m[0m22:54:55,780 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Removed context 'remap'[0m
+[Host Controller] [0m[0m22:54:55,780 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Removed context 'secured-dynamic'[0m
+[Host Controller] [0m[0m22:54:55,780 INFO  [org.jboss.as.test.integration.management.extension.customcontext.CustomContextExtension] (MSC service thread 1-1) Removed context 'unsecured-dynamic'[0m

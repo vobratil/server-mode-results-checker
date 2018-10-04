@@ -1,0 +1,75 @@
+2018-10-03 22:45:58,769 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:45:59,140 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:45:59,150 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:45:59,201 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:45:59,986 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:45:59,988 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:45:59,989 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:46:00,090 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)
+2018-10-03 22:46:00,098 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+2018-10-03 22:46:00,105 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:46:00,151 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:46:00,159 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:46:00,230 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 22:46:00,362 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:46:01,458 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:46:01,514 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-three
+2018-10-03 22:46:05,069 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 3349246c (inbound) of Remoting connection 191b2a30 to rhel7-large-81357/127.0.0.1:55780 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:05,104 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-four
+2018-10-03 22:46:05,116 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three
+2018-10-03 22:46:08,985 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-four] connected using connection [Channel ID 04bbd313 (inbound) of Remoting connection 829e3fa6 to rhel7-large-81357/127.0.0.1:55782 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:09,003 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-four
+2018-10-03 22:46:09,008 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:19990/management and https://127.0.0.1:-1/management
+2018-10-03 22:46:09,009 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2018-10-03 22:46:09,009 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 10830ms - Started 51 of 53 services (16 services are lazy, passive or on-demand)
+2018-10-03 22:46:15,542 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-three
+2018-10-03 22:46:18,974 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-three] connected using connection [Channel ID 40217722 (inbound) of Remoting connection cc9669db to rhel7-large-81357/127.0.0.1:55788 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:18,982 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-four
+2018-10-03 22:46:18,983 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-three
+2018-10-03 22:46:21,497 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-four] connected using connection [Channel ID 3063a43e (inbound) of Remoting connection 6e6dfacd to rhel7-large-81357/127.0.0.1:55790 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:21,504 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-four
+2018-10-03 22:46:22,025 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server main-three
+2018-10-03 22:46:22,046 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server main-four
+2018-10-03 22:46:22,063 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-three
+2018-10-03 22:46:22,102 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:46:22,123 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-four
+2018-10-03 22:46:22,131 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-four
+2018-10-03 22:46:22,174 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-three
+2018-10-03 22:46:22,178 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:46:22,180 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-four
+2018-10-03 22:46:22,199 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-three
+2018-10-03 22:46:22,205 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-four
+2018-10-03 22:46:22,241 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-four
+2018-10-03 22:46:34,518 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server main-three
+2018-10-03 22:46:36,995 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 153754f9 (inbound) of Remoting connection 3780e9d4 to rhel7-large-81357/127.0.0.1:55800 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:37,002 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server main-four
+2018-10-03 22:46:37,002 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three
+2018-10-03 22:46:41,840 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-four] connected using connection [Channel ID 3e29f825 (inbound) of Remoting connection 7aaae95d to rhel7-large-81357/127.0.0.1:55802 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:41,858 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-three
+2018-10-03 22:46:41,861 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-four
+2018-10-03 22:46:45,595 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-three] connected using connection [Channel ID 4d0148d9 (inbound) of Remoting connection 9ce867f6 to rhel7-large-81357/127.0.0.1:55804 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:45,602 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-three
+2018-10-03 22:46:45,603 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-four
+2018-10-03 22:46:48,272 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-four] connected using connection [Channel ID 6f571fc8 (inbound) of Remoting connection f54262c5 to rhel7-large-81357/127.0.0.1:55806 of endpoint "slave:MANAGEMENT" <32a9a6f7>]
+2018-10-03 22:46:48,282 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-four
+2018-10-03 22:46:48,873 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:46:48,875 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:46:49,882 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:46:53,887 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:02,896 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:03,420 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:07,386 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:47:07,399 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0029: Unregistered at domain controller
+2018-10-03 22:47:07,405 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 10) WFLYHC0024: Stopping server main-three
+2018-10-03 22:47:07,406 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 10) WFLYHC0024: Stopping server main-four
+2018-10-03 22:47:07,407 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 10) WFLYHC0024: Stopping server other-three
+2018-10-03 22:47:07,407 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 10) WFLYHC0024: Stopping server other-four
+2018-10-03 22:47:07,459 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:47:07,464 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-four
+2018-10-03 22:47:07,484 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server main-four
+2018-10-03 22:47:07,500 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-three
+2018-10-03 22:47:07,542 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-four
+2018-10-03 22:47:07,543 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-four
+2018-10-03 22:47:07,543 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 4) WFLYHC0027: Unregistering server other-three
+2018-10-03 22:47:07,543 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:47:07,636 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 244ms

@@ -1,0 +1,64 @@
+2018-10-03 22:53:49 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "1741f4b0-f532-4c1a-b926-8800577bfaf2",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "1741f4b0-f532-4c1a-b926-8800577bfaf2",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:58 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "b9ce8d3c-3f12-4050-b997-96e2ab17c4ce",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "b9ce8d3c-3f12-4050-b997-96e2ab17c4ce",
+            "execute-for-coordinator" : true
+        }
+    }]
+}

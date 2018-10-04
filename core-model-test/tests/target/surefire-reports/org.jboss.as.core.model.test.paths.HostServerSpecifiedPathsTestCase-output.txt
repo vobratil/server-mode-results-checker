@@ -1,0 +1,76 @@
+Oct 03, 2018 5:12:28 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:12:28 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/core-service=management/management-interface=native-interface' are not available:
+    org.wildfly.network.interface.management in context 'global'; Possible registration points for this capability: 
+		/interface=*
+		/server-config=*/interface=*
+		/host=master/interface=*
+		/host=master/server-config=*/interface=*
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/path=relative' are not available:
+    org.wildfly.management.path.path in context 'global'; Possible registration points for this capability: 
+		/path=*
+		/server-config=*/path=*
+		/host=master/path=*
+		/host=master/server-config=*/path=*
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/server-config=server-one/path=relative' are not available:
+    org.wildfly.management.path.path in context 'server-config'; Possible registration points for this capability: 
+		/path=*
+		/server-config=*/path=*
+		/host=master/path=*
+		/host=master/server-config=*/path=*
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("path" => "relative")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.path"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.server.path.relative is missing [jboss.server.path.path]"]
+}
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path.path (missing) dependents: [service jboss.server.path.relative] 
+
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/path=relative' are not available:
+    org.wildfly.management.path.path in context 'global'; Possible registration points for this capability: 
+		/path=*
+		/server-config=*/path=*
+		/host=master/path=*
+		/host=master/server-config=*/path=*
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/core-service=management/management-interface=native-interface' are not available:
+    org.wildfly.network.interface.management in context 'global'; Possible registration points for this capability: 
+		/interface=*
+		/server-config=*/interface=*
+		/host=master/interface=*
+		/host=master/server-config=*/interface=*
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/server-config=server-one/path=relative' are not available:
+    org.wildfly.management.path.path in context 'server-config'; Possible registration points for this capability: 
+		/path=*
+		/server-config=*/path=*
+		/host=master/path=*
+		/host=master/server-config=*/path=*
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("path" => "relative")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.path"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.server.path.relative is missing [jboss.server.path.path]"]
+}
+Oct 03, 2018 5:12:30 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path.path (missing) dependents: [service jboss.server.path.relative] 
+

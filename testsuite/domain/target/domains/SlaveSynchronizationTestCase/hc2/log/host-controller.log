@@ -1,0 +1,32 @@
+2018-10-03 23:15:01,826 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:15:02,707 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:15:02,732 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:15:02,850 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:15:03,680 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=hc2/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:15:03,687 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:15:03,919 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+2018-10-03 23:15:03,929 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:15:03,944 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:15:04,003 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:15:04,024 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 23:15:04,066 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 23:15:05,296 INFO  [org.jboss.as.test.integration.management.extension.error.ErrorExtension] (Host Controller Service Threads - 2) Registered error-test operations
+2018-10-03 23:15:05,657 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 23:15:05,704 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server server-one
+2018-10-03 23:15:08,732 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:server-one] connected using connection [Channel ID 0de2a322 (inbound) of Remoting connection 4872e235 to rhel7-large-81357/127.0.0.1:35724 of endpoint "hc2:MANAGEMENT" <4170e82d>]
+2018-10-03 23:15:08,759 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server server-two
+2018-10-03 23:15:08,770 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-one
+2018-10-03 23:15:12,260 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:server-two] connected using connection [Channel ID 44d2edbb (inbound) of Remoting connection 2e71850d to rhel7-large-81357/127.0.0.1:35726 of endpoint "hc2:MANAGEMENT" <4170e82d>]
+2018-10-03 23:15:12,272 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-two
+2018-10-03 23:15:12,277 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 11148ms - Started 42 of 45 services (13 services are lazy, passive or on-demand)
+2018-10-03 23:15:13,899 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 5) WFLYCTL0013: Operation ("verify-running-server") failed - address: ([("host" => "hc2")]) - failure description: "WFLYHC0078: Server (server-one) still running"
+2018-10-03 23:15:14,698 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 23:15:14,700 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 5) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 23:15:14,771 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 23:15:14,782 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 6) WFLYHC0024: Stopping server server-one
+2018-10-03 23:15:14,784 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 6) WFLYHC0024: Stopping server server-two
+2018-10-03 23:15:14,816 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server server-one
+2018-10-03 23:15:14,829 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server server-two
+2018-10-03 23:15:14,888 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-one
+2018-10-03 23:15:14,889 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server server-two
+2018-10-03 23:15:14,937 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 161ms

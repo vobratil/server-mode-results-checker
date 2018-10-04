@@ -1,0 +1,46 @@
+2018-10-03 22:55:20,685 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:55:21,083 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:55:21,099 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+2018-10-03 22:55:24,857 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+2018-10-03 22:55:28,664 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+2018-10-03 22:56:05,555 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:09,839 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:09,880 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:15,006 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:18,085 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:18,115 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:22,080 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:25,802 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:25,863 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:29,974 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:33,400 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:33,431 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:36,717 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:40,669 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:40,693 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:44,278 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:51,952 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:51,987 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:52,250 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:56:55,324 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:56:55,356 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:56:59,804 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:57:03,297 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:57:03,323 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:57:07,004 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+2018-10-03 22:57:11,353 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+2018-10-03 22:57:11,410 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+2018-10-03 22:57:30,659 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+2018-10-03 22:57:30,660 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+2018-10-03 22:57:30,718 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+2018-10-03 22:57:30,721 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+2018-10-03 22:57:31,179 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+2018-10-03 22:57:34,556 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+2018-10-03 22:57:49,373 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0017: Shutting down process controller
+2018-10-03 22:57:49,374 INFO  [org.jboss.as.process.Host Controller.status] (Shutdown thread) WFLYPC0019: Stopping process 'Host Controller'
+2018-10-03 22:57:49,390 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+2018-10-03 22:57:49,393 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+2018-10-03 22:57:49,457 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+2018-10-03 22:57:49,459 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+2018-10-03 22:57:49,559 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 0
+2018-10-03 22:57:49,560 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0016: All processes finished; exiting

@@ -1,0 +1,295 @@
+[Host Controller] [0m[0m23:06:14,698 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server server-unaffected[0m
+[0m23:06:14,805 INFO  [org.jboss.as.process.Server:server-unaffected.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:server-unaffected'
+[0m[Server:server-unaffected] [0m23:06:15,646 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:server-unaffected] [0m[0m23:06:16,103 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:server-unaffected] [0m[0m23:06:16,112 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:server-unaffected] [0m[0m23:06:16,246 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:server-unaffected] [0m[0m23:06:16,340 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final[0m
+[Server:server-unaffected] [0m[0m23:06:16,354 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:server-unaffected] [0m[0m23:06:16,418 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final[0m
+[Server:server-unaffected] [0m[0m23:06:16,798 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:06:17,341 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:server-unaffected] connected using connection [Channel ID 05212865 (inbound) of Remoting connection ed41d88d to rhel7-large-81357/127.0.0.1:60896 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:06:17,351 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-unaffected[0m
+[Server:server-unaffected] [0m[0m23:06:17,731 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:server-unaffected] [0m23:06:17,861 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:server-unaffected] 23:06:17,865 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2905ms - Started 43 of 60 services (23 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:06:19,014 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server server-affected[0m
+[0m23:06:19,118 INFO  [org.jboss.as.process.Server:server-affected.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:server-affected'
+[0m[Server:server-affected] [0m23:06:19,936 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:server-affected] [0m[0m23:06:20,366 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:server-affected] [0m[0m23:06:20,377 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:server-affected] [0m[0m23:06:20,526 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:server-affected] [0m[0m23:06:20,610 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final[0m
+[Server:server-affected] [0m[0m23:06:20,615 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:server-affected] [0m[0m23:06:20,663 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final[0m
+[Server:server-affected] [0m[0m23:06:21,032 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:06:21,588 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:server-affected] connected using connection [Channel ID 1a29b98d (inbound) of Remoting connection 945fa524 to rhel7-large-81357/127.0.0.1:60898 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:06:21,597 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-affected[0m
+[Server:server-affected] [0m[0m23:06:21,885 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:server-affected] [0m23:06:22,011 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:server-affected] 23:06:22,013 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2733ms - Started 43 of 60 services (23 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:06:22,719 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/21/8f4c22b870be54e0ff53ae6b3137bfe629f444/content[0m
+[Server:server-affected] 23:06:22,853 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "reconnect-slave-depone.jar" (runtime-name: "reconnect-slave-depone.jar")
+[Server:server-affected] 23:06:22,949 INFO  [stdout] (MSC service thread 1-7) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne setting property test.deployment.prop.one=one
+[Server:server-affected] 23:06:23,023 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "reconnect-slave-depone.jar" (runtime-name : "reconnect-slave-depone.jar")
+[Host Controller] [0m[0m23:06:23,048 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/94/ac760f68636d2a3a633836dce5c6f8a5fe4507/content[0m
+[Server:server-affected] 23:06:23,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "reconnect-slave-deptwo.jar" (runtime-name: "reconnect-slave-deptwo.jar")
+[Server:server-affected] 23:06:23,109 INFO  [stdout] (MSC service thread 1-3) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentTwo setting property test.deployment.prop.two=two
+[Server:server-affected] 23:06:23,145 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "reconnect-slave-deptwo.jar" (runtime-name : "reconnect-slave-deptwo.jar")
+[Host Controller] [0m[0m23:06:23,319 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 17) WFLYHC0024: Stopping server main-one[0m
+[0m23:06:23,321 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Server:main-one] 23:06:23,324 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:06:23,326 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+[Host Controller] [0m[0m23:06:23,361 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:06:23,370 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 30ms
+[0m23:06:23,380 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:06:23,422 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[33m23:06:23,468 WARN  [org.jboss.as.domain.controller] (MSC service thread 1-3) WFLYHC0030: Connection to remote host "slave" closed unexpectedly[0m
+[Host Controller] [0m[33m23:06:23,480 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.[0m
+[Host Controller] [33m[0m[0m23:06:23,483 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 11) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [33m[0m[0m23:06:23,489 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 177ms[0m
+[Host Controller] [0m[0m23:06:23,491 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:06:23,556 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:06:23,557 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:06:23,600 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:06:23,612 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:06:23,639 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[33m23:06:23,653 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:06:23,931 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:06:23,931 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:06:23,932 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 440ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)[0m
+[Host Controller] [0m[0m23:06:24,264 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/21/8f4c22b870be54e0ff53ae6b3137bfe629f444/content[0m
+[Host Controller] [0m[0m23:06:24,285 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/73/b3fdb7a1f3f6431a3736c777eb3b0bf99cd2f5/content[0m
+[Host Controller] [0m[0m23:06:24,346 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/94/ac760f68636d2a3a633836dce5c6f8a5fe4507/content[0m
+[Host Controller] [0m[0m23:06:24,369 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/23/a727bbb1350482f7445346a08bed67efdf47fe/content[0m
+[Host Controller] [0m[0m23:06:24,411 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/c4/0aaecf59ae8bb17142bf35da9865286082c9e5/content[0m
+[Host Controller] [0m[0m23:06:24,447 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms[0m
+[Host Controller] [0m[0m23:06:24,448 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:06:24,495 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:06:24,497 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:06:24,489 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 11) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [0m[0m23:06:24,511 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:06:24,516 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[33m23:06:24,526 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-8) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:06:24,527 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:06:24,721 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-one[0m
+[0m23:06:24,871 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:06:25,715 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:06:26,126 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:06:26,134 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:06:26,271 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:06:26,491 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+[Server:main-one] 23:06:26,505 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:06:26,572 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:06:27,513 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:06:28,501 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 11) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [0m[0m23:06:28,856 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 12) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/94/ac760f68636d2a3a633836dce5c6f8a5fe4507/content[0m
+[Host Controller] [0m[33m23:06:28,857 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 12) WFLYHC0202: The domain configuration was successfully applied, but reload is required before changes become active.[0m
+[Host Controller] [0m[0m23:06:28,860 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 36) WFLYHC0019: Registered remote slave host "slave", WildFly 7.0.0.Alpha3-SNAPSHOT ""[0m
+[Host Controller] [33m[0m[0m23:06:28,862 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 11) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:06:29,035 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 47b1ee2f (inbound) of Remoting connection 21994e46 to rhel7-large-81357/127.0.0.1:40974 of endpoint "master:MANAGEMENT" <5abfa95f>][0m
+[Host Controller] [0m[0m23:06:29,043 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[Host Controller] [0m[0m23:06:29,050 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:06:29,051 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1[0m
+[Host Controller] [0m[0m23:06:29,052 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 4601ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)[0m
+[Server:main-one] 23:06:29,340 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 16) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-one] 23:06:29,393 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:06:29,548 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-one] 23:06:29,550 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4541ms - Started 49 of 68 services (26 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:07:31,419 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server main-three[0m
+[Server:main-three] 23:07:31,429 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 30ms
+[Server:main-three] 23:07:31,434 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m23:07:31,481 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 75570ebe (inbound) of Remoting connection 728d55d6 to rhel7-large-81357/127.0.0.1:32990 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:07:31,496 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three[0m
+[Server:main-three] 23:07:31,546 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 12) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-three] 23:07:31,552 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-three] 23:07:31,602 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-three] 23:07:31,602 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 167ms - Started 50 of 69 services (27 services are lazy, passive or on-demand)
+[Server:server-affected] 23:07:31,834 INFO  [stdout] (MSC service thread 1-5) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne clearing property test.deployment.prop.one
+[Server:server-affected] 23:07:31,836 INFO  [stdout] (MSC service thread 1-4) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentTwo clearing property test.deployment.prop.two
+[Server:server-affected] 23:07:31,848 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment reconnect-slave-deptwo.jar (runtime-name: reconnect-slave-deptwo.jar) in 18ms
+[Server:server-affected] 23:07:31,849 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment reconnect-slave-depone.jar (runtime-name: reconnect-slave-depone.jar) in 19ms
+[Host Controller] [0m[0m23:07:31,859 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server server-affected[0m
+[Server:server-affected] 23:07:31,888 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 60ms
+[Server:server-affected] 23:07:31,892 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m23:07:31,982 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:server-affected] connected using connection [Channel ID 7f840ada (inbound) of Remoting connection b4f34433 to rhel7-large-81357/127.0.0.1:32992 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:07:31,996 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-affected[0m
+[Server:server-affected] 23:07:32,113 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:server-affected] 23:07:32,116 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "reconnect-slave-depone.jar" (runtime-name: "reconnect-slave-depone.jar")
+[Server:server-affected] 23:07:32,118 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "reconnect-slave-depfour.jar" (runtime-name: "reconnect-slave-depfour.jar")
+[Server:server-affected] 23:07:32,151 INFO  [stdout] (MSC service thread 1-3) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentFour setting property test.deployment.prop.four=four
+[Server:server-affected] 23:07:32,151 INFO  [stdout] (MSC service thread 1-8) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentThree setting property test.deployment.prop.three=three
+[Server:server-affected] 23:07:32,160 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "reconnect-slave-depfour.jar" (runtime-name : "reconnect-slave-depfour.jar")
+[Server:server-affected] 23:07:32,160 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "reconnect-slave-depone.jar" (runtime-name : "reconnect-slave-depone.jar")
+[Server:server-affected] 23:07:32,195 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:server-affected] 23:07:32,196 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 303ms - Started 79 of 96 services (27 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:07:32,282 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/c4/0aaecf59ae8bb17142bf35da9865286082c9e5/content[0m
+[Host Controller] [0m[0m23:07:32,289 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 13) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/c4/0aaecf59ae8bb17142bf35da9865286082c9e5/content[0m
+[Server:server-affected] 23:07:32,367 INFO  [stdout] (MSC service thread 1-7) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentFour clearing property test.deployment.prop.four
+[Server:server-affected] 23:07:32,373 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment reconnect-slave-depfour.jar (runtime-name: reconnect-slave-depfour.jar) in 7ms
+[Server:server-affected] 23:07:32,407 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "reconnect-slave-depfour.jar" (runtime-name: "reconnect-slave-depfour.jar")
+[Server:server-affected] 23:07:32,414 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/server-affected/content/23/a727bbb1350482f7445346a08bed67efdf47fe/content
+[Host Controller] [0m[0m23:07:32,420 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 13) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/23/a727bbb1350482f7445346a08bed67efdf47fe/content[0m
+[Host Controller] [0m[0m23:07:32,423 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/23/a727bbb1350482f7445346a08bed67efdf47fe/content[0m
+[Server:server-affected] 23:07:32,462 INFO  [stdout] (MSC service thread 1-1) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentThree clearing property test.deployment.prop.three
+[Server:server-affected] 23:07:32,467 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment reconnect-slave-depone.jar (runtime-name: reconnect-slave-depone.jar) in 6ms
+[Server:server-affected] 23:07:32,485 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "reconnect-slave-depone.jar" (runtime-name: "reconnect-slave-depone.jar")
+[Server:server-affected] 23:07:32,486 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/server-affected/content/73/b3fdb7a1f3f6431a3736c777eb3b0bf99cd2f5/content
+[Host Controller] [0m[0m23:07:32,499 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 13) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/73/b3fdb7a1f3f6431a3736c777eb3b0bf99cd2f5/content[0m
+[Host Controller] [0m[0m23:07:32,500 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 13) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/73/b3fdb7a1f3f6431a3736c777eb3b0bf99cd2f5/content[0m
+[Host Controller] [0m[0m23:07:32,503 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/73/b3fdb7a1f3f6431a3736c777eb3b0bf99cd2f5/content[0m
+[Host Controller] [0m[0m23:07:32,514 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server server-affected[0m
+[Server:server-affected] 23:07:32,529 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0236: Suspending server with no timeout.
+[0m23:07:32,536 INFO  [org.jboss.as.process.Server:server-affected.status] (ProcessController-threads - 4) WFLYPC0019: Stopping process 'Server:server-affected'
+[0m[Server:server-affected] 23:07:32,539 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:07:32,563 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server server-affected[0m
+[Server:server-affected] 23:07:32,566 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 14ms
+[0m23:07:32,575 INFO  [org.jboss.as.process.Server:server-affected.status] (reaper for Server:server-affected) WFLYPC0011: Process 'Server:server-affected' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:07:32,616 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-affected[0m
+[Host Controller] [0m[0m23:07:32,969 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server server-unaffected[0m
+[Server:server-unaffected] 23:07:32,977 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m23:07:33,023 INFO  [org.jboss.as.process.Server:server-unaffected.status] (ProcessController-threads - 4) WFLYPC0019: Stopping process 'Server:server-unaffected'
+[0m[Server:server-unaffected] 23:07:33,025 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:07:33,059 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server server-unaffected[0m
+[Server:server-unaffected] 23:07:33,067 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 34ms
+[0m23:07:33,077 INFO  [org.jboss.as.process.Server:server-unaffected.status] (reaper for Server:server-unaffected) WFLYPC0011: Process 'Server:server-unaffected' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:07:33,079 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-unaffected[0m
+[Host Controller] [0m[0m23:07:33,423 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server server-unaffected[0m
+[0m23:07:33,525 INFO  [org.jboss.as.process.Server:server-unaffected.status] (ProcessController-threads - 4) WFLYPC0018: Starting process 'Server:server-unaffected'
+[0m[Server:server-unaffected] 23:07:34,371 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:server-unaffected] 23:07:34,812 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:server-unaffected] 23:07:34,821 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:server-unaffected] 23:07:34,962 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:server-unaffected] 23:07:35,056 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+[Server:server-unaffected] 23:07:35,062 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+[Server:server-unaffected] 23:07:35,097 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:server-unaffected] 23:07:35,464 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:07:36,391 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:server-unaffected] connected using connection [Channel ID 5b06933b (inbound) of Remoting connection 5db6604c to rhel7-large-81357/127.0.0.1:32994 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:07:36,402 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-unaffected[0m
+[Server:server-unaffected] 23:07:36,767 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:server-unaffected] 23:07:36,867 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:server-unaffected] 23:07:36,869 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3147ms - Started 43 of 60 services (23 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:07:37,076 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server server-affected[0m
+[0m23:07:37,179 INFO  [org.jboss.as.process.Server:server-affected.status] (ProcessController-threads - 4) WFLYPC0018: Starting process 'Server:server-affected'
+[0m[Server:server-affected] 23:07:38,685 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:server-affected] 23:07:39,101 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:server-affected] 23:07:39,109 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:server-affected] 23:07:39,246 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:server-affected] 23:07:39,336 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+[Server:server-affected] 23:07:39,342 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+[Server:server-affected] 23:07:39,376 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+[Server:server-affected] 23:07:39,837 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:07:40,728 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:server-affected] connected using connection [Channel ID 5645f722 (inbound) of Remoting connection 29493e02 to rhel7-large-81357/127.0.0.1:32996 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:07:40,738 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-affected[0m
+[Server:server-affected] 23:07:41,086 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:server-affected] 23:07:41,198 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:server-affected] 23:07:41,200 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3873ms - Started 43 of 60 services (23 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:07:41,384 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/8a/d7d21c71b049b7003ba31b5f1322974df77ac8/content[0m
+[Host Controller] [0m[0m23:07:41,763 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/15/0b1f68981864f4cf945e37af389488720ae83a/content[0m
+[Server:server-affected] 23:07:41,886 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "reconnect-slave-dep.jar" (runtime-name: "reconnect-slave-dep.jar")
+[Server:server-affected] 23:07:42,120 INFO  [stdout] (MSC service thread 1-7) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne setting property test.deployment.prop.one=one
+[Server:server-affected] 23:07:42,125 INFO  [stdout] (MSC service thread 1-7) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne setting property test.overlay.prop.one=initial
+[Server:server-affected] 23:07:42,167 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0010: Deployed "reconnect-slave-dep.jar" (runtime-name : "reconnect-slave-dep.jar")
+[Host Controller] [0m[0m23:07:42,287 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 36) WFLYHC0024: Stopping server main-one[0m
+[0m23:07:42,293 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 6) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Server:main-one] 23:07:42,299 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:07:42,311 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+[Host Controller] [0m[0m23:07:42,337 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:07:42,344 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 26ms
+[0m23:07:42,355 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:07:42,397 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[33m23:07:42,445 WARN  [org.jboss.as.host.controller] (management task-2) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.[0m
+[Host Controller] [33m[0m[0m23:07:42,446 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 18) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [0m[33m23:07:42,443 WARN  [org.jboss.as.domain.controller] (MSC service thread 1-1) WFLYHC0030: Connection to remote host "slave" closed unexpectedly[0m
+[Host Controller] [33m[0m[0m23:07:42,471 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 193ms[0m
+[Host Controller] [0m[0m23:07:42,486 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:07:42,717 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:07:42,719 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:07:42,738 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:07:42,748 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[33m23:07:42,763 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-8) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:07:42,766 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:07:43,079 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:07:43,079 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:07:43,079 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 592ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)[0m
+[Host Controller] [0m[0m23:07:43,450 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 18) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [0m[0m23:07:43,457 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/8a/d7d21c71b049b7003ba31b5f1322974df77ac8/content[0m
+[Host Controller] [0m[0m23:07:43,467 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/13/a1891af75c642306a6b695377d16e4a91f0e1b/content[0m
+[Host Controller] [0m[33m23:07:43,483 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 18) WFLYHC0146: Could not discover master using discovery option StaticDiscovery{protocol=remote,host=127.0.0.1,port=9999}. Error was: 3-$-WFLYDC0014: The master host controller cannot register slave host controllers as it's current running mode is 'ADMIN_ONLY'[0m
+[Host Controller] [33m[0m[33m23:07:43,484 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 18) WFLYHC0147: No domain controller discovery options remain.[0m
+[Host Controller] [0m[0m23:07:43,509 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 23ms[0m
+[Host Controller] [0m[0m23:07:43,510 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:07:43,599 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:07:43,602 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:07:43,630 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:07:43,655 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[33m23:07:43,666 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-6) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:07:43,680 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:07:43,942 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-one[0m
+[0m23:07:44,083 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 6) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:07:45,720 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:07:46,159 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:07:46,168 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:07:46,314 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:07:46,408 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:main-one] 23:07:46,413 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:07:46,449 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:07:46,824 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [33m[0m[0m23:07:47,484 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 18) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [0m[0m23:07:47,827 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 23) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/8a/d7d21c71b049b7003ba31b5f1322974df77ac8/content[0m
+[Host Controller] [0m[33m23:07:47,828 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 23) WFLYHC0202: The domain configuration was successfully applied, but reload is required before changes become active.[0m
+[Host Controller] [0m[0m23:07:47,830 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 75) WFLYHC0019: Registered remote slave host "slave", WildFly 7.0.0.Alpha3-SNAPSHOT ""[0m
+[Host Controller] [33m[0m[0m23:07:47,832 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 18) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:07:48,064 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 5c0ac661 (inbound) of Remoting connection 74756e23 to rhel7-large-81357/127.0.0.1:41552 of endpoint "master:MANAGEMENT" <b9a50718>][0m
+[Host Controller] [0m[0m23:07:48,070 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[Host Controller] [0m[0m23:07:48,074 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:07:48,075 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1[0m
+[Host Controller] [0m[0m23:07:48,076 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 4564ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)[0m
+[Server:main-one] 23:07:48,375 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 14) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-one] 23:07:48,407 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:07:48,495 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-one] 23:07:48,505 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3939ms - Started 49 of 68 services (26 services are lazy, passive or on-demand)
+[Server:server-affected] 23:08:50,213 INFO  [stdout] (MSC service thread 1-7) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne clearing property test.deployment.prop.one
+[Server:server-affected] 23:08:50,219 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment reconnect-slave-dep.jar (runtime-name: reconnect-slave-dep.jar) in 10ms
+[Host Controller] [0m[0m23:08:50,230 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server server-affected[0m
+[Server:server-affected] 23:08:50,239 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 31ms
+[Server:server-affected] 23:08:50,242 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m23:08:50,294 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:server-affected] connected using connection [Channel ID 6cebe915 (inbound) of Remoting connection fb53781a to rhel7-large-81357/127.0.0.1:33568 of endpoint "slave:MANAGEMENT" <f4e4c806>][0m
+[Host Controller] [0m[0m23:08:50,305 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server server-affected[0m
+[Server:server-affected] 23:08:50,402 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:server-affected] 23:08:50,420 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "reconnect-slave-dep.jar" (runtime-name: "reconnect-slave-dep.jar")
+[Server:server-affected] 23:08:50,457 INFO  [stdout] (MSC service thread 1-1) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne setting property test.deployment.prop.one=one
+[Server:server-affected] 23:08:50,459 INFO  [stdout] (MSC service thread 1-1) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne setting property test.overlay.prop.one=updated
+[Server:server-affected] 23:08:50,480 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "reconnect-slave-dep.jar" (runtime-name : "reconnect-slave-dep.jar")
+[Server:server-affected] 23:08:50,561 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:server-affected] 23:08:50,562 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 320ms - Started 61 of 78 services (25 services are lazy, passive or on-demand)
+[Server:server-affected] 23:08:50,707 INFO  [stdout] (MSC service thread 1-5) ===> class org.jboss.as.test.integration.domain.slavereconnect.deployment.ServiceActivatorDeploymentOne clearing property test.deployment.prop.one
+[Server:server-affected] 23:08:50,716 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment reconnect-slave-dep.jar (runtime-name: reconnect-slave-dep.jar) in 10ms
+[Server:server-affected] 23:08:50,741 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "reconnect-slave-dep.jar" (runtime-name: "reconnect-slave-dep.jar")
+[Server:server-affected] 23:08:50,747 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/server-affected/content/15/0b1f68981864f4cf945e37af389488720ae83a/content
+[Host Controller] [0m[0m23:08:50,752 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 25) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/15/0b1f68981864f4cf945e37af389488720ae83a/content[0m
+[Host Controller] [0m[0m23:08:50,755 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/15/0b1f68981864f4cf945e37af389488720ae83a/content[0m
+[Server:main-one] 23:08:50,964 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/servers/main-one/data/content/13/a1891af75c642306a6b695377d16e4a91f0e1b/content
+[Server:main-three] 23:08:50,976 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 6) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/main-three/content/8a/d7d21c71b049b7003ba31b5f1322974df77ac8/content
+[Server:server-unaffected] 23:08:50,981 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/server-unaffected/content/8a/d7d21c71b049b7003ba31b5f1322974df77ac8/content
+[Server:server-affected] 23:08:50,983 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/server-affected/content/13/a1891af75c642306a6b695377d16e4a91f0e1b/content
+[Server:other-two] 23:08:50,980 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 4) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/servers/other-two/content/8a/d7d21c71b049b7003ba31b5f1322974df77ac8/content
+[Host Controller] [0m[0m23:08:50,997 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 26) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/slave/data/content/13/a1891af75c642306a6b695377d16e4a91f0e1b/content[0m
+[Host Controller] [0m[0m23:08:51,000 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveReconnectTestCase/master/data/content/13/a1891af75c642306a6b695377d16e4a91f0e1b/content[0m
+[Host Controller] [0m[0m23:08:51,190 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server server-affected[0m
+[Server:server-affected] 23:08:51,198 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0236: Suspending server with no timeout.
+[0m23:08:51,202 INFO  [org.jboss.as.process.Server:server-affected.status] (ProcessController-threads - 5) WFLYPC0019: Stopping process 'Server:server-affected'
+[0m[Server:server-affected] 23:08:51,205 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:08:51,222 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server server-affected[0m
+[Server:server-affected] 23:08:51,228 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m23:08:51,243 INFO  [org.jboss.as.process.Server:server-affected.status] (reaper for Server:server-affected) WFLYPC0011: Process 'Server:server-affected' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:08:51,285 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-affected[0m
+[Host Controller] [0m[0m23:08:51,482 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server server-unaffected[0m
+[Server:server-unaffected] 23:08:51,490 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m23:08:51,531 INFO  [org.jboss.as.process.Server:server-unaffected.status] (ProcessController-threads - 5) WFLYPC0019: Stopping process 'Server:server-unaffected'
+[0m[Server:server-unaffected] 23:08:51,533 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:08:51,562 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0027: Unregistering server server-unaffected[0m
+[Server:server-unaffected] 23:08:51,578 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 37ms
+[0m23:08:51,591 INFO  [org.jboss.as.process.Server:server-unaffected.status] (reaper for Server:server-unaffected) WFLYPC0011: Process 'Server:server-unaffected' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:08:51,593 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-unaffected[0m
+[Host Controller] [0m[0m23:08:51,787 INFO  [org.jboss.as.domain.controller] (management task-1) WFLYHC0026: Unregistered remote slave host "slave"[0m

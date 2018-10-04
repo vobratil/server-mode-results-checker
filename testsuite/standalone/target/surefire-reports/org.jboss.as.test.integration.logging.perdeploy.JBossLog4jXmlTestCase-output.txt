@@ -1,0 +1,7 @@
+[0m22:16:15,780 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 20ms
+[0m[0m22:16:15,802 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/c3/53d2c6c66b019049a87454b7076431b2149f72/content
+[0m[0m22:16:15,802 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[0m22:16:15,820 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:16:15,822 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:16:15,854 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 26ms
+[0m

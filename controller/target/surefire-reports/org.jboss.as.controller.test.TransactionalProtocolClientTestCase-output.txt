@@ -1,0 +1,43 @@
+Oct 03, 2018 4:54:33 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.8.Final
+Oct 03, 2018 4:54:33 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 4:54:33 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 4:54:33 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:54:33 PM org.wildfly.security.Version <clinit>
+INFO: ELY00001: WildFly Elytron version 1.7.0.CR2
+Oct 03, 2018 4:54:34 PM org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner cancel
+INFO: WFLYPRT0057:  cancelled task by interrupting thread Thread[pool-5-thread-1,5,main]
+Oct 03, 2018 4:54:35 PM org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner cancel
+INFO: WFLYPRT0057:  cancelled task by interrupting thread Thread[pool-9-thread-1,5,main]
+Oct 03, 2018 4:54:35 PM org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler doExecute
+ERROR: WFLYCTL0403: Unexpected failure during execution of the following operation(s): [{
+    "outcome" => "success",
+    "result" => "test"
+}]
+java.lang.RuntimeException: java.lang.InterruptedException
+	at org.jboss.as.controller.test.TransactionalProtocolClientTestCase$MockController.getAction(TransactionalProtocolClientTestCase.java:431)
+	at org.jboss.as.controller.test.TransactionalProtocolClientTestCase$MockController.execute(TransactionalProtocolClientTestCase.java:457)
+	at org.jboss.as.controller.MockModelController.execute(MockModelController.java:43)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.InterruptedException
+	at org.xnio.AbstractIoFuture.awaitInterruptibly(AbstractIoFuture.java:482)
+	at org.xnio.AbstractIoFuture.getInterruptibly(AbstractIoFuture.java:548)
+	at org.jboss.as.controller.test.TransactionalProtocolClientTestCase$MockController.getAction(TransactionalProtocolClientTestCase.java:429)
+	... 16 more
+

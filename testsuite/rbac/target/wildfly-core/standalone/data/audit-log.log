@@ -1,0 +1,1718 @@
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Operator"
+            }
+        ],
+        "operation" : "add",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Operator"
+            },
+            {
+                "include" : "user-Operator"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "Operator",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Maintainer"
+            }
+        ],
+        "operation" : "add",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Maintainer"
+            },
+            {
+                "include" : "user-Maintainer"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "Maintainer",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Auditor"
+            }
+        ],
+        "operation" : "add",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Auditor"
+            },
+            {
+                "include" : "user-Auditor"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "Auditor",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Monitor"
+            }
+        ],
+        "operation" : "add",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Monitor"
+            },
+            {
+                "include" : "user-Monitor"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "Monitor",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Administrator"
+            }
+        ],
+        "operation" : "add",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Administrator"
+            },
+            {
+                "include" : "user-Administrator"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "Administrator",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "SuperUser"
+            },
+            {
+                "include" : "user-SuperUser"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "SuperUser",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Deployer"
+            }
+        ],
+        "operation" : "add",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:48 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Deployer"
+            },
+            {
+                "include" : "user-Deployer"
+            }
+        ],
+        "operation" : "add",
+        "type" : "user",
+        "name" : "Deployer",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "in-memory-handler" : "changes"
+            }
+        ],
+        "name" : "max-history",
+        "value" : 2,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "in-memory-handler" : "changes"
+            }
+        ],
+        "name" : "max-history",
+        "value" : 3,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : false,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "write-attribute",
+        "name" : "allowed-origins",
+        "value" : "http://www.wildfly.org",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "add",
+        "value" : "changeConfig",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:50 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "management-interface" : "http-interface"
+            }
+        ],
+        "operation" : "undefine-attribute",
+        "name" : "allowed-origins",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "SuperUser",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [{
+            "system-property" : "test"
+        }],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Operator"
+            },
+            {
+                "include" : "user-Operator"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Operator"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Maintainer"
+            },
+            {
+                "include" : "user-Maintainer"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Maintainer"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Auditor"
+            },
+            {
+                "include" : "user-Auditor"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Auditor"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Monitor"
+            },
+            {
+                "include" : "user-Monitor"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Monitor"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Administrator"
+            },
+            {
+                "include" : "user-Administrator"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Administrator"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "SuperUser"
+            },
+            {
+                "include" : "user-SuperUser"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Deployer"
+            },
+            {
+                "include" : "user-Deployer"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "authorization"
+            },
+            {
+                "role-mapping" : "Deployer"
+            }
+        ],
+        "operation" : "remove",
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}
+2018-10-03 22:40:51 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : null,
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "caller-type" : "user",
+            "access-mechanism" : "NATIVE"
+        }
+    }]
+}

@@ -1,0 +1,50 @@
+- project:
+    name: "server-mode-results-checker-project"
+    jobs:
+      - "server-mode-results-checker"
+
+- job-template:
+    id: "server-mode-results-checker"
+    name: "server-mode-results-checker-test"
+    project-type: freestyle
+    jdk: 'openjdk-1.8'
+
+    description: |
+      This is an experimental job, that is intended to test Results Checker in server mode on data from AS-TS builds.
+
+    properties:
+      - build-discarder:
+          num-to-keep: 5
+
+    wrappers:
+      - timeout:
+          type: absolute
+          timeout: 10
+      - workspace-cleanup
+      - timestamps
+
+    builders:
+      - shell: |
+          git clone git@github.com:vobratil/server-mode-results-checker.git .
+
+          # Install Results Checker
+          git clone git@gitlab.mw.lab.eng.bos.redhat.com:jbossqe-eap/results-checker.git results-checker
+          cd results-checker
+          mvn clean install -DskipTests
+          cd ..
+
+
+    publishers:
+      - postbuildscript:
+          generic-script:
+            - file-path: '${{WORKSPACE}}/results-checker.sh'
+              role: SLAVE
+              build-on:
+                - SUCCESS
+                - FAILURE
+                - UNSTABLE
+
+      - workspace-cleanup
+      - archive:
+          artifacts: "logs.zip,**/target/raw.json,**/target/surefire-reports/*.xml, **/results-checker-report.*"
+

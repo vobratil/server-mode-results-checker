@@ -1,0 +1,17 @@
+set user MainGroupMaintainer
+set user MainGroupMaintainer
+set user MainGroupMaintainer
+set password t3stSu!tePassword
+set user HostMasterMaintainer
+set user HostMasterMaintainer
+set user HostMasterMaintainer
+set password t3stSu!tePassword
+set user HostSlaveMaintainer
+set user HostSlaveMaintainer
+set user HostSlaveMaintainer
+set password t3stSu!tePassword
+set user Maintainer
+set user Maintainer
+set user Maintainer
+set password t3stSu!tePassword
+[Host Controller] [0m[0m22:52:39,218 INFO  [org.jboss.as.domain.controller] (management task-9) WFLYHC0026: Unregistered remote slave host "slave"[0m

@@ -1,0 +1,363 @@
+[Host Controller] [0m[0m23:16:22,637 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/data/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content[0m
+[Server:main-three] 23:16:22,836 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-one] 23:16:22,846 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-three] 23:16:22,928 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:22,929 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:22,930 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:22,931 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:22,959 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:22,960 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:22,961 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:22,961 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:23,212 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-one] 23:16:23,214 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-one] 23:16:23,324 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 20ms
+[Host Controller] [0m[0m23:16:23,349 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:16:23,370 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 68ms
+[Server:main-one] 23:16:23,378 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:16:23,444 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0260: Starting server in suspended mode
+[Host Controller] [0m[0m23:16:23,463 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 2f78980f (inbound) of Remoting connection fb8c271f to rhel7-large-81357/127.0.0.1:44804 of endpoint "master:MANAGEMENT" <3cf9ff9a>][0m
+[Host Controller] [0m[0m23:16:23,502 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[Server:main-one] 23:16:23,627 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 16) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-one] 23:16:23,645 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:16:23,660 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-one] 23:16:23,711 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:23,711 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:23,712 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:23,713 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:23,772 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-one] 23:16:23,807 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 428ms - Started 69 of 86 services (28 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:16:23,959 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 23:16:23,972 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 67ms
+[Server:other-two] 23:16:23,975 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:16:24,077 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0260: Starting server in suspended mode
+[Host Controller] [0m[0m23:16:24,098 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 3fc01263 (inbound) of Remoting connection 4a8545ef to rhel7-large-81357/127.0.0.1:36818 of endpoint "slave:MANAGEMENT" <95561588>][0m
+[Host Controller] [0m[0m23:16:24,112 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:main-three] 23:16:24,165 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 20ms
+[Host Controller] [0m[0m23:16:24,188 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three[0m
+[Server:main-three] 23:16:24,191 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 48ms
+[Server:main-three] 23:16:24,214 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-three] 23:16:24,306 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0260: Starting server in suspended mode
+[Host Controller] [0m[0m23:16:24,337 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 51fa9712 (inbound) of Remoting connection 31fa3625 to rhel7-large-81357/127.0.0.1:36820 of endpoint "slave:MANAGEMENT" <95561588>][0m
+[Server:other-two] 23:16:24,366 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 2) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Host Controller] [0m[0m23:16:24,382 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three[0m
+[Server:other-two] 23:16:24,406 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:16:24,562 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 586ms - Started 50 of 69 services (27 services are lazy, passive or on-demand)
+[Server:main-three] 23:16:24,713 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 10) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-three] 23:16:24,732 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-three] 23:16:24,748 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-three] 23:16:24,784 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:24,785 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:24,785 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:24,786 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:24,849 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-three] 23:16:24,890 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 675ms - Started 70 of 87 services (29 services are lazy, passive or on-demand)
+[Server:main-one] 23:16:25,013 INFO  [stdout] (XNIO-2 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:25,026 INFO  [stdout] (XNIO-2 I/O-3) Rejected 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:25,107 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 3) WFLYSRV0212: Resuming server
+[Server:main-three] 23:16:25,187 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0212: Resuming server
+[Server:other-two] 23:16:25,190 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 15) WFLYSRV0212: Resuming server
+[Server:main-one] 23:16:25,209 INFO  [stdout] (XNIO-2 task-2) Skipping request 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:25,212 INFO  [stdout] (XNIO-2 task-2) Attempting 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Host Controller] [0m[0m23:16:25,219 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server main-one[0m
+[Server:main-one] 23:16:25,226 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 3) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[0m23:16:25,270 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Server:main-one] 23:16:25,273 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:16:25,308 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 23ms
+[Host Controller] [0m[0m23:16:25,322 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:16:25,328 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 42ms
+[0m23:16:25,342 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:25,344 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[0m23:16:25,395 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server main-three[0m
+[Server:main-three] 23:16:25,401 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Host Controller] [0m[0m23:16:25,405 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-two[0m
+[Server:other-two] 23:16:25,411 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 15) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[0m23:16:25,445 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+[0m[0m23:16:25,445 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[Server:other-two] 23:16:25,447 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-three] 23:16:25,446 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:16:25,471 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:main-three] 23:16:25,481 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 27ms
+[Server:other-two] 23:16:25,483 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 31ms
+[Host Controller] [0m[0m23:16:25,494 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three[0m
+[Server:main-three] 23:16:25,500 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 47ms
+[0m23:16:25,503 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:25,505 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[0m23:16:25,509 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:25,547 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-three[0m
+[Host Controller] [0m[0m23:16:25,653 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server main-one[0m
+[0m23:16:25,753 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:16:26,635 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:16:27,094 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:16:27,103 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:16:27,253 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:16:27,346 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+[Server:main-one] 23:16:27,353 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:16:27,393 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:16:27,759 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0260: Starting server in suspended mode
+[Server:main-one] 23:16:27,765 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:16:28,339 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 6c0db8b7 (inbound) of Remoting connection a73b31c7 to rhel7-large-81357/127.0.0.1:44812 of endpoint "master:MANAGEMENT" <3cf9ff9a>][0m
+[Host Controller] [0m[0m23:16:28,350 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server main-two[0m
+[Host Controller] [0m[0m23:16:28,350 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[0m23:16:28,453 INFO  [org.jboss.as.process.Server:main-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-two'
+[0m[Server:main-one] 23:16:28,648 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-one] 23:16:28,762 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:16:28,854 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-one] 23:16:28,970 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:28,970 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:28,970 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:28,970 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:29,046 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-one] 23:16:29,116 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3177ms - Started 69 of 86 services (28 services are lazy, passive or on-demand)
+[Server:main-two] [0m23:16:29,325 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:main-two] [0m[0m23:16:29,748 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:main-two] [0m[0m23:16:29,757 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:main-two] [0m[0m23:16:29,895 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:main-two] [0m[0m23:16:29,979 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final[0m
+[Server:main-two] [0m[0m23:16:29,986 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:main-two] [0m[0m23:16:30,021 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Server:main-two] [0m[0m23:16:30,371 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0260: Starting server in suspended mode[0m
+[Server:main-two] [0m[0m23:16:30,374 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:16:30,879 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-two] connected using connection [Channel ID 632e33df (inbound) of Remoting connection 3696f02e to rhel7-large-81357/127.0.0.1:44814 of endpoint "master:MANAGEMENT" <3cf9ff9a>][0m
+[Host Controller] [0m[0m23:16:30,891 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-two[0m
+[Host Controller] [0m[0m23:16:30,893 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server other-one[0m
+[0m23:16:30,993 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-one'
+[0m[Server:main-two] [0m[0m23:16:31,192 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors[0m
+[Server:main-two] [0m[0m23:16:31,262 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:main-two] [0m23:16:31,310 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")[0m
+[Server:main-two] 23:16:31,643 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:31,644 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:31,645 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:31,645 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:31,863 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:other-one] [0m23:16:31,833 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:main-two] 23:16:31,932 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3331ms - Started 69 of 86 services (28 services are lazy, passive or on-demand)
+[Server:other-one] [0m[0m23:16:32,278 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:other-one] [0m[0m23:16:32,287 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:other-one] [0m[0m23:16:32,431 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:other-one] [0m[0m23:16:32,516 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final[0m
+[Server:other-one] [0m[0m23:16:32,532 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:other-one] [0m[0m23:16:32,567 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Server:other-one] [0m[0m23:16:32,951 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0260: Starting server in suspended mode[0m
+[Server:other-one] [0m[0m23:16:32,970 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:16:34,533 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-one] connected using connection [Channel ID 15b7cf7d (inbound) of Remoting connection 8f40d0e8 to rhel7-large-81357/127.0.0.1:44816 of endpoint "master:MANAGEMENT" <3cf9ff9a>][0m
+[Host Controller] [0m[0m23:16:34,543 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-one[0m
+[Host Controller] [0m[0m23:16:34,544 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server reload-one[0m
+[0m23:16:34,645 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:other-one] [0m[0m23:16:34,796 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 13) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors[0m
+[Server:other-one] [0m[0m23:16:34,843 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:other-one] [0m23:16:34,948 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3820ms - Started 49 of 68 services (26 services are lazy, passive or on-demand)[0m
+[Server:reload-one] [0m23:16:35,624 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:reload-one] [0m[0m23:16:36,141 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:reload-one] [0m[0m23:16:36,163 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:reload-one] [0m[0m23:16:36,523 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:reload-one] [0m[0m23:16:36,662 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final[0m
+[Server:reload-one] [0m[0m23:16:36,667 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:reload-one] [0m[0m23:16:36,714 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final[0m
+[Server:reload-one] [0m[0m23:16:37,145 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0260: Starting server in suspended mode[0m
+[Server:reload-one] [0m[0m23:16:37,148 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:16:37,680 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 674d2d16 (inbound) of Remoting connection 78cb4b04 to rhel7-large-81357/127.0.0.1:44818 of endpoint "master:MANAGEMENT" <3cf9ff9a>][0m
+[Host Controller] [0m[0m23:16:37,694 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] [0m[0m23:16:38,076 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:reload-one] [0m23:16:38,164 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3364ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)[0m
+[Host Controller] [0m[0m23:16:38,188 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server main-three[0m
+[0m23:16:38,292 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+[0m[Server:main-three] 23:16:39,158 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-three] 23:16:39,566 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-three] 23:16:39,574 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-three] 23:16:39,710 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-three] 23:16:39,798 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+[Server:main-three] 23:16:39,803 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-three] 23:16:39,835 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+[Server:main-three] 23:16:40,200 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0260: Starting server in suspended mode
+[Server:main-three] 23:16:40,205 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:16:40,708 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 4ca92fb1 (inbound) of Remoting connection f858fd3b to rhel7-large-81357/127.0.0.1:36832 of endpoint "slave:MANAGEMENT" <95561588>][0m
+[Host Controller] [0m[0m23:16:40,720 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server main-four[0m
+[Host Controller] [0m[0m23:16:40,718 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three[0m
+[0m23:16:40,829 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-four'
+[0m[Server:main-three] 23:16:41,027 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 10) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-three] 23:16:41,129 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-three] 23:16:41,171 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-three] 23:16:41,306 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:41,307 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:41,307 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:41,307 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:41,380 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-three] 23:16:41,455 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2951ms - Started 70 of 87 services (29 services are lazy, passive or on-demand)
+[Server:main-four] [0m23:16:41,816 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:main-four] [0m[0m23:16:42,239 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:main-four] [0m[0m23:16:42,248 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:main-four] [0m[0m23:16:42,382 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:main-four] [0m[0m23:16:42,471 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final[0m
+[Server:main-four] [0m[0m23:16:42,477 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:main-four] [0m[0m23:16:42,513 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Server:main-four] [0m[0m23:16:42,904 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0260: Starting server in suspended mode[0m
+[Server:main-four] [0m[0m23:16:42,911 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:16:43,417 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-four] connected using connection [Channel ID 1c1750a7 (inbound) of Remoting connection fde15058 to rhel7-large-81357/127.0.0.1:36834 of endpoint "slave:MANAGEMENT" <95561588>][0m
+[Host Controller] [0m[0m23:16:43,429 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-four[0m
+[Host Controller] [0m[0m23:16:43,430 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-two[0m
+[0m23:16:43,535 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+[0m[Server:main-four] [0m[0m23:16:43,705 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 10) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors[0m
+[Server:main-four] [0m[0m23:16:43,787 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:main-four] [0m23:16:43,840 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")[0m
+[Server:main-four] 23:16:43,914 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:43,915 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:43,915 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:43,915 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:44,045 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-four] 23:16:44,071 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3083ms - Started 70 of 87 services (29 services are lazy, passive or on-demand)
+[Server:other-two] 23:16:44,389 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-two] 23:16:44,881 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-two] 23:16:44,891 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-two] 23:16:45,054 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:16:45,145 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[Server:other-two] 23:16:45,152 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-two] 23:16:45,196 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:other-two] 23:16:46,102 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0260: Starting server in suspended mode
+[Server:other-two] 23:16:46,120 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:16:46,755 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 00d009f4 (inbound) of Remoting connection 111e5989 to rhel7-large-81357/127.0.0.1:36836 of endpoint "slave:MANAGEMENT" <95561588>][0m
+[Host Controller] [0m[0m23:16:46,772 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Host Controller] [0m[0m23:16:46,777 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server reload-two[0m
+[0m23:16:46,939 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:other-two] 23:16:47,470 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 9) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:other-two] 23:16:47,725 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:16:47,885 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4191ms - Started 50 of 69 services (27 services are lazy, passive or on-demand)
+[Server:reload-two] [0m23:16:49,029 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:reload-two] [0m[0m23:16:49,441 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:reload-two] [0m[0m23:16:49,450 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:reload-two] [0m[0m23:16:49,589 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:reload-two] [0m[0m23:16:49,672 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final[0m
+[Server:reload-two] [0m[0m23:16:49,679 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:reload-two] [0m[0m23:16:49,716 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final[0m
+[Server:reload-two] [0m[0m23:16:50,082 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0260: Starting server in suspended mode[0m
+[Server:reload-two] [0m[0m23:16:50,086 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:16:50,632 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 23ed79fa (inbound) of Remoting connection ac46a9ba to rhel7-large-81357/127.0.0.1:36838 of endpoint "slave:MANAGEMENT" <95561588>][0m
+[Host Controller] [0m[0m23:16:50,643 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] [0m[0m23:16:50,901 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:reload-two] [0m23:16:50,996 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3502ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)[0m
+[Server:main-one] 23:16:51,038 INFO  [stdout] (XNIO-1 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:51,041 INFO  [stdout] (XNIO-1 I/O-1) Rejected 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-two] 23:16:51,216 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0212: Resuming server
+[Server:reload-one] 23:16:51,223 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0212: Resuming server
+[Server:other-one] 23:16:51,229 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 8) WFLYSRV0212: Resuming server
+[Server:main-one] 23:16:51,234 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0212: Resuming server
+[Server:main-three] 23:16:51,363 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0212: Resuming server
+[Server:main-four] 23:16:51,383 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0212: Resuming server
+[Server:reload-two] 23:16:51,389 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0212: Resuming server
+[Server:other-two] 23:16:51,394 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0212: Resuming server
+[Server:main-one] 23:16:51,414 INFO  [stdout] (XNIO-1 task-2) Skipping request 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:51,420 INFO  [stdout] (XNIO-1 task-2) Attempting 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-two] 23:16:51,588 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 48ms
+[Server:main-one] 23:16:51,629 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 113ms
+[Server:main-four] 23:16:51,639 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 58ms
+[Server:main-three] 23:16:51,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 71ms
+[Server:main-one] 23:16:51,726 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 7) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/servers/main-one/data/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content
+[Server:main-one] 23:16:51,727 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-three] 23:16:51,742 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/slave/data/servers/main-three/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content
+[Server:main-three] 23:16:51,743 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-four] 23:16:51,737 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/slave/data/servers/main-four/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content
+[Server:main-four] 23:16:51,737 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-two] 23:16:51,749 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 7) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/servers/main-two/data/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content
+[Server:main-two] 23:16:51,750 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0009: Undeployed "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Host Controller] [0m[0m23:16:51,764 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/slave/data/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content[0m
+[Host Controller] [0m[0m23:16:51,774 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/data/content/11/8e731e9fc530602b18f6c255c9f3b4409b317b/content[0m
+[Host Controller] [0m[0m23:16:51,885 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/data/content/ae/c5d1d5ba239bc63fc6c45cabf5c355110ac30e/content[0m
+[Server:main-one] 23:16:52,022 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-two] 23:16:52,036 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-one] 23:16:52,050 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:52,051 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:52,051 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:52,052 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:52,108 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-two] 23:16:52,112 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:52,113 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:52,113 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-two] 23:16:52,114 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:52,142 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "web-suspend.jar" (runtime-name: "web-suspend.jar")
+[Server:main-four] 23:16:52,191 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:52,192 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:52,192 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-four] 23:16:52,193 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:52,227 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:52,228 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:52,230 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.wildfly.extension.request-controller") which may be changed or removed in future versions without notice.
+[Server:main-three] 23:16:52,232 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.web-suspend.jar" is using a private module ("org.jboss.as.network") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:16:52,363 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-three] 23:16:52,369 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-four] 23:16:52,371 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-two] 23:16:52,372 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0010: Deployed "web-suspend.jar" (runtime-name : "web-suspend.jar")
+[Server:main-one] 23:16:52,389 INFO  [stdout] (XNIO-2 task-1) Attempting 1 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Host Controller] [0m[0m23:16:53,387 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server main-two[0m
+[Server:main-two] 23:16:53,394 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 7) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Host Controller] [0m[0m23:16:53,397 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 23:16:53,409 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Host Controller] [0m[0m23:16:53,414 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server other-one[0m
+[Server:other-one] 23:16:53,424 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 8) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Host Controller] [0m[0m23:16:53,428 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server main-one[0m
+[0m23:16:53,437 INFO  [org.jboss.as.process.Server:main-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-two'
+[0m[Server:main-one] 23:16:53,439 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 20) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Server:main-two] 23:16:53,442 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[0m23:16:53,444 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[0m23:16:53,458 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-one'
+[0m[Server:reload-one] 23:16:53,450 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:other-one] 23:16:53,462 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[0m23:16:53,476 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Host Controller] [0m[0m23:16:53,484 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 15) WFLYHC0024: Stopping server main-three[0m
+[Server:main-two] 23:16:53,511 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 45ms
+[Host Controller] [0m[0m23:16:53,514 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0027: Unregistering server reload-one[0m
+[Server:main-three] 23:16:53,527 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Host Controller] [0m[0m23:16:53,538 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-two[0m
+[Host Controller] [0m[0m23:16:53,541 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 15) WFLYHC0024: Stopping server main-four[0m
+[Server:reload-one] 23:16:53,550 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 87ms
+[Server:main-four] 23:16:53,557 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Server:main-two] 23:16:53,556 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 89ms
+[Host Controller] [0m[0m23:16:53,565 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 15) WFLYHC0024: Stopping server reload-two[0m
+[0m23:16:53,576 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[0m23:16:53,576 INFO  [org.jboss.as.process.Server:main-two.status] (reaper for Server:main-two) WFLYPC0011: Process 'Server:main-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:53,579 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-two] 23:16:53,579 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[0m23:16:53,583 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+[0m[0m23:16:53,585 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-four'
+[0m[Host Controller] [0m[0m23:16:53,581 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-two[0m
+[Server:main-three] 23:16:53,587 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[0m23:16:53,590 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Host Controller] [0m[0m23:16:53,589 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 15) WFLYHC0024: Stopping server other-two[0m
+[Server:reload-two] 23:16:53,594 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-four] 23:16:53,595 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:other-two] 23:16:53,597 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0211: Suspending server with 60000 ms timeout.
+[Host Controller] [0m[0m23:16:53,621 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-one[0m
+[0m23:16:53,625 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[Server:other-two] 23:16:53,628 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:16:53,653 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 23:16:53,669 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 62ms
+[Server:main-one] 23:16:53,670 INFO  [stdout] (XNIO-2 task-2) Attempting 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-four] 23:16:53,677 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 65ms
+[Server:main-one] 23:16:53,680 INFO  [stdout] (XNIO-2 I/O-1) Rejected 2 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:53,693 INFO  [stdout] (XNIO-2 task-3) Skipping request 3 HttpServerExchange{ GET /web-suspend request {Accept=[text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2], Connection=[keep-alive], User-Agent=[Java/1.8.0_181], Host=[127.0.0.1:8080]} response {}}
+[Server:main-one] 23:16:53,697 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[0m23:16:53,711 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:53,713 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m23:16:53,719 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-four[0m
+[Server:main-three] 23:16:53,733 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 86ms
+[Host Controller] [0m[0m23:16:53,737 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server other-two[0m
+[Server:main-four] 23:16:53,765 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 160ms
+[Host Controller] [0m[0m23:16:53,786 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three[0m
+[Server:other-two] 23:16:53,785 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 98ms
+[0m23:16:53,802 INFO  [org.jboss.as.process.Server:main-four.status] (reaper for Server:main-four) WFLYPC0011: Process 'Server:main-four' finished with an exit status of 0
+[0m[Server:other-one] 23:16:53,804 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 312ms
+[Host Controller] [0m[0m23:16:53,807 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-four[0m
+[0m23:16:53,817 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Server:main-three] 23:16:53,819 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 171ms
+[0m23:16:53,826 INFO  [org.jboss.as.process.Server:other-one.status] (reaper for Server:other-one) WFLYPC0011: Process 'Server:other-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:53,826 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[Host Controller] [0m[0m23:16:53,830 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-one[0m
+[Server:main-one] 23:16:53,839 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment web-suspend.jar (runtime-name: web-suspend.jar) in 114ms
+[Host Controller] [0m[0m23:16:53,872 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:16:53,879 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 157ms
+[0m23:16:53,890 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:53,894 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-three[0m
+[0m23:16:53,918 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:16:53,931 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[0m23:16:53,938 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 15) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/slave/data/content/ae/c5d1d5ba239bc63fc6c45cabf5c355110ac30e/content[0m
+[Host Controller] [0m[0m23:16:53,950 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainGracefulShutdownTestCase/master/data/content/ae/c5d1d5ba239bc63fc6c45cabf5c355110ac30e/content[0m
+[Host Controller] [0m[0m23:16:54,029 INFO  [org.jboss.as.domain.controller] (management task-3) WFLYHC0026: Unregistered remote slave host "slave"[0m

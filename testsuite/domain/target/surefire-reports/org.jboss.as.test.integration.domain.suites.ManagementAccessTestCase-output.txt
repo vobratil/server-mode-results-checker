@@ -1,0 +1,137 @@
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {"outcome" => "success"},
+        "step-2" => {"outcome" => "success"}
+    },
+    "server-groups" => undefined
+}
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {
+            "outcome" => "success",
+            "result" => "master"
+        },
+        "step-2" => {
+            "outcome" => "success",
+            "result" => expression "${jboss.test.host.master.address}"
+        }
+    }
+}
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {
+            "outcome" => "success",
+            "result" => "slave"
+        },
+        "step-2" => {
+            "outcome" => "success",
+            "result" => expression "${jboss.test.host.slave.address}"
+        }
+    }
+}
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {
+            "outcome" => "success",
+            "result" => []
+        },
+        "step-2" => {
+            "outcome" => "success",
+            "result" => "other"
+        }
+    }
+}
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {
+            "outcome" => "success",
+            "result" => []
+        },
+        "step-2" => {
+            "outcome" => "success",
+            "result" => "other"
+        }
+    }
+}
+{
+    "operation" => "composite",
+    "address" => undefined,
+    "steps" => [
+        {
+            "operation" => "read-attribute",
+            "address" => [("host" => "master")],
+            "name" => "name"
+        },
+        {
+            "operation" => "read-attribute",
+            "address" => [
+                ("host" => "master"),
+                ("interface" => "management")
+            ],
+            "name" => "inet-address"
+        },
+        {
+            "operation" => "read-attribute",
+            "address" => [("host" => "slave")],
+            "name" => "name"
+        },
+        {
+            "operation" => "read-attribute",
+            "address" => [
+                ("host" => "slave"),
+                ("interface" => "management")
+            ],
+            "name" => "inet-address"
+        },
+        {
+            "operation" => "read-attribute",
+            "address" => [
+                ("host" => "master"),
+                ("server" => "main-one")
+            ],
+            "name" => "name"
+        },
+        {
+            "operation" => "read-attribute",
+            "address" => [
+                ("host" => "slave"),
+                ("server" => "other-two")
+            ],
+            "name" => "name"
+        }
+    ]
+}
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {
+            "outcome" => "success",
+            "result" => "master"
+        },
+        "step-2" => {
+            "outcome" => "success",
+            "result" => expression "${jboss.test.host.master.address}"
+        },
+        "step-3" => {
+            "outcome" => "success",
+            "result" => "slave"
+        },
+        "step-4" => {
+            "outcome" => "success",
+            "result" => expression "${jboss.test.host.slave.address}"
+        },
+        "step-5" => {
+            "outcome" => "success",
+            "result" => "main-one"
+        },
+        "step-6" => {
+            "outcome" => "success",
+            "result" => "other-two"
+        }
+    }
+}

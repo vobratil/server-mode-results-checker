@@ -1,0 +1,29 @@
+2018-10-03 23:09:29,803 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:09:30,131 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:09:30,142 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:09:30,194 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:09:30,729 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:09:30,731 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:09:30,734 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:09:30,847 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)
+2018-10-03 23:09:30,868 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+2018-10-03 23:09:30,885 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:09:30,924 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:09:31,029 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:09:31,106 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 23:09:31,425 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 23:09:32,532 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 23:09:32,591 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server other-three
+2018-10-03 23:09:35,861 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-three] connected using connection [Channel ID 09569bf0 (inbound) of Remoting connection cd445d57 to rhel7-large-81357/127.0.0.1:33654 of endpoint "slave:MANAGEMENT" <72f45c67>]
+2018-10-03 23:09:35,881 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-three
+2018-10-03 23:09:35,889 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:19990/management and https://127.0.0.1:-1/management
+2018-10-03 23:09:35,889 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2018-10-03 23:09:35,889 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 7052ms - Started 54 of 55 services (16 services are lazy, passive or on-demand)
+2018-10-03 23:09:40,315 WARN  [org.jboss.as.domain.management] (Host Controller Service Threads - 6) WFLYDM0135: The resource /core-service=management/service=configuration-changes wasn't working properly and has been removed.
+2018-10-03 23:09:40,726 WARN  [org.jboss.as.domain.management] (Host Controller Service Threads - 6) WFLYDM0135: The resource /core-service=management/service=configuration-changes wasn't working properly and has been removed.
+2018-10-03 23:09:40,736 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 23:09:40,746 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0029: Unregistered at domain controller
+2018-10-03 23:09:40,754 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 6) WFLYHC0024: Stopping server other-three
+2018-10-03 23:09:40,796 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-three
+2018-10-03 23:09:40,856 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-three
+2018-10-03 23:09:40,908 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 167ms

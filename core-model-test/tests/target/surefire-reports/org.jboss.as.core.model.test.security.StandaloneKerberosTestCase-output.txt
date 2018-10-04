@@ -1,0 +1,140 @@
+Oct 03, 2018 5:13:08 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:13:08 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:13:08 PM org.jboss.as.server.ServerEnvironment <init>
+ERROR: WFLYSRV0024: Cannot add module 'org.jboss.vfs' as URLStreamHandlerFactory provider
+org.jboss.modules.ModuleNotFoundException: org.jboss.vfs
+	at org.jboss.modules.ModuleLoader.loadModule(ModuleLoader.java:294)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:629)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:335)
+	at org.jboss.as.core.model.test.TestModelControllerService.createStandaloneServerEnvironment(TestModelControllerService.java:212)
+	at org.jboss.as.core.model.test.TestModelControllerService.access$400(TestModelControllerService.java:111)
+	at org.jboss.as.core.model.test.TestModelControllerService$ServerInitializer.<init>(TestModelControllerService.java:410)
+	at org.jboss.as.core.model.test.TestModelControllerService$ServerInitializer.<init>(TestModelControllerService.java:408)
+	at org.jboss.as.core.model.test.TestModelControllerService.<init>(TestModelControllerService.java:141)
+	at org.jboss.as.core.model.test.TestModelControllerService.create(TestModelControllerService.java:151)
+	at org.jboss.as.core.model.test.AbstractKernelServicesImpl$StandardTestModelControllerServiceFactory.create(AbstractKernelServicesImpl.java:168)
+	at org.jboss.as.core.model.test.AbstractKernelServicesImpl.create(AbstractKernelServicesImpl.java:112)
+	at org.jboss.as.core.model.test.CoreModelTestDelegate$KernelServicesBuilderImpl.build(CoreModelTestDelegate.java:534)
+	at org.jboss.as.core.model.test.security.StandaloneKerberosTestCase.testConfiguration(StandaloneKerberosTestCase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:158)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+Oct 03, 2018 5:13:09 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/dev.wildfly.org@WILDFLY.ORG"
+org.jboss.msc.service.StartException in service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/dev.wildfly.org@WILDFLY.ORG": WFLYDM0109: The Keytab file 'dev.keytab' does not exist.
+	at org.jboss.as.domain.management.security.KeytabService.start(KeytabService.java:131)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+
+Oct 03, 2018 5:13:09 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("security-realm" => "OneKeyTab")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.OneKeyTab is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:09 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("security-realm" => "TwoKeyTabs")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory.\"HTTP/dev.wildfly.org@WILDFLY.ORG\"" => "WFLYDM0109: The Keytab file 'dev.keytab' does not exist."},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.TwoKeyTabs is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:09 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("security-realm" => "AuthenticationEnabled")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.AuthenticationEnabled is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.AuthenticationEnabled.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:09 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("security-realm" => "OneKeyTab")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory.\"HTTP/localhost@WILDFLY.ORG\" is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.OneKeyTab is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:09 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.OneKeyTab, service org.wildfly.core.management.security.realm.AuthenticationEnabled, service org.wildfly.core.management.security.realm.TwoKeyTabs] 
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.AuthenticationEnabled.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/localhost@WILDFLY.ORG"] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.OneKeyTab.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.AuthenticationEnabled.keytab_factory."HTTP/localhost@WILDFLY.ORG", service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/localhost@WILDFLY.ORG"] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.core.management.security.realm.TwoKeyTabs.keytab_factory."HTTP/dev.wildfly.org@WILDFLY.ORG": WFLYDM0109: The Keytab file 'dev.keytab' does not exist.
+WFLYCTL0448: 6 additional services are down due to their dependencies being missing or failed

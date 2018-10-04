@@ -1,0 +1,27 @@
+Oct 03, 2018 5:15:50 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:50 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:51 PM org.jboss.as.server.ServerEnvironment <init>
+ERROR: WFLYSRV0024: Cannot add module 'org.jboss.vfs' as URLStreamHandlerFactory provider
+org.jboss.modules.ModuleNotFoundException: org.jboss.vfs
+	at org.jboss.modules.ModuleLoader.loadModule(ModuleLoader.java:294)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:629)
+	at org.jboss.as.server.ServerEnvironment.<init>(ServerEnvironment.java:335)
+	at org.jboss.as.subsystem.test.TestModelControllerService.getServerEnvironment(TestModelControllerService.java:198)
+	at org.jboss.as.subsystem.test.ControllerInitializer.initializeSystemPropertiesModel(ControllerInitializer.java:229)
+	at org.jboss.as.subsystem.test.ControllerInitializer.initializeModel(ControllerInitializer.java:199)
+	at org.jboss.as.subsystem.test.TestModelControllerService.initExtraModelInternal(TestModelControllerService.java:153)
+	at org.jboss.as.subsystem.test.TestModelControllerService.initExtraModel(TestModelControllerService.java:132)
+	at org.jboss.as.model.test.ModelTestModelControllerService.initModel(ModelTestModelControllerService.java:312)
+	at org.jboss.as.controller.AbstractControllerService.start(AbstractControllerService.java:342)
+	at org.jboss.as.model.test.ModelTestModelControllerService.start(ModelTestModelControllerService.java:407)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+

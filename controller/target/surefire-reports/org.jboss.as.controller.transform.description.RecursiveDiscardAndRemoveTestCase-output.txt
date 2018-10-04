@@ -1,0 +1,12 @@
+Oct 03, 2018 4:55:41 PM org.jboss.as.controller.transform.TransformersLogger flushLogQueue
+WARN: WFLYCTL0032: There were problems during the transformation process for target host: 'null' 
+Problems found: 
+[		WFLYCTL0303: Resource [
+    ("toto" => "testSubsystem"),
+    ("removeall" => "entry")
+] is rejected on the target host, and will need to be ignored on the host
+, 		WFLYCTL0303: Resource [
+    ("toto" => "testSubsystem"),
+    ("remove" => "one")
+] is rejected on the target host, and will need to be ignored on the host
+]

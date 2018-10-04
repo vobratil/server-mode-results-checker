@@ -1,0 +1,2 @@
+Oct 03, 2018 4:54:54 PM org.jboss.as.controller.interfaces.InetAddressMatchInterfaceCriteria isAcceptable
+WARN: WFLYCTL0001: Cannot resolve address fe80:0:0:0:f816:3eff:febb:d499%bogus, so cannot match it to any InetAddress

@@ -1,0 +1,105 @@
+[Host Controller] [0m[31m23:09:15,780 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 2) WFLYCTL0013: Operation ("add") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "management"),[0m
+[Host Controller] [31m    ("service" => "configuration-changes")[0m
+[Host Controller] [31m]): org.jboss.msc.service.DuplicateServiceException: Service org.wildfly.management.configuration.changes is already registered[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceRegistrationImpl.setInstance(ServiceRegistrationImpl.java:111)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceControllerImpl.startInstallation(ServiceControllerImpl.java:245)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceContainerImpl.install(ServiceContainerImpl.java:757)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceBuilderImpl.install(ServiceBuilderImpl.java:189)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.installService(OperationContextImpl.java:2034)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.access$600(OperationContextImpl.java:132)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl$2$1.installService(OperationContextImpl.java:761)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl$ContextServiceBuilder.install(OperationContextImpl.java:2165)[0m
+[Host Controller] [31m	at org.jboss.msc.service.DelegatingServiceBuilder.install(DelegatingServiceBuilder.java:104)[0m
+[Host Controller] [31m	at org.jboss.as.domain.management.LegacyConfigurationChangeResourceDefinition$LegacyConfigurationChangeResourceAddHandler.performRuntime(LegacyConfigurationChangeResourceDefinition.java:131)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractAddStepHandler$1.execute(AbstractAddStepHandler.java:159)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl$$Lambda$172.00000000C0007490.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$173.00000000C0005FB0.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$173.00000000C0005FB0.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at java.security.AccessController.doPrivileged(AccessController.java:640)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)[0m
+[Host Controller] [31m	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)[0m
+[Host Controller] [31m	at java.lang.Thread.run(Thread.java:811)[0m
+[Host Controller] [31m	at org.jboss.threads.JBossThread.run(JBossThread.java:485)[0m
+[Host Controller] [31m[0m
+[Host Controller] [31m[0m[31m23:09:16,031 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 6) WFLYCTL0013: Operation ("add") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("subsystem" => "core-management"),[0m
+[Host Controller] [31m    ("service" => "configuration-changes")[0m
+[Host Controller] [31m]): org.jboss.msc.service.DuplicateServiceException: Service org.wildfly.management.configuration.changes is already registered[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceRegistrationImpl.setInstance(ServiceRegistrationImpl.java:111)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceControllerImpl.startInstallation(ServiceControllerImpl.java:245)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceContainerImpl.install(ServiceContainerImpl.java:757)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)[0m
+[Host Controller] [31m	at org.jboss.msc.service.ServiceBuilderImpl.install(ServiceBuilderImpl.java:189)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.installService(OperationContextImpl.java:2034)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.access$600(OperationContextImpl.java:132)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl$2$1.installService(OperationContextImpl.java:761)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl$ContextServiceBuilder.install(OperationContextImpl.java:2165)[0m
+[Host Controller] [31m	at org.jboss.msc.service.DelegatingServiceBuilder.install(DelegatingServiceBuilder.java:104)[0m
+[Host Controller] [31m	at org.wildfly.extension.core.management.ConfigurationChangeResourceDefinition$ConfigurationChangeResourceAddHandler.performRuntime(ConfigurationChangeResourceDefinition.java:118)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractAddStepHandler$1.execute(AbstractAddStepHandler.java:159)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl$$Lambda$172.00000000C0007490.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$173.00000000C0005FB0.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$173.00000000C0005FB0.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at java.security.AccessController.doPrivileged(AccessController.java:640)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)[0m
+[Host Controller] [31m	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)[0m
+[Host Controller] [31m	at java.lang.Thread.run(Thread.java:811)[0m
+[Host Controller] [31m	at org.jboss.threads.JBossThread.run(JBossThread.java:485)[0m
+[Host Controller] [31m[0m
+[Host Controller] [0m[0m23:09:18,099 INFO  [org.jboss.as.domain.controller] (management task-1) WFLYHC0026: Unregistered remote slave host "slave"[0m

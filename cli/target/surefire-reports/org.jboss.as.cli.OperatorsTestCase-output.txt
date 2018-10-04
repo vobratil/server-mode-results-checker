@@ -1,0 +1,82 @@
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Release: <connect to the controller and re-run the version command to see the release info>
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Release: <connect to the controller and re-run the version command to see the release info>
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Release: <connect to the controller and re-run the version command to see the release info>
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Release: <connect to the controller and re-run the version command to see the release info>
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Release: <connect to the controller and re-run the version command to see the release info>
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: JBoss Admin Command-line Interface
+JBOSS_HOME: null
+Release: <connect to the controller and re-run the version command to see the release info>
+JAVA_HOME: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/tools/java
+java.version: 1.8.0_181
+java.vm.vendor: IBM Corporation
+java.vm.version: 2.9
+os.name: Linux
+os.version: 3.10.0-862.el7.x86_64
+Oct 03, 2018 5:00:10 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Release: <connect to the controller and re-run the version command to see the release info>

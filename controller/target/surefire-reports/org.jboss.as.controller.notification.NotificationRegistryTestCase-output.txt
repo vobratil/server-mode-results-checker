@@ -1,0 +1,58 @@
+addressForRegistration = [[]], notificationSource = [[]]
+addressForRegistration = [[]], notificationSource = [[]]
+addressForRegistration = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]], notificationSource = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]]
+addressForRegistration = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]], notificationSource = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "bar")
+]]
+addressForRegistration = [[("subsystem" => "*")]], notificationSource = [[("subsystem" => "messaging")]]
+addressForRegistration = [[]], notificationSource = [[("subsystem" => "messaging")]]
+addressForRegistration = [[]], notificationSource = [[]]
+addressForRegistration = [[]], notificationSource = [[("subsystem" => "web")]]
+addressForRegistration = [[
+    ("subsystem" => "*"),
+    ("hornetq-server" => "*")
+]], notificationSource = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]]
+addressForRegistration = [[
+    ("subsystem" => "*"),
+    ("hornetq-server" => "*")
+]], notificationSource = [[
+    ("subsystem" => "web"),
+    ("hornetq-server" => "bar")
+]]
+addressForRegistration = [[
+    ("subsystem" => "*"),
+    ("hornetq-server" => "default")
+]], notificationSource = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]]
+addressForRegistration = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "*")
+]], notificationSource = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "default")
+]]
+addressForRegistration = [[
+    ("subsystem" => "messaging"),
+    ("hornetq-server" => "*")
+]], notificationSource = [[
+    ("subsystem" => "web"),
+    ("hornetq-server" => "default")
+]]
+addressForRegistration = [[("subsystem" => "messaging")]], notificationSource = [[("subsystem" => "messaging")]]
+addressForRegistration = [[("subsystem" => "messaging")]], notificationSource = [[]]
+addressForRegistration = [[("subsystem" => "messaging")]], notificationSource = [[("subsystem" => "web")]]

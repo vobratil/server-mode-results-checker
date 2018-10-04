@@ -1,0 +1,7 @@
+INFO MSC service thread 1-1 org.wildfly.test.undertow.UndertowService - Started Undertow on 127.0.0.1:8080
+DEBUG XNIO-1 I/O-3 org.jboss.as.test.integration.logging.Log4jServiceActivator - logTest: log4j.properties message - debug
+TRACE XNIO-1 I/O-3 org.jboss.as.test.integration.logging.Log4jServiceActivator - logTest: log4j.properties message - trace
+INFO XNIO-1 I/O-3 org.jboss.as.test.integration.logging.Log4jServiceActivator - logTest: log4j.properties message - info
+WARN XNIO-1 I/O-3 org.jboss.as.test.integration.logging.Log4jServiceActivator - logTest: log4j.properties message - warn
+ERROR XNIO-1 I/O-3 org.jboss.as.test.integration.logging.Log4jServiceActivator - logTest: log4j.properties message - error
+FATAL XNIO-1 I/O-3 org.jboss.as.test.integration.logging.Log4jServiceActivator - logTest: log4j.properties message - fatal

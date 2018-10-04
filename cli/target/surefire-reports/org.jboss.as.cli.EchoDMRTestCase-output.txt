@@ -1,0 +1,13 @@
+Oct 03, 2018 5:00:08 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "address" => [("subsystem" => "foo")],
+    "operation" => "op",
+    "arg3" => "val3",
+    "arg2" => [{
+        "i1" => "val1",
+        "i2" => "val2"
+    }],
+    "arg1" => 14
+}
+Oct 03, 2018 5:00:08 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {"address"=>[("subsystem"=>"foo")],"operation"=>"op","arg3"=>"val3","arg2"=>[{"i1"=>"val1","i2"=>"val2"}],"arg1"=>14}

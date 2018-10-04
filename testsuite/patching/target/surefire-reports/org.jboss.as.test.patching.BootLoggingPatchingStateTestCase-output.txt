@@ -1,0 +1,48 @@
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" : "success",
+    "response-headers" : {
+        "operation-requires-restart" : true,
+        "process-state" : "restart-required"
+    }
+}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" : "success",
+    "response-headers" : {
+        "operation-requires-restart" : true,
+        "process-state" : "restart-required"
+    }
+}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" : "success",
+    "response-headers" : {
+        "operation-requires-restart" : true,
+        "process-state" : "restart-required"
+    }
+}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" : "success",
+    "response-headers" : {
+        "operation-requires-restart" : true,
+        "process-state" : "restart-required"
+    }
+}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" : "success",
+    "response-headers" : {
+        "operation-requires-restart" : true,
+        "process-state" : "restart-required"
+    }
+}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" : "success",
+    "response-headers" : {
+        "operation-requires-restart" : true,
+        "process-state" : "restart-required"
+    }
+}

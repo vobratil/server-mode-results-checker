@@ -1,0 +1,41 @@
+2018-10-03 22:45:51,918 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:45:52,422 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:45:52,431 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:45:52,570 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:45:52,784 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+2018-10-03 22:45:52,797 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:45:52,868 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:45:53,712 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+22:45:55,349 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+22:45:55,355 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 5209ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+22:46:21,903 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+22:46:21,908 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+22:46:21,949 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 35ms
+22:46:26,403 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+22:46:26,834 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+22:46:26,842 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+22:46:26,980 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+22:46:27,068 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+22:46:27,080 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+22:46:27,141 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+22:46:27,616 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+22:46:28,643 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+22:46:28,813 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+22:46:28,816 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3087ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+22:46:48,668 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+22:46:48,672 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+22:46:48,782 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 95ms
+22:47:00,089 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+22:47:01,084 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+22:47:01,105 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+22:47:01,256 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+22:47:01,339 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+22:47:01,344 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+22:47:01,382 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+22:47:01,778 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+22:47:02,798 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+22:47:02,895 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+22:47:02,900 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4004ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+22:47:07,707 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+22:47:07,712 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+22:47:07,760 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 39ms

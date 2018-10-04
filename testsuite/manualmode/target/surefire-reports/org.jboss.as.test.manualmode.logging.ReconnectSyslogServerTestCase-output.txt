@@ -1,0 +1,74 @@
+AccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:26:58,347 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:26:58,942 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:26:58,951 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:26:59,093 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:26:59,711 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:26:59,874 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:26:59,933 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:26:59,991 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+[0m[0m23:27:00,007 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:27:00,054 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+[0m[0m23:27:00,143 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:27:00,187 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:27:00,359 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-1) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:27:00,559 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:27:00,578 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:27:00,579 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:27:00,579 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3136ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[0m[0m23:27:01,255 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/2b/536d356dbc566c796c7acb281708b9e54eb022/content
+[0m[0m23:27:01,273 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[0m23:27:01,345 INFO  [org.wildfly.test.undertow.UndertowService] (MSC service thread 1-6) Started Undertow on 127.0.0.1:8080
+[0m[0m23:27:01,381 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging-test.jar" (runtime-name : "logging-test.jar")
+[0m[0m23:27:08,229 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-3) someLogMessage
+[0m[0m23:27:10,267 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-3) someLogMessage
+[0mLogManager error of type WRITE_FAILURE: Error writing to TCP stream
+java.net.SocketException: Broken pipe (Write failed)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:122)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:166)
+	at org.jboss.logmanager.handlers.TcpOutputStream.write(TcpOutputStream.java:188)
+	at org.jboss.logmanager.handlers.TcpOutputStream.write(TcpOutputStream.java:179)
+	at org.jboss.logmanager.handlers.SyslogHandler.sendMessage(SyslogHandler.java:586)
+	at org.jboss.logmanager.handlers.SyslogHandler.doPublish(SyslogHandler.java:547)
+	at org.jboss.logmanager.ExtHandler.publish(ExtHandler.java:77)
+	at org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:333)
+	at org.jboss.logmanager.LoggerNode.publish(LoggerNode.java:341)
+	at org.jboss.logmanager.Logger.logRaw(Logger.java:850)
+	at org.jboss.logmanager.Logger.log(Logger.java:802)
+	at org.jboss.logmanager.Logger.log(Logger.java:814)
+	at org.jboss.logging.JBossLogManagerLogger.doLog(JBossLogManagerLogger.java:42)
+	at org.jboss.logging.Logger.info(Logger.java:955)
+	at org.jboss.as.test.manualmode.logging.LoggingServiceActivator$1.handleRequest(LoggingServiceActivator.java:50)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEventWithNoRunningRequest(HttpReadListener.java:255)
+	at io.undertow.server.protocol.http.HttpReadListener.handleEvent(HttpReadListener.java:136)
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:147)
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:93)
+	at io.undertow.server.protocol.http.HttpOpenListener.handleEvent(HttpOpenListener.java:52)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:291)
+	at org.xnio.ChannelListeners$10.handleEvent(ChannelListeners.java:286)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:131)
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:479)
+[0m23:27:10,270 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-1) someLogMessage
+[0m[0m23:27:18,279 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-3) someLogMessage
+[0m[0m23:27:20,284 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-1) someLogMessage
+[0m[0m23:27:20,286 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-3) someLogMessage
+[0m[0m23:27:28,292 INFO  [org.jboss.as.test.manualmode.logging.LoggingServiceActivator] (XNIO-1 I/O-1) someLogMessage
+[0mException in thread "Thread-19" java.lang.StringIndexOutOfBoundsException
+	at java.lang.String.<init>(String.java:520)
+	at org.jboss.as.test.syslogserver.Rfc5424SyslogEvent.getString(Rfc5424SyslogEvent.java:135)
+	at org.jboss.as.test.syslogserver.Rfc5424SyslogEvent.<init>(Rfc5424SyslogEvent.java:64)
+	at org.jboss.as.test.syslogserver.TCPSyslogSocketHandler.handleSyslogMessage(TCPSyslogSocketHandler.java:122)
+	at org.jboss.as.test.syslogserver.TCPSyslogSocketHandler.run(TCPSyslogSocketHandler.java:97)
+	at java.lang.Thread.run(Thread.java:811)
+[0m23:27:30,408 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment logging-test.jar (runtime-name: logging-test.jar) in 11ms
+[0m[0m23:27:30,448 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/2b/536d356dbc566c796c7acb281708b9e54eb022/content
+[0m[0m23:27:30,449 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging-test.jar" (runtime-name: "logging-test.jar")
+[0m[0m23:27:30,457 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:27:30,461 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:27:30,519 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 53ms
+[0m

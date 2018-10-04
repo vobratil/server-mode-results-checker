@@ -1,0 +1,42 @@
+[Host Controller] [31m[0m[33m22:55:57,099 WARN  [org.jboss.as.protocol.connection] (management task-2) WFLYPRT0018: No such request (886) associated with channel Channel ID a5488ef9 (outbound) of Remoting connection 35dc13a4 to /127.0.0.1:9999 of endpoint "slave:MANAGEMENT" <7543fe2b>[0m
+[Host Controller] [0m[33m22:55:57,100 WARN  [org.jboss.as.protocol.connection] (management task-2) WFLYPRT0018: No such request (886) associated with channel Channel ID 25488ef9 (inbound) of Remoting connection bb5a64f6 to rhel7-large-81357/127.0.0.1:38646 of endpoint "master:MANAGEMENT" <fd78e729>[0m
+[Host Controller] [33m[0m[33m22:55:57,120 WARN  [org.jboss.as.protocol.connection] (management task-1) WFLYPRT0018: No such request (887) associated with channel Channel ID a5488ef9 (outbound) of Remoting connection 35dc13a4 to /127.0.0.1:9999 of endpoint "slave:MANAGEMENT" <7543fe2b>[0m
+[Host Controller] [33m[0m[33m22:55:57,121 WARN  [org.jboss.as.protocol.connection] (management task-2) WFLYPRT0018: No such request (887) associated with channel Channel ID 25488ef9 (inbound) of Remoting connection bb5a64f6 to rhel7-large-81357/127.0.0.1:38646 of endpoint "master:MANAGEMENT" <fd78e729>[0m
+Failed operation:
+{
+    "operation" => "read-children-names",
+    "address" => [
+        ("host" => "slave"),
+        ("server" => "main-three"),
+        ("subsystem" => "test-subsystem")
+    ],
+    "child-type" => "new-element"
+}
+Response:
+{
+    "outcome" => "failed",
+    "result" => undefined,
+    "failure-description" => "WFLYCTL0202: No known child type named new-element",
+    "response-headers" => {"process-state" => "restart-required"},
+    "rolled-back" => true
+}
+Failed operation:
+{
+    "operation" => "read-children-names",
+    "address" => [
+        ("host" => "slave"),
+        ("server" => "main-three"),
+        ("subsystem" => "test-subsystem")
+    ],
+    "child-type" => "renamed"
+}
+Response:
+{
+    "outcome" => "failed",
+    "result" => undefined,
+    "failure-description" => "WFLYCTL0202: No known child type named renamed",
+    "response-headers" => {"process-state" => "restart-required"},
+    "rolled-back" => true
+}
+[Server:main-one] 22:55:57,389 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 7) WFLYIO001: Worker 'puppet-master' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-three] 22:55:57,389 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 19) WFLYIO001: Worker 'puppet-master' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors

@@ -1,0 +1,21 @@
+[Host Controller] [0m[31m23:15:13,899 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 5) WFLYCTL0013: Operation ("verify-running-server") failed - address: ([("host" => "hc2")]) - failure description: "WFLYHC0078: Server (server-one) still running"[0m
+[Host Controller] [0m[0m23:15:13,977 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server server-one[0m
+[Server:server-one] 23:15:13,983 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:15:13,986 INFO  [org.jboss.as.process.Server:server-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:server-one'
+[0m[Server:server-one] 23:15:13,988 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:15:14,013 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server server-one[0m
+[Server:server-one] 23:15:14,024 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 31ms
+[0m23:15:14,035 INFO  [org.jboss.as.process.Server:server-one.status] (reaper for Server:server-one) WFLYPC0011: Process 'Server:server-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:15:14,076 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-one[0m
+[Host Controller] [0m[0m23:15:14,360 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server server-two[0m
+[Server:server-two] 23:15:14,369 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:15:14,413 INFO  [org.jboss.as.process.Server:server-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:server-two'
+[0m[Server:server-two] 23:15:14,416 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:15:14,440 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server server-two[0m
+[Server:server-two] 23:15:14,453 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 30ms
+[0m23:15:14,464 INFO  [org.jboss.as.process.Server:server-two.status] (reaper for Server:server-two) WFLYPC0011: Process 'Server:server-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:15:14,467 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server server-two[0m
+[Host Controller] [0m[33m23:15:14,674 WARN  [org.jboss.as.host.controller] (management task-3) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.[0m
+[Host Controller] [33m[0m[0m23:15:14,677 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.[0m
+[Host Controller] [31m[0m[33m23:15:14,698 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.[0m
+[Host Controller] [33m[0m[0m23:15:14,700 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 5) WFLYHC0150: Trying to reconnect to master host controller.[0m

@@ -1,0 +1,11 @@
+[0m22:29:34,393 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/08/12cf694556b498b7f329ac85fd4975e10a2f91/content
+[0m[0m22:29:34,453 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "test-http-deployment.sar" (runtime-name: "test-http-deployment.sar")
+[0m[0m22:29:34,558 INFO  [stdout] (MSC service thread 1-2) Setting test.deployment.trivial.prop to default-value
+[0m[0m22:29:34,596 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0010: Deployed "test-http-deployment.sar" (runtime-name : "test-http-deployment.sar")
+[0m[0m22:29:34,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment test-http-deployment.sar (runtime-name: test-http-deployment.sar) in 10ms
+[0m[0m22:29:34,701 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0009: Undeployed "test-http-deployment.sar" (runtime-name: "test-http-deployment.sar")
+[0m[0m22:29:34,706 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/08/12cf694556b498b7f329ac85fd4975e10a2f91/content
+[0m[0m22:29:34,736 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:29:34,741 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:29:34,775 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 28ms
+[0m

@@ -1,0 +1,247 @@
+ELY00001: WildFly Elytron version 1.7.0.CR2
+JBoss MSC version 1.4.5.Final
+JBoss Threads version 2.3.2.Final
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "ClearPropertyRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.ClearPropertyRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FilesystemRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.modifiable-security-realm.FilesystemRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.ClearPropertyRealm, service org.wildfly.security.modifiable-security-realm.FilesystemRealm] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "ClearPropertyRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.ClearPropertyRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FilesystemRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.modifiable-security-realm.FilesystemRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.ClearPropertyRealm, service org.wildfly.security.modifiable-security-realm.FilesystemRealm] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+
+ELY01126: Jwt-based token realm not configured with a list of valid issuers. Ignoring issuer verification.
+ELY01127: Jwt-based token not configured with a list of valid audiences. Ignoring audience verification.
+ELY01128: Jwt-based token not configured with a public key. Ignoring signature verification.
+WFLYELY00023: KeyStore file '/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/elytron/target/test-classes/org/wildfly/extension/elytron/ca.truststore' does not exist. Used blank.
+MSC000001: Failed to start service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore
+org.jboss.msc.service.StartException in service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore].
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:268)
+	at org.wildfly.extension.elytron.TokenRealmDefinition$RealmAddHandler$1.get(TokenRealmDefinition.java:244)
+	at org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:53)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("properties-realm" => "ClearPropertyRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.security-realm.ClearPropertyRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FilesystemRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.server.config.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.security.modifiable-security-realm.FilesystemRealm is missing [jboss.server.path.\"jboss.server.config.dir\"]"]
+}
+WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("token-realm" => "JwtWithKeyStore")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.modifiable-security-realm.JwtWithKeyStore" => "Failed to start service
+    Caused by: java.lang.RuntimeException: WFLYELY00033: Unable to access entry [mykey] from key store [ElytronCaTruststore]."}}
+WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.security.security-realm.ClearPropertyRealm, service org.wildfly.security.modifiable-security-realm.FilesystemRealm] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.security.modifiable-security-realm.JwtWithKeyStore: Failed to start service
+

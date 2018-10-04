@@ -1,0 +1,2 @@
+/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/controller/target/persistence-test-configs/standard
+/home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/controller/target/persistence-test-configs/standard/standard_xml_history/standard.last.xml

@@ -1,0 +1,58 @@
+[Host Controller] [0m[0m23:01:59,206 INFO  [org.jboss.as.domain.controller] (management task-1) WFLYHC0026: Unregistered remote slave host "slave"[0m
+[Host Controller] [0m[0m23:01:59,209 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0029: Unregistered at domain controller[0m
+[Host Controller] [0m[0m23:01:59,262 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 66ms[0m
+[Host Controller] [0m[0m23:01:59,263 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:01:59,321 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:01:59,331 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'permissions' in the resource at address '/host=slave/subsystem=elytron/constant-permission-mapper=default-permission-mapper' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:01:59,348 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[33m23:01:59,354 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveHostControllerElytronAuthenticationTestCase/slave/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost[0m
+[Host Controller] [33m[0m[0m23:01:59,359 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) WFLYRMT0001: Listening on 127.0.0.1:19999[0m
+[Host Controller] [0m[33m23:01:59,391 WARN  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0001: Could not connect to remote domain controller remote://127.0.0.1:9999: java.lang.IllegalStateException: WFLYHC0043: Unable to connect due to authentication failure.[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnectionService.rethrowIrrecoverableConnectionFailures(RemoteDomainConnectionService.java:674)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnectionService.register(RemoteDomainConnectionService.java:293)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.DomainModelControllerService.connectToDomainMaster(DomainModelControllerService.java:965)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.DomainModelControllerService.boot(DomainModelControllerService.java:703)[0m
+[Host Controller] [33m	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)[0m
+[Host Controller] [33m	at java.lang.Thread.run(Thread.java:811)[0m
+[Host Controller] [33mCaused by: javax.security.sasl.SaslException: Authentication failed: all available authentication mechanisms failed:[0m
+[Host Controller] [33m   DIGEST-MD5: javax.security.sasl.SaslException: DIGEST-MD5: Server rejected authentication[0m
+[Host Controller] [33m	at org.jboss.remoting3.remote.ClientConnectionOpenListener.allMechanismsFailed(ClientConnectionOpenListener.java:109)[0m
+[Host Controller] [33m	at org.jboss.remoting3.remote.ClientConnectionOpenListener$Capabilities.handleEvent(ClientConnectionOpenListener.java:262)[0m
+[Host Controller] [33m	at org.jboss.remoting3.remote.ClientConnectionOpenListener$Capabilities.handleEvent(ClientConnectionOpenListener.java:242)[0m
+[Host Controller] [33m	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)[0m
+[Host Controller] [33m	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)[0m
+[Host Controller] [33m	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)[0m
+[Host Controller] [33m	at org.xnio.nio.WorkerThread.run(WorkerThread.java:591)[0m
+[Host Controller] [33m	at ...asynchronous invocation...(Unknown Source)[0m
+[Host Controller] [33m	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:571)[0m
+[Host Controller] [33m	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:533)[0m
+[Host Controller] [33m	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:521)[0m
+[Host Controller] [33m	at org.jboss.as.protocol.ProtocolConnectionUtils.connect(ProtocolConnectionUtils.java:204)[0m
+[Host Controller] [33m	at org.jboss.as.protocol.ProtocolConnectionUtils.connectSync(ProtocolConnectionUtils.java:120)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnection.lambda$openConnection$0(RemoteDomainConnection.java:223)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnection$$Lambda$255.00000000D03AB1F0.run(Unknown Source)[0m
+[Host Controller] [33m	at org.wildfly.common.context.Contextual.runExceptionAction(Contextual.java:108)[0m
+[Host Controller] [33m	at org.wildfly.security.auth.client.AuthenticationContext.run(AuthenticationContext.java:273)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnection.openConnection(RemoteDomainConnection.java:223)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnection$InitialConnectTask.connect(RemoteDomainConnection.java:592)[0m
+[Host Controller] [33m	at org.jboss.as.protocol.ProtocolConnectionManager.connect(ProtocolConnectionManager.java:70)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnection.connect(RemoteDomainConnection.java:147)[0m
+[Host Controller] [33m	at org.jboss.as.host.controller.RemoteDomainConnectionService.register(RemoteDomainConnectionService.java:288)[0m
+[Host Controller] [33m	... 4 more[0m
+[Host Controller] [33m	Suppressed: javax.security.sasl.SaslException: DIGEST-MD5: Server rejected authentication[0m
+[Host Controller] [33m		at org.jboss.remoting3.remote.ClientConnectionOpenListener$Authentication.handleEvent(ClientConnectionOpenListener.java:736)[0m
+[Host Controller] [33m		at org.jboss.remoting3.remote.ClientConnectionOpenListener$Authentication.handleEvent(ClientConnectionOpenListener.java:578)[0m
+[Host Controller] [33m		at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)[0m
+[Host Controller] [33m		at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)[0m
+[Host Controller] [33m		at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)[0m
+[Host Controller] [33m		at org.xnio.nio.WorkerThread.run(WorkerThread.java:591)[0m
+[Host Controller] [33m[0m
+[Host Controller] [33m[0m[33m23:01:59,392 WARN  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0147: No domain controller discovery options remain.[0m
+[Host Controller] [33m[0m[31m23:01:59,393 ERROR [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0002: Could not connect to master. Error was: java.lang.IllegalStateException: WFLYHC0120: Tried all domain controller discovery option(s) but unable to connect[0m
+[Host Controller] [31m[0m[31m23:01:59,394 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99[0m
+[Host Controller] [31m[0m[0m23:01:59,408 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 9ms[0m
+[Host Controller] [0m[0m
+[0m23:01:59,416 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 99
+[0m[0m23:01:59,417 INFO  [org.jboss.as.process] (Thread-16) WFLYPC0017: Shutting down process controller
+[0m[0m23:01:59,419 INFO  [org.jboss.as.process] (Thread-16) WFLYPC0016: All processes finished; exiting
+[0m

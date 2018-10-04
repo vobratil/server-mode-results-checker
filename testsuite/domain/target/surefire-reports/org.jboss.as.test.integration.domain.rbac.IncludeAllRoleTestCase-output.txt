@@ -1,0 +1,57 @@
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+[Host Controller] [0m[0m22:51:44,670 INFO  [org.jboss.as.protocol] (management I/O-2) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread][0m
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+set user NewTestUser
+set user NewTestUser
+set user NewTestUser
+set password t3stSu!tePassword
+[Host Controller] [0m[0m22:51:50,424 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content[0m
+[Host Controller] [0m[0m22:51:50,487 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderTestSuite/master/data/content/4d/959b4b8d827a9c6d138f7f7d99d0bad17a280b/content[0m
+[Server:master-a] [0m[0m22:51:50,602 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "test-jmx-deployment.jar" (runtime-name: "test-jmx-deployment.jar")[0m
+[Server:master-a] [0m[33m22:51:50,672 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.test-jmx-deployment.jar" is using a private module ("org.jboss.as.jmx") which may be changed or removed in future versions without notice.[0m
+[Server:master-a] [33m[0m[33m22:51:50,672 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.test-jmx-deployment.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.[0m
+[Server:master-a] [33m[0m[33m22:51:50,672 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.test-jmx-deployment.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.[0m
+[Server:master-a] [33m[0m[0m22:51:50,685 INFO  [stdout] (MSC service thread 1-5) Properties found[0m
+[Server:master-a] [0m[0m22:51:50,694 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0010: Deployed "test-jmx-deployment.jar" (runtime-name : "test-jmx-deployment.jar")[0m

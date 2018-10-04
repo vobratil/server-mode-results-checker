@@ -1,0 +1,24 @@
+Oct 03, 2018 4:54:01 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:54:01 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+operation = {
+    "operation" => "composite",
+    "address" => [],
+    "steps" => [
+        {
+            "operation" => "my-operation",
+            "address" => [],
+            "param" => "param1"
+        },
+        {
+            "operation" => "my-operation",
+            "address" => [],
+            "param" => "param2"
+        }
+    ]
+}
+result = {
+    "step-1" => {"outcome" => "success"},
+    "step-2" => {"outcome" => "success"}
+}

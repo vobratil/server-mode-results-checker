@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>results-checker</groupId>
+    <artifactId>results-checker-as-ts-filters</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <JVM_XMX>-Xmx4g</JVM_XMX> <!-- default memory is set to 4G - this might fail on 32 bit systems -->
+        <job.name></job.name>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.qa</groupId>
+            <artifactId>results-checker</artifactId>
+            <version>1.0.7.Final</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>org.jboss.qe.collector.ResultsChecker</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
+                        <phase>package</phase> <!-- bind to the packaging phase -->
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.5.0</version>
+                <executions>
+                    <execution>
+                        <id>generate-report</id>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>java</executable>
+                    <arguments>
+                        <argument>-jar</argument>
+                        <argument>-Xms256m</argument>
+                        <argument>${JVM_XMX}</argument>
+                        <!--<argument>-Xdebug</argument>-->
+                        <!--<argument>-Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000</argument>-->
+                        <argument>${pom.build.directory}/${pom.build.finalName}-jar-with-dependencies.jar</argument>
+                        <argument>${job.name}</argument>
+                    </arguments>
+                    <environmentVariables>
+                        <USE_JAR_FILE>false</USE_JAR_FILE>
+                    </environmentVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>jboss-qa-releases</id>
+            <name>JBoss QA Release Repository</name>
+            <url>http://repository.engineering.redhat.com/nexus/content/repositories/jboss-qa-releases/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>jboss-qa-snapshots</id>
+            <name>JBoss QA Snapshot Repository</name>
+            <url>http://repository.engineering.redhat.com/nexus/content/repositories/jboss-qa-snapshots/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>daily</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+</project>

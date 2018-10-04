@@ -1,0 +1,18 @@
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$1 call
+INFO: Executor service should be locked
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/ShutdownFileSystemDeploymentServiceUnitTestCase/1538604275412
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$BlockingDeploymentOperations deploy
+INFO: Ready to deploy
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$1 call
+INFO: About to stop the scanner
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$DiscardTaskExecutor$1 cancel
+INFO: Task is being cancelled true
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$1 call
+INFO: Closing executor service org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$DiscardTaskExecutor@3b38609d[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$1 call
+INFO: Executor service should be closed
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$BlockingDeploymentOperations deploy
+INFO: Deploying on delegate.
+Oct 03, 2018 5:04:35 PM org.jboss.as.server.deployment.scanner.ShutdownFileSystemDeploymentServiceUnitTestCase$MockServerController executeAsync
+INFO: Executing deploy command from MockServerController, its executor service should be closed

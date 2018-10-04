@@ -1,0 +1,115 @@
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         7dc5fbf8-03ee-4e7c-92db-9f1b36e66bc1 
+Type:             one-off                              
+Identity name:    product                              
+Identity version: version                              
+Description:      this is one-off patch 1              
+Link:             http://test.one                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         7dc5fbf8-03ee-4e7c-92db-9f1b36e66bc1 
+Type:             one-off                              
+Identity name:    product                              
+Identity version: version                              
+Description:      this is one-off patch 1              
+Link:             http://test.one                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: ELEMENTS
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:    788ac1c7-f3b1-4292-b1c6-e7bd9e7e64c1 
+Name:        base                                 
+Type:        layer                                
+Description: one-off element                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         54da95b6-f6ed-48fa-92c1-fa37a07ab3bd 
+Type:             cumulative                           
+Identity name:    product                              
+Identity version: version                              
+Description:      This is cumulative patch 2           
+Link:             http://test.two                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         54da95b6-f6ed-48fa-92c1-fa37a07ab3bd 
+Type:             cumulative                           
+Identity name:    product                              
+Identity version: version                              
+Description:      This is cumulative patch 2           
+Link:             http://test.two                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: ELEMENTS
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:    cbf92301-1710-40af-80a4-cbc4d0e9fcfe 
+Name:        base                                 
+Type:        layer                                
+Description: CP element                           
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         7dc5fbf8-03ee-4e7c-92db-9f1b36e66bc1 
+Type:             one-off                              
+Identity name:    product                              
+Identity version: version                              
+Description:      this is one-off patch 1              
+Link:             http://test.one                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         54da95b6-f6ed-48fa-92c1-fa37a07ab3bd 
+Type:             cumulative                           
+Identity name:    product                              
+Identity version: version                              
+Description:      This is cumulative patch 2           
+Link:             http://test.two                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: CONTENT OF 7dc5fbf8-03ee-4e7c-92db-9f1b36e66bc1.zip:
+
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         7dc5fbf8-03ee-4e7c-92db-9f1b36e66bc1 
+Type:             one-off                              
+Identity name:    product                              
+Identity version: version                              
+Description:      this is one-off patch 1              
+Link:             http://test.one                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: ELEMENTS
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:    788ac1c7-f3b1-4292-b1c6-e7bd9e7e64c1 
+Name:        base                                 
+Type:        layer                                
+Description: one-off element                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: CONTENT OF 54da95b6-f6ed-48fa-92c1-fa37a07ab3bd.zip:
+
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         54da95b6-f6ed-48fa-92c1-fa37a07ab3bd 
+Type:             cumulative                           
+Identity name:    product                              
+Identity version: version                              
+Description:      This is cumulative patch 2           
+Link:             http://test.two                      
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: ELEMENTS
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:    cbf92301-1710-40af-80a4-cbc4d0e9fcfe 
+Name:        base                                 
+Type:        layer                                
+Description: CP element                           
+Oct 03, 2018 5:07:52 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 

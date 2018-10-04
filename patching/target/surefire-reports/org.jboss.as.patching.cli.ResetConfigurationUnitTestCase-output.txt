@@ -1,0 +1,38 @@
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Oct 03, 2018 5:07:51 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+{
+    "outcome" : "success",
+    "result" : {}
+}
+Oct 03, 2018 5:07:51 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+{
+    "outcome" : "success",
+    "result" : {}
+}
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Oct 03, 2018 5:07:51 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+{
+    "outcome" : "success",
+    "result" : {}
+}
+Oct 03, 2018 5:07:51 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+{
+    "outcome" : "success",
+    "result" : {}
+}

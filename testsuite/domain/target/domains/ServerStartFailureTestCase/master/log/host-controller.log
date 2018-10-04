@@ -1,0 +1,50 @@
+2018-10-03 22:44:44,210 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:44:45,203 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:44:45,236 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:44:45,381 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:44:46,134 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:44:46,136 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:44:46,182 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)
+2018-10-03 22:44:46,193 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+2018-10-03 22:44:46,204 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:44:46,250 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:44:46,307 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:44:46,348 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) WFLYRMT0001: Listening on 127.0.0.1:9999
+2018-10-03 22:44:46,360 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-4) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2018-10-03 22:44:47,039 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-one
+2018-10-03 22:44:50,144 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 207fd4d7 (inbound) of Remoting connection af3f7ee9 to rhel7-large-81357/127.0.0.1:35442 of endpoint "master:MANAGEMENT" <488efb80>]
+2018-10-03 22:44:50,176 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one
+2018-10-03 22:44:50,180 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management
+2018-10-03 22:44:50,180 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1
+2018-10-03 22:44:50,181 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 7144ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)
+2018-10-03 22:44:56,306 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 8) WFLYHC0019: Registered remote slave host "slave", WildFly 7.0.0.Alpha3-SNAPSHOT ""
+2018-10-03 22:45:03,567 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server main-two
+2018-10-03 22:45:07,098 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-two] connected using connection [Channel ID 73aba67b (inbound) of Remoting connection f137bf21 to rhel7-large-81357/127.0.0.1:35466 of endpoint "master:MANAGEMENT" <488efb80>]
+2018-10-03 22:45:07,118 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-two
+2018-10-03 22:45:07,120 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server other-one
+2018-10-03 22:45:10,104 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-one] connected using connection [Channel ID 2a48580d (inbound) of Remoting connection 1dff25d2 to rhel7-large-81357/127.0.0.1:35468 of endpoint "master:MANAGEMENT" <488efb80>]
+2018-10-03 22:45:10,122 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server reload-one
+2018-10-03 22:45:10,131 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-one
+2018-10-03 22:45:13,039 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 3134b145 (inbound) of Remoting connection 3c54434e to rhel7-large-81357/127.0.0.1:35470 of endpoint "master:MANAGEMENT" <488efb80>]
+2018-10-03 22:45:13,054 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one
+2018-10-03 22:45:13,241 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server main-two
+2018-10-03 22:45:13,285 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server reload-one
+2018-10-03 22:45:13,286 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server other-one
+2018-10-03 22:45:13,324 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server reload-one
+2018-10-03 22:45:13,337 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server main-one
+2018-10-03 22:45:13,357 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-two
+2018-10-03 22:45:13,474 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-one
+2018-10-03 22:45:13,483 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-one
+2018-10-03 22:45:13,524 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-two
+2018-10-03 22:45:13,525 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server reload-one
+2018-10-03 22:45:13,527 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server main-one
+2018-10-03 22:45:13,570 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server other-one
+2018-10-03 22:45:13,800 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server main-one
+2018-10-03 22:45:16,325 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 36759195 (inbound) of Remoting connection 4efc6fef to rhel7-large-81357/127.0.0.1:35472 of endpoint "master:MANAGEMENT" <488efb80>]
+2018-10-03 22:45:16,341 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one
+2018-10-03 22:45:16,466 INFO  [org.jboss.as.domain.controller] (management task-2) WFLYHC0026: Unregistered remote slave host "slave"
+2018-10-03 22:45:17,164 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:45:17,181 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 15) WFLYHC0024: Stopping server main-one
+2018-10-03 22:45:17,227 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-one
+2018-10-03 22:45:17,290 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server main-one
+2018-10-03 22:45:17,339 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 170ms

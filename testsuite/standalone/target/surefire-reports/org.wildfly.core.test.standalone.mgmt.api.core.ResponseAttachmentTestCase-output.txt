@@ -1,0 +1,84 @@
+[0m22:33:18,022 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 1) Registered log-stream-test attributes
+[0m[0m22:33:18,022 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 1) Registered log-stream-test operations
+[0m[0m22:33:18,358 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605998126
+[0m[0m22:33:18,555 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:18,555 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:18,641 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605998584
+[0m[0m22:33:18,796 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:18,796 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:18,903 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605998852
+[0m[0m22:33:19,010 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:19,011 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:19,082 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605999036
+[0m[0m22:33:19,246 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:19,247 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:19,309 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605999273
+[0m[0m22:33:19,440 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 1) Registered log-stream-test attributes
+[0m[0m22:33:19,440 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 1) Registered log-stream-test operations
+[0m[0m22:33:19,499 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605999466
+[0m[0m22:33:19,615 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:19,615 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:19,676 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605999638
+[0m[0m22:33:19,751 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test attributes
+[0m[0m22:33:19,752 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test operations
+[0m[0m22:33:19,811 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605999785
+[0m[0m22:33:19,912 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:19,912 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:19,955 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538605999929
+[0m[0m22:33:20,044 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:20,045 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:20,174 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,190 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 2) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,279 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,281 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 2) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,368 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 2) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,381 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,433 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,450 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,510 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,513 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,565 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,574 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,625 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,637 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,676 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,738 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,767 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,820 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,848 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 3) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,875 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606000060
+[0m[0m22:33:20,971 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:20,972 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:21,001 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) LogStreamHandler invoked with key 1538606000990
+[0m[0m22:33:21,106 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) LogStreamHandler invoked with key 1538606000990
+[0m[0m22:33:21,270 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:21,270 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:21,334 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606001301
+[0m[0m22:33:21,420 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:21,420 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:21,466 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606001438
+[0m[0m22:33:21,611 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:21,611 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:21,656 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606001626
+[0m[0m22:33:21,834 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:21,834 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:21,898 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606001869
+[0m[0m22:33:22,028 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:22,029 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:22,080 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606002045
+[0m[0m22:33:22,148 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test attributes
+[0m[0m22:33:22,149 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 2) Registered log-stream-test operations
+[0m[0m22:33:22,233 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606002184
+[0m[0m22:33:22,395 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test attributes
+[0m[0m22:33:22,396 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test operations
+[0m[0m22:33:22,441 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606002413
+[0m[0m22:33:22,498 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test attributes
+[0m[0m22:33:22,498 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test operations
+[0m[0m22:33:22,577 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606002535
+[0m[0m22:33:22,769 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test attributes
+[0m[0m22:33:22,770 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test operations
+[0m[0m22:33:22,850 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (External Management Request Threads -- 1) LogStreamHandler invoked with key 1538606002807
+[0m[0m22:33:23,023 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:33:23,025 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:33:23,080 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 44ms
+[0m

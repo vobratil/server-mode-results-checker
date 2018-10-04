@@ -1,0 +1,7 @@
+[Host Controller] [0m[0m22:55:47,794 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) Registered blocker-test operations[0m
+[Host Controller] [0m[0m22:55:47,808 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 7) Registered blocker-test operations[0m
+[Server:other-two] 22:55:47,848 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 6) Registered blocker-test operations
+[Server:main-one] 22:55:47,853 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 9) Registered blocker-test operations
+[Server:main-three] 22:55:47,887 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 4) Registered blocker-test operations
+[Host Controller] [0m[0m22:55:47,945 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) Registered blocker-test operations[0m
+[Host Controller] [0m[0m22:55:47,962 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 11) Registered blocker-test operations[0m

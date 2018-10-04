@@ -1,0 +1,508 @@
+set user Auditor
+set user Auditor
+set user Auditor
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => false,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "password" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "security-domain" => {
+                        "read" => true,
+                        "write" => false
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => false},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => false},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => false},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => false},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => false},
+                    "map-remove" => {"execute" => false},
+                    "list-add" => {"execute" => false},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => false},
+                    "map-put" => {"execute" => false},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => false},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+set user Operator
+set user Operator
+set user Operator
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => false,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "password" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "security-domain" => {
+                        "read" => false,
+                        "write" => false
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => false},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => false},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => false},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => false},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => false},
+                    "map-remove" => {"execute" => false},
+                    "list-add" => {"execute" => false},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => false},
+                    "map-put" => {"execute" => false},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => false},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+set user SuperUser
+set user SuperUser
+set user SuperUser
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => true,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "password" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "security-domain" => {
+                        "read" => true,
+                        "write" => true
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => true},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => true},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => true},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => true},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => true},
+                    "map-remove" => {"execute" => true},
+                    "list-add" => {"execute" => true},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => true},
+                    "map-put" => {"execute" => true},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => true},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+set user Maintainer
+set user Maintainer
+set user Maintainer
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => true,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "password" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "security-domain" => {
+                        "read" => false,
+                        "write" => false
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => true},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => true},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => true},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => true},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => true},
+                    "map-remove" => {"execute" => true},
+                    "list-add" => {"execute" => true},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => true},
+                    "map-put" => {"execute" => true},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => true},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+set user Monitor
+set user Monitor
+set user Monitor
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => false,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "password" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "security-domain" => {
+                        "read" => false,
+                        "write" => false
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => false},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => false},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => false},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => false},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => false},
+                    "map-remove" => {"execute" => false},
+                    "list-add" => {"execute" => false},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => false},
+                    "map-put" => {"execute" => false},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => false},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+set user Administrator
+set user Administrator
+set user Administrator
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => true,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "password" => {
+                        "read" => true,
+                        "write" => true
+                    },
+                    "security-domain" => {
+                        "read" => true,
+                        "write" => true
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => true},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => true},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => true},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => true},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => true},
+                    "map-remove" => {"execute" => true},
+                    "list-add" => {"execute" => true},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => true},
+                    "map-put" => {"execute" => true},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => true},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+set user Deployer
+set user Deployer
+set user Deployer
+set password t3stSu!tePassword
+
+{
+    "outcome" => "success",
+    "result" => {
+        "description" => undefined,
+        "access-constraints" => {"application" => {"datasource" => {"type" => "rbac"}}},
+        "attributes" => undefined,
+        "operations" => undefined,
+        "notifications" => undefined,
+        "children" => {},
+        "access-control" => {
+            "default" => {
+                "read" => true,
+                "write" => false,
+                "attributes" => {
+                    "authentication-inflow" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "jndi-name" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "new-connection-sql" => {
+                        "read" => true,
+                        "write" => false
+                    },
+                    "password" => {
+                        "read" => false,
+                        "write" => false
+                    },
+                    "security-domain" => {
+                        "read" => false,
+                        "write" => false
+                    }
+                },
+                "operations" => {
+                    "add" => {"execute" => false},
+                    "read-children-types" => {"execute" => true},
+                    "whoami" => {"execute" => true},
+                    "map-clear" => {"execute" => false},
+                    "list-get" => {"execute" => true},
+                    "query" => {"execute" => true},
+                    "read-operation-description" => {"execute" => true},
+                    "write-attribute" => {"execute" => false},
+                    "map-get" => {"execute" => true},
+                    "list-clear" => {"execute" => false},
+                    "read-attribute" => {"execute" => true},
+                    "remove" => {"execute" => false},
+                    "map-remove" => {"execute" => false},
+                    "list-add" => {"execute" => false},
+                    "read-attribute-group" => {"execute" => true},
+                    "undefine-attribute" => {"execute" => false},
+                    "map-put" => {"execute" => false},
+                    "read-children-names" => {"execute" => true},
+                    "read-attribute-group-names" => {"execute" => true},
+                    "read-operation-names" => {"execute" => true},
+                    "list-remove" => {"execute" => false},
+                    "read-children-resources" => {"execute" => true},
+                    "read-resource-description" => {"execute" => true},
+                    "read-resource" => {"execute" => true}
+                }
+            },
+            "exceptions" => {}
+        }
+    }
+}
+
+[0m22:42:52,552 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:42:52,554 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:42:52,577 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 18ms
+[0m

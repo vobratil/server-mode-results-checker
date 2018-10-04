@@ -1,0 +1,31 @@
+2018-10-03 22:45:56,870 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:45:57,942 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:45:57,976 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+2018-10-03 22:46:01,648 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+2018-10-03 22:46:05,230 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-four'
+2018-10-03 22:46:15,658 INFO  [org.jboss.as.process.Server:other-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-three'
+2018-10-03 22:46:19,079 INFO  [org.jboss.as.process.Server:other-four.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-four'
+2018-10-03 22:46:22,046 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+2018-10-03 22:46:22,064 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-four'
+2018-10-03 22:46:22,124 INFO  [org.jboss.as.process.Server:other-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-three'
+2018-10-03 22:46:22,158 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+2018-10-03 22:46:22,167 INFO  [org.jboss.as.process.Server:main-four.status] (reaper for Server:main-four) WFLYPC0011: Process 'Server:main-four' finished with an exit status of 0
+2018-10-03 22:46:22,179 INFO  [org.jboss.as.process.Server:other-four.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-four'
+2018-10-03 22:46:22,194 INFO  [org.jboss.as.process.Server:other-three.status] (reaper for Server:other-three) WFLYPC0011: Process 'Server:other-three' finished with an exit status of 0
+2018-10-03 22:46:22,218 INFO  [org.jboss.as.process.Server:other-four.status] (reaper for Server:other-four) WFLYPC0011: Process 'Server:other-four' finished with an exit status of 0
+2018-10-03 22:46:34,619 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+2018-10-03 22:46:37,100 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-four'
+2018-10-03 22:46:41,974 INFO  [org.jboss.as.process.Server:other-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-three'
+2018-10-03 22:46:45,719 INFO  [org.jboss.as.process.Server:other-four.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-four'
+2018-10-03 22:47:07,382 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0017: Shutting down process controller
+2018-10-03 22:47:07,383 INFO  [org.jboss.as.process.Host Controller.status] (Shutdown thread) WFLYPC0019: Stopping process 'Host Controller'
+2018-10-03 22:47:07,406 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+2018-10-03 22:47:07,407 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-four'
+2018-10-03 22:47:07,413 INFO  [org.jboss.as.process.Server:other-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-three'
+2018-10-03 22:47:07,413 INFO  [org.jboss.as.process.Server:other-four.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-four'
+2018-10-03 22:47:07,501 INFO  [org.jboss.as.process.Server:other-four.status] (reaper for Server:other-four) WFLYPC0011: Process 'Server:other-four' finished with an exit status of 0
+2018-10-03 22:47:07,511 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+2018-10-03 22:47:07,518 INFO  [org.jboss.as.process.Server:main-four.status] (reaper for Server:main-four) WFLYPC0011: Process 'Server:main-four' finished with an exit status of 0
+2018-10-03 22:47:07,527 INFO  [org.jboss.as.process.Server:other-three.status] (reaper for Server:other-three) WFLYPC0011: Process 'Server:other-three' finished with an exit status of 0
+2018-10-03 22:47:07,644 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 0
+2018-10-03 22:47:07,645 INFO  [org.jboss.as.process] (Shutdown thread) WFLYPC0016: All processes finished; exiting

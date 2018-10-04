@@ -1,0 +1,101 @@
+[0m23:30:51,901 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:51,918 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 9ms
+[0m[0m23:30:51,922 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:51,946 INFO  [stdout] (MSC service thread 1-7) Properties found
+[0m[0m23:30:51,949 INFO  [stdout] (MSC service thread 1-7) Setting service to is overwritten
+[0m[0m23:30:52,021 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,094 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 7ms
+[0m[0m23:30:52,096 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,120 INFO  [stdout] (MSC service thread 1-3) Properties found
+[0m[0m23:30:52,120 INFO  [stdout] (MSC service thread 1-3) Setting service to is new
+[0m[0m23:30:52,158 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,162 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,256 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,273 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 8ms
+[0m[0m23:30:52,276 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,296 INFO  [stdout] (MSC service thread 1-7) Properties found
+[0m[0m23:30:52,296 INFO  [stdout] (MSC service thread 1-7) Setting service to is new
+[0m[0m23:30:52,307 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,308 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,339 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,363 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 3ms
+[0m[0m23:30:52,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,377 INFO  [stdout] (MSC service thread 1-7) Properties found
+[0m[0m23:30:52,378 INFO  [stdout] (MSC service thread 1-7) Setting service to is overwritten
+[0m[0m23:30:52,388 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,416 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 3ms
+[0m[0m23:30:52,417 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,430 INFO  [stdout] (MSC service thread 1-5) Properties found
+[0m[0m23:30:52,430 INFO  [stdout] (MSC service thread 1-5) Setting service to is new
+[0m[0m23:30:52,441 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,441 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,484 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,496 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 6ms
+[0m[0m23:30:52,499 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,512 INFO  [stdout] (MSC service thread 1-3) Properties found
+[0m[0m23:30:52,513 INFO  [stdout] (MSC service thread 1-3) Setting service to is new
+[0m[0m23:30:52,523 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,524 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,551 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,599 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 3ms
+[0m[0m23:30:52,602 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,616 INFO  [stdout] (MSC service thread 1-5) Properties found
+[0m[0m23:30:52,617 INFO  [stdout] (MSC service thread 1-5) Setting service to is overwritten
+[0m[0m23:30:52,631 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,666 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 9ms
+[0m[0m23:30:52,668 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,684 INFO  [stdout] (MSC service thread 1-7) Properties found
+[0m[0m23:30:52,684 INFO  [stdout] (MSC service thread 1-7) Setting service to is new
+[0m[0m23:30:52,700 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,732 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,775 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,783 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 2ms
+[0m[0m23:30:52,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,812 INFO  [stdout] (MSC service thread 1-1) Properties found
+[0m[0m23:30:52,813 INFO  [stdout] (MSC service thread 1-1) Setting service to is new
+[0m[0m23:30:52,827 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,827 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,828 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,860 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:52,934 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 5ms
+[0m[0m23:30:52,937 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:52,957 INFO  [stdout] (MSC service thread 1-2) Properties found
+[0m[0m23:30:52,957 INFO  [stdout] (MSC service thread 1-2) Setting service to is overwritten
+[0m[0m23:30:52,970 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:52,993 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 3ms
+[0m[0m23:30:52,995 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:53,015 INFO  [stdout] (MSC service thread 1-2) Properties found
+[0m[0m23:30:53,016 INFO  [stdout] (MSC service thread 1-2) Setting service to is new
+[0m[0m23:30:53,034 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:53,035 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:53,158 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:53,165 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 2ms
+[0m[0m23:30:53,167 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:53,180 INFO  [stdout] (MSC service thread 1-4) Properties found
+[0m[0m23:30:53,181 INFO  [stdout] (MSC service thread 1-4) Setting service to is new
+[0m[0m23:30:53,191 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:53,191 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:53,192 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:53,220 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 9ms
+[0m[0m23:30:53,231 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/d9/5c2d2e2cf228e6979637eafd42e8639d7fcbba/content
+[0m[0m23:30:53,231 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:53,258 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/d9/5c2d2e2cf228e6979637eafd42e8639d7fcbba/content
+[0m[0m23:30:53,262 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:53,269 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:53,282 INFO  [stdout] (MSC service thread 1-5) Properties found
+[0m[0m23:30:53,283 INFO  [stdout] (MSC service thread 1-5) Setting service to is overwritten
+[0m[0m23:30:53,295 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:53,295 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0010: Deployed "test-deployment.jar" (runtime-name : "runtime-test-deployment.jar")
+[0m[0m23:30:53,340 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 3ms
+[0m[0m23:30:53,343 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:53,366 INFO  [stdout] (MSC service thread 1-5) Properties found
+[0m[0m23:30:53,367 INFO  [stdout] (MSC service thread 1-5) Setting service to is new
+[0m[0m23:30:53,380 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0013: Redeployed "runtime-test-deployment.jar"
+[0m[0m23:30:53,381 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/78/9f6aa68bcb6ad13f84ec363f8ac7a39293e6f1/content
+[0m[0m23:30:53,403 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment test-deployment.jar (runtime-name: runtime-test-deployment.jar) in 2ms
+[0m[0m23:30:53,425 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/data/content/d9/5c2d2e2cf228e6979637eafd42e8639d7fcbba/content
+[0m[0m23:30:53,426 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "test-deployment.jar" (runtime-name: "runtime-test-deployment.jar")
+[0m[0m23:30:53,479 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:30:53,482 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:30:53,510 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 10ms
+[0m

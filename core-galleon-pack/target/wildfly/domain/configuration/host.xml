@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<host xmlns="urn:jboss:domain:6.0" name="master">
+<extensions>
+<extension module="org.jboss.as.jmx"/>
+<extension module="org.wildfly.extension.core-management"/>
+<extension module="org.wildfly.extension.elytron"/>
+<extension module="org.wildfly.extension.discovery"/>
+</extensions>
+<management>
+<management-interfaces>
+<http-interface security-realm="ManagementRealm">
+<http-upgrade enabled="true"/>
+<socket interface="management" port="${jboss.management.http.port:9990}"/>
+</http-interface>
+</management-interfaces>
+</management>
+<domain-controller>
+<local />
+</domain-controller>
+<interfaces>
+<interface name="management">
+<inet-address value="127.0.0.1"/>
+</interface>
+</interfaces>
+</host>

@@ -1,0 +1,439 @@
+2018-10-03 22:53:39 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "f1296c2a-cac9-4270-8f90-d366e3f50497",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "f1296c2a-cac9-4270-8f90-d366e3f50497",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:40 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "bfdd7b68-efb9-4e2b-8548-04a5dca98bfe",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "add",
+        "address" : [{
+            "system-property" : "test1538607219924"
+        }],
+        "value" : "abc",
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "bfdd7b68-efb9-4e2b-8548-04a5dca98bfe",
+            "push-to-servers" : null
+        },
+        "boot-time" : null
+    }]
+}
+2018-10-03 22:53:40 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "cd7a95f5-9516-49cb-9dcb-64bb6eba1b32",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "cd7a95f5-9516-49cb-9dcb-64bb6eba1b32",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:40 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "3506ff0d-12df-4673-80e3-c600c9f09ec4",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "3506ff0d-12df-4673-80e3-c600c9f09ec4",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:40 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "460a2448-1b6c-4e9d-91c0-b8cb59d9cf05",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "composite",
+        "steps" : [
+            {
+                "operation" : "add",
+                "address" : [
+                    {
+                        "core-service" : "management"
+                    },
+                    {
+                        "access" : "audit"
+                    },
+                    {
+                        "syslog-handler" : "test-syslog"
+                    }
+                ],
+                "formatter" : "json-formatter",
+                "operation-headers" : {
+                    "access-mechanism" : "NATIVE",
+                    "domain-uuid" : "460a2448-1b6c-4e9d-91c0-b8cb59d9cf05"
+                }
+            },
+            {
+                "operation" : "add",
+                "address" : [
+                    {
+                        "core-service" : "management"
+                    },
+                    {
+                        "access" : "audit"
+                    },
+                    {
+                        "syslog-handler" : "test-syslog"
+                    },
+                    {
+                        "protocol" : "udp"
+                    }
+                ],
+                "host" : "localhost",
+                "port" : 10514,
+                "operation-headers" : {
+                    "access-mechanism" : "NATIVE",
+                    "domain-uuid" : "460a2448-1b6c-4e9d-91c0-b8cb59d9cf05"
+                }
+            }
+        ],
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "460a2448-1b6c-4e9d-91c0-b8cb59d9cf05"
+        },
+        "address" : []
+    }]
+}
+2018-10-03 22:53:41 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "a30483b0-a754-4439-86b3-049e4b438fba",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "add",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            },
+            {
+                "handler" : "test-syslog"
+            }
+        ],
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "a30483b0-a754-4439-86b3-049e4b438fba",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:43 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "af9d8110-f3ff-43f6-b9b3-061e687d1152",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "af9d8110-f3ff-43f6-b9b3-061e687d1152",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:45 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "1bd864d8-6dea-4c49-a968-b500393d8fa8",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "1bd864d8-6dea-4c49-a968-b500393d8fa8",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:46 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "8a51e73a-c0ea-4ea0-92bc-efcb45df7d18",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "remove",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            },
+            {
+                "handler" : "test-syslog"
+            }
+        ],
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "8a51e73a-c0ea-4ea0-92bc-efcb45df7d18",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:49 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "1a665a4f-1ac7-45bc-a2ab-d52c592bcf70",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "remove",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "syslog-handler" : "test-syslog"
+            }
+        ],
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "1a665a4f-1ac7-45bc-a2ab-d52c592bcf70",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:49 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "77fdacc9-9abd-4907-90d8-dd2e8f6f389b",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "77fdacc9-9abd-4907-90d8-dd2e8f6f389b",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:49 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "1741f4b0-f532-4c1a-b926-8800577bfaf2",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : true,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "1741f4b0-f532-4c1a-b926-8800577bfaf2",
+            "execute-for-coordinator" : true
+        }
+    }]
+}
+2018-10-03 22:53:58 - {
+    "type" : "core",
+    "r/o" : false,
+    "booting" : false,
+    "version" : "7.0.0.Alpha3-SNAPSHOT",
+    "user" : "$local",
+    "domainUUID" : "b9ce8d3c-3f12-4050-b997-96e2ab17c4ce",
+    "access" : "NATIVE",
+    "remote-address" : "rhel7-large-81357/127.0.0.1",
+    "success" : true,
+    "ops" : [{
+        "operation" : "write-attribute",
+        "address" : [
+            {
+                "core-service" : "management"
+            },
+            {
+                "access" : "audit"
+            },
+            {
+                "logger" : "audit-log"
+            }
+        ],
+        "name" : "enabled",
+        "value" : false,
+        "operation-headers" : {
+            "access-mechanism" : "NATIVE",
+            "domain-uuid" : "b9ce8d3c-3f12-4050-b997-96e2ab17c4ce",
+            "execute-for-coordinator" : true
+        }
+    }]
+}

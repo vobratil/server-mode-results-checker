@@ -1,0 +1,16 @@
+[31m22:33:44,007 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "logging"),
+    ("logger" => "MissingVaultExpressionTestCase")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${foo.MissingVaultExpressionTestCase}'"
+[0m[31m22:33:44,018 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "logging"),
+    ("logger" => "MissingVaultExpressionTestCase")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${VAULT::logging::level::12345}'"
+[0m[31m22:33:44,095 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "logging"),
+    ("logger" => "MissingVaultExpressionTestCase")
+]) - failure description: "WFLYCTL0211: Cannot resolve expression '${VAULT::logging::level::12345}'"
+[0m[0m22:33:44,174 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:33:44,192 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:33:44,398 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 155ms
+[0m

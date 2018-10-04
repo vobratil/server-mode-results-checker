@@ -1,0 +1,25 @@
+Oct 03, 2018 4:53:22 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.8.Final
+Oct 03, 2018 4:53:22 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 4:53:22 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 4:53:22 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+/127.0.0.1:32123
+Oct 03, 2018 4:53:22 PM org.wildfly.security.Version <clinit>
+INFO: ELY00001: WildFly Elytron version 1.7.0.CR2
+Oct 03, 2018 4:53:23 PM org.jboss.as.protocol.mgmt.AbstractMessageHandler handleMessage
+WARN: WFLYPRT0018: No such request (1) associated with channel Channel ID aef28401 (outbound) of Remoting connection a1ddf891 to /127.0.0.1:32123 of endpoint "endpoint" <244cc2be>
+/127.0.0.1:32123
+Oct 03, 2018 4:53:24 PM org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner cancel
+INFO: WFLYPRT0057:  cancelled task by interrupting thread Thread[Remoting 3 thread 1,5,Remoting]
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123
+/127.0.0.1:32123

@@ -1,0 +1,24 @@
+[Host Controller] [0m[0m22:54:03,799 INFO  [stdout] (management-handler-thread - 2) Initializing DependentExtension[0m
+[Host Controller] [0m[0m22:54:03,816 INFO  [stdout] (Host Controller Service Threads - 35) Initializing DependentExtension[0m
+[Server:other-two] 22:54:03,842 INFO  [stdout] (ServerService Thread Pool -- 2) Initializing DependentExtension
+[Server:main-three] 22:54:03,843 INFO  [stdout] (ServerService Thread Pool -- 9) Initializing DependentExtension
+[Server:main-one] 22:54:03,840 INFO  [stdout] (ServerService Thread Pool -- 2) Initializing DependentExtension
+[Host Controller] [0m[0m22:54:04,093 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 22:54:04,096 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 18ms
+[Server:other-two] 22:54:04,098 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m22:54:04,141 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 5d4fcd2f (inbound) of Remoting connection 84d49335 to rhel7-large-81357/127.0.0.1:58236 of endpoint "slave:MANAGEMENT" <4ec06a24>][0m
+[Host Controller] [0m[0m22:54:04,155 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 22:54:04,170 INFO  [stdout] (ServerService Thread Pool -- 10) Initializing DependentExtension
+[Server:other-two] 22:54:04,251 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 11) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:other-two] 22:54:04,275 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 22:54:04,313 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 22:54:04,314 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 216ms - Started 56 of 74 services (31 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:54:05,092 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 22:54:05,097 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 13ms
+[Server:other-two] 22:54:05,098 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m22:54:05,148 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 04858536 (inbound) of Remoting connection 79d12702 to rhel7-large-81357/127.0.0.1:58238 of endpoint "slave:MANAGEMENT" <4ec06a24>][0m
+[Host Controller] [0m[0m22:54:05,158 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 22:54:05,242 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 9) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:other-two] 22:54:05,247 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 22:54:05,284 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 22:54:05,285 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 186ms - Started 50 of 70 services (28 services are lazy, passive or on-demand)

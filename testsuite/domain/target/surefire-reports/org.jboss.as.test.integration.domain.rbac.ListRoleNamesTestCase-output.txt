@@ -1,0 +1,12 @@
+set user Auditor
+set user Auditor
+set user Auditor
+set password t3stSu!tePassword
+set user SuperUser
+set user SuperUser
+set user SuperUser
+set password t3stSu!tePassword
+set user Administrator
+set user Administrator
+set user Administrator
+set password t3stSu!tePassword

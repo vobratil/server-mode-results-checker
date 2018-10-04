@@ -1,0 +1,165 @@
+[Server:main-three] 22:55:58,165 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607358103
+[Server:main-three] 22:55:58,351 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607358266
+[Server:main-three] 22:55:58,594 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607358484
+[Server:main-three] 22:55:58,728 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 5) LogStreamHandler invoked with key 1538607358664
+[Server:main-three] 22:55:58,856 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 5) LogStreamHandler invoked with key 1538607358798
+[Server:main-three] 22:55:58,989 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 5) LogStreamHandler invoked with key 1538607358923
+[Server:main-three] 22:55:59,108 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607359051
+[Server:main-three] 22:55:59,251 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607359157
+[Server:main-three] 22:55:59,422 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607359329
+[Host Controller] [0m[0m22:55:59,605 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) LogStreamHandler invoked with key 1538607359556[0m
+[Server:main-one] 22:55:59,607 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 7) LogStreamHandler invoked with key 1538607359556
+[Server:main-three] 22:55:59,612 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607359556
+{
+    "outcome" => "success",
+    "result" => {
+        "step-1" => {
+            "outcome" => "success",
+            "result" => "dbd35cd7-9acf-4738-ac19-a8dfda5a3f6f"
+        },
+        "step-2" => {
+            "outcome" => "success",
+            "result" => "ceaedf8f-40f0-49d3-ba7a-0ce80d0eb0df",
+            "response-headers" => {
+                "process-state" => "restart-required",
+                "attached-streams" => [{
+                    "uuid" => "ceaedf8f-40f0-49d3-ba7a-0ce80d0eb0df",
+                    "mime-type" => "text/plain"
+                }]
+            }
+        },
+        "step-3" => {
+            "outcome" => "success",
+            "result" => "9d7d03dc-37d4-4996-96b3-9359a5621aa6",
+            "response-headers" => {
+                "process-state" => "restart-required",
+                "attached-streams" => [{
+                    "uuid" => "9d7d03dc-37d4-4996-96b3-9359a5621aa6",
+                    "mime-type" => "text/plain"
+                }]
+            }
+        }
+    },
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [
+            {
+                "uuid" => "dbd35cd7-9acf-4738-ac19-a8dfda5a3f6f",
+                "mime-type" => "text/plain"
+            },
+            {
+                "uuid" => "9d7d03dc-37d4-4996-96b3-9359a5621aa6",
+                "mime-type" => "text/plain"
+            },
+            {
+                "uuid" => "ceaedf8f-40f0-49d3-ba7a-0ce80d0eb0df",
+                "mime-type" => "text/plain"
+            }
+        ]
+    }
+}
+[Server:main-one] 22:55:59,770 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 7) LogStreamHandler invoked with key 1538607359723
+{
+    "outcome" => "success",
+    "result" => "51d0c47a-eacd-49b1-9ccb-0daad8612d7f",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "51d0c47a-eacd-49b1-9ccb-0daad8612d7f",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-one] 22:55:59,788 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 7) LogStreamHandler invoked with key 1538607359723
+{
+    "outcome" => "success",
+    "result" => "22dad696-51ab-449f-834e-86b374857dc9",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "22dad696-51ab-449f-834e-86b374857dc9",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-three] 22:55:59,910 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607359832
+[Server:main-three] 22:56:00,041 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607359988
+[Server:main-three] 22:56:00,168 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360094
+[Server:main-three] 22:56:00,342 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360265
+[Server:main-three] 22:56:00,462 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360404
+{
+    "outcome" => "success",
+    "result" => "50527e5f-b8d7-4abd-82b4-1172b3c7b485",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "50527e5f-b8d7-4abd-82b4-1172b3c7b485",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-three] 22:56:00,483 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360404
+{
+    "outcome" => "success",
+    "result" => "2e8f7905-de4a-4d32-83bb-441a6867ad3d",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "2e8f7905-de4a-4d32-83bb-441a6867ad3d",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+{
+    "outcome" => "success",
+    "result" => "e3a0204d-eada-4d44-9623-adc3b816c6cd",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "e3a0204d-eada-4d44-9623-adc3b816c6cd",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-three] 22:56:00,506 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360404
+[Server:main-three] 22:56:00,520 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360404
+{
+    "outcome" => "success",
+    "result" => "dbd2039d-4057-4ed5-ae3f-e08cfc8c4360",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "dbd2039d-4057-4ed5-ae3f-e08cfc8c4360",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-three] 22:56:00,638 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360574
+[Host Controller] [0m[0m22:56:00,719 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) LogStreamHandler invoked with key 1538607360681[0m
+{
+    "outcome" => "success",
+    "result" => "59d163b3-1e39-44e3-a6e3-1606eae8faae",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "59d163b3-1e39-44e3-a6e3-1606eae8faae",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-three] 22:56:00,830 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607360761
+[Host Controller] [0m[0m22:56:00,943 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) LogStreamHandler invoked with key 1538607360899[0m
+{
+    "outcome" => "success",
+    "result" => "18fbd3e2-0913-4963-ba75-e0a4dc23e346",
+    "response-headers" => {
+        "process-state" => "restart-required",
+        "attached-streams" => [{
+            "uuid" => "18fbd3e2-0913-4963-ba75-e0a4dc23e346",
+            "mime-type" => "text/plain"
+        }]
+    }
+}
+[Server:main-three] 22:56:01,041 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607360981
+[Server:main-three] 22:56:01,138 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 4) LogStreamHandler invoked with key 1538607361089
+[Server:main-three] 22:56:01,385 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 19) LogStreamHandler invoked with key 1538607361273

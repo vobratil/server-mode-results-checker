@@ -1,0 +1,522 @@
+[Host Controller] [0m[0m22:56:01,882 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:02,000 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] [0m22:56:02,734 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:reload-one] [0m[0m22:56:03,174 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:reload-one] [0m[0m22:56:03,183 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:reload-one] [0m[0m22:56:03,317 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:reload-one] [0m[0m22:56:03,498 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final[0m
+[Server:reload-one] [0m[0m22:56:03,504 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:reload-one] [0m[0m22:56:03,550 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final[0m
+[Server:reload-one] [0m[0m22:56:04,502 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m22:56:05,061 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 07086f60 (inbound) of Remoting connection 23cec5b2 to rhel7-large-81357/127.0.0.1:38688 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:05,064 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] [0m[0m22:56:05,307 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:reload-one] [0m22:56:05,404 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:reload-one] 22:56:05,407 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3260ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:05,416 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 12) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:05,555 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] [0m22:56:06,983 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:reload-two] [0m[0m22:56:07,417 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:reload-two] [0m[0m22:56:07,426 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:reload-two] [0m[0m22:56:07,565 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:reload-two] [0m[0m22:56:07,702 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final[0m
+[Server:reload-two] [0m[0m22:56:07,707 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:reload-two] [0m[0m22:56:07,742 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final[0m
+[Server:reload-two] [0m[0m22:56:08,110 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m22:56:08,688 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 303aa56d (inbound) of Remoting connection a957ff76 to rhel7-large-81357/127.0.0.1:58934 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:08,696 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] [0m[0m22:56:09,186 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:reload-two] [0m22:56:09,392 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:reload-two] 22:56:09,397 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3682ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Server:reload-one] 22:56:09,500 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 10) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:09,512 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 5) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Host Controller] [0m[0m22:56:09,597 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:09,606 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 10) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:09,611 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:09,614 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:09,666 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:09,705 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 80ms
+[0m22:56:09,721 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:09,762 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:09,826 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:09,836 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:09,839 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:09,840 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:reload-two] 22:56:09,873 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 21ms
+[Host Controller] [0m[0m22:56:09,875 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server reload-two[0m
+[0m22:56:09,880 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:09,921 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:10,058 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:10,169 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:12,210 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:13,138 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:13,159 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:13,503 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:13,596 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:13,605 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:13,641 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:13,991 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:14,512 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 69f0ab76 (inbound) of Remoting connection 04e77bb4 to rhel7-large-81357/127.0.0.1:38692 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:14,516 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:14,754 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:14,790 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:14,877 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:14,879 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4345ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:14,891 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:15,006 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:15,828 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:56:16,254 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:56:16,263 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:56:16,402 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:56:16,493 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:reload-two] 22:56:16,499 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:56:16,534 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:56:16,902 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:17,433 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 250d3c6f (inbound) of Remoting connection 2d72fc5c to rhel7-large-81357/127.0.0.1:58938 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:17,438 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:17,638 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:17,668 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:17,760 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:17,762 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2616ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:17,861 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:17,867 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 10) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:17,869 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:17,871 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:17,887 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:17,896 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 17ms
+[0m22:56:17,903 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:17,943 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:18,078 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:18,083 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:18,085 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:18,087 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:18,098 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:18,108 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[0m22:56:18,115 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:18,157 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:18,303 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:18,416 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:19,224 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:20,149 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:20,171 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:20,515 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:20,606 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:20,612 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:20,647 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:21,007 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:21,562 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 30a1d1f8 (inbound) of Remoting connection 2998237d to rhel7-large-81357/127.0.0.1:38696 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:21,569 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:21,816 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:21,875 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:21,961 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:21,964 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3357ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:21,978 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:22,080 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:22,892 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:56:23,306 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:56:23,315 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:56:23,461 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:56:23,667 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[Server:reload-two] 22:56:23,672 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:56:23,707 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:56:24,077 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:24,635 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 3ae161f8 (inbound) of Remoting connection d18c2d1d to rhel7-large-81357/127.0.0.1:58942 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:24,640 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:25,034 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:25,115 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:25,363 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:25,368 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3146ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:25,554 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:25,568 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 10) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:25,575 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:25,578 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:25,615 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:25,639 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 55ms
+[0m22:56:25,659 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:25,700 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:25,786 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:25,796 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:25,802 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:25,806 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:25,830 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:25,845 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 34ms
+[0m22:56:25,863 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:25,904 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:26,050 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:26,155 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:26,954 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:27,412 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:27,421 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:27,612 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:27,711 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:27,718 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:27,753 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:28,614 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:29,361 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 797a716f (inbound) of Remoting connection 88ba22e4 to rhel7-large-81357/127.0.0.1:38700 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:29,366 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:29,674 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:29,728 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:29,823 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:29,825 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3517ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:29,843 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:29,974 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:30,834 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:56:31,258 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:56:31,267 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:56:31,409 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:56:31,507 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:reload-two] 22:56:31,521 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:56:31,587 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:56:32,002 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:32,552 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 072057e5 (inbound) of Remoting connection 30ec24e4 to rhel7-large-81357/127.0.0.1:58946 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:32,561 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:32,769 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:32,808 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:32,960 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:32,965 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2844ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:33,170 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:33,180 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 10) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:33,185 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:33,188 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:33,216 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:33,228 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 33ms
+[0m22:56:33,236 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:33,278 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:33,391 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:33,397 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:33,400 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:33,402 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:33,416 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:33,422 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 14ms
+[0m22:56:33,431 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:33,472 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:33,617 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:33,716 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:34,574 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:35,022 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:35,031 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:35,177 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:35,259 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:35,267 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:35,303 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:35,666 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:36,198 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 37ed63c1 (inbound) of Remoting connection b377c9dd to rhel7-large-81357/127.0.0.1:38704 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:36,202 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:36,462 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:36,511 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:36,603 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:36,605 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2741ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:36,618 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:36,717 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:37,520 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:56:37,946 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:56:37,955 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:56:38,101 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:56:38,204 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+[Server:reload-two] 22:56:38,221 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:56:38,292 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:56:38,849 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:39,360 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 16fdea20 (inbound) of Remoting connection e0f05563 to rhel7-large-81357/127.0.0.1:58950 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:39,364 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:39,612 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:39,662 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:39,768 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:39,771 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2911ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:39,925 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:39,961 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 57ms
+[Server:reload-one] 22:56:39,965 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m22:56:40,027 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 4820fe61 (inbound) of Remoting connection 416c94bd to rhel7-large-81357/127.0.0.1:38708 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:40,031 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:40,085 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:40,094 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:40,143 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:40,143 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 177ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:40,243 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:40,252 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[Server:reload-two] 22:56:40,255 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m22:56:40,289 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 352a0823 (inbound) of Remoting connection 5647a497 to rhel7-large-81357/127.0.0.1:58954 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:40,294 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:40,343 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:40,350 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:40,390 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:40,391 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 136ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:40,401 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:40,409 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 6) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:40,453 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:40,454 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:40,467 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:40,470 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 12ms
+[0m22:56:40,477 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:40,478 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:40,619 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:40,627 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:40,669 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:40,671 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:40,681 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:40,686 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 11ms
+[0m22:56:40,693 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:40,694 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:40,847 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:40,946 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:41,770 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:42,163 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:42,172 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:42,368 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:42,528 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:42,541 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:42,611 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:43,308 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:43,801 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 16ea52aa (inbound) of Remoting connection ac49508d to rhel7-large-81357/127.0.0.1:38712 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:43,804 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:44,046 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:44,077 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:44,165 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:44,167 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3077ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:44,179 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:44,278 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:45,527 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:56:45,953 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:56:45,962 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:56:46,097 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:56:46,184 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:reload-two] 22:56:46,190 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:56:46,226 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:56:46,612 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:47,140 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 0f6100d9 (inbound) of Remoting connection 905ccf8d to rhel7-large-81357/127.0.0.1:58958 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:47,145 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:47,363 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:47,408 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:47,493 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:47,495 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3029ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:47,564 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:47,595 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 10) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:47,638 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:47,639 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:47,657 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:47,664 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[0m22:56:47,676 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:47,718 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:47,760 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:47,900 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:49,670 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:50,086 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:50,094 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:50,236 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:50,326 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:50,335 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:50,371 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:50,752 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:51,232 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 36336eb0 (inbound) of Remoting connection 4ad8fad2 to rhel7-large-81357/127.0.0.1:38716 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:51,235 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:51,655 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:51,703 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:51,826 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:51,829 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3558ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:51,879 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:51,909 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:51,952 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:51,954 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:51,973 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:51,981 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 22ms
+[0m22:56:51,987 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:52,028 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:52,109 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:52,250 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:53,065 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:56:53,496 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:56:53,505 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:56:53,647 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:56:53,739 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:reload-two] 22:56:53,754 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:56:53,818 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:56:54,174 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:54,679 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 463c0a63 (inbound) of Remoting connection c9a7f940 to rhel7-large-81357/127.0.0.1:58962 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:56:54,684 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:56:54,909 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:56:54,943 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:56:55,028 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:56:55,031 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2647ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:55,045 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:56:55,069 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:55,071 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:55,073 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:55,090 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:56:55,098 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m22:56:55,105 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:55,147 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:56:55,279 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:56:55,321 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:56:55,324 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:56:55,325 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:56:55,338 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:56:55,346 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[0m22:56:55,356 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:56:55,398 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:56:55,555 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server reload-one[0m
+[0m22:56:55,667 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:56:57,571 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:56:57,969 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:56:57,978 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:56:58,110 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:56:58,190 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+[Server:reload-one] 22:56:58,196 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:56:58,230 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:56:58,758 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:56:59,318 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 51fbea57 (inbound) of Remoting connection c646a421 to rhel7-large-81357/127.0.0.1:38720 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:56:59,324 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:56:59,560 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:56:59,600 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:56:59,692 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:56:59,695 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3664ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:56:59,706 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:56:59,804 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:57:00,962 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:57:01,356 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:57:01,368 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:57:01,505 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:57:01,704 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+[Server:reload-two] 22:57:01,716 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:57:01,763 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:57:02,128 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:57:02,634 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 22450dd5 (inbound) of Remoting connection 1c702d32 to rhel7-large-81357/127.0.0.1:58966 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:57:02,639 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:57:02,846 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:57:02,879 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:57:02,965 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:57:02,967 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2665ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:57:03,075 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:57:03,081 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 10) WFLYSRV0236: Suspending server with no timeout.
+[0m22:57:03,084 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:57:03,086 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:57:03,100 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:57:03,113 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 22ms
+[0m22:57:03,121 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:57:03,162 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m22:57:03,289 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:57:03,295 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:57:03,297 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:57:03,299 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:57:03,312 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:57:03,317 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 10ms
+[0m22:57:03,323 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:57:03,365 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:57:03,514 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0023: Starting server reload-one[0m
+[0m22:57:03,614 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:reload-one] 22:57:04,976 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-one] 22:57:05,359 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-one] 22:57:05,368 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-one] 22:57:05,512 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-one] 22:57:05,598 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:reload-one] 22:57:05,605 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-one] 22:57:05,645 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:reload-one] 22:57:06,036 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:57:06,565 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 56bacb11 (inbound) of Remoting connection b49372af to rhel7-large-81357/127.0.0.1:38724 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:57:06,570 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:57:06,783 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:57:06,813 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:57:06,893 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:57:06,895 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3089ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:57:06,907 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0023: Starting server reload-two[0m
+[0m22:57:07,004 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:reload-two] 22:57:07,830 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:reload-two] 22:57:08,273 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:reload-two] 22:57:08,281 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:reload-two] 22:57:08,416 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:reload-two] 22:57:08,500 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:reload-two] 22:57:08,507 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:reload-two] 22:57:08,544 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+[Server:reload-two] 22:57:09,404 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:57:10,569 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 37da6712 (inbound) of Remoting connection acbc8dbb to rhel7-large-81357/127.0.0.1:58970 of endpoint "slave:MANAGEMENT" <7543fe2b>][0m
+[Host Controller] [0m[0m22:57:10,581 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Server:reload-two] 22:57:11,014 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-two]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-two]     ("socket-binding" => "my-custom-binding")
+[Server:reload-two] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-two] 22:57:11,072 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-two] 22:57:11,297 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-two] 22:57:11,302 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4153ms - Started 43 of 49 services (12 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:57:11,325 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 14) WFLYHC0024: Stopping server reload-two[0m
+[Server:reload-two] 22:57:11,350 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0236: Suspending server with no timeout.
+[0m22:57:11,353 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 22:57:11,356 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:57:11,388 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server reload-two[0m
+[Server:reload-two] 22:57:11,402 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 36ms
+[0m22:57:11,410 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:57:11,452 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m22:57:11,859 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:57:11,868 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 22ms
+[Server:reload-one] 22:57:11,872 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m22:57:11,922 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 753768ec (inbound) of Remoting connection 8b99d3a5 to rhel7-large-81357/127.0.0.1:38728 of endpoint "master:MANAGEMENT" <fd78e729>][0m
+[Host Controller] [0m[0m22:57:11,925 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Server:reload-one] 22:57:12,017 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([
+[Server:reload-one]     ("socket-binding-group" => "reload-sockets"),
+[Server:reload-one]     ("socket-binding" => "my-custom-binding")
+[Server:reload-one] ]) - failure description: "WFLYCTL0211: Cannot resolve expression '${my.custom.socket}'"
+[Server:reload-one] 22:57:12,032 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:reload-one] 22:57:12,109 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:reload-one] 22:57:12,110 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 238ms - Started 42 of 48 services (11 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:57:12,179 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server reload-one[0m
+[Server:reload-one] 22:57:12,184 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 4) WFLYSRV0236: Suspending server with no timeout.
+[0m22:57:12,227 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[Server:reload-one] 22:57:12,229 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:57:12,243 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0027: Unregistering server reload-one[0m
+[Server:reload-one] 22:57:12,247 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 13ms
+[0m22:57:12,255 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:57:12,257 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m

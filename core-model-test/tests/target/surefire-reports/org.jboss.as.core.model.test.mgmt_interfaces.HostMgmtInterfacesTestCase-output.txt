@@ -1,0 +1,80 @@
+Oct 03, 2018 5:12:05 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:12:05 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'server-name' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'sasl-protocol' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'sasl-protocol' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'server-name' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.controller.temp.dir\"",
+        "jboss.server.path.\"jboss.domain.config.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ManagementRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication is missing [jboss.server.path.\"jboss.domain.config.dir\", org.wildfly.management.path-manager]"
+    ]
+}
+Oct 03, 2018 5:12:06 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ManagementRealm] 
+      service jboss.server.path."jboss.domain.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:12:08 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/core-service=management/management-interface=native-interface' are not available:
+    org.wildfly.security.sasl-authentication-factory.management-sasl in context 'global'; There are no known registration points which can provide this capability.
+Oct 03, 2018 5:12:08 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/host=master/core-service=management/management-interface=http-interface' are not available:
+    org.wildfly.security.sasl-authentication-factory.management-sasl in context 'global'; There are no known registration points which can provide this capability.
+    org.wildfly.security.http-authentication-factory.management-http in context 'global'; There are no known registration points which can provide this capability.
+Oct 03, 2018 5:12:08 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ManagementRealm")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.controller.temp.dir\"",
+        "jboss.server.path.\"jboss.domain.config.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ManagementRealm is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.domain.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:12:08 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ManagementRealm] 
+      service jboss.server.path."jboss.domain.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.ManagementRealm.properties_authentication] 
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:12:09 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.security.sasl-authentication-factory.management-sasl in context 'global'; Possible registration points for this capability: 
+		/core-service=management/management-interface=native-interface
+		/host=master/core-service=management/management-interface=native-interface
+    org.wildfly.security.sasl-authentication-factory.management-sasl in context 'global'; Possible registration points for this capability: 
+		/core-service=management/management-interface=http-interface
+		/host=master/core-service=management/management-interface=http-interface
+    org.wildfly.security.http-authentication-factory.management-http in context 'global'; Possible registration points for this capability: 
+		/core-service=management/management-interface=http-interface
+		/host=master/core-service=management/management-interface=http-interface

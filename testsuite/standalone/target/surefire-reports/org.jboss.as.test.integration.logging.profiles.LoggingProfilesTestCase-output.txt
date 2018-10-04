@@ -1,0 +1,62 @@
+[0m22:16:34,618 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/07/65809589dab9a86d898b03c7690d7fa8f5742c/content
+[0m[0m22:16:34,637 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:34,713 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging1.jar" (runtime-name : "logging1.jar")
+[0m[0m22:16:34,788 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment logging1.jar (runtime-name: logging1.jar) in 9ms
+[0m[0m22:16:34,805 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/07/65809589dab9a86d898b03c7690d7fa8f5742c/content
+[0m[0m22:16:34,806 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:34,876 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/e9/a69f6bad9a84530c3c08ceb0d7050fbea9e7bf/content
+[0m[0m22:16:34,879 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "logging2.jar" (runtime-name: "logging2.jar")
+[0m[0m22:16:34,915 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging2.jar" (runtime-name : "logging2.jar")
+[0m[0m22:16:34,930 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment logging2.jar (runtime-name: logging2.jar) in 4ms
+[0m[0m22:16:34,943 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/e9/a69f6bad9a84530c3c08ceb0d7050fbea9e7bf/content
+[0m[0m22:16:34,944 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging2.jar" (runtime-name: "logging2.jar")
+[0m[0m22:16:35,015 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/07/65809589dab9a86d898b03c7690d7fa8f5742c/content
+[0m[0m22:16:35,018 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:35,064 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging1.jar" (runtime-name : "logging1.jar")
+[0m[0m22:16:35,105 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment logging1.jar (runtime-name: logging1.jar) in 5ms
+[0m[0m22:16:35,124 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/07/65809589dab9a86d898b03c7690d7fa8f5742c/content
+[0m[0m22:16:35,124 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:35,134 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/64/7a4030060cbeb7e9681c9609df82534631b6cd/content
+[0m[0m22:16:35,138 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:35,174 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging1.jar" (runtime-name : "logging1.jar")
+[0m[0m22:16:35,183 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/d7/bf964b0c4eaee406d9bbf3cca672d0773351be/content
+[0m[0m22:16:35,188 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "logging2.jar" (runtime-name: "logging2.jar")
+[0m[0m22:16:35,211 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging2.jar" (runtime-name : "logging2.jar")
+[0m[0m22:16:35,225 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment logging1.jar (runtime-name: logging1.jar) in 4ms
+[0m[0m22:16:35,243 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/64/7a4030060cbeb7e9681c9609df82534631b6cd/content
+[0m[0m22:16:35,244 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:35,262 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment logging2.jar (runtime-name: logging2.jar) in 5ms
+[0m[0m22:16:35,275 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/d7/bf964b0c4eaee406d9bbf3cca672d0773351be/content
+[0m[0m22:16:35,275 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging2.jar" (runtime-name: "logging2.jar")
+[0m[0m22:16:35,322 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/07/65809589dab9a86d898b03c7690d7fa8f5742c/content
+[0m[0m22:16:35,327 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:35,364 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "logging1.jar" (runtime-name : "logging1.jar")
+[0m[0m22:16:35,423 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment logging1.jar (runtime-name: logging1.jar) in 6ms
+[0m[0m22:16:35,435 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/07/65809589dab9a86d898b03c7690d7fa8f5742c/content
+[0m[0m22:16:35,436 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "logging1.jar" (runtime-name: "logging1.jar")
+[0m[0m22:16:35,533 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 47ms
+[0m[0m22:16:35,537 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m22:16:35,619 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m22:16:35,661 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m22:16:35,711 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m22:16:35,720 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m22:16:35,731 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-3) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m22:16:35,770 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m22:16:35,771 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m22:16:35,772 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m22:16:35,772 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 232ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[0m[0m22:16:35,887 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 10ms
+[0m[0m22:16:35,888 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m22:16:35,939 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m22:16:35,963 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m22:16:35,984 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m22:16:35,992 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m22:16:35,995 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m22:16:36,026 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m22:16:36,026 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m22:16:36,027 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m22:16:36,027 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 137ms - Started 85 of 88 services (23 services are lazy, passive or on-demand)
+[0m[0m22:16:36,142 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:16:36,146 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:16:36,163 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 13ms
+[0m

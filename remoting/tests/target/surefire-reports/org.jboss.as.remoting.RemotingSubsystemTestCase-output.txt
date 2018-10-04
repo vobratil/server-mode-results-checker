@@ -1,0 +1,26 @@
+Oct 03, 2018 5:15:35 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:35 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:37 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 5:15:37 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 5:15:37 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.8.Final
+Oct 03, 2018 5:15:37 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:37 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:37 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("interface" => "test-interface")]) - failure description: "WFLYCTL0441: Operation has resulted in failed or missing services 
+WFLYCTL0448: 2 additional services are down due to their dependencies being missing or failed"
+Oct 03, 2018 5:15:37 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "remoting"),
+    ("http-connector" => "http-connector")
+]) - failure description: "WFLYCTL0445: http-connector with value 'http' in attribute connector-ref is already defined"
+Oct 03, 2018 5:15:38 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:38 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258

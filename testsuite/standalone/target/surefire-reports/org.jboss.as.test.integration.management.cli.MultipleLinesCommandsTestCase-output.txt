@@ -1,0 +1,157 @@
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" => "success",
+    "result" => {
+        "management-major-version" => 9,
+        "management-micro-version" => 0,
+        "management-minor-version" => 0,
+        "name" => "test",
+        "namespaces" => [],
+        "organization" => undefined,
+        "product-name" => undefined,
+        "product-version" => undefined,
+        "profile-name" => undefined,
+        "release-codename" => "",
+        "release-version" => "7.0.0.Alpha3-SNAPSHOT",
+        "schema-locations" => [],
+        "core-service" => {
+            "management" => undefined,
+            "service-container" => undefined,
+            "module-loading" => undefined,
+            "capability-registry" => undefined,
+            "server-environment" => undefined,
+            "platform-mbean" => undefined,
+            "patching" => undefined
+        },
+        "deployment" => undefined,
+        "deployment-overlay" => undefined,
+        "extension" => {
+            "org.jboss.as.jmx" => undefined,
+            "org.jboss.as.logging" => undefined,
+            "org.wildfly.extension.core-management" => undefined,
+            "org.wildfly.extension.discovery" => undefined,
+            "org.wildfly.extension.elytron" => undefined,
+            "org.wildfly.extension.request-controller" => undefined,
+            "org.wildfly.extension.security.manager" => undefined
+        },
+        "interface" => {
+            "management" => undefined,
+            "public" => undefined
+        },
+        "path" => {
+            "jboss.server.log.dir" => undefined,
+            "jboss.server.data.dir" => undefined,
+            "jboss.server.base.dir" => undefined,
+            "jboss.server.config.dir" => undefined,
+            "user.dir" => undefined,
+            "user.home" => undefined,
+            "jboss.server.temp.dir" => undefined,
+            "jboss.controller.temp.dir" => undefined,
+            "jboss.home.dir" => undefined,
+            "java.home" => undefined
+        },
+        "socket-binding-group" => {"standard-sockets" => undefined},
+        "subsystem" => {
+            "logging" => undefined,
+            "core-management" => undefined,
+            "discovery" => undefined,
+            "elytron" => undefined,
+            "jmx" => undefined,
+            "request-controller" => undefined,
+            "security-manager" => undefined
+        },
+        "system-property" => undefined
+    }
+}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+access-type         read-only                                                                    
+description         The name of the WildFly Core based product that is being run by this server. 
+expressions-allowed false                                                                        
+max-length          2147483647                                                                   
+min-length          1                                                                            
+nillable            true                                                                         
+required            false                                                                        
+storage             configuration                                                                
+type                STRING                                                                       
+value               n/a                                                                          
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+access-type         read-only                                                                    
+description         The name of the WildFly Core based product that is being run by this server. 
+expressions-allowed false                                                                        
+max-length          2147483647                                                                   
+min-length          1                                                                            
+nillable            true                                                                         
+required            false                                                                        
+storage             configuration                                                                
+type                STRING                                                                       
+value               n/a                                                                          
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{
+    "outcome" => "success",
+    "result" => {
+        "management-major-version" => 9,
+        "management-micro-version" => 0,
+        "management-minor-version" => 0,
+        "name" => "test",
+        "namespaces" => [],
+        "organization" => undefined,
+        "product-name" => undefined,
+        "product-version" => undefined,
+        "profile-name" => undefined,
+        "release-codename" => "",
+        "release-version" => "7.0.0.Alpha3-SNAPSHOT",
+        "schema-locations" => [],
+        "core-service" => {
+            "management" => undefined,
+            "service-container" => undefined,
+            "module-loading" => undefined,
+            "capability-registry" => undefined,
+            "server-environment" => undefined,
+            "platform-mbean" => undefined,
+            "patching" => undefined
+        },
+        "deployment" => undefined,
+        "deployment-overlay" => undefined,
+        "extension" => {
+            "org.jboss.as.jmx" => undefined,
+            "org.jboss.as.logging" => undefined,
+            "org.wildfly.extension.core-management" => undefined,
+            "org.wildfly.extension.discovery" => undefined,
+            "org.wildfly.extension.elytron" => undefined,
+            "org.wildfly.extension.request-controller" => undefined,
+            "org.wildfly.extension.security.manager" => undefined
+        },
+        "interface" => {
+            "management" => undefined,
+            "public" => undefined
+        },
+        "path" => {
+            "jboss.server.log.dir" => undefined,
+            "jboss.server.data.dir" => undefined,
+            "jboss.server.base.dir" => undefined,
+            "jboss.server.config.dir" => undefined,
+            "user.dir" => undefined,
+            "user.home" => undefined,
+            "jboss.server.temp.dir" => undefined,
+            "jboss.controller.temp.dir" => undefined,
+            "jboss.home.dir" => undefined,
+            "java.home" => undefined
+        },
+        "socket-binding-group" => {"standard-sockets" => undefined},
+        "subsystem" => {
+            "logging" => undefined,
+            "core-management" => undefined,
+            "discovery" => undefined,
+            "elytron" => undefined,
+            "jmx" => undefined,
+            "request-controller" => undefined,
+            "security-manager" => undefined
+        },
+        "system-property" => undefined
+    }
+}
+[0m22:27:29,208 INFO  [org.jboss.as.protocol] (management I/O-1) WFLYPRT0057:  cancelled task by interrupting thread Thread[management-handler-thread - 1,5,management-handler-thread]
+[0m[0m22:27:29,221 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:27:29,223 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:27:29,274 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 27ms
+[0m

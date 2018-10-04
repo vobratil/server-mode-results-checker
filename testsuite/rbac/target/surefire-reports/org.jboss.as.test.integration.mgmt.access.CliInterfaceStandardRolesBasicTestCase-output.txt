@@ -1,0 +1,70 @@
+[0m22:42:26,830 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:42:28,186 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0m[31m22:42:28,241 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("shutdown") failed - address: ([]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[]' -- \"WFLYCTL0332: Permission denied\""
+[0m[0m22:42:28,258 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:42:28,282 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[0m22:42:28,654 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:42:28,706 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[0m22:42:29,365 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:42:29,407 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[0m22:42:29,868 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:42:29,938 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:42:30,340 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0m[31m22:42:30,357 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("shutdown") failed - address: ([]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[]' -- \"WFLYCTL0332: Permission denied\""
+[0m[0m22:42:30,374 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:42:30,399 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[0m22:42:30,739 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0m[0m22:42:30,769 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+[31m22:42:30,916 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+[0m[31m22:42:30,934 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("shutdown") failed - address: ([]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[]' -- \"WFLYCTL0332: Permission denied\""
+[0m[0m22:42:30,956 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/rbac/target/wildfly-core/standalone/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+[0mWARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+[0m22:42:31,268 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:42:31,271 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:42:31,292 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[0m

@@ -1,0 +1,135 @@
+2018-10-03 22:47:19,180 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:47:19,514 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:47:19,527 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:47:19,587 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:47:20,119 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:47:20,120 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:47:20,122 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:47:20,235 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)
+2018-10-03 22:47:20,245 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+2018-10-03 22:47:20,252 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:47:20,296 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:47:20,298 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:47:20,370 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 22:47:20,458 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:47:21,499 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:21,538 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-three
+2018-10-03 22:47:25,089 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 3c79612f (inbound) of Remoting connection c07b5d13 to rhel7-large-81357/127.0.0.1:55890 of endpoint "slave:MANAGEMENT" <d29a4e5c>]
+2018-10-03 22:47:25,110 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server other-two
+2018-10-03 22:47:25,112 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three
+2018-10-03 22:47:27,887 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 0b23e946 (inbound) of Remoting connection 555a4013 to rhel7-large-81357/127.0.0.1:55892 of endpoint "slave:MANAGEMENT" <d29a4e5c>]
+2018-10-03 22:47:27,927 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:19990/management and https://127.0.0.1:-1/management
+2018-10-03 22:47:27,928 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2018-10-03 22:47:27,928 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 9345ms - Started 54 of 55 services (16 services are lazy, passive or on-demand)
+2018-10-03 22:47:27,935 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two
+2018-10-03 22:47:30,370 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:47:30,372 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:31,388 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:31,545 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:35,180 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:47:35,181 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:36,184 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:36,588 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 7) WFLYHC0202: The domain configuration was successfully applied, but reload is required before changes become active.
+2018-10-03 22:47:36,594 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:39,936 WARN  [org.jboss.as.host.controller] (management task-2) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:47:39,937 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:40,940 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:41,133 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:43,821 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:47:43,821 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:44,824 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:45,117 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:49,558 WARN  [org.jboss.as.host.controller] (management task-2) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:47:49,559 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:50,563 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:50,682 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:47:54,325 WARN  [org.jboss.as.host.controller] (management task-1) WFLYHC0015: Connection to remote host-controller closed. Trying to reconnect.
+2018-10-03 22:47:54,326 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:55,328 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:55,444 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 7) WFLYCTL0013: Operation ("apply-remote-domain-model") failed - address: ([]): java.lang.IllegalArgumentException: Parameter 'step' may not be null
+	at org.wildfly.common.Assert.checkNotNullParamChecked(Assert.java:71)
+	at org.wildfly.common.Assert.checkNotNullParam(Assert.java:49)
+	at org.jboss.as.controller.AbstractOperationContext.addStep(AbstractOperationContext.java:315)
+	at org.jboss.as.controller.AbstractOperationContext.addStep(AbstractOperationContext.java:300)
+	at org.jboss.as.controller.AbstractOperationContext.addStep(AbstractOperationContext.java:267)
+	at org.jboss.as.domain.controller.operations.SyncServerStateOperationHandler$1.execute(SyncServerStateOperationHandler.java:121)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.AbstractControllerService.internalExecute(AbstractControllerService.java:492)
+	at org.jboss.as.host.controller.DomainModelControllerService.access$1100(DomainModelControllerService.java:202)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1.lambda$apply$0(DomainModelControllerService.java:1409)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1$$Lambda$195.000000003C43FF00.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1.apply(DomainModelControllerService.java:1409)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1.apply(DomainModelControllerService.java:1406)
+	at org.jboss.as.host.controller.SecurityActions$Execution$1.execute(SecurityActions.java:77)
+	at org.jboss.as.host.controller.SecurityActions.privilegedExecution(SecurityActions.java:47)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor.execute(DomainModelControllerService.java:1412)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.applyRemoteDomainModel(RemoteDomainConnectionService.java:603)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.access$1200(RemoteDomainConnectionService.java:138)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService$3.applyDomainModel(RemoteDomainConnectionService.java:546)
+	at org.jboss.as.host.controller.RemoteDomainConnection.applyDomainModel(RemoteDomainConnection.java:325)
+	at org.jboss.as.host.controller.RemoteDomainConnection$RegisterSubsystemsRequest$1.execute(RemoteDomainConnection.java:468)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-10-03 22:47:55,449 ERROR [org.jboss.as.host.controller] (Host Controller Service Threads - 7) WFLYHC0143: Failed to apply domain-wide configuration from master host controller. Operation outcome: failed. Failure description "WFLYCTL0158: Operation handler failed: java.lang.IllegalArgumentException: Parameter 'step' may not be null"
+2018-10-03 22:47:55,468 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0146: Could not discover master using discovery option StaticDiscovery{protocol=remote,host=127.0.0.1,port=9999}. Error was: 1-$-
+2018-10-03 22:47:55,469 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0147: No domain controller discovery options remain.
+2018-10-03 22:47:59,470 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0150: Trying to reconnect to master host controller.
+2018-10-03 22:47:59,570 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 10) WFLYCTL0013: Operation ("apply-remote-domain-model") failed - address: ([]): java.lang.IllegalArgumentException: Parameter 'step' may not be null
+	at org.wildfly.common.Assert.checkNotNullParamChecked(Assert.java:71)
+	at org.wildfly.common.Assert.checkNotNullParam(Assert.java:49)
+	at org.jboss.as.controller.AbstractOperationContext.addStep(AbstractOperationContext.java:315)
+	at org.jboss.as.controller.AbstractOperationContext.addStep(AbstractOperationContext.java:300)
+	at org.jboss.as.controller.AbstractOperationContext.addStep(AbstractOperationContext.java:267)
+	at org.jboss.as.domain.controller.operations.SyncServerStateOperationHandler$1.execute(SyncServerStateOperationHandler.java:121)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.AbstractControllerService.internalExecute(AbstractControllerService.java:492)
+	at org.jboss.as.host.controller.DomainModelControllerService.access$1100(DomainModelControllerService.java:202)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1.lambda$apply$0(DomainModelControllerService.java:1409)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1$$Lambda$195.000000003C43FF00.run(Unknown Source)
+	at org.jboss.as.controller.access.InVmAccess.runInVm(InVmAccess.java:63)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1.apply(DomainModelControllerService.java:1409)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor$1.apply(DomainModelControllerService.java:1406)
+	at org.jboss.as.host.controller.SecurityActions$Execution$1.execute(SecurityActions.java:77)
+	at org.jboss.as.host.controller.SecurityActions.privilegedExecution(SecurityActions.java:47)
+	at org.jboss.as.host.controller.DomainModelControllerService$InternalExecutor.execute(DomainModelControllerService.java:1412)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.applyRemoteDomainModel(RemoteDomainConnectionService.java:603)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.access$1200(RemoteDomainConnectionService.java:138)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService$3.applyDomainModel(RemoteDomainConnectionService.java:546)
+	at org.jboss.as.host.controller.RemoteDomainConnection.applyDomainModel(RemoteDomainConnection.java:325)
+	at org.jboss.as.host.controller.RemoteDomainConnection$RegisterSubsystemsRequest$1.execute(RemoteDomainConnection.java:468)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-10-03 22:47:59,571 ERROR [org.jboss.as.host.controller] (Host Controller Service Threads - 10) WFLYHC0143: Failed to apply domain-wide configuration from master host controller. Operation outcome: failed. Failure description "WFLYCTL0158: Operation handler failed: java.lang.IllegalArgumentException: Parameter 'step' may not be null"
+2018-10-03 22:47:59,576 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0146: Could not discover master using discovery option StaticDiscovery{protocol=remote,host=127.0.0.1,port=9999}. Error was: 1-$-
+2018-10-03 22:47:59,576 WARN  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0147: No domain controller discovery options remain.
+2018-10-03 22:48:01,541 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:48:01,556 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 7) WFLYHC0024: Stopping server main-three
+2018-10-03 22:48:01,557 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 7) WFLYHC0024: Stopping server other-two
+2018-10-03 22:48:01,596 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two
+2018-10-03 22:48:01,634 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:48:01,670 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two
+2018-10-03 22:48:01,674 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:48:01,725 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 178ms

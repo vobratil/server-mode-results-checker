@@ -1,0 +1,6 @@
+Default helper activated
+Installed rule using default helper : Test renaming failure
+Oct 03, 2018 5:07:38 PM org.jboss.as.patching.runner.IdentityPatchContext failedToRenameFile
+WARN: WFLYPAT0035: Cannot rename file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/patching/target/83e35c63-46fc-4437-9cbc-26745d9e8449/jboss-installation/modules/system/layers/base/org/jboss/test/module/main/SimpleResource.jar
+Uninstalled rule using default helper : Test renaming failure
+Default helper deactivated

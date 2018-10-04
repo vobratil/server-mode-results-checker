@@ -1,0 +1,7 @@
+# Wed Oct  3 21:07:39 UTC 2018
+BUILD_URL=https://eap-qe-jenkins.rhev-ci-vms.eng.rdu2.redhat.com/job/eap-7.x-as-testsuite-prepare-core/165/
+AS_TESTSUITE_CORE_SOURCES=git@github.com:wildfly/wildfly-core.git/master
+AS_TESTSUITE_CORE_VERSION=7.0.0.Alpha3-SNAPSHOT
+AS_TESTSUITE_CORE_HEAD=b551d04
+BUILD_TESTSUITE_MAVEN_REPO_ZIP_URL=file:////home/hudson/static_build_env/eap/builds-cache/7.3.0.CD15-wf-201810032026-8b6e47a/wildfly-7.3.0.CD15-wf-201810032026-8b6e47a-testsuite-maven-repository.zip
+AS_TESTSUITE_PREPARE_CORE_ZIP=file:////home/hudson/static_build_env/eap/builds-cache/eap-7.x-as-testsuite-testing-pipeline-175/as-testsuite-prepare-core.zip

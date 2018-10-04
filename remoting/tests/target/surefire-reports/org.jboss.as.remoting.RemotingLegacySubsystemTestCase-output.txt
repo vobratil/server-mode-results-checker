@@ -1,0 +1,152 @@
+Oct 03, 2018 5:15:25 PM org.jboss.as.remoting.RemotingExtension$IOCompletionHandler handleProfileParsingCompletion
+INFO: WFLYRMT0024: The remoting subsystem is present but no io subsystem was found. An io subsystem was not required when remoting schema 'urn:jboss:domain:remoting:1.2' was current but now is, so a default subsystem is being added.
+Oct 03, 2018 5:15:26 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:26 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:27 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 5:15:27 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 5:15:27 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:27 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.8.Final
+Oct 03, 2018 5:15:27 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:27 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:27 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:27 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:27 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:27 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.RemotingExtension$IOCompletionHandler handleProfileParsingCompletion
+INFO: WFLYRMT0024: The remoting subsystem is present but no io subsystem was found. An io subsystem was not required when remoting schema 'urn:jboss:domain:remoting:1.0' was current but now is, so a default subsystem is being added.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-read-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-core-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-keepalive' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-limit' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-max-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-write-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/subsystem=remoting/connector=test-connector' are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; There are no known registration points which can provide this capability.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-read-threads' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; Possible registration points for this capability: 
+		/subsystem=remoting/connector=*
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-core-threads' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; Possible registration points for this capability: 
+		/subsystem=remoting/connector=*
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-keepalive' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; Possible registration points for this capability: 
+		/subsystem=remoting/connector=*
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-limit' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; Possible registration points for this capability: 
+		/subsystem=remoting/connector=*
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-max-threads' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; Possible registration points for this capability: 
+		/subsystem=remoting/connector=*
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-write-threads' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0369: Required capabilities are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; Possible registration points for this capability: 
+		/subsystem=remoting/connector=*
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'protocol' in the resource at address '/subsystem=remoting/remote-outbound-connection=remote-conn1' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.RemotingExtension$IOCompletionHandler handleProfileParsingCompletion
+INFO: WFLYRMT0024: The remoting subsystem is present but no io subsystem was found. An io subsystem was not required when remoting schema 'urn:jboss:domain:remoting:1.0' was current but now is, so a default subsystem is being added.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "remoting"),
+    ("connector" => "test-connector"),
+    ("property" => "WORKER_ACCEPT_THREAD_BAD")
+]) - failure description: "WFLYRMT0028: Invalid option 'XNIO000005: No such field named \"WORKER_ACCEPT_THREAD_BAD\" in class org.xnio.Options'."
+Oct 03, 2018 5:15:28 PM org.jboss.as.remoting.RemotingExtension$IOCompletionHandler handleProfileParsingCompletion
+INFO: WFLYRMT0024: The remoting subsystem is present but no io subsystem was found. An io subsystem was not required when remoting schema 'urn:jboss:domain:remoting:1.0' was current but now is, so a default subsystem is being added.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-read-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-core-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-keepalive' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-limit' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-max-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-write-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/subsystem=remoting/connector=test-connector' are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; There are no known registration points which can provide this capability.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-read-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-core-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-keepalive' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-limit' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-max-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-write-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/subsystem=remoting/connector=test-connector' are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; There are no known registration points which can provide this capability.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-read-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-core-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-keepalive' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-limit' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-task-max-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'worker-write-threads' in the resource at address '/subsystem=remoting' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:15:28 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/subsystem=remoting/connector=test-connector' are not available:
+    org.wildfly.network.socket-binding.test in context 'global'; There are no known registration points which can provide this capability.

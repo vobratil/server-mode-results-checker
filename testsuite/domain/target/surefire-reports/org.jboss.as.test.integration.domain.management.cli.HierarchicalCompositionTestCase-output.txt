@@ -1,0 +1,50 @@
+[Host Controller] [0m[0m22:59:33,726 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server test-server[0m
+[0m22:59:33,790 INFO  [org.jboss.as.process.Server:test-server.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:test-server'
+[0m[Server:test-server] [0m22:59:34,588 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:test-server] [0m[0m22:59:35,026 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:test-server] [0m[0m22:59:35,035 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:test-server] [0m[0m22:59:35,171 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:test-server] [0m[0m22:59:35,263 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final[0m
+[Server:test-server] [0m[0m22:59:35,268 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:test-server] [0m[0m22:59:35,304 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final[0m
+[Server:test-server] [0m[0m22:59:35,685 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m22:59:36,207 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0021: Server [Server:test-server] connected using connection [Channel ID 3818244b (inbound) of Remoting connection e69b999d to rhel7-large-81357/127.0.0.1:38930 of endpoint "master:MANAGEMENT" <6ec06baf>][0m
+[Host Controller] [0m[0m22:59:36,211 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server test-server[0m
+[Server:test-server] [0m[31m22:59:36,527 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("interface" => "public")]) - failure description: "WFLYCTL0149: No interface criteria was provided"[0m
+[Server:test-server] [31m[0m[0m22:59:36,578 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors[0m
+[Server:test-server] [0m[0m22:59:36,630 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:test-server] [0m22:59:36,746 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:test-server] 22:59:36,748 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2778ms - Started 49 of 67 services (25 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:59:36,797 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server test-server[0m
+[Server:test-server] 22:59:36,801 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 8) WFLYSRV0236: Suspending server with no timeout.
+[0m22:59:36,805 INFO  [org.jboss.as.process.Server:test-server.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:test-server'
+[0m[Server:test-server] 22:59:36,807 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:59:36,841 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0027: Unregistering server test-server[0m
+[Server:test-server] 22:59:36,842 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 31ms
+[0m22:59:36,851 INFO  [org.jboss.as.process.Server:test-server.status] (reaper for Server:test-server) WFLYPC0011: Process 'Server:test-server' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:59:36,892 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server test-server[0m
+[Host Controller] [0m[0m22:59:37,092 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server test-server[0m
+[0m22:59:37,192 INFO  [org.jboss.as.process.Server:test-server.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:test-server'
+[0m[Server:test-server] 22:59:38,072 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:test-server] 22:59:38,469 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:test-server] 22:59:38,477 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:test-server] 22:59:38,623 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:test-server] 22:59:38,765 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+[Server:test-server] 22:59:38,773 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+[Server:test-server] 22:59:38,811 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final
+[Server:test-server] 22:59:39,181 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m22:59:39,730 INFO  [org.jboss.as.host.controller] (management task-3) WFLYHC0021: Server [Server:test-server] connected using connection [Channel ID 3b2f5e87 (inbound) of Remoting connection 4e1474e0 to rhel7-large-81357/127.0.0.1:38932 of endpoint "master:MANAGEMENT" <6ec06baf>][0m
+[Host Controller] [0m[0m22:59:39,738 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server test-server[0m
+[Server:test-server] 22:59:39,934 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("add") failed - address: ([("interface" => "public")]) - failure description: "WFLYCTL0149: No interface criteria was provided"
+[Server:test-server] 22:59:39,954 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:test-server] 22:59:39,987 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:test-server] 22:59:40,104 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:test-server] 22:59:40,108 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2720ms - Started 49 of 68 services (26 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m22:59:40,164 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server test-server[0m
+[Server:test-server] 22:59:40,168 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0236: Suspending server with no timeout.
+[0m22:59:40,170 INFO  [org.jboss.as.process.Server:test-server.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:test-server'
+[0m[Server:test-server] 22:59:40,172 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m22:59:40,191 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server test-server[0m
+[Server:test-server] 22:59:40,199 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 22ms
+[0m22:59:40,207 INFO  [org.jboss.as.process.Server:test-server.status] (reaper for Server:test-server) WFLYPC0011: Process 'Server:test-server' finished with an exit status of 0
+[0m[Host Controller] [0m[0m22:59:40,248 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server test-server[0m

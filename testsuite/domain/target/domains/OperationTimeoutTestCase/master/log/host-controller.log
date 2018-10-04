@@ -1,0 +1,39 @@
+2018-10-03 23:18:02,982 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:18:03,345 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:18:03,357 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:18:03,408 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:18:04,104 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:18:04,106 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:18:04,150 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+2018-10-03 23:18:04,154 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)
+2018-10-03 23:18:04,155 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:18:04,223 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:18:04,230 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:18:04,316 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) WFLYRMT0001: Listening on 127.0.0.1:9999
+2018-10-03 23:18:04,355 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-8) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2018-10-03 23:18:04,890 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-one
+2018-10-03 23:18:08,455 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 57a0263e (inbound) of Remoting connection 370e21c8 to rhel7-large-81357/127.0.0.1:45278 of endpoint "master:MANAGEMENT" <f1d4e371>]
+2018-10-03 23:18:08,483 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one
+2018-10-03 23:18:08,499 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management
+2018-10-03 23:18:08,499 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1
+2018-10-03 23:18:08,499 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 6564ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)
+2018-10-03 23:18:14,441 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 2) WFLYHC0019: Registered remote slave host "slave", WildFly 7.0.0.Alpha3-SNAPSHOT ""
+2018-10-03 23:18:21,579 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) Registered blocker-test operations
+2018-10-03 23:18:22,218 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPostCommitHangOnSlaveHC for slave/undefined(COMMIT)
+2018-10-03 23:18:24,400 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYDC0081: Timed out after 2000 ms awaiting final response from host slave; remote process has been notified to cancel operation
+2018-10-03 23:18:24,618 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPostCommitHangOnMasterServer for master/main-one(COMMIT)
+2018-10-03 23:18:27,700 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYDC0083: Timed out after 3000 ms awaiting final response from server main-one on host master; remote process has been notified to cancel operation
+2018-10-03 23:18:27,793 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPrePrepareHangOnSlaveServer for slave/main-three(RUNTIME)
+2018-10-03 23:18:29,832 WARN  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0199: Server 'main-three' (managed by host 'slave') has not responded to an operation request within the configured timeout. This may mean the server has become unstable.
+2018-10-03 23:18:29,945 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPrePrepareHangOnMasterServer for master/main-one(RUNTIME)
+2018-10-03 23:18:32,979 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 12) WFLYDC0082: ConcurrentServerGroupUpdateTask timed out after 3000 ms awaiting server prepared response(s) -- cancelling updates for servers [ServerIdentity{name=main-one, host=master, server-group=main-server-group}]
+2018-10-03 23:18:32,983 WARN  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0199: Server 'main-one' (managed by host 'master') has not responded to an operation request within the configured timeout. This may mean the server has become unstable.
+2018-10-03 23:18:33,102 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPostCommitHangOnSlaveServer for slave/main-three(COMMIT)
+2018-10-03 23:18:35,328 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPrePrepareHangOnSlaveHC for slave/undefined(MODEL)
+2018-10-03 23:18:37,334 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYDC0079: Timed out after 2000 ms awaiting host prepared response(s) from hosts [slave] -- cancelling updates for hosts [slave]
+2018-10-03 23:18:37,685 INFO  [org.jboss.as.domain.controller] (management task-2) WFLYHC0026: Unregistered remote slave host "slave"
+2018-10-03 23:18:37,895 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 23:18:37,910 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 15) WFLYHC0024: Stopping server main-one
+2018-10-03 23:18:37,958 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-one
+2018-10-03 23:18:37,981 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one
+2018-10-03 23:18:38,038 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 135ms

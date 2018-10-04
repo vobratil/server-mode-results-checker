@@ -1,0 +1,8 @@
+Oct 03, 2018 4:53:55 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:53:55 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:53:56 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("remove") failed - address: ([("profile" => "myprofile")]) - failure description: "remove operation failed"
+Oct 03, 2018 4:53:56 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("profile" => "myprofile")]) - failure description: "add operation failed"

@@ -1,0 +1,267 @@
+[Host Controller] [0m[0m22:54:56,437 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/06/bd1bf61f5222885abf13092c1adee799d2152e/content[0m
+[Host Controller] [0m[0m22:54:56,453 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/5b/2df86fcd261496c004ee0ec678840d48704e1d/content[0m
+[Host Controller] [0m[0m22:54:56,476 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/06/bd1bf61f5222885abf13092c1adee799d2152e/content[0m
+[Host Controller] [0m[0m22:54:56,479 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/06/bd1bf61f5222885abf13092c1adee799d2152e/content[0m
+[Server:main-one] 22:54:56,551 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:56,557 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:56,598 INFO  [stdout] (MSC service thread 1-3) Properties found
+[Server:main-three] 22:54:56,600 INFO  [stdout] (MSC service thread 1-3) Setting service to is new
+[Server:main-one] 22:54:56,609 INFO  [stdout] (MSC service thread 1-2) Properties found
+[Server:main-one] 22:54:56,611 INFO  [stdout] (MSC service thread 1-2) Setting service to is new
+[Server:main-one] 22:54:56,660 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:56,667 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-one] 22:54:56,739 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 10ms
+[Server:main-three] 22:54:56,778 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 23ms
+[Server:main-one] 22:54:56,817 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/5b/2df86fcd261496c004ee0ec678840d48704e1d/content
+[Server:main-one] 22:54:56,817 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:56,826 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/5b/2df86fcd261496c004ee0ec678840d48704e1d/content
+[Server:main-three] 22:54:56,826 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Host Controller] [0m[0m22:54:56,833 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/5b/2df86fcd261496c004ee0ec678840d48704e1d/content[0m
+[Host Controller] [0m[0m22:54:56,839 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/5b/2df86fcd261496c004ee0ec678840d48704e1d/content[0m
+[Host Controller] [0m[0m22:54:56,857 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/0f/e4eaa56878ab56b2461d29f4c6addf6a860685/content[0m
+[Host Controller] [0m[0m22:54:56,900 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0017: Content exploded at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/c8/a34e2848db8c82e8c9ea27d341d00c6ea259e1/content[0m
+[Host Controller] [0m[0m22:54:56,920 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/0f/e4eaa56878ab56b2461d29f4c6addf6a860685/content[0m
+[Server:main-one] 22:54:56,981 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:56,983 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:57,006 INFO  [stdout] (MSC service thread 1-1) Properties found
+[Server:main-three] 22:54:57,007 INFO  [stdout] (MSC service thread 1-1) Setting service to is new
+[Server:main-one] 22:54:57,031 INFO  [stdout] (MSC service thread 1-4) Properties found
+[Server:main-one] 22:54:57,033 INFO  [stdout] (MSC service thread 1-4) Setting service to is new
+[Server:main-three] 22:54:57,064 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-one] 22:54:57,063 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Host Controller] [0m[0m22:54:57,154 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/ff/079635f830ebe72b98c5953775b65a096e1d84/content[0m
+[Server:main-one] 22:54:57,205 WARN  [org.jboss.as.repository] (ServerService Thread Pool -- 8) java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-one] 22:54:57,205 ERROR [org.jboss.as.server.deployment] (ServerService Thread Pool -- 8) WFLYSRV0249: Could not copy files from the managed content repository to the running deployment for deployment.jar: org.jboss.as.repository.ExplodedContentException: WFLYDR0022: Error copying files of exploded deployment to /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/managed-exploded/deployment.jar
+[Server:main-one] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:516) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.server.mgmt.domain.RemoteFileRepositoryService.copyExplodedContentFiles(RemoteFileRepositoryService.java:190) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.server.deployment.ExplodedDeploymentAddContentHandler$3.run(ExplodedDeploymentAddContentHandler.java:177) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522) [rt.jar:1.8.0]
+[Server:main-one] 	at java.util.concurrent.FutureTask.run(FutureTask.java:277) [rt.jar:1.8.0]
+[Server:main-one] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] Caused by: java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-one] 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:98) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:114) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:119) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:255) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:593) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:265) [rt.jar:1.8.0]
+[Server:main-one] 	at java.nio.file.Files.copy(Files.java:1285) [rt.jar:1.8.0]
+[Server:main-one] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:69) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at java.nio.file.Files.walkFileTree(Files.java:2681) [rt.jar:1.8.0]
+[Server:main-one] 	at java.nio.file.Files.walkFileTree(Files.java:2753) [rt.jar:1.8.0]
+[Server:main-one] 	at org.jboss.as.repository.PathUtil.copyRecursively(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:511) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	... 10 more
+[Server:main-one] 
+[Server:main-three] 22:54:57,217 WARN  [org.jboss.as.repository] (ServerService Thread Pool -- 5) java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-three] 22:54:57,218 ERROR [org.jboss.as.server.deployment] (ServerService Thread Pool -- 5) WFLYSRV0249: Could not copy files from the managed content repository to the running deployment for deployment.jar: org.jboss.as.repository.ExplodedContentException: WFLYDR0022: Error copying files of exploded deployment to /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/managed-exploded/deployment.jar
+[Server:main-three] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:516) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.server.mgmt.domain.RemoteFileRepositoryService.copyExplodedContentFiles(RemoteFileRepositoryService.java:190) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.server.deployment.ExplodedDeploymentAddContentHandler$3.run(ExplodedDeploymentAddContentHandler.java:177) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522) [rt.jar:1.8.0]
+[Server:main-three] 	at java.util.concurrent.FutureTask.run(FutureTask.java:277) [rt.jar:1.8.0]
+[Server:main-three] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] Caused by: java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-three] 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:98) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:114) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:119) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:255) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:593) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:265) [rt.jar:1.8.0]
+[Server:main-three] 	at java.nio.file.Files.copy(Files.java:1285) [rt.jar:1.8.0]
+[Server:main-three] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:69) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at java.nio.file.Files.walkFileTree(Files.java:2681) [rt.jar:1.8.0]
+[Server:main-three] 	at java.nio.file.Files.walkFileTree(Files.java:2753) [rt.jar:1.8.0]
+[Server:main-three] 	at org.jboss.as.repository.PathUtil.copyRecursively(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:511) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	... 10 more
+[Server:main-three] 
+[Server:main-three] 22:54:57,238 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 9) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/c8/a34e2848db8c82e8c9ea27d341d00c6ea259e1/content
+[Server:main-one] 22:54:57,237 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/c8/a34e2848db8c82e8c9ea27d341d00c6ea259e1/content
+[Host Controller] [0m[0m22:54:57,245 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/c8/a34e2848db8c82e8c9ea27d341d00c6ea259e1/content[0m
+[Server:main-three] 22:54:57,295 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 10ms
+[Server:main-one] 22:54:57,303 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 18ms
+[Server:main-one] 22:54:57,321 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:57,326 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 9) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:57,356 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:57,357 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:57,382 INFO  [stdout] (MSC service thread 1-3) Properties found
+[Server:main-one] 22:54:57,383 INFO  [stdout] (MSC service thread 1-3) Setting service to is replaced
+[Server:main-three] 22:54:57,386 INFO  [stdout] (MSC service thread 1-5) Properties found
+[Server:main-three] 22:54:57,386 INFO  [stdout] (MSC service thread 1-5) Setting service to is replaced
+[Server:main-three] 22:54:57,405 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-one] 22:54:57,408 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Host Controller] [0m[0m22:54:57,452 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Server:main-one] 22:54:57,508 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-three] 22:54:57,534 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-one] 22:54:57,562 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/ff/079635f830ebe72b98c5953775b65a096e1d84/content
+[Server:main-three] 22:54:57,569 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/ff/079635f830ebe72b98c5953775b65a096e1d84/content
+[Host Controller] [0m[0m22:54:57,577 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/ff/079635f830ebe72b98c5953775b65a096e1d84/content[0m
+[Host Controller] [0m[0m22:54:57,583 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/ff/079635f830ebe72b98c5953775b65a096e1d84/content[0m
+[Host Controller] [0m[33m22:54:57,588 WARN  [org.jboss.as.repository] (management-handler-thread - 2) java.io.FileNotFoundException: /home[0m
+[Host Controller] [33m[0m[33m22:54:57,592 WARN  [org.jboss.as.repository] (management-handler-thread - 3) java.io.FileNotFoundException: /home[0m
+[Server:main-one] 22:54:57,621 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 6ms
+[Server:main-three] 22:54:57,627 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 8ms
+[Server:main-three] 22:54:57,664 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:57,665 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:57,709 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:57,717 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:57,742 INFO  [stdout] (MSC service thread 1-7) Setting test.deployment.trivial.prop to default-value
+[Server:main-three] 22:54:57,756 INFO  [stdout] (MSC service thread 1-1) Setting test.deployment.trivial.prop to default-value
+[Server:main-one] 22:54:57,773 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:57,778 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:57,842 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 4ms
+[Server:main-one] 22:54:57,844 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 10ms
+[Server:main-one] 22:54:57,864 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-one] 22:54:57,864 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:57,869 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-three] 22:54:57,870 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Host Controller] [0m[0m22:54:57,882 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Host Controller] [0m[0m22:54:57,883 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Host Controller] [33m[0m[0m22:54:57,886 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Host Controller] [0m[0m22:54:57,895 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/b1/fec28b6f6b643888380a871117872efea7fb2c/content[0m
+[Host Controller] [0m[0m22:54:57,911 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/28/4c2ba8fe23d6dbcc707779a23b6e08eaeda9c2/content[0m
+[Server:main-one] 22:54:57,984 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:57,992 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:58,008 INFO  [stdout] (MSC service thread 1-7) Properties found
+[Server:main-one] 22:54:58,009 INFO  [stdout] (MSC service thread 1-7) Setting service to is new
+[Server:main-three] 22:54:58,021 INFO  [stdout] (MSC service thread 1-7) Properties found
+[Server:main-three] 22:54:58,021 INFO  [stdout] (MSC service thread 1-7) Setting service to is new
+[Server:main-one] 22:54:58,035 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:58,037 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Host Controller] [0m[0m22:54:58,042 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/b1/fec28b6f6b643888380a871117872efea7fb2c/content[0m
+[Host Controller] [0m[0m22:54:58,044 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/b1/fec28b6f6b643888380a871117872efea7fb2c/content[0m
+[Server:main-three] 22:54:58,081 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 4ms
+[Server:main-one] 22:54:58,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 23ms
+[Server:main-one] 22:54:58,113 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/28/4c2ba8fe23d6dbcc707779a23b6e08eaeda9c2/content
+[Server:main-one] 22:54:58,113 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,119 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/28/4c2ba8fe23d6dbcc707779a23b6e08eaeda9c2/content
+[Server:main-three] 22:54:58,119 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Host Controller] [0m[0m22:54:58,130 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/28/4c2ba8fe23d6dbcc707779a23b6e08eaeda9c2/content[0m
+[Host Controller] [0m[0m22:54:58,134 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/28/4c2ba8fe23d6dbcc707779a23b6e08eaeda9c2/content[0m
+[Host Controller] [0m[0m22:54:58,139 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/8f/138fa2b6703f57663d6c0204e71f46ffa1e536/content[0m
+[Host Controller] [0m[0m22:54:58,201 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/2b/20fc3830e9d24d97fef0145d9a3c6ad044cfb8/content[0m
+[Host Controller] [0m[0m22:54:58,231 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/8f/138fa2b6703f57663d6c0204e71f46ffa1e536/content[0m
+[Host Controller] [0m[0m22:54:58,234 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/8f/138fa2b6703f57663d6c0204e71f46ffa1e536/content[0m
+[Server:main-one] 22:54:58,274 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,281 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,304 INFO  [stdout] (MSC service thread 1-1) Properties found
+[Server:main-three] 22:54:58,305 INFO  [stdout] (MSC service thread 1-1) Setting service to is new
+[Server:main-one] 22:54:58,308 INFO  [stdout] (MSC service thread 1-2) Properties found
+[Server:main-one] 22:54:58,309 INFO  [stdout] (MSC service thread 1-2) Setting service to is new
+[Server:main-one] 22:54:58,321 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:58,323 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Host Controller] [0m[0m22:54:58,378 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/4a/006d02ced795643ee6ed160f75a23d1cb69807/content[0m
+[Server:main-one] 22:54:58,420 WARN  [org.jboss.as.repository] (ServerService Thread Pool -- 9) java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-one] 22:54:58,421 ERROR [org.jboss.as.server.deployment] (ServerService Thread Pool -- 9) WFLYSRV0249: Could not copy files from the managed content repository to the running deployment for deployment.jar: org.jboss.as.repository.ExplodedContentException: WFLYDR0022: Error copying files of exploded deployment to /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/managed-exploded/deployment.jar
+[Server:main-one] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:516) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.server.mgmt.domain.RemoteFileRepositoryService.copyExplodedContentFiles(RemoteFileRepositoryService.java:190) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.server.deployment.ExplodedDeploymentAddContentHandler$3.run(ExplodedDeploymentAddContentHandler.java:177) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522) [rt.jar:1.8.0]
+[Server:main-one] 	at java.util.concurrent.FutureTask.run(FutureTask.java:277) [rt.jar:1.8.0]
+[Server:main-one] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] Caused by: java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-one] 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:98) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:114) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:119) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:255) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:593) [rt.jar:1.8.0]
+[Server:main-one] 	at sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:265) [rt.jar:1.8.0]
+[Server:main-one] 	at java.nio.file.Files.copy(Files.java:1285) [rt.jar:1.8.0]
+[Server:main-one] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:69) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at java.nio.file.Files.walkFileTree(Files.java:2681) [rt.jar:1.8.0]
+[Server:main-one] 	at java.nio.file.Files.walkFileTree(Files.java:2753) [rt.jar:1.8.0]
+[Server:main-one] 	at org.jboss.as.repository.PathUtil.copyRecursively(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:511) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	... 10 more
+[Server:main-one] 
+[Server:main-three] 22:54:58,433 WARN  [org.jboss.as.repository] (ServerService Thread Pool -- 9) java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-three] 22:54:58,434 ERROR [org.jboss.as.server.deployment] (ServerService Thread Pool -- 9) WFLYSRV0249: Could not copy files from the managed content repository to the running deployment for deployment.jar: org.jboss.as.repository.ExplodedContentException: WFLYDR0022: Error copying files of exploded deployment to /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/managed-exploded/deployment.jar
+[Server:main-three] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:516) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.server.mgmt.domain.RemoteFileRepositoryService.copyExplodedContentFiles(RemoteFileRepositoryService.java:190) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.server.deployment.ExplodedDeploymentAddContentHandler$3.run(ExplodedDeploymentAddContentHandler.java:177) [wildfly-server-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522) [rt.jar:1.8.0]
+[Server:main-three] 	at java.util.concurrent.FutureTask.run(FutureTask.java:277) [rt.jar:1.8.0]
+[Server:main-three] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] Caused by: java.nio.file.NoSuchFileException: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/managed-exploded/deployment.jar/org/wildfly/test/deployment/trivial/simple.properties
+[Server:main-three] 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:98) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:114) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:119) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:255) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:593) [rt.jar:1.8.0]
+[Server:main-three] 	at sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:265) [rt.jar:1.8.0]
+[Server:main-three] 	at java.nio.file.Files.copy(Files.java:1285) [rt.jar:1.8.0]
+[Server:main-three] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:69) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.repository.PathUtil$1.visitFile(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at java.nio.file.Files.walkFileTree(Files.java:2681) [rt.jar:1.8.0]
+[Server:main-three] 	at java.nio.file.Files.walkFileTree(Files.java:2753) [rt.jar:1.8.0]
+[Server:main-three] 	at org.jboss.as.repository.PathUtil.copyRecursively(PathUtil.java:60) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.repository.ContentRepositoryImpl.copyExplodedContentFiles(ContentRepositoryImpl.java:511) [wildfly-deployment-repository-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	... 10 more
+[Server:main-three] 
+[Server:main-one] 22:54:58,451 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/2b/20fc3830e9d24d97fef0145d9a3c6ad044cfb8/content
+[Server:main-three] 22:54:58,457 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/2b/20fc3830e9d24d97fef0145d9a3c6ad044cfb8/content
+[Host Controller] [0m[0m22:54:58,462 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/2b/20fc3830e9d24d97fef0145d9a3c6ad044cfb8/content[0m
+[Server:main-one] 22:54:58,506 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 5ms
+[Server:main-three] 22:54:58,509 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 3ms
+[Server:main-one] 22:54:58,523 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,525 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:58,552 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:58,585 INFO  [stdout] (MSC service thread 1-1) Properties found
+[Server:main-one] 22:54:58,586 INFO  [stdout] (MSC service thread 1-1) Setting service to is replaced
+[Server:main-three] 22:54:58,589 INFO  [stdout] (MSC service thread 1-6) Properties found
+[Server:main-three] 22:54:58,590 INFO  [stdout] (MSC service thread 1-6) Setting service to is replaced
+[Server:main-one] 22:54:58,604 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:58,606 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Host Controller] [0m[0m22:54:58,649 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Server:main-one] 22:54:58,678 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-three] 22:54:58,684 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-one] 22:54:58,698 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/4a/006d02ced795643ee6ed160f75a23d1cb69807/content
+[Server:main-three] 22:54:58,704 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/4a/006d02ced795643ee6ed160f75a23d1cb69807/content
+[Host Controller] [0m[0m22:54:58,710 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/4a/006d02ced795643ee6ed160f75a23d1cb69807/content[0m
+[Host Controller] [0m[0m22:54:58,713 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/4a/006d02ced795643ee6ed160f75a23d1cb69807/content[0m
+[Host Controller] [0m[33m22:54:58,716 WARN  [org.jboss.as.repository] (management-handler-thread - 3) java.io.FileNotFoundException: /home[0m
+[Host Controller] [33m[0m[33m22:54:58,719 WARN  [org.jboss.as.repository] (management-handler-thread - 3) java.io.FileNotFoundException: /home[0m
+[Server:main-one] 22:54:58,736 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 4ms
+[Server:main-three] 22:54:58,743 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 4ms
+[Server:main-one] 22:54:58,760 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,761 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-three] 22:54:58,789 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:58,791 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:58,819 INFO  [stdout] (MSC service thread 1-3) Setting test.deployment.trivial.prop to default-value
+[Server:main-three] 22:54:58,833 INFO  [stdout] (MSC service thread 1-8) Setting test.deployment.trivial.prop to default-value
+[Server:main-one] 22:54:58,847 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-three] 22:54:58,849 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0010: Deployed "deployment.jar" (runtime-name : "deployment.jar")
+[Server:main-one] 22:54:58,887 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 7ms
+[Server:main-three] 22:54:58,888 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment deployment.jar (runtime-name: deployment.jar) in 4ms
+[Server:main-three] 22:54:58,909 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 5) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/servers/main-three/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-three] 22:54:58,909 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 5) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Server:main-one] 22:54:58,910 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 16) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/servers/main-one/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content
+[Server:main-one] 22:54:58,910 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 16) WFLYSRV0009: Undeployed "deployment.jar" (runtime-name: "deployment.jar")
+[Host Controller] [0m[0m22:54:58,916 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Host Controller] [0m[0m22:54:58,917 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 50) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/slave/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m
+[Host Controller] [33m[0m[0m22:54:58,920 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/DomainTestSuite/master/data/content/4a/f33704bb60d48279c87c9794c068a240263680/content[0m

@@ -1,0 +1,2 @@
+Oct 03, 2018 4:54:55 PM org.jboss.as.controller.interfaces.InetAddressMatchInterfaceCriteria logMultipleValidInterfaces
+WARN: WFLYCTL0023: Value '0:0:0:0:0:0:0:1' for interface selection criteria 'inet-address' is ambiguous, as more than one address or network interface available on the machine matches it. Because of this ambiguity, no address will be selected as a match. Matching addresses: [/0:0:0:0:0:0:0:1%1].  Matching network interfaces: [lo, eth0, docker0].

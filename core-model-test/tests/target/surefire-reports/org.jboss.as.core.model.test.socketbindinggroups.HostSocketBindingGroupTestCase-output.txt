@@ -1,0 +1,28 @@
+Oct 03, 2018 5:13:57 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:13:57 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:13:58 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:58 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("interface" => "public")
+]) - failure description: "WFLYCTL0149: No interface criteria was provided"
+Oct 03, 2018 5:13:58 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("interface" => "management")
+]) - failure description: "WFLYCTL0149: No interface criteria was provided"
+Oct 03, 2018 5:13:59 PM org.jboss.as.controller.AttributeDefinition validateAndSet
+INFO: WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+Oct 03, 2018 5:13:59 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("interface" => "public")
+]) - failure description: "WFLYCTL0149: No interface criteria was provided"
+Oct 03, 2018 5:13:59 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("interface" => "management")
+]) - failure description: "WFLYCTL0149: No interface criteria was provided"

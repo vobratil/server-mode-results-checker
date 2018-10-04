@@ -1,0 +1,70 @@
+log4j:WARN No appenders could be found for logger (org.jboss.logging).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[0m23:20:10,171 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:20:10,739 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:20:10,755 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:20:11,486 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:20:11,848 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:20:11,875 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:20:11,977 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:20:12,852 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:20:12,856 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:20:12,881 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:20:12,896 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:20:12,914 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:20:12,939 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:20:13,000 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:20:13,084 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[33m23:20:13,088 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:20:13,423 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:20:13,423 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1[0m
+[Host Controller] [0m[0m23:20:13,424 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2526ms - Started 50 of 51 services (13 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:20:14 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: All servers started in 4493 ms
+Oct 03, 2018 11:20:14 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 4786 ms
+[0m23:20:14,961 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:20:15,386 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:20:15,403 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:20:16,709 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:20:17,070 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:20:17,079 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:20:17,132 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:20:18,193 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:20:18,195 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:20:18,199 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:20:18,297 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)[0m
+[Host Controller] [0m[0m23:20:18,303 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:20:18,310 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:20:18,368 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:20:18,371 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:20:18,481 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Listening on 127.0.0.1:19999[0m
+[Host Controller] [0m[0m23:20:18,625 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:20:19,502 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:20:19,496 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 2) WFLYHC0019: Registered remote slave host "slave", WildFly 7.0.0.Alpha3-SNAPSHOT ""[0m
+[Host Controller] [0m[0m23:20:19,543 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-three[0m
+[0m23:20:19,695 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+[0m[Server:main-three] [0m23:20:20,866 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:main-three] [0m[0m23:20:21,314 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:main-three] [0m[0m23:20:21,323 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:main-three] [0m[0m23:20:21,464 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:main-three] [0m[0m23:20:21,550 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final[0m
+[Server:main-three] [0m[0m23:20:21,555 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:main-three] [0m[0m23:20:21,594 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Server:main-three] [0m[0m23:20:21,958 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:20:22,499 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 3d28faa5 (inbound) of Remoting connection 16f0fc0a to rhel7-large-81357/127.0.0.1:38014 of endpoint "slave:MANAGEMENT" <cb31adca>][0m
+[Host Controller] [0m[0m23:20:22,516 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three[0m
+[Host Controller] [0m[0m23:20:22,534 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:19990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:20:22,535 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:20:22,536 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 6891ms - Started 57 of 58 services (19 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:20:22 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil areServersStarted
+INFO: ServerIdentity{name=main-three, host=slave, server-group=main-server-group} status is starting
+[Server:main-three] [0m[0m23:20:22,706 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:main-three] [0m23:20:22,837 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:main-three] 23:20:22,843 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2990ms - Started 46 of 62 services (25 services are lazy, passive or on-demand)
+Oct 03, 2018 11:20:23 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: All servers started in 8745 ms
+Oct 03, 2018 11:20:23 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 8999 ms
+[Host Controller] [0m[0m23:20:23,495 INFO  [org.jboss.as.domain.controller] (management task-1) WFLYHC0026: Unregistered remote slave host "slave"[0m

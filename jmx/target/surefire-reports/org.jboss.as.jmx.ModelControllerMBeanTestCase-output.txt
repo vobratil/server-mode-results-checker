@@ -1,0 +1,324 @@
+Oct 03, 2018 5:06:58 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:06:58 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:06:59 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:06:59 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 5:06:59 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 5:06:59 PM org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.8.Final
+Oct 03, 2018 5:06:59 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:06:59 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:06:59 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:06:59 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:06:59 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:06:59 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:06:59 PM org.wildfly.security.Version <clinit>
+INFO: ELY00001: WildFly Elytron version 1.7.0.CR2
+Oct 03, 2018 5:07:00 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:01 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:01 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:01 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:01 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:01 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:01 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:01 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:01 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:01 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:02 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:02 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:03 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:03 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:03 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:03 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:03 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:03 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:03 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:03 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:03 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:03 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:03 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:03 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:03 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:03 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:03 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:04 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:04 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:04 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:04 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:04 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:04 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:04 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:04 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:04 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service jboss.remoting.server.server
+org.jboss.msc.service.StartException in service jboss.remoting.server.server: Failed to start service
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1730)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.lang.IllegalStateException: Container is down
+	at org.jboss.msc.service.ServiceContainerImpl.install(ServiceContainerImpl.java:749)
+	at org.jboss.msc.service.ServiceTargetImpl.install(ServiceTargetImpl.java:260)
+	at org.jboss.msc.service.ServiceControllerImpl$ChildServiceTarget.install(ServiceControllerImpl.java:2058)
+	at org.jboss.msc.service.ServiceBuilderImpl.install(ServiceBuilderImpl.java:189)
+	at org.jboss.as.remoting.RemotingConnectorBindingInfoService.install(RemotingConnectorBindingInfoService.java:58)
+	at org.jboss.as.remoting.InjectedSocketBindingStreamServerService.start(InjectedSocketBindingStreamServerService.java:55)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	... 6 more
+
+Oct 03, 2018 5:07:05 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:05 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:05 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:05 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:05 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:05 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:05 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:05 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:05 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:05 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:05 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:05 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:06 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:06 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:07 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258
+Oct 03, 2018 5:07:07 PM org.jboss.remotingjmx.Util warnDeprecated
+WARN: The protocol 'remoting-jmx' is deprecated, instead you should use 'remote'.
+Oct 03, 2018 5:07:07 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0448: 1 additional services are down due to their dependencies being missing or failed
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+WARN: ****** All authentication is ANONYMOUS for org.jboss.as.remoting.InjectedSocketBindingStreamServerService
+Oct 03, 2018 5:07:07 PM org.jboss.as.remoting.AbstractStreamServerService start
+INFO: WFLYRMT0001: Listening on 127.0.0.1:27258

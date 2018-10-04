@@ -1,0 +1,11 @@
+[0m22:21:23,562 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/2f/1f90722853cc139c0a52ee2428c52fb14c7fe0/content
+[0m[0m22:21:23,599 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "test-archive.war" (runtime-name: "test-archive.war")
+[0m[0m22:21:23,705 INFO  [org.wildfly.test.undertow.UndertowService] (MSC service thread 1-2) Started Undertow on 127.0.0.1:8080
+[0m[0m22:21:23,828 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "test-archive.war" (runtime-name : "test-archive.war")
+[0m[0m22:21:23,891 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment test-archive.war (runtime-name: test-archive.war) in 11ms
+[0m[0m22:21:23,912 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/2f/1f90722853cc139c0a52ee2428c52fb14c7fe0/content
+[0m[0m22:21:23,913 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0009: Undeployed "test-archive.war" (runtime-name: "test-archive.war")
+[0m[0m22:21:23,956 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:21:23,958 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:21:23,980 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 18ms
+[0m

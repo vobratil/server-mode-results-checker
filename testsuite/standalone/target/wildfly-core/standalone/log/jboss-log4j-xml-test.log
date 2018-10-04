@@ -1,0 +1,7 @@
+2018-10-03 22:16:15,561 [MSC service thread 1-6] INFO - Started Undertow on 127.0.0.1:8080
+2018-10-03 22:16:15,664 [XNIO-1 I/O-1] FATAL - logTest: jboss-log4j message - fatal
+2018-10-03 22:16:15,664 [XNIO-1 I/O-1] ERROR - logTest: jboss-log4j message - error
+2018-10-03 22:16:15,664 [XNIO-1 I/O-1] WARN - logTest: jboss-log4j message - warn
+2018-10-03 22:16:15,664 [XNIO-1 I/O-1] INFO - logTest: jboss-log4j message - info
+2018-10-03 22:16:15,664 [XNIO-1 I/O-1] DEBUG - logTest: jboss-log4j message - debug
+2018-10-03 22:16:15,664 [XNIO-1 I/O-1] TRACE - logTest: jboss-log4j message - trace

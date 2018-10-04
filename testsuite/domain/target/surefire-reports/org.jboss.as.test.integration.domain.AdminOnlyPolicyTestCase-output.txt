@@ -1,0 +1,250 @@
+[0m23:10:44,017 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:10:44,407 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:10:44,423 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:10:45,380 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:10:46,204 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:10:46,219 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:10:46,288 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:10:46,832 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-0/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:46,834 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-0/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:46,837 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:46,941 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:10:46,982 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:47,000 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:47,026 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:10:47,080 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:10:47,149 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[31m23:10:47,191 ERROR [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0151: No domain controller discovery configuration was provided and the 'admin-only-policy' attribute was set to 'require-local-config'. Startup will be aborted. Use the --cached-dc command line argument to start in ADMIN_ONLY mode if you need to start without a domain controller connection and then use the management tools to configure one.[0m
+[Host Controller] [31m[0m[31m23:10:47,192 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99[0m
+[Host Controller] [31m[0m[31m23:10:47,212 ERROR [org.xnio.listener] (management I/O-2) XNIO001007: A channel event listener threw an exception: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating[0m
+[Host Controller] [31m	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnection$RemoteWriteListener.send(RemoteConnection.java:357)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnection.send(RemoteConnection.java:127)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.ServerConnectionOpenListener.handleEvent(ServerConnectionOpenListener.java:102)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.handleAccepted(RemoteConnectionProvider.java:407)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.lambda$createServer$1(RemoteConnectionProvider.java:375)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface$$Lambda$94.000000007400C690.handleEvent(Unknown Source)[0m
+[Host Controller] [31m	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)[0m
+[Host Controller] [31m	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:131)[0m
+[Host Controller] [31m	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612)[0m
+[Host Controller] [31m	at org.xnio.nio.WorkerThread.run(WorkerThread.java:479)[0m
+[Host Controller] [31m[0m
+[Host Controller] [31m[0m[0m23:10:47,225 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 28ms[0m
+[Host Controller] [0m[0m
+[0m23:10:47,244 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 99
+[0m[0m23:10:47,247 INFO  [org.jboss.as.process] (Thread-15) WFLYPC0017: Shutting down process controller
+[0m[0m23:10:47,249 INFO  [org.jboss.as.process] (Thread-15) WFLYPC0016: All processes finished; exiting
+[0m[0m23:10:48,264 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:10:48,632 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:10:48,647 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:10:49,382 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:10:49,733 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:10:49,743 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:10:49,791 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:10:50,290 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-1/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:50,292 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-1/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:50,294 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:50,383 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:10:50,403 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:50,416 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:50,447 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:10:50,512 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:10:50,582 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:10:50,849 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0149: Option --cached-dc was set; obtaining domain-wide configuration from domain.cached-remote.xml[0m
+[Host Controller] [0m[0m23:10:51,317 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:10:51,317 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:10:51,317 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2533ms - Started 51 of 53 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:10:51 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 4200 ms
+[0m23:10:52,271 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:10:52,866 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:10:52,901 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:10:53,802 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:10:54,212 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:10:54,237 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:10:54,366 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:10:54,959 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-2/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:54,961 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-2/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:54,963 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:55,051 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:10:55,052 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:55,058 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:55,105 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:10:55,106 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:10:55,168 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[31m23:10:55,252 ERROR [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0145: The host cannot start because it was started in running mode 'ADMIN_ONLY' with no access to a local copy of the domain wide configuration policy, and the 'admin-only-policy' attribute was set to 'require-local-config'. Startup will be aborted. Use the '--cached-dc' command line argument to start in running mode 'ADMIN_ONLY'.[0m
+[Host Controller] [31m[0m[31m23:10:55,253 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99[0m
+[Host Controller] [31m[0m[0m23:10:55,277 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms[0m
+[Host Controller] [0m[0m
+[0m23:10:55,288 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 99
+[0m[0m23:10:55,290 INFO  [org.jboss.as.process] (Thread-15) WFLYPC0017: Shutting down process controller
+[0m[0m23:10:55,292 INFO  [org.jboss.as.process] (Thread-15) WFLYPC0016: All processes finished; exiting
+[0m[0m23:10:55,899 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:10:56,346 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:10:56,361 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:10:57,691 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:10:58,536 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:10:58,555 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:10:58,606 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:10:59,091 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-3/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:59,093 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-3/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:59,096 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:10:59,192 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:10:59,199 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:59,205 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:10:59,255 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:10:59,255 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:10:59,315 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:10:59,411 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:10:59,411 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:10:59,411 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2889ms - Started 49 of 51 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:10:59 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 4451 ms
+[0m23:11:00,340 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:11:00,691 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:11:00,707 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:11:01,475 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:11:01,806 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:11:01,818 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:11:01,868 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:11:02,365 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-4/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:02,366 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-4/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:02,368 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:02,454 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:11:02,469 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:02,476 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:02,502 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:11:02,517 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:11:02,577 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:11:02,661 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0149: Option --cached-dc was set; obtaining domain-wide configuration from domain.cached-remote.xml[0m
+[Host Controller] [0m[0m23:11:02,858 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:11:02,858 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:11:02,858 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2011ms - Started 51 of 53 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:11:03 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 3446 ms
+[0m23:11:03,881 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:11:04,312 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:11:04,329 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:11:05,107 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:11:05,545 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:11:05,571 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:11:05,694 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:11:06,526 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-5/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:06,527 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-5/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:06,529 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:06,613 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:11:06,627 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:06,634 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:06,696 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:11:06,716 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:11:06,802 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:11:07,091 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:11:08,755 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:11:08,768 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:11:08,769 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:11:08,769 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 4292ms - Started 50 of 52 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:11:09 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 5696 ms
+[0m23:11:09,789 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:11:10,177 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:11:10,194 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:11:10,976 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:11:11,358 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:11:11,370 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:11:11,422 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:11:12,175 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-6/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:12,177 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-6/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:12,178 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:12,264 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:11:12,269 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:12,276 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:12,312 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:11:12,317 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:11:12,399 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:11:12,627 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:11:14,104 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999[0m
+[Host Controller] [0m[0m23:11:14,119 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:11:14,119 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:11:14,119 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 3785ms - Started 50 of 52 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:11:14 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 5124 ms
+[0m23:11:15,164 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:11:15,680 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:11:15,718 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:11:17,167 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:11:17,553 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:11:17,565 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:11:17,619 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:11:18,131 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-7/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:18,133 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-7/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:18,134 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:18,223 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:11:18,228 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:18,238 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:18,285 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:11:18,309 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:11:18,384 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:11:18,468 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0149: Option --cached-dc was set; obtaining domain-wide configuration from domain.cached-remote.xml[0m
+[Host Controller] [0m[0m23:11:18,766 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:11:18,767 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:11:18,768 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2665ms - Started 51 of 53 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:11:19 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 4565 ms
+[0m23:11:19,850 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:11:20,316 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:11:20,332 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:11:21,079 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:11:21,452 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:11:21,464 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:11:21,518 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:11:22,368 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-8/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:22,370 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-8/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:22,371 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:22,460 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:11:22,475 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:22,482 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:22,516 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:11:22,531 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:11:22,587 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[0m23:11:22,681 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:29990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:11:22,681 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled[0m
+[Host Controller] [0m[0m23:11:22,681 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2209ms - Started 49 of 51 services (16 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:11:23 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil start
+INFO: HostController started in 3741 ms
+[0m23:11:23,639 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:11:24,056 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:11:24,073 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+[0m[Host Controller] [0m23:11:25,366 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Host Controller] [0m[0m23:11:25,713 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Host Controller] [0m[0m23:11:25,727 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Host Controller] [0m[0m23:11:25,781 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:11:26,298 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-9/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:26,300 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-9/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:26,301 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:11:26,391 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)[0m
+[Host Controller] [0m[0m23:11:26,409 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:26,426 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Host Controller] [0m[0m23:11:26,470 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:11:26,537 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Host Controller] [0m[0m23:11:26,617 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) WFLYRMT0001: Listening on 127.0.0.1:29999[0m
+[Host Controller] [0m[31m23:11:26,708 ERROR [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0145: The host cannot start because it was started in running mode 'ADMIN_ONLY' with no access to a local copy of the domain wide configuration policy, and the 'admin-only-policy' attribute was set to 'require-local-config'. Startup will be aborted. Use the '--cached-dc' command line argument to start in running mode 'ADMIN_ONLY'.[0m
+[Host Controller] [31m[0m[31m23:11:26,709 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99[0m
+[Host Controller] [31m[0m[31m23:11:26,779 ERROR [org.xnio.listener] (management I/O-2) XNIO001007: A channel event listener threw an exception: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating[0m
+[Host Controller] [31m	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnection$RemoteWriteListener.send(RemoteConnection.java:357)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnection.send(RemoteConnection.java:127)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.ServerConnectionOpenListener.handleEvent(ServerConnectionOpenListener.java:102)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.handleAccepted(RemoteConnectionProvider.java:407)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.lambda$createServer$1(RemoteConnectionProvider.java:375)[0m
+[Host Controller] [31m	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface$$Lambda$92.00000000E40DED00.handleEvent(Unknown Source)[0m
+[Host Controller] [31m	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)[0m
+[Host Controller] [31m	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:131)[0m
+[Host Controller] [31m	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612)[0m
+[Host Controller] [31m	at org.xnio.nio.WorkerThread.run(WorkerThread.java:479)[0m
+[Host Controller] [31m[0m
+[Host Controller] [31m[0m[0m23:11:26,791 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 70ms[0m
+[Host Controller] [0m[0m
+[0m23:11:26,802 INFO  [org.jboss.as.process.Host Controller.status] (reaper for Host Controller) WFLYPC0011: Process 'Host Controller' finished with an exit status of 99
+[0m[0m23:11:26,804 INFO  [org.jboss.as.process] (Thread-15) WFLYPC0017: Shutting down process controller
+[0m[0m23:11:26,805 INFO  [org.jboss.as.process] (Thread-15) WFLYPC0016: All processes finished; exiting
+[0m

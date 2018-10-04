@@ -1,0 +1,10 @@
+[Host Controller] [33m[0m[0m22:55:57,974 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test attributes[0m
+[Host Controller] [0m[0m22:55:57,974 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (management-handler-thread - 3) Registered log-stream-test operations[0m
+[Host Controller] [33m[0m[0m22:55:57,991 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (Host Controller Service Threads - 5) Registered log-stream-test attributes[0m
+[Host Controller] [0m[0m22:55:57,991 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (Host Controller Service Threads - 5) Registered log-stream-test operations[0m
+[Server:main-three] 22:55:58,012 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 5) Registered log-stream-test attributes
+[Server:main-three] 22:55:58,012 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 5) Registered log-stream-test operations
+[Server:other-two] 22:55:58,022 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 2) Registered log-stream-test attributes
+[Server:other-two] 22:55:58,022 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 2) Registered log-stream-test operations
+[Server:main-one] 22:55:58,025 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 8) Registered log-stream-test attributes
+[Server:main-one] 22:55:58,025 INFO  [org.jboss.as.test.integration.management.extension.streams.LogStreamExtension] (ServerService Thread Pool -- 8) Registered log-stream-test operations

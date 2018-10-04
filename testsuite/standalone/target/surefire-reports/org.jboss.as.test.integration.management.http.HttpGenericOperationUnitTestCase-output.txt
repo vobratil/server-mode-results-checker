@@ -1,0 +1,20 @@
+[0m22:29:44,106 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/de/fda0834496e8a00c196dee7c7691ef8c709a19/content
+[0m[0m22:29:44,234 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "deployment-1" (runtime-name: "deployment-1")
+[0m[0m22:29:44,234 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "deployment-0" (runtime-name: "deployment-0")
+[0m[0m22:29:44,354 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0010: Deployed "deployment-1" (runtime-name : "deployment-1")
+[0m[0m22:29:44,355 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0010: Deployed "deployment-0" (runtime-name : "deployment-0")
+[0m[0m22:29:44,409 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment deployment-1 (runtime-name: deployment-1) in 10ms
+[0m[0m22:29:44,417 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment deployment-0 (runtime-name: deployment-0) in 19ms
+[0m[0m22:29:44,452 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0009: Undeployed "deployment-1" (runtime-name: "deployment-1")
+[0m[0m22:29:44,454 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0009: Undeployed "deployment-0" (runtime-name: "deployment-0")
+[0m[0m22:29:44,458 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/de/fda0834496e8a00c196dee7c7691ef8c709a19/content
+[0m[0m22:29:46,732 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/c3/0cc580f3c47925be680d565142102b3ea950c4/content
+[0m[0m22:29:46,736 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "deployment-0" (runtime-name: "deployment-0")
+[0m[0m22:29:46,773 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0010: Deployed "deployment-0" (runtime-name : "deployment-0")
+[0m[0m22:29:46,792 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment deployment-0 (runtime-name: deployment-0) in 6ms
+[0m[0m22:29:46,819 INFO  [org.jboss.as.server] (External Management Request Threads -- 1) WFLYSRV0009: Undeployed "deployment-0" (runtime-name: "deployment-0")
+[0m[0m22:29:46,827 INFO  [org.jboss.as.repository] (External Management Request Threads -- 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/c3/0cc580f3c47925be680d565142102b3ea950c4/content
+[0m[0m22:29:46,859 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:29:46,864 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:29:46,937 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 65ms
+[0m

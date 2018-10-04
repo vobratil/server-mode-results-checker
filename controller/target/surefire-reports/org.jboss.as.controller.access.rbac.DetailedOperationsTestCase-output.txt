@@ -1,0 +1,136 @@
+Oct 03, 2018 4:55:05 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:55:05 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[(\"sensitive-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("application-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[(\"application-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-config-write-runtime-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-config-write-runtime-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-config-write-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-config-write-runtime-operation' for resource '[(\"sensitive-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-config-write-runtime-operation") failed - address: ([("application-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-config-write-runtime-operation' for resource '[(\"application-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-read-config-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-read-config-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-read-config-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-read-config-operation' for resource '[(\"sensitive-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-read-config-operation") failed - address: ([("application-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-read-config-operation' for resource '[(\"application-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("application-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[(\"application-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-config-write-runtime-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-config-write-runtime-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-config-write-runtime-operation") failed - address: ([("application-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-config-write-runtime-operation' for resource '[(\"application-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-read-config-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-read-config-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-read-config-operation") failed - address: ([("application-constrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-read-config-operation' for resource '[(\"application-constrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([("sensitive-constrained-resource" => "foo")]) - failure description: "WFLYCTL0216: Management resource '[(\"sensitive-constrained-resource\" => \"foo\")]' not found"
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-operation") failed - address: ([
+    ("core-service" => "management"),
+    ("access" => "audit")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-operation' for resource '[
+    (\"core-service\" => \"management\"),
+    (\"access\" => \"audit\")
+]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("read-config-write-runtime-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'read-config-write-runtime-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""
+Oct 03, 2018 4:55:06 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("write-runtime-read-config-operation") failed - address: ([("unconstrained-resource" => "foo")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'write-runtime-read-config-operation' for resource '[(\"unconstrained-resource\" => \"foo\")]' -- \"WFLYCTL0332: Permission denied\""

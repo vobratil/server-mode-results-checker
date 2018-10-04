@@ -1,0 +1,129 @@
+[Host Controller] [0m[0m23:12:23,078 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server main-one[0m
+[Server:main-one] 23:12:23,092 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 6) WFLYSRV0236: Suspending server with no timeout.
+[0m23:12:23,098 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Server:main-one] 23:12:23,100 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:12:23,136 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test-jmx-notifications-deployment.jar (runtime-name: test-jmx-notifications-deployment.jar) in 27ms
+[Host Controller] [0m[0m23:12:23,154 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:12:23,160 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 54ms
+[0m23:12:23,169 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:12:23,171 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[0m23:12:23,213 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server main-one[0m
+[0m23:12:23,373 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:12:24,253 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:12:24,686 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:12:24,696 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:12:24,843 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:12:24,931 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final
+[Server:main-one] 23:12:24,938 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:12:24,976 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:12:25,331 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:12:25,984 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 5087d0d1 (inbound) of Remoting connection 8a6de6f4 to rhel7-large-81357/127.0.0.1:43240 of endpoint "master:MANAGEMENT" <2a4a07d2>][0m
+[Host Controller] [0m[0m23:12:26,007 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+Oct 03, 2018 11:12:26 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil areServersStarted
+INFO: ServerIdentity{name=main-one, host=master, server-group=main-server-group} status is starting
+[Server:main-one] 23:12:26,267 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 15) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-one] 23:12:26,318 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:12:26,365 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "test-jmx-notifications-deployment.jar" (runtime-name: "test-jmx-notifications-deployment.jar")
+Oct 03, 2018 11:12:26 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil areServersStarted
+INFO: ServerIdentity{name=main-one, host=master, server-group=main-server-group} status is starting
+[Server:main-one] 23:12:26,470 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.jmx") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:26,471 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:26,472 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:26,480 INFO  [stdout] (MSC service thread 1-5) Properties found
+[Server:main-one] 23:12:26,514 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "test-jmx-notifications-deployment.jar" (runtime-name : "test-jmx-notifications-deployment.jar")
+[Server:main-one] 23:12:26,540 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-one] 23:12:26,543 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2973ms - Started 67 of 86 services (28 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:12:27,074 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 13) WFLYHC0024: Stopping server main-one[0m
+[0m23:12:27,077 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Server:main-one] 23:12:27,083 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:12:27,086 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+[Server:main-one] 23:12:27,109 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test-jmx-notifications-deployment.jar (runtime-name: test-jmx-notifications-deployment.jar) in 14ms
+[Host Controller] [0m[0m23:12:27,120 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:12:27,131 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 36ms
+[0m23:12:27,145 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:12:27,187 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[0m23:12:27,251 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 184ms[0m
+[Host Controller] [0m[0m23:12:27,259 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:12:27,402 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:12:27,404 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:12:27,470 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:12:27,483 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:12:27,503 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[33m23:12:27,504 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-7) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:12:27,964 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-one[0m
+[0m23:12:28,109 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:12:29,150 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:12:29,561 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:12:29,569 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:12:29,709 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:12:29,801 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+[Server:main-one] 23:12:29,808 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:12:29,848 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:12:30,227 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:12:30,761 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 03d38e25 (inbound) of Remoting connection 6bc3bcf2 to rhel7-large-81357/127.0.0.1:43378 of endpoint "master:MANAGEMENT" <4a6ee121>][0m
+[Host Controller] [0m[0m23:12:30,772 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[Host Controller] [0m[0m23:12:30,784 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:12:30,785 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1[0m
+[Host Controller] [0m[0m23:12:30,786 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 3523ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)[0m
+Oct 03, 2018 11:12:30 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil areServersStarted
+INFO: ServerIdentity{name=main-one, host=master, server-group=main-server-group} status is starting
+[Server:main-one] 23:12:31,054 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 14) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+[Server:main-one] 23:12:31,107 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:12:31,138 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "test-jmx-notifications-deployment.jar" (runtime-name: "test-jmx-notifications-deployment.jar")
+[Server:main-one] 23:12:31,244 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.jmx") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:31,245 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:31,246 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-8) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:31,267 INFO  [stdout] (MSC service thread 1-3) Properties found
+Oct 03, 2018 11:12:31 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil areServersStarted
+INFO: ServerIdentity{name=main-one, host=master, server-group=main-server-group} status is starting
+[Server:main-one] 23:12:31,329 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "test-jmx-notifications-deployment.jar" (runtime-name : "test-jmx-notifications-deployment.jar")
+[Server:main-one] 23:12:31,360 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-one] 23:12:31,364 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3111ms - Started 67 of 86 services (28 services are lazy, passive or on-demand)
+[0m23:12:31,885 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Host Controller] [0m[0m23:12:31,883 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 16) WFLYHC0024: Stopping server main-one[0m
+[Server:main-one] 23:12:31,887 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:12:31,889 INFO  [org.jboss.as.server] (Thread-9) WFLYSRV0236: Suspending server with no timeout.
+[Server:main-one] 23:12:31,906 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment test-jmx-notifications-deployment.jar (runtime-name: test-jmx-notifications-deployment.jar) in 11ms
+[Host Controller] [0m[0m23:12:31,918 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-one] 23:12:31,921 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 28ms
+[0m23:12:31,930 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:12:31,971 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Host Controller] [0m[0m23:12:32,020 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 140ms[0m
+[Host Controller] [0m[0m23:12:32,021 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Host Controller] [0m[0m23:12:32,062 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:12:32,067 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.[0m
+[Host Controller] [0m[0m23:12:32,089 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)[0m
+[Host Controller] [0m[0m23:12:32,096 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:12:32,103 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) WFLYRMT0001: Listening on 127.0.0.1:9999[0m
+[Host Controller] [0m[33m23:12:32,103 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-3) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console[0m
+[Host Controller] [33m[0m[0m23:12:32,272 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-one[0m
+[0m23:12:32,411 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:12:33,349 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:12:33,764 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:12:33,773 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:12:33,911 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:12:33,999 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+[Server:main-one] 23:12:34,005 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:12:34,040 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:12:34,400 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:12:34,937 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 289f735e (inbound) of Remoting connection c9264a0a to rhel7-large-81357/127.0.0.1:43480 of endpoint "master:MANAGEMENT" <3c5309eb>][0m
+[Host Controller] [0m[0m23:12:34,945 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[Host Controller] [0m[0m23:12:34,949 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management[0m
+[Host Controller] [0m[0m23:12:34,949 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1[0m
+[Host Controller] [0m[0m23:12:34,949 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2927ms - Started 55 of 55 services (14 services are lazy, passive or on-demand)[0m
+[Server:main-one] 23:12:35,183 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 14) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 11:12:35 PM org.jboss.as.test.integration.domain.management.util.DomainLifecycleUtil areServersStarted
+INFO: ServerIdentity{name=main-one, host=master, server-group=main-server-group} status is starting
+[Server:main-one] 23:12:35,245 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:12:35,271 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "test-jmx-notifications-deployment.jar" (runtime-name: "test-jmx-notifications-deployment.jar")
+[Server:main-one] 23:12:35,374 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.jmx") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:35,375 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:35,375 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-3) WFLYSRV0018: Deployment "deployment.test-jmx-notifications-deployment.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[Server:main-one] 23:12:35,382 INFO  [stdout] (MSC service thread 1-4) Properties found
+[Server:main-one] 23:12:35,401 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "test-jmx-notifications-deployment.jar" (runtime-name : "test-jmx-notifications-deployment.jar")
+[Server:main-one] 23:12:35,424 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-one] 23:12:35,427 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2828ms - Started 67 of 86 services (28 services are lazy, passive or on-demand)
+[Server:main-one] 23:12:35,816 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment test-jmx-notifications-deployment.jar (runtime-name: test-jmx-notifications-deployment.jar) in 5ms
+[Server:main-one] 23:12:35,844 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 6) WFLYSRV0009: Undeployed "test-jmx-notifications-deployment.jar" (runtime-name: "test-jmx-notifications-deployment.jar")
+[Server:main-one] 23:12:35,850 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 6) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/JmxControlledStateNotificationsTestCase/master/servers/main-one/data/content/b5/e9c5914813bde67e170b4e2e3b837b0c4d555e/content
+[Host Controller] [0m[0m23:12:35,885 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/JmxControlledStateNotificationsTestCase/master/data/content/b5/e9c5914813bde67e170b4e2e3b837b0c4d555e/content[0m

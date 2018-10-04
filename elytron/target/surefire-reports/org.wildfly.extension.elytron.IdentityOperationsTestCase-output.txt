@@ -1,0 +1,7 @@
+ELY00001: WildFly Elytron version 1.7.0.CR2
+JBoss MSC version 1.4.5.Final
+JBoss Threads version 2.3.2.Final
+WFLYCTL0013: Operation ("read-identity") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("filesystem-realm" => "FileSystemRealm")
+]) - failure description: "WFLYELY01002: Identity with name [plainUser] not found."

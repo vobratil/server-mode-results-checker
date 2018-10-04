@@ -1,0 +1,14 @@
+[0m22:32:12,380 INFO  [org.jboss.as.repository] (pool-6-thread-1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/b3/1d00461212b52e0949872fd69d83dc03c14b8a/content
+[0m[0m22:32:12,586 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "test-jmx.jar" (runtime-name: "test-jmx.jar")
+[0m[33m22:32:12,700 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.test-jmx.jar" is using a private module ("org.jboss.as.jmx") which may be changed or removed in future versions without notice.
+[0m[33m22:32:12,702 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.test-jmx.jar" is using a private module ("org.jboss.as.server") which may be changed or removed in future versions without notice.
+[0m[33m22:32:12,702 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-7) WFLYSRV0018: Deployment "deployment.test-jmx.jar" is using a private module ("org.jboss.as.controller") which may be changed or removed in future versions without notice.
+[0m[0m22:32:12,720 INFO  [stdout] (MSC service thread 1-4) Properties found
+[0m[0m22:32:12,744 INFO  [org.jboss.as.server] (pool-6-thread-1) WFLYSRV0010: Deployed "test-jmx.jar" (runtime-name : "test-jmx.jar")
+[0m[0m22:32:12,863 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment test-jmx.jar (runtime-name: test-jmx.jar) in 22ms
+[0m[0m22:32:12,891 INFO  [org.jboss.as.server] (pool-6-thread-1) WFLYSRV0009: Undeployed "test-jmx.jar" (runtime-name: "test-jmx.jar")
+[0m[0m22:32:12,962 INFO  [org.jboss.as.repository] (pool-6-thread-1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/standalone/target/wildfly-core/standalone/data/content/b3/1d00461212b52e0949872fd69d83dc03c14b8a/content
+[0m[0m22:32:17,835 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:32:17,837 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:32:17,869 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m

@@ -1,0 +1,32 @@
+Oct 03, 2018 5:15:41 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:41 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0114: [2] is an invalid size for parameter test. A maximum length of [1] is required"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0155: 'test' may not be null"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0155: 'test' may not be null"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0115: [2] is an invalid size for parameter test. A minimum length of [3] is required"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "15"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "5"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0114: [2] is an invalid size for parameter test. A maximum length of [1] is required"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0116: 15 is an invalid value for parameter test. A maximum value of 10 is required"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0117: 5 is an invalid value for parameter test. A minimum value of 10 is required"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0097: Wrong type for 'test'. Expected [INT] but was STRING. Couldn't convert \"Hello\" to [INT]"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0113: 'Yo' is an invalid value for parameter test. Values must have a minimum length of 3 characters"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0112: 'Yo' is an invalid value for parameter test. Values must have a maximum length of 1 characters"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0115: [2] is an invalid size for parameter test. A minimum length of [3] is required"
+Oct 03, 2018 5:15:42 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([("subsystem" => "mysubsystem")]) - failure description: "WFLYCTL0097: Wrong type for 'test'. Expected [LONG] but was STRING. Couldn't convert \"Hello\" to [LONG]"

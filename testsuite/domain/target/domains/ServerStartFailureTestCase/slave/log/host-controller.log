@@ -1,0 +1,221 @@
+2018-10-03 22:44:53,321 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:44:53,729 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:44:53,741 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:44:53,807 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:44:54,553 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:44:54,555 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:44:54,557 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:44:54,696 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)
+2018-10-03 22:44:54,704 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+2018-10-03 22:44:54,711 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:44:54,762 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:44:54,769 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:44:54,821 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 22:44:54,980 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:44:56,308 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:44:56,339 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server main-three
+2018-10-03 22:44:59,211 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 7c902f53 (inbound) of Remoting connection 606b8010 to rhel7-large-81357/127.0.0.1:55706 of endpoint "slave:MANAGEMENT" <43311965>]
+2018-10-03 22:44:59,234 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server failure-one
+2018-10-03 22:44:59,242 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three
+2018-10-03 22:45:01,967 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:failure-one] connected using connection [Channel ID 57573073 (inbound) of Remoting connection 06400cae to rhel7-large-81357/127.0.0.1:55708 of endpoint "slave:MANAGEMENT" <43311965>]
+2018-10-03 22:45:01,988 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server failure-one
+2018-10-03 22:45:02,012 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:19990/management and https://127.0.0.1:-1/management
+2018-10-03 22:45:02,014 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2018-10-03 22:45:02,015 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 9876ms - Started 54 of 55 services (16 services are lazy, passive or on-demand)
+2018-10-03 22:45:13,098 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server failure-two
+2018-10-03 22:45:13,106 ERROR [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0008: Failed to start server (failure-two): java.lang.IllegalStateException: WFLYHC0213: Java home '/usr/java/wrongPath' does not exist.
+	at org.jboss.as.host.controller.jvm.JvmType.createFromJavaHome(JvmType.java:113)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getJvmType(ManagedServerBootCmdFactory.java:460)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:295)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:264)
+	at org.jboss.as.host.controller.ManagedServer$ProcessAddTask.execute(ManagedServer.java:800)
+	at org.jboss.as.host.controller.ManagedServer.internalSetState(ManagedServer.java:611)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:539)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:526)
+	at org.jboss.as.host.controller.ManagedServer.start(ManagedServer.java:265)
+	at org.jboss.as.host.controller.ServerInventoryImpl.startServer(ServerInventoryImpl.java:216)
+	at org.jboss.as.host.controller.DomainModelControllerService$DelegatingServerInventory.startServer(DomainModelControllerService.java:1235)
+	at org.jboss.as.domain.controller.operations.DomainServerLifecycleHandlers$StartServersLifecycleHandler$1.execute(DomainServerLifecycleHandlers.java:278)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$169.0000000068005410.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-10-03 22:45:13,109 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server failure-three
+2018-10-03 22:45:13,110 ERROR [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0008: Failed to start server (failure-three): java.lang.IllegalStateException: WFLYHC0214: Java home's bin '/usr/lib/jvm/bin' does not exist. The home directory was determined to be /usr/lib/jvm.
+	at org.jboss.as.host.controller.jvm.JvmType.createFromJavaHome(JvmType.java:117)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getJvmType(ManagedServerBootCmdFactory.java:460)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:295)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:264)
+	at org.jboss.as.host.controller.ManagedServer$ProcessAddTask.execute(ManagedServer.java:800)
+	at org.jboss.as.host.controller.ManagedServer.internalSetState(ManagedServer.java:611)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:539)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:526)
+	at org.jboss.as.host.controller.ManagedServer.start(ManagedServer.java:265)
+	at org.jboss.as.host.controller.ServerInventoryImpl.startServer(ServerInventoryImpl.java:216)
+	at org.jboss.as.host.controller.DomainModelControllerService$DelegatingServerInventory.startServer(DomainModelControllerService.java:1235)
+	at org.jboss.as.domain.controller.operations.DomainServerLifecycleHandlers$StartServersLifecycleHandler$1.execute(DomainServerLifecycleHandlers.java:278)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$169.0000000068005410.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-10-03 22:45:13,499 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server main-three
+2018-10-03 22:45:13,532 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server failure-two
+2018-10-03 22:45:13,533 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server failure-three
+2018-10-03 22:45:13,533 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server failure-one
+2018-10-03 22:45:13,587 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:45:13,608 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server failure-one
+2018-10-03 22:45:13,692 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-three
+2018-10-03 22:45:13,693 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 3) WFLYHC0027: Unregistering server failure-one
+2018-10-03 22:45:16,363 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server failure-two
+2018-10-03 22:45:16,364 ERROR [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0008: Failed to start server (failure-two): java.lang.IllegalStateException: WFLYHC0213: Java home '/usr/java/wrongPath' does not exist.
+	at org.jboss.as.host.controller.jvm.JvmType.createFromJavaHome(JvmType.java:113)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getJvmType(ManagedServerBootCmdFactory.java:460)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:295)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:264)
+	at org.jboss.as.host.controller.ManagedServer$ProcessAddTask.execute(ManagedServer.java:800)
+	at org.jboss.as.host.controller.ManagedServer.internalSetState(ManagedServer.java:611)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:539)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:526)
+	at org.jboss.as.host.controller.ManagedServer.start(ManagedServer.java:265)
+	at org.jboss.as.host.controller.ServerInventoryImpl.startServer(ServerInventoryImpl.java:216)
+	at org.jboss.as.host.controller.DomainModelControllerService$DelegatingServerInventory.startServer(DomainModelControllerService.java:1235)
+	at org.jboss.as.host.controller.operations.ServerStartHandler$1.execute(ServerStartHandler.java:123)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$169.0000000068005410.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-10-03 22:45:16,404 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server failure-three
+2018-10-03 22:45:16,405 ERROR [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0008: Failed to start server (failure-three): java.lang.IllegalStateException: WFLYHC0214: Java home's bin '/usr/lib/jvm/bin' does not exist. The home directory was determined to be /usr/lib/jvm.
+	at org.jboss.as.host.controller.jvm.JvmType.createFromJavaHome(JvmType.java:117)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getJvmType(ManagedServerBootCmdFactory.java:460)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:295)
+	at org.jboss.as.host.controller.ManagedServerBootCmdFactory.getServerLaunchCommand(ManagedServerBootCmdFactory.java:264)
+	at org.jboss.as.host.controller.ManagedServer$ProcessAddTask.execute(ManagedServer.java:800)
+	at org.jboss.as.host.controller.ManagedServer.internalSetState(ManagedServer.java:611)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:539)
+	at org.jboss.as.host.controller.ManagedServer.transition(ManagedServer.java:526)
+	at org.jboss.as.host.controller.ManagedServer.start(ManagedServer.java:265)
+	at org.jboss.as.host.controller.ServerInventoryImpl.startServer(ServerInventoryImpl.java:216)
+	at org.jboss.as.host.controller.DomainModelControllerService$DelegatingServerInventory.startServer(DomainModelControllerService.java:1235)
+	at org.jboss.as.host.controller.operations.ServerStartHandler$1.execute(ServerStartHandler.java:123)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$169.0000000068005410.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.00000000680074B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)
+	at java.security.AccessController.doPrivileged(AccessController.java:640)
+	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+2018-10-03 22:45:16,451 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:45:16,469 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0029: Unregistered at domain controller
+2018-10-03 22:45:16,484 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0024: Stopping server failure-two
+2018-10-03 22:45:16,485 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 8) WFLYHC0024: Stopping server failure-three
+2018-10-03 22:45:16,511 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 54ms

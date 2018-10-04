@@ -1,0 +1,241 @@
+Oct 03, 2018 5:13:05 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:13:05 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:13:05 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.key-manager
+org.jboss.msc.service.StartException in service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.key-manager: WFLYDM0018: Unable to start service
+	at org.jboss.as.domain.management.security.ProviderKeyManagerService.start(ProviderKeyManagerService.java:65)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.security.KeyStoreException: PKCS11-ServerKeyStore not found
+	at java.security.KeyStore.getInstance(KeyStore.java:862)
+	at org.jboss.as.domain.management.security.ProviderKeyManagerService.start(ProviderKeyManagerService.java:58)
+	... 8 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerKeyStore KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:171)
+	at java.security.Security.getImpl(Security.java:706)
+	at java.security.KeyStore.getInstance(KeyStore.java:859)
+	... 9 more
+
+Oct 03, 2018 5:13:05 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.core.management.security.realm.IdentityOtherAuthenticationProvider.key-manager
+org.jboss.msc.service.StartException in service org.wildfly.core.management.security.realm.IdentityOtherAuthenticationProvider.key-manager: WFLYDM0018: Unable to start service
+	at org.jboss.as.domain.management.security.ProviderKeyManagerService.start(ProviderKeyManagerService.java:65)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.security.KeyStoreException: PKCS11-ServerKeyStore not found
+	at java.security.KeyStore.getInstance(KeyStore.java:862)
+	at org.jboss.as.domain.management.security.ProviderKeyManagerService.start(ProviderKeyManagerService.java:58)
+	... 8 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerKeyStore KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:171)
+	at java.security.Security.getImpl(Security.java:706)
+	at java.security.KeyStore.getInstance(KeyStore.java:859)
+	... 9 more
+
+Oct 03, 2018 5:13:05 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.trust-manager
+org.jboss.msc.service.StartException in service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.trust-manager: WFLYDM0018: Unable to start service
+	at org.jboss.as.domain.management.security.ProviderTrustManagerService.start(ProviderTrustManagerService.java:63)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1364)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.security.KeyStoreException: PKCS11-ServerTrustStore not found
+	at java.security.KeyStore.getInstance(KeyStore.java:862)
+	at org.jboss.as.domain.management.security.ProviderTrustManagerService.start(ProviderTrustManagerService.java:57)
+	... 8 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerTrustStore KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:171)
+	at java.security.Security.getImpl(Security.java:706)
+	at java.security.KeyStore.getInstance(KeyStore.java:859)
+	... 9 more
+
+Oct 03, 2018 5:13:05 PM org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.core.management.security.realm.IdentityOnlyProvider.key-manager
+org.jboss.msc.service.StartException in service org.wildfly.core.management.security.realm.IdentityOnlyProvider.key-manager: WFLYDM0018: Unable to start service
+	at org.jboss.as.domain.management.security.ProviderKeyManagerService.start(ProviderKeyManagerService.java:65)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1738)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1700)
+	at org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1558)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: java.security.KeyStoreException: PKCS11-ServerKeyStore not found
+	at java.security.KeyStore.getInstance(KeyStore.java:862)
+	at org.jboss.as.domain.management.security.ProviderKeyManagerService.start(ProviderKeyManagerService.java:58)
+	... 8 more
+Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerKeyStore KeyStore not available
+	at sun.security.jca.GetInstance.getInstance(GetInstance.java:171)
+	at java.security.Security.getImpl(Security.java:706)
+	at java.security.KeyStore.getInstance(KeyStore.java:859)
+	... 9 more
+
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "IdentityOnly")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.IdentityOnly is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOnly.key-manager is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "AliasedIdentityOnly")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.AliasedIdentityOnly.key-manager is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.AliasedIdentityOnly is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "IdentityOtherAuthentication")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.IdentityOtherAuthentication is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAuthentication.key-manager is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAuthentication.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "IdentityOtherAndTrustAuthentication")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication.trust-manager is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication.key-manager is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "ProtocolSuite")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.ProtocolSuite is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.ProtocolSuite.key-manager is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "IdentityOnlyProvider")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"org.wildfly.core.management.security.realm.IdentityOnlyProvider.key-manager" => "WFLYDM0018: Unable to start service
+    Caused by: java.security.KeyStoreException: PKCS11-ServerKeyStore not found
+    Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerKeyStore KeyStore not available"},
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.server.path.\"jboss.controller.temp.dir\""],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["org.wildfly.core.management.security.realm.IdentityOnlyProvider is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "IdentityOtherAuthenticationProvider")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {"org.wildfly.core.management.security.realm.IdentityOtherAuthenticationProvider.key-manager" => "WFLYDM0018: Unable to start service
+    Caused by: java.security.KeyStoreException: PKCS11-ServerKeyStore not found
+    Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerKeyStore KeyStore not available"},
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.IdentityOtherAuthenticationProvider is missing [jboss.server.path.\"jboss.controller.temp.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAuthenticationProvider.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "management"),
+    ("security-realm" => "IdentityOtherAndTrustAuthenticationProvider")
+]) - failure description: {
+    "WFLYCTL0080: Failed services" => {
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.trust-manager" => "WFLYDM0018: Unable to start service
+    Caused by: java.security.KeyStoreException: PKCS11-ServerTrustStore not found
+    Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerTrustStore KeyStore not available",
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.key-manager" => "WFLYDM0018: Unable to start service
+    Caused by: java.security.KeyStoreException: PKCS11-ServerKeyStore not found
+    Caused by: java.security.NoSuchAlgorithmException: PKCS11-ServerKeyStore KeyStore not available"
+    },
+    "WFLYCTL0412: Required services that are not installed:" => [
+        "org.wildfly.management.path-manager",
+        "jboss.server.path.\"jboss.server.config.dir\"",
+        "jboss.server.path.\"jboss.controller.temp.dir\""
+    ],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => [
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.properties_authentication is missing [org.wildfly.management.path-manager, jboss.server.path.\"jboss.server.config.dir\"]",
+        "org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider is missing [jboss.server.path.\"jboss.controller.temp.dir\"]"
+    ]
+}
+Oct 03, 2018 5:13:05 PM org.jboss.as.controller.ContainerStateMonitor logContainerStateChangesAndReset
+INFO: WFLYCTL0183: Service status report
+WFLYCTL0184:    New missing/unsatisfied dependencies:
+      service jboss.server.path."jboss.controller.temp.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication, service org.wildfly.core.management.security.realm.IdentityOnly, service org.wildfly.core.management.security.realm.AliasedIdentityOnly, service org.wildfly.core.management.security.realm.ProtocolSuite, WFLYCTL0208: ... and 5 more ] 
+      service jboss.server.path."jboss.server.config.dir" (missing) dependents: [service org.wildfly.core.management.security.realm.IdentityOnly.key-manager, service org.wildfly.core.management.security.realm.IdentityOtherAuthentication.key-manager, service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.properties_authentication, service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication.key-manager, WFLYCTL0208: ... and 7 more ] 
+      service org.wildfly.management.path-manager (missing) dependents: [service org.wildfly.core.management.security.realm.IdentityOnly.key-manager, service org.wildfly.core.management.security.realm.IdentityOtherAuthentication.key-manager, service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.properties_authentication, service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthentication.key-manager, WFLYCTL0208: ... and 7 more ] 
+WFLYCTL0186:   Services which failed to start:      service org.wildfly.core.management.security.realm.IdentityOnlyProvider.key-manager: WFLYDM0018: Unable to start service
+      service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.trust-manager: WFLYDM0018: Unable to start service
+      service org.wildfly.core.management.security.realm.IdentityOtherAndTrustAuthenticationProvider.key-manager: WFLYDM0018: Unable to start service
+      service org.wildfly.core.management.security.realm.IdentityOtherAuthenticationProvider.key-manager: WFLYDM0018: Unable to start service
+WFLYCTL0448: 18 additional services are down due to their dependencies being missing or failed

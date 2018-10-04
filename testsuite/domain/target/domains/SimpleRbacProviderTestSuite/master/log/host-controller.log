@@ -1,0 +1,171 @@
+2018-10-03 22:52:42,278 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:52:42,632 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:52:42,643 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:52:42,703 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:52:43,457 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:52:43,460 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:52:43,489 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (9990) securePort (-1)
+2018-10-03 22:52:43,493 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+2018-10-03 22:52:43,501 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:52:43,545 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:52:43,577 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:52:43,644 INFO  [org.jboss.as.remoting] (MSC service thread 1-5) WFLYRMT0001: Listening on 127.0.0.1:9999
+2018-10-03 22:52:43,680 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-3) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+2018-10-03 22:52:44,311 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server master-a
+2018-10-03 22:52:47,678 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:master-a] connected using connection [Channel ID 5b1e8777 (inbound) of Remoting connection 402d0842 to rhel7-large-81357/127.0.0.1:37480 of endpoint "master:MANAGEMENT" <384c8eac>]
+2018-10-03 22:52:47,702 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server master-a
+2018-10-03 22:52:47,710 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:9990/management and https://127.0.0.1:-1/management
+2018-10-03 22:52:47,711 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0053: Admin console listening on http://127.0.0.1:9990 and https://127.0.0.1:-1
+2018-10-03 22:52:47,711 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 6128ms - Started 52 of 54 services (15 services are lazy, passive or on-demand)
+2018-10-03 22:52:52,855 INFO  [org.jboss.as.domain.controller] (Host Controller Service Threads - 6) WFLYHC0019: Registered remote slave host "slave", WildFly 7.0.0.Alpha3-SNAPSHOT ""
+2018-10-03 22:52:59,792 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+2018-10-03 22:53:00,298 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:00,380 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("restart") failed - address: ([
+    ("host" => "master"),
+    ("server-config" => "master-a")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[
+    (\"host\" => \"master\"),
+    (\"server-config\" => \"master-a\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:00,917 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server master-a
+2018-10-03 22:53:00,971 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server master-a
+2018-10-03 22:53:00,990 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server master-a
+2018-10-03 22:53:01,032 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0023: Starting server master-a
+2018-10-03 22:53:03,564 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:master-a] connected using connection [Channel ID 45ed4bd8 (inbound) of Remoting connection 52377806 to rhel7-large-81357/127.0.0.1:37500 of endpoint "master:MANAGEMENT" <384c8eac>]
+2018-10-03 22:53:03,573 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server master-a
+2018-10-03 22:53:05,783 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:05,858 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("restart") failed - address: ([
+    ("host" => "master"),
+    ("server-config" => "master-a")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[
+    (\"host\" => \"master\"),
+    (\"server-config\" => \"master-a\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:06,871 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:06,920 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("restart") failed - address: ([
+    ("host" => "master"),
+    ("server-config" => "master-a")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[
+    (\"host\" => \"master\"),
+    (\"server-config\" => \"master-a\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:07,935 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+2018-10-03 22:53:08,407 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+2018-10-03 22:53:08,879 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:09,615 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/c8/d7d0ef0eedfa82d2ea1aa592845b9a6d4b02b7/content
+2018-10-03 22:53:11,294 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:12,160 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:12,742 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+2018-10-03 22:53:12,755 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+2018-10-03 22:53:13,089 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:13,102 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("restart") failed - address: ([
+    ("host" => "master"),
+    ("server-config" => "master-a")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[
+    (\"host\" => \"master\"),
+    (\"server-config\" => \"master-a\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:13,105 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("shutdown") failed - address: ([("host" => "master")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[(\"host\" => \"master\")]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:13,347 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0024: Stopping server master-a
+2018-10-03 22:53:13,390 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server master-a
+2018-10-03 22:53:13,456 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server master-a
+2018-10-03 22:53:13,497 INFO  [org.jboss.as.host.controller] (management-handler-thread - 3) WFLYHC0023: Starting server master-a
+2018-10-03 22:53:16,165 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:master-a] connected using connection [Channel ID 4e6f2967 (inbound) of Remoting connection a0d1a8ac to rhel7-large-81357/127.0.0.1:37530 of endpoint "master:MANAGEMENT" <384c8eac>]
+2018-10-03 22:53:16,172 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server master-a
+2018-10-03 22:53:17,706 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:17,723 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("restart") failed - address: ([
+    ("host" => "master"),
+    ("server-config" => "master-a")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[
+    (\"host\" => \"master\"),
+    (\"server-config\" => \"master-a\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:17,725 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("shutdown") failed - address: ([("host" => "master")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[(\"host\" => \"master\")]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:18,570 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "master"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"master\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:18,612 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("restart") failed - address: ([
+    ("host" => "master"),
+    ("server-config" => "master-a")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'restart' for resource '[
+    (\"host\" => \"master\"),
+    (\"server-config\" => \"master-a\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:18,618 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("shutdown") failed - address: ([("host" => "master")]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'shutdown' for resource '[(\"host\" => \"master\")]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:53:18,667 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content
+2018-10-03 22:53:18,694 INFO  [org.jboss.as.domain.controller] (management task-6) WFLYHC0026: Unregistered remote slave host "slave"
+2018-10-03 22:53:18,864 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:53:18,877 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 13) WFLYHC0024: Stopping server master-a
+2018-10-03 22:53:18,912 INFO  [org.jboss.as.host.controller] (management task-6) WFLYHC0027: Unregistering server master-a
+2018-10-03 22:53:18,987 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server master-a
+2018-10-03 22:53:19,036 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 167ms

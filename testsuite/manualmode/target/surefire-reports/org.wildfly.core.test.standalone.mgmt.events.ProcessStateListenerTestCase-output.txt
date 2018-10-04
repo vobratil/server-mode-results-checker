@@ -1,0 +1,765 @@
+AccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:36:53,906 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:36:54,490 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:36:54,499 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:36:54,642 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:36:55,773 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:36:56,011 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:36:56,054 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:36:56,109 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+[0m[0m23:36:56,131 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:36:56,240 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+[0m[0m23:36:56,274 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:36:56,290 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:36:56,366 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-5) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:36:56,452 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:36:56,455 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:36:56,455 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:36:56,455 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3286ms - Started 81 of 85 services (23 services are lazy, passive or on-demand)
+[0m[31m23:36:57,735 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0004: The process state listener timeout-listener took to much time to complete.: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:216)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:150)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$154.0000000069F0BAC0.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setRestartRequired(ControlledProcessState.java:174)
+	at org.jboss.as.controller.AbstractOperationContext.restartRequired(AbstractOperationContext.java:1166)
+	at org.jboss.as.server.operations.ServerProcessStateHandler.doExecute(ServerProcessStateHandler.java:71)
+	at org.jboss.as.server.operations.ServerProcessStateHandler$$Lambda$288.000000001C038FD0.execute(Unknown Source)
+	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$285.000000001C011430.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$286.000000001C00FD50.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$284.000000001C00FA90.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+[0m[31m23:36:57,738 ERROR [stderr] (ServerService Thread Pool -- 2) java.lang.InterruptedException
+[0m[31m23:36:57,739 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.sleep(Native Method)
+[0m[31m23:36:57,740 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.sleep(Thread.java:941)
+[0m[31m23:36:57,740 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.test.events.provider.TestListener.runtimeConfigurationStateChanged(TestListener.java:112)
+[0m[31m23:36:57,741 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$transition$1(ProcessStateListenerService.java:147)
+[0m[31m23:36:57,741 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$249.0000000069D8B640.run(Unknown Source)
+[0m[31m23:36:57,742 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+[0m[31m23:36:57,742 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+[0m[31m23:36:57,742 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+[0m[31m23:36:57,743 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+[0m[31m23:36:57,743 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+[0m[31m23:36:57,744 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+[0m[31m23:36:57,744 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.run(Thread.java:811)
+[0m[31m23:36:57,745 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+[0m[0m23:36:57,925 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[31m23:36:58,930 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0004: The process state listener timeout-listener took to much time to complete.: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:216)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:150)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$154.0000000069F0BAC0.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setStopping(ControlledProcessState.java:127)
+	at org.jboss.as.server.operations.ServerShutdownHandler$ShutdownAction.shutdown(ServerShutdownHandler.java:176)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1$1.complete(ServerShutdownHandler.java:132)
+	at org.jboss.as.server.suspend.SuspendController.handlePause(SuspendController.java:178)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:86)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:148)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$285.000000001C011430.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$286.000000001C00FD50.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$284.000000001C00FA90.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+[0m[31m23:36:58,934 ERROR [stderr] (ServerService Thread Pool -- 2) java.lang.InterruptedException
+[0m[31m23:36:58,935 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.sleep(Native Method)
+[0m[0m23:36:58,934 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[31m23:36:58,935 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.sleep(Thread.java:941)
+[0m[31m23:36:58,936 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.test.events.provider.TestListener.runtimeConfigurationStateChanged(TestListener.java:112)
+[0m[31m23:36:58,936 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$transition$1(ProcessStateListenerService.java:147)
+[0m[31m23:36:58,937 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$249.0000000069D8B640.run(Unknown Source)
+[0m[31m23:36:58,937 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+[0m[31m23:36:58,937 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+[0m[31m23:36:58,938 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+[0m[31m23:36:58,938 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+[0m[31m23:36:58,939 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+[0m[31m23:36:58,939 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+[0m[31m23:36:58,940 ERROR [stderr] (ServerService Thread Pool -- 2) 	at java.lang.Thread.run(Thread.java:811)
+[0m[31m23:36:58,940 ERROR [stderr] (ServerService Thread Pool -- 2) 	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+[0m[0m23:36:58,977 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 26ms
+[0mAccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:36:59,636 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:37:00,949 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:37:00,975 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:37:01,319 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:01,650 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0260: Starting server in suspended mode
+[0m[0m23:37:01,872 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:37:02,052 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:02,103 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:02,124 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+[0m[0m23:37:02,130 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:37:02,190 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+[0m[0m23:37:02,308 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:02,322 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:02,391 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-1) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:02,520 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:02,520 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:02,520 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3346ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:02,603 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0212: Resuming server
+[0m[0m23:37:02,642 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 31ms
+[0m[0m23:37:02,646 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:02,701 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0260: Starting server in suspended mode
+[0m[0m23:37:02,792 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:02,836 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:02,875 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:02,880 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:02,894 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-1) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:02,988 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:02,989 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:02,990 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 340ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0mAccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:37:13,776 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:37:14,375 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:37:14,384 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:37:14,534 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:15,097 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:37:15,258 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:15,298 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:15,322 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+[0m[0m23:37:15,331 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:37:15,380 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+[0m[0m23:37:15,478 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:15,523 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:15,595 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-4) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:15,694 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:15,698 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:15,698 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:15,698 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2408ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:15,842 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:37:15,845 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:37:15,877 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 26ms
+[0mAccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:37:17,422 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:37:18,132 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:37:18,142 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:37:18,279 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:18,866 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:37:19,038 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:19,081 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:19,109 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+[0m[0m23:37:19,116 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:37:19,205 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[0m[0m23:37:19,299 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:19,300 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:19,358 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-4) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:19,450 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:19,454 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:19,454 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:19,455 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3094ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:19,666 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 32ms
+[0m[0m23:37:19,668 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:19,799 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:19,845 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:19,881 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:19,885 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:19,899 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-7) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:19,926 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:19,927 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:19,928 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:37:19,928 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 253ms - Started 81 of 85 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:20,025 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m[0m23:37:20,026 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:20,106 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:20,125 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:20,143 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:20,146 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:20,149 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-8) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:20,176 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:20,177 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:20,177 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:20,178 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 150ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:20,233 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:37:20,238 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0212: Resuming server
+[0m[0m23:37:20,354 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 15ms
+[0m[0m23:37:20,355 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:20,412 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:20,424 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:20,449 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:20,453 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-2) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[33m23:37:20,455 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[0m23:37:20,491 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:20,492 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:20,492 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:20,493 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 135ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:20,509 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:37:20,512 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:37:20,534 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[0mAccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:37:21,214 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:37:21,820 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:37:21,831 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:37:21,979 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:22,546 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:37:22,695 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:22,737 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:22,764 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[0m[0m23:37:22,771 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:37:22,841 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+[0m[0m23:37:22,911 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:22,935 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:22,997 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-7) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:23,105 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:23,113 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:23,113 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:37:23,113 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2333ms - Started 81 of 85 services (23 services are lazy, passive or on-demand)
+[0m[31m23:37:23,227 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "core-management"),
+    ("process-state-listener" => "wrong-module-listener")
+]) - failure description: "WFLYCM0006: Error to load module non.existing.module"
+[0m[0m23:37:23,283 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[31m23:37:23,284 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.suspendTransition(ProcessStateListenerService.java:215)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.access$100(ProcessStateListenerService.java:67)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$1.suspendStarted(ProcessStateListenerService.java:107)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:82)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:148)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$289.00000000D00124D0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$290.00000000D0012BE0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$288.00000000D0012120.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at org.wildfly.test.events.provider.TestListener.runningStateChanged(TestListener.java:128)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$suspendTransition$2(ProcessStateListenerService.java:212)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$254.000000000F7FCE80.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	... 6 more
+
+[0m[31m23:37:23,286 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.suspendTransition(ProcessStateListenerService.java:215)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.access$100(ProcessStateListenerService.java:67)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$1.complete(ProcessStateListenerService.java:112)
+	at org.jboss.as.server.suspend.SuspendController.handlePause(SuspendController.java:178)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:86)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:148)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$289.00000000D00124D0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$290.00000000D0012BE0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$288.00000000D0012120.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at org.wildfly.test.events.provider.TestListener.runningStateChanged(TestListener.java:128)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$suspendTransition$2(ProcessStateListenerService.java:212)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$254.000000000F7FCE80.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	... 6 more
+
+[0m[31m23:37:23,290 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRuntimeConfigurationStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:150)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$154.000000000FA7FBF0.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setStopping(ControlledProcessState.java:127)
+	at org.jboss.as.server.operations.ServerShutdownHandler$ShutdownAction.shutdown(ServerShutdownHandler.java:176)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1$1.complete(ServerShutdownHandler.java:132)
+	at org.jboss.as.server.suspend.SuspendController.handlePause(SuspendController.java:178)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:86)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:148)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$289.00000000D00124D0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$290.00000000D0012BE0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$288.00000000D0012120.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRuntimeConfigurationStateChanged
+	at org.wildfly.test.events.provider.TestListener.runtimeConfigurationStateChanged(TestListener.java:107)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$transition$1(ProcessStateListenerService.java:147)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$256.000000000FAED4D0.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	... 6 more
+
+[0m[31m23:37:23,294 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.suspendTransition(ProcessStateListenerService.java:215)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:184)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$154.000000000FA7FBF0.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setStopping(ControlledProcessState.java:127)
+	at org.jboss.as.server.operations.ServerShutdownHandler$ShutdownAction.shutdown(ServerShutdownHandler.java:176)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1$1.complete(ServerShutdownHandler.java:132)
+	at org.jboss.as.server.suspend.SuspendController.handlePause(SuspendController.java:178)
+	at org.jboss.as.server.suspend.SuspendController.suspend(SuspendController.java:86)
+	at org.jboss.as.server.operations.ServerShutdownHandler$1$1.handleResult(ServerShutdownHandler.java:148)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$289.00000000D00124D0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$290.00000000D0012BE0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$288.00000000D0012120.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at org.wildfly.test.events.provider.TestListener.runningStateChanged(TestListener.java:128)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$suspendTransition$2(ProcessStateListenerService.java:212)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$254.000000000F7FCE80.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	... 6 more
+
+[0m[0m23:37:23,298 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:37:23,323 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 15ms
+[0mAccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:37:23,943 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:37:25,011 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:37:25,025 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:37:25,174 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:25,845 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:37:26,110 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:26,206 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:26,243 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+[0m[0m23:37:26,255 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:37:26,302 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+[0m[0m23:37:26,415 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:26,479 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-2) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:26,543 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-2) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:26,628 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[31m23:37:26,631 ERROR [org.wildfly.extension.core.management] (Controller Boot Thread) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.suspendTransition(ProcessStateListenerService.java:215)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.access$100(ProcessStateListenerService.java:67)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$1.cancelled(ProcessStateListenerService.java:118)
+	at org.jboss.as.server.suspend.SuspendController.resume(SuspendController.java:122)
+	at org.jboss.as.server.ServerService.finishBoot(ServerService.java:420)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:388)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at org.wildfly.test.events.provider.TestListener.runningStateChanged(TestListener.java:128)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$suspendTransition$2(ProcessStateListenerService.java:212)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$244.00000000AD9887D0.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+[0m[31m23:37:26,632 ERROR [org.wildfly.extension.core.management] (Controller Boot Thread) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.suspendTransition(ProcessStateListenerService.java:215)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.access$100(ProcessStateListenerService.java:67)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$1.cancelled(ProcessStateListenerService.java:122)
+	at org.jboss.as.server.suspend.SuspendController.resume(SuspendController.java:122)
+	at org.jboss.as.server.ServerService.finishBoot(ServerService.java:420)
+	at org.jboss.as.server.ServerService.boot(ServerService.java:388)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at org.wildfly.test.events.provider.TestListener.runningStateChanged(TestListener.java:128)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$suspendTransition$2(ProcessStateListenerService.java:212)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$244.00000000AD9887D0.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+[0m[0m23:37:26,633 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:26,634 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:37:26,634 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3129ms - Started 82 of 86 services (23 services are lazy, passive or on-demand)
+[0m[31m23:37:26,637 ERROR [org.wildfly.extension.core.management] (Controller Boot Thread) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRuntimeConfigurationStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:150)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$155.00000000ADF2C270.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setRunning(ControlledProcessState.java:117)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:378)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRuntimeConfigurationStateChanged
+	at org.wildfly.test.events.provider.TestListener.runtimeConfigurationStateChanged(TestListener.java:107)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$transition$1(ProcessStateListenerService.java:147)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$245.00000000AD988D10.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+
+[0m[31m23:37:27,003 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRuntimeConfigurationStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:150)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$155.00000000ADF2C270.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setStopping(ControlledProcessState.java:127)
+	at org.jboss.as.controller.operations.common.ProcessReloadHandler$1$1.handleResult(ProcessReloadHandler.java:99)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$281.00000000600171B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$282.0000000060015CD0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$280.0000000060015110.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRuntimeConfigurationStateChanged
+	at org.wildfly.test.events.provider.TestListener.runtimeConfigurationStateChanged(TestListener.java:107)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$transition$1(ProcessStateListenerService.java:147)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$245.00000000AD988D10.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	... 6 more
+
+[0m[31m23:37:27,004 ERROR [org.wildfly.extension.core.management] (management-handler-thread - 1) WFLYCM0003: Error invoking the process state listener fail-state-changed-listener: java.util.concurrent.ExecutionException: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at java.util.concurrent.FutureTask.report(FutureTask.java:133)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:217)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.suspendTransition(ProcessStateListenerService.java:215)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.transition(ProcessStateListenerService.java:184)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$new$0(ProcessStateListenerService.java:100)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$155.00000000ADF2C270.propertyChange(Unknown Source)
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:346)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:338)
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:274)
+	at org.jboss.as.controller.ControlledProcessStateService.stateChanged(ControlledProcessStateService.java:105)
+	at org.jboss.as.controller.ControlledProcessState.setStopping(ControlledProcessState.java:127)
+	at org.jboss.as.controller.operations.common.ProcessReloadHandler$1$1.handleResult(ProcessReloadHandler.java:99)
+	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)
+	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)
+	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445)
+	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)
+	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)
+	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)
+	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)
+	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)
+	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)
+	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)
+	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.ModelControllerImpl$$Lambda$281.00000000600171B0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$282.0000000060015CD0.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)
+	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)
+	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$280.0000000060015110.run(Unknown Source)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)
+	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)
+	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)
+	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)
+	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:811)
+	at org.jboss.threads.JBossThread.run(JBossThread.java:485)
+Caused by: org.wildfly.test.events.provider.ListenerFailureException: failRunningStateChanged
+	at org.wildfly.test.events.provider.TestListener.runningStateChanged(TestListener.java:128)
+	at org.wildfly.extension.core.management.ProcessStateListenerService.lambda$suspendTransition$2(ProcessStateListenerService.java:212)
+	at org.wildfly.extension.core.management.ProcessStateListenerService$$Lambda$244.00000000AD9887D0.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:277)
+	... 6 more
+
+[0m[0m23:37:27,026 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m[0m23:37:27,027 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:27,090 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:27,110 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:27,126 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:27,133 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:27,136 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-2) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:27,154 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:27,155 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:27,155 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:37:27,155 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 124ms - Started 81 of 85 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:27,248 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 10ms
+[0m[0m23:37:27,249 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:27,312 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:27,334 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:27,361 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:27,364 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:27,368 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-6) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:27,400 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:27,401 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:27,401 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+[0m[0m23:37:27,401 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 151ms - Started 86 of 89 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:27,490 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 13ms
+[0m[0m23:37:27,491 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:27,534 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:27,550 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:27,559 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:27,561 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:27,564 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-2) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:27,582 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:27,583 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:27,583 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:37:27,583 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 91ms - Started 81 of 85 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:27,609 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:37:27,611 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:37:27,626 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 5ms
+[0mAccessManager:init Initialising default AccessManager
+TransformListener() : accepting requests on 127.0.0.1:17091
+[0m23:37:28,267 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[0m[0m23:37:28,893 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[0m[0m23:37:28,903 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[0m[0m23:37:29,047 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[0m[0m23:37:29,612 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.7.0.CR2
+[0m[0m23:37:29,805 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[0m[0m23:37:29,910 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+[0m[0m23:37:29,949 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final
+[0m[0m23:37:29,958 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final
+[0m[0m23:37:30,000 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+[0m[0m23:37:30,175 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m[33m23:37:30,205 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/manualmode/target/wildfly-core/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+[0m[33m23:37:30,362 WARN  [org.jboss.as.domain.http.api.undertow] (MSC service thread 1-1) WFLYDMHTTP0003: Unable to load console module for slot main, disabling console
+[0m[0m23:37:30,609 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m[0m23:37:30,616 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+[0m[0m23:37:30,617 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+[0m[0m23:37:30,617 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2795ms - Started 81 of 85 services (23 services are lazy, passive or on-demand)
+[0m[0m23:37:31,009 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:37:31,013 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:37:31,042 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 22ms
+[0m

@@ -1,0 +1,114 @@
+[Host Controller] [0m[31m23:00:25,515 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Server:master-a] [31m[0m[31m23:00:25,522 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 6) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Server:master-a] [31m    ("core-service" => "platform-mbean"),[0m
+[Server:master-a] [31m    ("type" => "memory")[0m
+[Server:master-a] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Server:master-a] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Server:master-a] [31m    (\"type\" => \"memory\")[0m
+[Server:master-a] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [0m[31m23:00:25,559 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 2) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m23:00:25,989 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[0m23:00:26,020 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderRunAsTestSuite/master/data/content/c8/d7d0ef0eedfa82d2ea1aa592845b9a6d4b02b7/content[0m
+[Host Controller] [31m[0m[31m23:00:26,374 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m23:00:27,094 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 6) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [0m[31m23:00:27,498 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 4) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Server:master-a] [31m[0m[31m23:00:27,505 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 13) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Server:master-a] [31m    ("core-service" => "platform-mbean"),[0m
+[Server:master-a] [31m    ("type" => "memory")[0m
+[Server:master-a] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Server:master-a] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Server:master-a] [31m    (\"type\" => \"memory\")[0m
+[Server:master-a] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m23:00:27,512 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 6) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m23:00:28,052 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 6) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m23:00:28,444 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 3) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "master"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"master\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Server:master-a] [31m[0m[31m23:00:28,448 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 13) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Server:master-a] [31m    ("core-service" => "platform-mbean"),[0m
+[Server:master-a] [31m    ("type" => "memory")[0m
+[Server:master-a] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Server:master-a] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Server:master-a] [31m    (\"type\" => \"memory\")[0m
+[Server:master-a] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[31m23:00:28,459 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 6) WFLYCTL0013: Operation ("gc") failed - address: ([[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("core-service" => "platform-mbean"),[0m
+[Host Controller] [31m    ("type" => "memory")[0m
+[Host Controller] [31m]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[[0m
+[Host Controller] [31m    (\"host\" => \"slave\"),[0m
+[Host Controller] [31m    (\"core-service\" => \"platform-mbean\"),[0m
+[Host Controller] [31m    (\"type\" => \"memory\")[0m
+[Host Controller] [31m]' -- \"WFLYCTL0332: Permission denied\""[0m
+[Host Controller] [31m[0m[0m23:00:29,484 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderRunAsTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content[0m
+[Host Controller] [0m[0m23:00:30,179 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderRunAsTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content[0m

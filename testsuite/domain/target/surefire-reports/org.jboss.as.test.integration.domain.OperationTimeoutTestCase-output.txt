@@ -1,0 +1,344 @@
+[Host Controller] [0m[0m23:18:22,218 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPostCommitHangOnSlaveHC for slave/undefined(COMMIT)[0m
+[Host Controller] [0m[0m23:18:22,247 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 5) block requested by testPostCommitHangOnSlaveHC for slave/undefined(COMMIT)[0m
+[Host Controller] [0m[0m23:18:22,250 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 5) will block at COMMIT for 20000[0m
+[Server:main-one] 23:18:22,285 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPostCommitHangOnSlaveHC for slave/undefined(COMMIT)
+[Server:main-three] 23:18:22,293 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPostCommitHangOnSlaveHC for slave/undefined(COMMIT)
+[Host Controller] [0m[0m23:18:22,400 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 5) blocking[0m
+[Host Controller] [0m[0m23:18:24,400 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYDC0081: Timed out after 2000 ms awaiting final response from host slave; remote process has been notified to cancel operation[0m
+[Host Controller] [0m[0m23:18:24,403 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 5) interrupted[0m
+[Host Controller] [0m[0m23:18:24,403 INFO  [org.jboss.as.protocol] (Host Controller Service Threads - 8) WFLYPRT0057:  cancelled task by interrupting thread Thread[Host Controller Service Threads - 5,5,Host Controller Service Threads][0m
+[Host Controller] [0m[31m23:18:24,404 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 5) WFLYCTL0190: Step handler org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler@3f670641 for operation block at address [[0m
+[Host Controller] [31m    ("profile" => "default"),[0m
+[Host Controller] [31m    ("subsystem" => "blocker-test")[0m
+[Host Controller] [31m] failed handling operation rollback -- java.lang.RuntimeException: java.lang.InterruptedException: java.lang.RuntimeException: java.lang.InterruptedException[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:263)[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.access$700(BlockerExtension.java:145)[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler$4.handleResult(BlockerExtension.java:250)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1455)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl$$Lambda$167.000000004C00A750.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$168.000000004C00AE60.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$168.000000004C00AE60.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at java.security.AccessController.doPrivileged(AccessController.java:640)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)[0m
+[Host Controller] [31m	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)[0m
+[Host Controller] [31m	at java.lang.Thread.run(Thread.java:811)[0m
+[Host Controller] [31m	at org.jboss.threads.JBossThread.run(JBossThread.java:485)[0m
+[Host Controller] [31mCaused by: java.lang.InterruptedException[0m
+[Host Controller] [31m	at java.lang.Thread.sleep(Native Method)[0m
+[Host Controller] [31m	at java.lang.Thread.sleep(Thread.java:941)[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:260)[0m
+[Host Controller] [31m	... 39 more[0m
+[Host Controller] [31m[0m
+[Host Controller] [0m[0m23:18:24,618 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPostCommitHangOnMasterServer for master/main-one(COMMIT)[0m
+[Host Controller] [31m[0m[0m23:18:24,636 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 5) block requested by testPostCommitHangOnMasterServer for master/main-one(COMMIT)[0m
+[Server:main-one] 23:18:24,657 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPostCommitHangOnMasterServer for master/main-one(COMMIT)
+[Server:main-one] 23:18:24,659 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) will block at COMMIT for 20000
+[Server:main-three] 23:18:24,667 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPostCommitHangOnMasterServer for master/main-one(COMMIT)
+[Server:main-one] 23:18:24,702 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) blocking
+[Host Controller] [0m[0m23:18:27,700 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYDC0083: Timed out after 3000 ms awaiting final response from server main-one on host master; remote process has been notified to cancel operation[0m
+[Server:main-one] 23:18:27,704 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) interrupted
+[Server:main-one] 23:18:27,703 INFO  [org.jboss.as.protocol] (ServerService Thread Pool -- 6) WFLYPRT0057:  cancelled task by interrupting thread Thread[ServerService Thread Pool -- 16,5,ServerService ThreadGroup]
+[Server:main-one] 23:18:27,704 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 16) WFLYCTL0190: Step handler org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler@b93fb14d for operation block at address [("subsystem" => "blocker-test")] failed handling operation rollback -- java.lang.RuntimeException: java.lang.InterruptedException: java.lang.RuntimeException: java.lang.InterruptedException
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:263)
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.access$700(BlockerExtension.java:145)
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler$4.handleResult(BlockerExtension.java:250)
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl$$Lambda$180.000000009000B580.run(Unknown Source)
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$179.000000009000A110.run(Unknown Source)
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$179.000000009000A110.run(Unknown Source)
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at java.security.AccessController.doPrivileged(AccessController.java:640) [vm.jar:1.8.0]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] Caused by: java.lang.InterruptedException
+[Server:main-one] 	at java.lang.Thread.sleep(Native Method) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at java.lang.Thread.sleep(Thread.java:941) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:260)
+[Server:main-one] 	... 39 more
+[Server:main-one] 
+[Host Controller] [0m[0m23:18:27,793 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPrePrepareHangOnSlaveServer for slave/main-three(RUNTIME)[0m
+[Host Controller] [0m[0m23:18:27,812 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 8) block requested by testPrePrepareHangOnSlaveServer for slave/main-three(RUNTIME)[0m
+[Server:main-one] 23:18:27,827 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPrePrepareHangOnSlaveServer for slave/main-three(RUNTIME)
+[Server:main-three] 23:18:27,831 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPrePrepareHangOnSlaveServer for slave/main-three(RUNTIME)
+[Server:main-three] 23:18:27,832 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) will block at RUNTIME for 20000
+[Server:main-three] 23:18:27,833 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) blocking
+[Host Controller] [0m[0m23:18:29,829 INFO  [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 7) WFLYCTL0409: Execution of operation 'block' on remote process at address '[[0m
+[Host Controller]     ("host" => "slave"),
+[Host Controller]     ("server" => "main-three")
+[Host Controller] ]' timed out after 2000 ms while awaiting initial response; remote process has been notified to terminate operation
+[Host Controller] [0m[33m23:18:29,832 WARN  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0199: Server 'main-three' (managed by host 'slave') has not responded to an operation request within the configured timeout. This may mean the server has become unstable.[0m
+[Server:main-three] 23:18:29,831 INFO  [org.jboss.as.protocol] (ServerService Thread Pool -- 5) WFLYPRT0057:  cancelled task by interrupting thread Thread[ServerService Thread Pool -- 16,5,ServerService ThreadGroup]
+[Server:main-three] 23:18:29,832 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) interrupted
+[Server:main-three] 23:18:29,833 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 16) WFLYCTL0013: Operation ("block") failed - address: ([("subsystem" => "blocker-test")]): java.lang.RuntimeException: java.lang.InterruptedException
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:263)
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.access$700(BlockerExtension.java:145)
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler$BlockStep.execute(BlockerExtension.java:276)
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl$$Lambda$179.00000000080073D0.run(Unknown Source)
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$178.0000000008109F40.run(Unknown Source)
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$178.0000000008109F40.run(Unknown Source)
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at java.security.AccessController.doPrivileged(AccessController.java:640) [vm.jar:1.8.0]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] Caused by: java.lang.InterruptedException
+[Server:main-three] 	at java.lang.Thread.sleep(Native Method) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at java.lang.Thread.sleep(Thread.java:941) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:260)
+[Server:main-three] 	... 33 more
+[Server:main-three] 
+[Host Controller] [33m[0m[0m23:18:29,945 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPrePrepareHangOnMasterServer for master/main-one(RUNTIME)[0m
+[Host Controller] [0m[0m23:18:29,969 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 8) block requested by testPrePrepareHangOnMasterServer for master/main-one(RUNTIME)[0m
+[Server:main-one] 23:18:29,982 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPrePrepareHangOnMasterServer for master/main-one(RUNTIME)
+[Server:main-one] 23:18:29,987 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) will block at RUNTIME for 20000
+[Server:main-one] 23:18:29,987 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) blocking
+[Server:main-three] 23:18:29,988 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPrePrepareHangOnMasterServer for master/main-one(RUNTIME)
+[Host Controller] [0m[0m23:18:32,979 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 12) WFLYDC0082: ConcurrentServerGroupUpdateTask timed out after 3000 ms awaiting server prepared response(s) -- cancelling updates for servers [ServerIdentity{name=main-one, host=master, server-group=main-server-group}][0m
+[Host Controller] [0m[33m23:18:32,983 WARN  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0199: Server 'main-one' (managed by host 'master') has not responded to an operation request within the configured timeout. This may mean the server has become unstable.[0m
+[Server:main-one] 23:18:32,983 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) interrupted
+[Server:main-one] 23:18:32,983 INFO  [org.jboss.as.protocol] (ServerService Thread Pool -- 6) WFLYPRT0057:  cancelled task by interrupting thread Thread[ServerService Thread Pool -- 16,5,ServerService ThreadGroup]
+[Server:main-one] 23:18:32,983 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 16) WFLYCTL0013: Operation ("block") failed - address: ([("subsystem" => "blocker-test")]): java.lang.RuntimeException: java.lang.InterruptedException
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:263)
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.access$700(BlockerExtension.java:145)
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler$BlockStep.execute(BlockerExtension.java:276)
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl$$Lambda$180.000000009000B580.run(Unknown Source)
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$179.000000009000A110.run(Unknown Source)
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$179.000000009000A110.run(Unknown Source)
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-one] 	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at java.security.AccessController.doPrivileged(AccessController.java:640) [vm.jar:1.8.0]
+[Server:main-one] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-one] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-one] Caused by: java.lang.InterruptedException
+[Server:main-one] 	at java.lang.Thread.sleep(Native Method) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at java.lang.Thread.sleep(Thread.java:941) [vm.jar:2.9 (07-31-2018)]
+[Server:main-one] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:260)
+[Server:main-one] 	... 33 more
+[Server:main-one] 
+[Host Controller] [33m[0m[0m23:18:33,102 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPostCommitHangOnSlaveServer for slave/main-three(COMMIT)[0m
+[Host Controller] [0m[0m23:18:33,124 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 7) block requested by testPostCommitHangOnSlaveServer for slave/main-three(COMMIT)[0m
+[Server:main-one] 23:18:33,151 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPostCommitHangOnSlaveServer for slave/main-three(COMMIT)
+[Server:main-three] 23:18:33,169 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) block requested by testPostCommitHangOnSlaveServer for slave/main-three(COMMIT)
+[Server:main-three] 23:18:33,171 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) will block at COMMIT for 20000
+[Server:main-three] 23:18:33,222 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) blocking
+[Host Controller] [0m[0m23:18:35,215 INFO  [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 8) WFLYCTL0410: Execution of operation 'block' on remote process at address '[[0m
+[Host Controller]     ("host" => "slave"),
+[Host Controller]     ("server" => "main-three")
+[Host Controller] ]' timed out after 2000 ms while awaiting final response; remote process has been notified to terminate operation
+[Host Controller] [0m[31m23:18:35,216 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 8) WFLYCTL0016: Received no final outcome response for operation "block" with address [[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("server" => "main-three"),[0m
+[Host Controller] [31m    ("subsystem" => "blocker-test")[0m
+[Host Controller] [31m] from remote process at address [[0m
+[Host Controller] [31m    ("host" => "slave"),[0m
+[Host Controller] [31m    ("server" => "main-three")[0m
+[Server:main-three] 23:18:35,218 INFO  [org.jboss.as.protocol] (ServerService Thread Pool -- 5) WFLYPRT0057:  cancelled task by interrupting thread Thread[ServerService Thread Pool -- 16,5,ServerService ThreadGroup]
+[Server:main-three] 23:18:35,219 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (ServerService Thread Pool -- 16) interrupted
+[Host Controller] [31m]. The result of this operation will only include the remote process' preliminary response to the request.[0m
+[Server:main-three] 23:18:35,219 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 16) WFLYCTL0190: Step handler org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler@592da581 for operation block at address [("subsystem" => "blocker-test")] failed handling operation rollback -- java.lang.RuntimeException: java.lang.InterruptedException: java.lang.RuntimeException: java.lang.InterruptedException
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:263)
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.access$700(BlockerExtension.java:145)
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler$4.handleResult(BlockerExtension.java:250)
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext$Step.invokeResultHandler(AbstractOperationContext.java:1533) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext$Step.handleResult(AbstractOperationContext.java:1515) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeInternal(AbstractOperationContext.java:1472) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext$Step.finalizeStep(AbstractOperationContext.java:1445) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext$Step.access$400(AbstractOperationContext.java:1319) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.executeResultHandlerPhase(AbstractOperationContext.java:876) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.executeDoneStage(AbstractOperationContext.java:862) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:769) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl$$Lambda$179.00000000080073D0.run(Unknown Source)
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$178.0000000008109F40.run(Unknown Source)
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$178.0000000008109F40.run(Unknown Source)
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255) [wildfly-elytron-1.7.0.CR2.jar:1.7.0.CR2]
+[Server:main-three] 	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at java.security.AccessController.doPrivileged(AccessController.java:640) [vm.jar:1.8.0]
+[Server:main-three] 	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158) [wildfly-controller-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160) [wildfly-protocol-7.0.0.Alpha3-SNAPSHOT.jar:7.0.0.Alpha3-SNAPSHOT]
+[Server:main-three] 	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] 	at java.lang.Thread.run(Thread.java:811) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at org.jboss.threads.JBossThread.run(JBossThread.java:485) [jboss-threads-2.3.2.Final.jar:2.3.2.Final]
+[Server:main-three] Caused by: java.lang.InterruptedException
+[Server:main-three] 	at java.lang.Thread.sleep(Native Method) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at java.lang.Thread.sleep(Thread.java:941) [vm.jar:2.9 (07-31-2018)]
+[Server:main-three] 	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:260)
+[Server:main-three] 	... 39 more
+[Server:main-three] 
+[Host Controller] [0m[0m23:18:35,328 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (management-handler-thread - 1) block requested by testPrePrepareHangOnSlaveHC for slave/undefined(MODEL)[0m
+[Host Controller] [31m[0m[0m23:18:35,344 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 8) block requested by testPrePrepareHangOnSlaveHC for slave/undefined(MODEL)[0m
+[Host Controller] [0m[0m23:18:35,345 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 8) will block at MODEL for 20000[0m
+[Host Controller] [0m[0m23:18:35,346 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 8) blocking[0m
+[Host Controller] [0m[0m23:18:37,334 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYDC0079: Timed out after 2000 ms awaiting host prepared response(s) from hosts [slave] -- cancelling updates for hosts [slave][0m
+[Host Controller] [0m[0m23:18:37,337 INFO  [org.jboss.as.test.integration.management.extension.blocker.BlockerExtension] (Host Controller Service Threads - 8) interrupted[0m
+[Host Controller] [0m[0m23:18:37,337 INFO  [org.jboss.as.protocol] (Host Controller Service Threads - 7) WFLYPRT0057:  cancelled task by interrupting thread Thread[Host Controller Service Threads - 8,5,Host Controller Service Threads][0m
+{
+    "outcome" => "failed",
+    "failure-description" => {"host-failure-descriptions" => {"slave" => "WFLYDC0080: Timed out after 2000 ms awaiting host prepared response(s) -- remote host slave has been notified to cancel operation"}},
+    "rolled-back" => true,
+    "result" => {}
+}
+[Host Controller] [0m[31m23:18:37,337 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 8) WFLYCTL0013: Operation ("block") failed - address: ([[0m
+[Host Controller] [31m    ("profile" => "default"),[0m
+[Host Controller] [31m    ("subsystem" => "blocker-test")[0m
+[Host Controller] [31m]): java.lang.RuntimeException: java.lang.InterruptedException[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:263)[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.execute(BlockerExtension.java:191)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl$$Lambda$167.000000004C00A750.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$168.000000004C00AE60.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler.internalExecute(TransactionalProtocolOperationHandler.java:249)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler.doExecute(TransactionalProtocolOperationHandler.java:190)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:143)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$1.run(TransactionalProtocolOperationHandler.java:139)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$168.000000004C00AE60.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:198)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:162)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2$1.run(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at java.security.AccessController.doPrivileged(AccessController.java:640)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.TransactionalProtocolOperationHandler$ExecuteRequestHandler$2.execute(TransactionalProtocolOperationHandler.java:158)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)[0m
+[Host Controller] [31m	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)[0m
+[Host Controller] [31m	at java.lang.Thread.run(Thread.java:811)[0m
+[Host Controller] [31m	at org.jboss.threads.JBossThread.run(JBossThread.java:485)[0m
+[Host Controller] [31mCaused by: java.lang.InterruptedException[0m
+[Host Controller] [31m	at java.lang.Thread.sleep(Native Method)[0m
+[Host Controller] [31m	at java.lang.Thread.sleep(Thread.java:941)[0m
+[Host Controller] [31m	at org.jboss.as.test.integration.management.extension.blocker.BlockerExtension$BlockHandler.block(BlockerExtension.java:260)[0m
+[Host Controller] [31m	... 32 more[0m
+[Host Controller] [31m[0m
+[Host Controller] [0m[0m23:18:37,685 INFO  [org.jboss.as.domain.controller] (management task-2) WFLYHC0026: Unregistered remote slave host "slave"[0m

@@ -1,0 +1,61 @@
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         c1338f0b-18d3-462a-8a0f-03cc7c567481 
+Type:             one-off                              
+Identity name:    product                              
+Identity version: version                              
+Description:      this is one-off patch 1              
+Link:             http://test.one                      
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         c1338f0b-18d3-462a-8a0f-03cc7c567481 
+Type:             one-off                              
+Identity name:    product                              
+Identity version: version                              
+Description:      this is one-off patch 1              
+Link:             http://test.one                      
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: ELEMENTS
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:    eca0f2db-8b49-465f-860d-2b0ae8e5ff61 
+Name:        base                                 
+Type:        layer                                
+Description: one off patch for the base           
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         66fa212a-2e9e-4f5a-81ef-381045ac634d 
+Type:             cumulative                           
+Identity name:    product                              
+Identity version: version                              
+Description:      This is cumulative patch 2           
+Link:             http://test.two                      
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:         66fa212a-2e9e-4f5a-81ef-381045ac634d 
+Type:             cumulative                           
+Identity name:    product                              
+Identity version: version                              
+Description:      This is cumulative patch 2           
+Link:             http://test.two                      
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: ELEMENTS
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: 
+Oct 03, 2018 5:07:41 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: Patch ID:    681c20c3-7995-48b1-a2d1-ef84bf55f23d 
+Name:        base                                 
+Type:        layer                                
+Description: upgrade of the base layer            

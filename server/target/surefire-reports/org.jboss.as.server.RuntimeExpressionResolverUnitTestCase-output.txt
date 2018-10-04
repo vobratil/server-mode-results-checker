@@ -1,0 +1,8 @@
+Oct 03, 2018 4:58:25 PM org.picketbox.plugins.vault.PicketBoxSecurityVault init
+INFO: PBOX00361: Default Security Vault Implementation Initialized and Ready
+Oct 03, 2018 4:58:25 PM org.picketbox.plugins.vault.PicketBoxSecurityVault init
+INFO: PBOX00361: Default Security Vault Implementation Initialized and Ready
+Oct 03, 2018 4:58:26 PM org.picketbox.plugins.vault.PicketBoxSecurityVault init
+INFO: PBOX00361: Default Security Vault Implementation Initialized and Ready
+Oct 03, 2018 4:58:26 PM org.picketbox.plugins.vault.PicketBoxSecurityVault init
+INFO: PBOX00361: Default Security Vault Implementation Initialized and Ready

@@ -1,0 +1,164 @@
+{
+    "address" => [("host" => "slave")],
+    "operation" => "resolve-expression-on-domain",
+    "expression" => "${file.separator}"
+}
+{
+    "outcome" => "success",
+    "result" => undefined,
+    "server-groups" => {
+        "main-server-group" => {"host" => {"slave" => {"main-three" => {"response" => {
+            "outcome" => "success",
+            "result" => "/"
+        }}}}},
+        "other-server-group" => {"host" => {"slave" => {"other-two" => {"response" => {
+            "outcome" => "success",
+            "result" => "/"
+        }}}}}
+    }
+}
+{
+    "outcome" => "success",
+    "result" => {"step-1" => {
+        "outcome" => "success",
+        "result" => [
+            {
+                "address" => [("profile" => "web-only")],
+                "outcome" => "success",
+                "result" => {
+                    "includes" => undefined,
+                    "name" => "web-only",
+                    "subsystem" => {
+                        "io" => undefined,
+                        "security-manager" => undefined
+                    }
+                }
+            },
+            {
+                "address" => [("profile" => "default")],
+                "outcome" => "success",
+                "result" => {
+                    "includes" => undefined,
+                    "name" => "default",
+                    "subsystem" => {
+                        "logging" => undefined,
+                        "core-management" => undefined,
+                        "io" => undefined,
+                        "jmx" => undefined,
+                        "remoting" => undefined,
+                        "request-controller" => undefined,
+                        "security-manager" => undefined
+                    }
+                }
+            },
+            {
+                "address" => [("profile" => "other")],
+                "outcome" => "success",
+                "result" => {
+                    "includes" => undefined,
+                    "name" => "other",
+                    "subsystem" => {
+                        "logging" => undefined,
+                        "io" => undefined,
+                        "jmx" => undefined,
+                        "remoting" => undefined,
+                        "request-controller" => undefined,
+                        "security-manager" => undefined
+                    }
+                }
+            },
+            {
+                "address" => [("profile" => "ignored")],
+                "outcome" => "success",
+                "result" => {
+                    "includes" => undefined,
+                    "name" => "ignored",
+                    "subsystem" => {
+                        "io" => undefined,
+                        "jmx" => undefined,
+                        "security-manager" => undefined
+                    }
+                }
+            },
+            {
+                "address" => [("profile" => "minimal")],
+                "outcome" => "success",
+                "result" => {
+                    "includes" => undefined,
+                    "name" => "minimal",
+                    "subsystem" => {
+                        "logging" => undefined,
+                        "security-manager" => undefined
+                    }
+                }
+            }
+        ]
+    }}
+}
+{
+    "outcome" => "success",
+    "result" => undefined,
+    "server-groups" => {
+        "main-server-group" => {"host" => {
+            "master" => {"main-one" => {"response" => {
+                "outcome" => "success",
+                "result" => "/"
+            }}},
+            "slave" => {"main-three" => {"response" => {
+                "outcome" => "success",
+                "result" => "/"
+            }}}
+        }},
+        "other-server-group" => {"host" => {"slave" => {"other-two" => {"response" => {
+            "outcome" => "success",
+            "result" => "/"
+        }}}}}
+    }
+}
+{
+    "outcome" => "success",
+    "result" => undefined,
+    "server-groups" => {
+        "main-server-group" => {"host" => {
+            "master" => {"main-one" => {"response" => {
+                "outcome" => "success",
+                "result" => "/"
+            }}},
+            "slave" => {"main-three" => {"response" => {
+                "outcome" => "success",
+                "result" => "/"
+            }}}
+        }},
+        "other-server-group" => {"host" => {"slave" => {"other-two" => {"response" => {
+            "outcome" => "success",
+            "result" => "/"
+        }}}}}
+    }
+}
+{
+    "outcome" => "success",
+    "result" => undefined,
+    "server-groups" => {"main-server-group" => {"host" => {"master" => {"main-one" => {"response" => {
+        "outcome" => "success",
+        "result" => "/"
+    }}}}}}
+}
+{
+    "address" => [("host" => "slave")],
+    "operation" => "resolve-expression-on-domain",
+    "expression" => "${file.separator}"
+}
+{
+    "outcome" => "success",
+    "result" => undefined,
+    "server-groups" => {
+        "main-server-group" => {"host" => {"slave" => {"main-three" => {"response" => {
+            "outcome" => "success",
+            "result" => "/"
+        }}}}},
+        "other-server-group" => {"host" => {"slave" => {"other-two" => {"response" => {
+            "outcome" => "success",
+            "result" => "/"
+        }}}}}
+    }
+}

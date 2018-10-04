@@ -1,0 +1,9 @@
+[log4j2] 2018-10-03 22:39:09.960 [main] modules - JBoss Modules version 1.8.6.Final
+[log4j2] 2018-10-03 22:39:10.634 [main] msc - JBoss MSC version 1.4.5.Final
+[log4j2] 2018-10-03 22:39:10.644 [main] threads - JBoss Threads version 2.3.2.Final
+[log4j2] 2018-10-03 22:39:10.685 [MSC service thread 1-2] as - WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[log4j2] 2018-10-03 22:39:11.131 [Host Controller Service Threads - 4] security - ELY00001: WildFly Elytron version 1.7.0.CR2
+[log4j2] 2018-10-03 22:39:11.615 [Controller Boot Thread] management-deprecated - WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=master/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+[log4j2] 2018-10-03 22:39:11.731 [MSC service thread 1-2] patching - WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[log4j2] 2018-10-03 22:39:12.005 [Controller Boot Thread] as - WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 2044ms - Started 55 of 60 services (16 services are lazy, passive or on-demand)
+[log4j2] 2018-10-03 22:39:12.040 [MSC service thread 1-8] as - WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 8ms

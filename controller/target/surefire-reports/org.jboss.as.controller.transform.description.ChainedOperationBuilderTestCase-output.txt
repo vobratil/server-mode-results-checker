@@ -1,0 +1,208 @@
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:37 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.1, falling back to 1.0.0
+Oct 03, 2018 4:55:38 PM org.jboss.as.controller.registry.GlobalTransformerRegistry getRegistryUpdater
+WARN: WFLYCTL0405: Couldn't find a transformer to 1.0.5, falling back to 1.0.0

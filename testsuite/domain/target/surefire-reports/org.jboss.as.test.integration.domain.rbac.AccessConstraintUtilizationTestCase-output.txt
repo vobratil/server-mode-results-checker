@@ -1,0 +1,26 @@
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=access-control}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=authentication-client-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=authentication-factory-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=credential}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=elytron-security-domain-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=extensions}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=management-interfaces}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=module-loading}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=patching}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=read-whole-config}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=security-domain}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=security-domain-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=security-realm}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=security-realm-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=security-vault}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=server-ssl}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=ssl-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=socket-binding-ref}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=socket-config}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=snapshots}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=system-property}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=domain-controller}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=domain-names}
+Testing AccessConstraintKey{type=sensitivity-classification,core=true,subsystem=null,name=jvm}
+Testing AccessConstraintKey{type=application-classification,core=true,subsystem=null,name=deployment}
+[Host Controller] [0m[0m22:52:59,792 INFO  [org.jboss.as.repository] (management-handler-thread - 3) WFLYDR0001: Content added at location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SimpleRbacProviderTestSuite/master/data/content/23/8a131a3e8eb98d1fc5b27d882ca40b7618fd2a/content[0m

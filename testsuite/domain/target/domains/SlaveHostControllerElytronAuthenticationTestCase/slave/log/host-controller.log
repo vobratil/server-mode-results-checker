@@ -1,0 +1,68 @@
+2018-10-03 23:01:55,504 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:01:55,869 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:01:55,885 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:01:55,937 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:01:56,817 INFO  [org.wildfly.security] (Host Controller Service Threads - 4) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 23:01:57,124 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:01:57,205 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'permissions' in the resource at address '/host=slave/subsystem=elytron/constant-permission-mapper=default-permission-mapper' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:01:57,242 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+2018-10-03 23:01:57,252 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:01:57,288 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:01:57,367 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:01:57,404 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveHostControllerElytronAuthenticationTestCase/slave/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-10-03 23:01:57,447 INFO  [org.jboss.as.remoting] (MSC service thread 1-3) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 23:01:57,449 INFO  [org.wildfly.openssl.SSL] (MSC service thread 1-5) WFOPENSSL0002 OpenSSL Version OpenSSL 1.0.2k-fips  26 Jan 2017
+2018-10-03 23:01:58,323 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 23:01:58,339 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 3446ms - Started 69 of 73 services (21 services are lazy, passive or on-demand)
+2018-10-03 23:01:59,209 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0029: Unregistered at domain controller
+2018-10-03 23:01:59,262 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 66ms
+2018-10-03 23:01:59,263 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:01:59,321 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:01:59,331 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'permissions' in the resource at address '/host=slave/subsystem=elytron/constant-permission-mapper=default-permission-mapper' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:01:59,348 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:01:59,354 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/SlaveHostControllerElytronAuthenticationTestCase/slave/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-10-03 23:01:59,359 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 23:01:59,391 WARN  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0001: Could not connect to remote domain controller remote://127.0.0.1:9999: java.lang.IllegalStateException: WFLYHC0043: Unable to connect due to authentication failure.
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.rethrowIrrecoverableConnectionFailures(RemoteDomainConnectionService.java:674)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.register(RemoteDomainConnectionService.java:293)
+	at org.jboss.as.host.controller.DomainModelControllerService.connectToDomainMaster(DomainModelControllerService.java:965)
+	at org.jboss.as.host.controller.DomainModelControllerService.boot(DomainModelControllerService.java:703)
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:372)
+	at java.lang.Thread.run(Thread.java:811)
+Caused by: javax.security.sasl.SaslException: Authentication failed: all available authentication mechanisms failed:
+   DIGEST-MD5: javax.security.sasl.SaslException: DIGEST-MD5: Server rejected authentication
+	at org.jboss.remoting3.remote.ClientConnectionOpenListener.allMechanismsFailed(ClientConnectionOpenListener.java:109)
+	at org.jboss.remoting3.remote.ClientConnectionOpenListener$Capabilities.handleEvent(ClientConnectionOpenListener.java:262)
+	at org.jboss.remoting3.remote.ClientConnectionOpenListener$Capabilities.handleEvent(ClientConnectionOpenListener.java:242)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+	at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:591)
+	at ...asynchronous invocation...(Unknown Source)
+	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:571)
+	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:533)
+	at org.jboss.remoting3.EndpointImpl.connect(EndpointImpl.java:521)
+	at org.jboss.as.protocol.ProtocolConnectionUtils.connect(ProtocolConnectionUtils.java:204)
+	at org.jboss.as.protocol.ProtocolConnectionUtils.connectSync(ProtocolConnectionUtils.java:120)
+	at org.jboss.as.host.controller.RemoteDomainConnection.lambda$openConnection$0(RemoteDomainConnection.java:223)
+	at org.jboss.as.host.controller.RemoteDomainConnection$$Lambda$255.00000000D03AB1F0.run(Unknown Source)
+	at org.wildfly.common.context.Contextual.runExceptionAction(Contextual.java:108)
+	at org.wildfly.security.auth.client.AuthenticationContext.run(AuthenticationContext.java:273)
+	at org.jboss.as.host.controller.RemoteDomainConnection.openConnection(RemoteDomainConnection.java:223)
+	at org.jboss.as.host.controller.RemoteDomainConnection$InitialConnectTask.connect(RemoteDomainConnection.java:592)
+	at org.jboss.as.protocol.ProtocolConnectionManager.connect(ProtocolConnectionManager.java:70)
+	at org.jboss.as.host.controller.RemoteDomainConnection.connect(RemoteDomainConnection.java:147)
+	at org.jboss.as.host.controller.RemoteDomainConnectionService.register(RemoteDomainConnectionService.java:288)
+	... 4 more
+	Suppressed: javax.security.sasl.SaslException: DIGEST-MD5: Server rejected authentication
+		at org.jboss.remoting3.remote.ClientConnectionOpenListener$Authentication.handleEvent(ClientConnectionOpenListener.java:736)
+		at org.jboss.remoting3.remote.ClientConnectionOpenListener$Authentication.handleEvent(ClientConnectionOpenListener.java:578)
+		at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+		at org.xnio.conduits.ReadReadyHandler$ChannelListenerHandler.readReady(ReadReadyHandler.java:66)
+		at org.xnio.nio.NioSocketConduit.handleReady(NioSocketConduit.java:89)
+		at org.xnio.nio.WorkerThread.run(WorkerThread.java:591)
+
+2018-10-03 23:01:59,392 WARN  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0147: No domain controller discovery options remain.
+2018-10-03 23:01:59,393 ERROR [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0002: Could not connect to master. Error was: java.lang.IllegalStateException: WFLYHC0120: Tried all domain controller discovery option(s) but unable to connect
+2018-10-03 23:01:59,394 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99
+2018-10-03 23:01:59,408 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 9ms

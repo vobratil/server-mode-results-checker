@@ -1,0 +1,92 @@
+2018-10-03 22:51:29,959 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 22:51:30,337 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 22:51:30,349 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 22:51:30,401 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 22:51:30,965 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:51:30,967 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:51:30,969 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 22:51:31,074 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (19990) securePort (-1)
+2018-10-03 22:51:31,081 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+2018-10-03 22:51:31,089 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 22:51:31,133 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 22:51:31,134 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+2018-10-03 22:51:31,186 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) WFLYRMT0001: Listening on 127.0.0.1:19999
+2018-10-03 22:51:31,286 INFO  [org.wildfly.security] (Controller Boot Thread) ELY00001: WildFly Elytron version 1.7.0.CR2
+2018-10-03 22:51:32,310 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0148: Connected to master host controller at remote://127.0.0.1:9999
+2018-10-03 22:51:32,339 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0023: Starting server slave-b
+2018-10-03 22:51:35,039 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:slave-b] connected using connection [Channel ID 2513e31e (inbound) of Remoting connection 4d4ab854 to rhel7-large-81357/127.0.0.1:57592 of endpoint "slave:MANAGEMENT" <2a3f4841>]
+2018-10-03 22:51:35,073 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0062: Http management interface listening on http://127.0.0.1:19990/management and https://127.0.0.1:-1/management
+2018-10-03 22:51:35,074 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0054: Admin console is not enabled
+2018-10-03 22:51:35,074 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT (Host Controller) started in 5764ms - Started 51 of 53 services (16 services are lazy, passive or on-demand)
+2018-10-03 22:51:35,074 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server slave-b
+2018-10-03 22:51:54,770 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 6) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderTestSuite/slave/data/content/4d/959b4b8d827a9c6d138f7f7d99d0bad17a280b/content
+2018-10-03 22:51:58,498 INFO  [org.jboss.as.repository] (Host Controller Service Threads - 6) WFLYDR0002: Content removed from location /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/testsuite/domain/target/domains/FullRbacProviderTestSuite/slave/data/content/2d/31acb5126ec8b0b732b9027a2d93b228f1b0a6/content
+2018-10-03 22:52:16,493 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:16,905 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:17,188 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:17,455 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:17,691 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:17,937 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:18,186 ERROR [org.jboss.as.controller.management-operation] (Host Controller Service Threads - 9) WFLYCTL0013: Operation ("gc") failed - address: ([
+    ("host" => "slave"),
+    ("core-service" => "platform-mbean"),
+    ("type" => "memory")
+]) - failure description: "WFLYCTL0313: Unauthorized to execute operation 'gc' for resource '[
+    (\"host\" => \"slave\"),
+    (\"core-service\" => \"platform-mbean\"),
+    (\"type\" => \"memory\")
+]' -- \"WFLYCTL0332: Permission denied\""
+2018-10-03 22:52:39,207 INFO  [org.jboss.as.host.controller] (main) WFLYHC0179: ProcessController has signalled to shut down; shutting down
+2018-10-03 22:52:39,219 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0029: Unregistered at domain controller
+2018-10-03 22:52:39,229 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 9) WFLYHC0024: Stopping server slave-b
+2018-10-03 22:52:39,261 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server slave-b
+2018-10-03 22:52:39,284 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server slave-b
+2018-10-03 22:52:39,337 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 124ms

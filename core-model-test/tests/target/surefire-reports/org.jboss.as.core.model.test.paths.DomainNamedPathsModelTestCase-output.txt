@@ -1,0 +1,8 @@
+Oct 03, 2018 5:12:22 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:12:22 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:12:23 PM org.jboss.as.controller.OperationContextImpl validateCapabilities
+ERROR: WFLYCTL0362: Capabilities required by resource '/path=relative' are not available:
+    org.wildfly.management.path.path in context 'global'; Possible registration points for this capability: 
+		/path=*

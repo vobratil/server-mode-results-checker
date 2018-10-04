@@ -1,0 +1,9 @@
+[0m23:34:44,379 INFO  [stdout] (management-handler-thread - 1) ------> block Testing
+[0m[0m23:34:44,380 INFO  [stdout] (management-handler-thread - 1) ------> attr Stuff
+[0m[0m23:34:44,383 INFO  [stdout] (management-handler-thread - 1) ------> block Another
+[0m[0m23:34:44,383 INFO  [stdout] (management-handler-thread - 1) ------> attr Something
+[0m[31m23:34:44,386 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 1) WFLYCTL0013: Operation ("test") failed - address: ([("subsystem" => "test-custom-vault")]) - failure description: "WFLYCTL0211: Cannot resolve expression '${VAULT::Nothing::is::here}'"
+[0m[0m23:34:44,433 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m23:34:44,435 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m23:34:44,462 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m

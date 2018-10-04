@@ -1,0 +1,286 @@
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258304
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258305
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.xml in deployment directory. To trigger deployment create a file called foo.xml.dodeploy
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258306
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258307
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258308
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+ERROR: WFLYDS0030: File foo.war was configured for auto-deploy but could not be safely auto-deployed. The reason the file could not be auto-deployed was: WFLYDS0026: File /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258308/foo.war cannot be scanned because it uses the currently unsupported ZIP64 format.  To enable deployment of this file create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:18 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+WARN: WFLYDS0014: Scan found content configured for auto-deploy that could not be safely auto-deployed. See details above. Deployment changes will not be processed until all problematic content is either removed or whether to deploy the content or not is indicated via a .dodeploy or .skipdeploy marker file. Problematic deployments are [foo.war]
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0015: Re-attempting failed deployment foo.war
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258309
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService setAutoDeployExplodedContent
+WARN: WFLYDS0006: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258310
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258311
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258312
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService setAutoDeployExplodedContent
+WARN: WFLYDS0006: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258313
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0019: Deployment bar.war was previously deployed by this scanner but has been removed from the server deployment list by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258313/bar.war.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258314
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258315
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258315
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258316
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+ERROR: WFLYDS0030: File foo.war was configured for auto-deploy but could not be safely auto-deployed. The reason the file could not be auto-deployed was: WFLYDS0025: File /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258316/foo.war cannot be scanned because it does not begin with a ZIP file format local file header signature.  To enable deployment of this file create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+WARN: WFLYDS0014: Scan found content configured for auto-deploy that could not be safely auto-deployed. See details above. Deployment changes will not be processed until all problematic content is either removed or whether to deploy the content or not is indicated via a .dodeploy or .skipdeploy marker file. Problematic deployments are [foo.war]
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258317
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0019: Deployment foo.war was previously deployed by this scanner but has been removed from the server deployment list by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258317/foo.war.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258318
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService setAutoDeployExplodedContent
+WARN: WFLYDS0006: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258319
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService setAutoDeployExplodedContent
+WARN: WFLYDS0006: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258319
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+WARN: WFLYDS0007: The deployment scanner found that the content for exploded deployment foo.war has been deleted, but auto-deploy/undeploy for exploded deployments is not enabled and the foo.war.deployed marker file for this deployment has not been removed. As a result, the deployment is not being undeployed, but resources needed by the deployment may have been deleted and application errors may occur. Deleting the foo.war.deployed marker file to trigger undeploy is recommended.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258319
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService setAutoDeployExplodedContent
+WARN: WFLYDS0006: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258320
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258321
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258322
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258322
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258323
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentServiceUnitTestCase testFailedArchiveRedeployedAfterDeploymentUpdate
+INFO: Updating last modified time of war /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258323/helloworld.war from 1538604268878 to 1538604269881 to simulate changes to the deployment
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258324
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258325
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.XmlCompletionScanner$ErrorHandler traceError
+INFO: WFLYDS0035: Scan found foo.xml which is not well-formed at lineNumber: 1, columnNumber: 26. Either the file was incompletely copied at the time of the scanning or it is just wrong.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+INFO: WFLYDS0010: Scan found incompletely copied file content for deployment /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258325/foo.xml. Deployment changes will not be processed until all content is complete.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258326
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258326
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258327
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258328
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found exploded.ear in deployment directory. To trigger deployment create a file called exploded.ear.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258329
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0018: Deployment undeployed was previously deployed by this scanner but has been undeployed by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258329/undeployed.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0018: Deployment nested-undeployed was previously deployed by this scanner but has been undeployed by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258329/nested/nested-undeployed.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0019: Deployment nested-removed was previously deployed by this scanner but has been removed from the server deployment list by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258329/nested/nested-removed.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0019: Deployment removed was previously deployed by this scanner but has been removed from the server deployment list by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258329/removed.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258330
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258330
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258331
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentServiceUnitTestCase testUndeployedArchiveRedeployedAfterDeploymentUpdate
+INFO: Updating last modified time of war /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258331/helloworld2.war from 1538604268956 to 1538604269960 to simulate changes to the deployment
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258332
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+INFO: WFLYDS0010: Scan found incompletely copied file content for deployment /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258332/foo.war. Deployment changes will not be processed until all content is complete.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258333
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService synchronizeScannerStatus
+INFO: WFLYDS0033: Deployment foo.war was previously undeployed by this scanner but has been redeployed by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258333/foo.war.undeployed is being removed to record this fact.
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258334
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258335
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258336
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:28 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258337
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258338
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService synchronizeScannerStatus
+INFO: WFLYDS0033: Deployment foo.war was previously undeployed by this scanner but has been redeployed by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258338/foo.war.undeployed is being removed to record this fact.
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258339
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+ERROR: WFLYDS0030: File foo.war was configured for auto-deploy but could not be safely auto-deployed. The reason the file could not be auto-deployed was: WFLYDS0026: File /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258339/foo.war cannot be scanned because it uses the currently unsupported ZIP64 format.  To enable deployment of this file create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+WARN: WFLYDS0014: Scan found content configured for auto-deploy that could not be safely auto-deployed. See details above. Deployment changes will not be processed until all problematic content is either removed or whether to deploy the content or not is indicated via a .dodeploy or .skipdeploy marker file. Problematic deployments are [foo.war]
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258340
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258341
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258342
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258343
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258344
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+INFO: WFLYDS0010: Scan found incompletely copied file content for deployment /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258344/foo.war. Deployment changes will not be processed until all content is complete.
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258345
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258346
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258347
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+ERROR: WFLYDS0021: Deployment content /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258347/foo.war appears to be incomplete and is not progressing toward completion. This content cannot be auto-deployed.
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+WARN: WFLYDS0014: Scan found content configured for auto-deploy that could not be safely auto-deployed. See details above. Deployment changes will not be processed until all problematic content is either removed or whether to deploy the content or not is indicated via a .dodeploy or .skipdeploy marker file. Problematic deployments are [foo.war]
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258348
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258349
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0019: Deployment foo.war was previously deployed by this scanner but has been removed from the server deployment list by another management tool. Marker file /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258349/foo.war.undeployed is being added to record this fact.
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258350
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258351
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258352
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService setAutoDeployExplodedContent
+WARN: WFLYDS0006: Reliable deployment behaviour is not possible when auto-deployment of exploded content is enabled (i.e. deployment without use of ".dodeploy"' marker files). Configuration of auto-deployment of exploded content is not recommended in any situation where reliability is desired. Configuring the deployment scanner's auto-deploy-exploded setting to "false" is recommended.
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService handleAutoDeployFailures
+INFO: WFLYDS0010: Scan found incompletely copied file content for deployment /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258352/foo.ear. Deployment changes will not be processed until all content is complete.
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258353
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258354
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258355
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258356
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0015: Re-attempting failed deployment nested
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scanDirectory
+INFO: WFLYDS0015: Re-attempting failed deployment spurious
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+WARN: WFLYDS0003: Deployment of 'spurious' requested, but the deployment is not present
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+WARN: WFLYDS0003: Deployment of 'nested' requested, but the deployment is not present
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258358
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found bar.war in deployment directory. To trigger deployment create a file called bar.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258359
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService checkDeploymentDir
+WARN: WFLYDS0037: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258359 does not exist
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+WARN: WFLYDS0043: Deployment directory scan failed due to inaccessible deployment directory: /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258359
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory /home/hudson/hudson_workspace/workspace/eap-7.x-as-testsuite-core-rhel/b485da8d/deployment-scanner/target/FileSystemDeploymentServiceUnitTestCase/1538604258360
+Oct 03, 2018 5:04:29 PM org.jboss.as.server.deployment.scanner.FileSystemDeploymentService scan
+INFO: WFLYDS0004: Found foo.war in deployment directory. To trigger deployment create a file called foo.war.dodeploy

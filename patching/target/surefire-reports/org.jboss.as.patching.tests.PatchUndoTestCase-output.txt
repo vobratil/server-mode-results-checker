@@ -1,0 +1,2 @@
+Oct 03, 2018 5:07:30 PM org.jboss.as.patching.runner.IdentityPatchContext undoChanges
+ERROR: WFLYPAT0031: failed to undo change for: 'MiscContentItem{test/content}'

@@ -1,0 +1,7 @@
+22:16:10,574 org.wildfly.test.undertow.UndertowService.start:55 (MSC service thread 1-7)  INFO UndertowService:55 - Started Undertow on 127.0.0.1:8080
+22:16:10,676 org.jboss.as.test.integration.logging.LoggingServiceActivator$1.handleRequest:81 (XNIO-1 I/O-3) FATAL LoggingServiceActivator:81 - logTest: jboss-logging.properties message - fatal
+22:16:10,677 org.jboss.as.test.integration.logging.LoggingServiceActivator$1.handleRequest:81 (XNIO-1 I/O-3) ERROR LoggingServiceActivator:81 - logTest: jboss-logging.properties message - error
+22:16:10,678 org.jboss.as.test.integration.logging.LoggingServiceActivator$1.handleRequest:81 (XNIO-1 I/O-3)  WARN LoggingServiceActivator:81 - logTest: jboss-logging.properties message - warn
+22:16:10,678 org.jboss.as.test.integration.logging.LoggingServiceActivator$1.handleRequest:81 (XNIO-1 I/O-3)  INFO LoggingServiceActivator:81 - logTest: jboss-logging.properties message - info
+22:16:10,679 org.jboss.as.test.integration.logging.LoggingServiceActivator$1.handleRequest:81 (XNIO-1 I/O-3) DEBUG LoggingServiceActivator:81 - logTest: jboss-logging.properties message - debug
+22:16:10,679 org.jboss.as.test.integration.logging.LoggingServiceActivator$1.handleRequest:81 (XNIO-1 I/O-3) TRACE LoggingServiceActivator:81 - logTest: jboss-logging.properties message - trace

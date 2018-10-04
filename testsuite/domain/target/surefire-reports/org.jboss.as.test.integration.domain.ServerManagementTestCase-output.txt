@@ -1,0 +1,469 @@
+[Host Controller] [0m[0m23:13:33,479 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0023: Starting server new-server[0m
+[0m23:13:33,601 INFO  [org.jboss.as.process.Server:new-server.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:new-server'
+[0m[Server:new-server] [0m23:13:34,363 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:new-server] [0m[0m23:13:34,784 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:new-server] [0m[0m23:13:34,793 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:new-server] [0m[0m23:13:34,927 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:new-server] [0m[0m23:13:35,020 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final[0m
+[Server:new-server] [0m[0m23:13:35,026 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:new-server] [0m[0m23:13:35,063 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.8.Final[0m
+[Server:new-server] [0m[0m23:13:35,653 INFO  [org.wildfly.security] (ServerService Thread Pool -- 3) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:36,171 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:new-server] connected using connection [Channel ID 26632aff (inbound) of Remoting connection b41d75ab to rhel7-large-81357/127.0.0.1:35624 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:13:36,178 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server new-server[0m
+[Server:new-server] [0m[0m23:13:36,366 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:new-server] [0m23:13:36,438 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:new-server] 23:13:36,441 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2685ms - Started 43 of 59 services (22 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:13:36,545 INFO  [org.jboss.as.host.controller] (management-handler-thread - 1) WFLYHC0024: Stopping server new-server[0m
+[Server:new-server] 23:13:36,553 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 3) WFLYSRV0236: Suspending server with no timeout.
+[0m23:13:36,556 INFO  [org.jboss.as.process.Server:new-server.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:new-server'
+[0m[Server:new-server] 23:13:36,558 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:36,582 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server new-server[0m
+[Server:new-server] 23:13:36,589 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 27ms
+[0m23:13:36,601 INFO  [org.jboss.as.process.Server:new-server.status] (reaper for Server:new-server) WFLYPC0011: Process 'Server:new-server' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:36,643 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server new-server[0m
+[Host Controller] [0m[0m23:13:37,123 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 7) WFLYHC0023: Starting server includes-server[0m
+[0m23:13:37,227 INFO  [org.jboss.as.process.Server:includes-server.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:includes-server'
+[0m[Server:includes-server] [0m23:13:38,046 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:includes-server] [0m[0m23:13:38,479 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:includes-server] [0m[0m23:13:38,490 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:includes-server] [0m[0m23:13:38,638 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:includes-server] [0m[0m23:13:38,727 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.5.Final[0m
+[Server:includes-server] [0m[0m23:13:38,732 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:includes-server] [0m[0m23:13:38,766 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Server:includes-server] [0m[0m23:13:39,118 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:39,637 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:includes-server] connected using connection [Channel ID 63cb51dc (inbound) of Remoting connection 48eadf58 to rhel7-large-81357/127.0.0.1:35626 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:13:39,643 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server includes-server[0m
+[Server:includes-server] [0m[0m23:13:39,810 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:includes-server] [0m23:13:39,872 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:includes-server] 23:13:39,874 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2510ms - Started 43 of 51 services (14 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:13:40,398 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server includes-server[0m
+[Server:includes-server] 23:13:40,403 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:13:40,405 INFO  [org.jboss.as.process.Server:includes-server.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:includes-server'
+[0m[Server:includes-server] 23:13:40,407 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:40,422 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server includes-server[0m
+[Server:includes-server] 23:13:40,427 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 15ms
+[0m23:13:40,434 INFO  [org.jboss.as.process.Server:includes-server.status] (reaper for Server:includes-server) WFLYPC0011: Process 'Server:includes-server' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:40,477 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server includes-server[0m
+[Host Controller] [0m[0m23:13:40,771 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server main-two[0m
+[0m23:13:40,834 INFO  [org.jboss.as.process.Server:main-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-two'
+[0m[Server:main-two] [0m23:13:41,647 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:main-two] [0m[0m23:13:42,112 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:main-two] [0m[0m23:13:42,121 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:main-two] [0m[0m23:13:42,271 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:main-two] [0m[0m23:13:42,351 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final[0m
+[Server:main-two] [0m[0m23:13:42,357 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:main-two] [0m[0m23:13:42,390 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final[0m
+[Server:main-two] [0m[0m23:13:42,763 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:43,734 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-two] connected using connection [Channel ID 676da033 (inbound) of Remoting connection 2631f298 to rhel7-large-81357/127.0.0.1:43616 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:13:43,740 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-two[0m
+[Host Controller] [0m[0m23:13:43,743 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server other-one[0m
+[0m23:13:43,857 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-one'
+[0m[Server:main-two] [0m[0m23:13:43,971 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:main-two] [0m23:13:44,034 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:main-two] 23:13:44,036 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3000ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[Server:other-one] [0m23:13:44,677 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:other-one] [0m[0m23:13:45,151 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:other-one] [0m[0m23:13:45,160 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:other-one] [0m[0m23:13:45,297 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:other-one] [0m[0m23:13:45,384 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.6.5.Final[0m
+[Server:other-one] [0m[0m23:13:45,390 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:other-one] [0m[0m23:13:45,425 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final[0m
+[Server:other-one] [0m[0m23:13:45,765 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:46,276 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-one] connected using connection [Channel ID 2ef4874c (inbound) of Remoting connection 28c0d908 to rhel7-large-81357/127.0.0.1:43618 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:13:46,283 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-one[0m
+[Host Controller] [0m[0m23:13:46,284 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server reload-one[0m
+[0m23:13:46,402 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-one'
+[0m[Server:other-one] [0m[0m23:13:46,477 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:other-one] [0m23:13:46,539 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:other-one] 23:13:46,541 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2490ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[Server:reload-one] [0m23:13:47,252 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:reload-one] [0m[0m23:13:48,418 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:reload-one] [0m[0m23:13:48,439 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:reload-one] [0m[0m23:13:48,770 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:reload-one] [0m[0m23:13:48,851 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final[0m
+[Server:reload-one] [0m[0m23:13:48,856 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:reload-one] [0m[0m23:13:48,900 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final[0m
+[Server:reload-one] [0m[0m23:13:49,393 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:49,942 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:reload-one] connected using connection [Channel ID 26e80814 (inbound) of Remoting connection d8b2ee04 to rhel7-large-81357/127.0.0.1:43620 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:13:49,950 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-one[0m
+[Host Controller] [0m[0m23:13:49,962 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server main-four[0m
+[0m23:13:50,086 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-four'
+[0m[Server:reload-one] [0m[0m23:13:50,161 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:reload-one] [0m23:13:50,245 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:reload-one] 23:13:50,248 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3702ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[Server:main-four] [0m23:13:51,573 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:main-four] [0m[0m23:13:52,596 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:main-four] [0m[0m23:13:52,617 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:main-four] [0m[0m23:13:52,952 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:main-four] [0m[0m23:13:53,082 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final[0m
+[Server:main-four] [0m[0m23:13:53,087 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:main-four] [0m[0m23:13:53,133 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final[0m
+[Server:main-four] [0m[0m23:13:53,555 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:54,047 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-four] connected using connection [Channel ID 60929f27 (inbound) of Remoting connection 091fb8b5 to rhel7-large-81357/127.0.0.1:35634 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:13:54,054 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-four[0m
+[Host Controller] [0m[0m23:13:54,054 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server reload-two[0m
+[0m23:13:54,163 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:reload-two'
+[0m[Server:main-four] [0m[0m23:13:54,250 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Server:main-four] [0m23:13:54,396 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server[0m
+[Server:main-four] 23:13:54,401 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 4131ms - Started 43 of 59 services (22 services are lazy, passive or on-demand)
+[Server:reload-two] [0m23:13:54,946 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final[0m
+[Server:reload-two] [0m[0m23:13:55,402 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final[0m
+[Server:reload-two] [0m[0m23:13:55,412 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final[0m
+[Server:reload-two] [0m[0m23:13:55,564 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting[0m
+[Server:reload-two] [0m[0m23:13:55,652 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final[0m
+[Server:reload-two] [0m[0m23:13:55,657 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final[0m
+[Server:reload-two] [0m[0m23:13:55,703 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final[0m
+[Server:reload-two] [0m[0m23:13:56,077 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2[0m
+[Host Controller] [0m[0m23:13:56,686 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:reload-two] connected using connection [Channel ID 258a6e31 (inbound) of Remoting connection b3d37baf to rhel7-large-81357/127.0.0.1:35636 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:13:56,701 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server reload-two[0m
+[Host Controller] [0m[0m23:13:56,782 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server main-two[0m
+[Server:main-two] 23:13:56,854 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[Host Controller] [0m[0m23:13:56,861 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server reload-one[0m
+[0m23:13:56,862 INFO  [org.jboss.as.process.Server:main-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-two'
+[0m[Server:main-two] 23:13:56,864 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:56,924 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-two[0m
+[Server:main-two] 23:13:56,940 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 54ms
+[Server:reload-one] 23:13:56,951 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[Server:reload-two] [0m23:13:56,952 INFO  [org.jboss.as.patching] (MSC service thread 1-8) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none[0m
+[Host Controller] [0m[0m23:13:56,956 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server other-one[0m
+[0m23:13:56,957 INFO  [org.jboss.as.process.Server:reload-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-one'
+[0m[0m23:13:56,956 INFO  [org.jboss.as.process.Server:main-two.status] (reaper for Server:main-two) WFLYPC0011: Process 'Server:main-two' finished with an exit status of 0
+[0m[Server:reload-one] 23:13:56,960 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:57,007 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-two[0m
+[Host Controller] [0m[0m23:13:57,053 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server reload-one[0m
+[Server:other-one] 23:13:57,076 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[Server:reload-one] 23:13:57,081 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 82ms
+[Host Controller] [0m[0m23:13:57,099 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server main-one[0m
+[Server:reload-two] 23:13:57,119 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[0m23:13:57,127 INFO  [org.jboss.as.process.Server:reload-one.status] (reaper for Server:reload-one) WFLYPC0011: Process 'Server:reload-one' finished with an exit status of 0
+[0m[Server:reload-two] 23:13:57,129 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2825ms - Started 43 of 59 services (22 services are lazy, passive or on-demand)
+[0m23:13:57,129 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-one'
+[0m[Server:other-one] 23:13:57,133 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:13:57,144 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:13:57,159 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-one'
+[0m[Server:main-one] 23:13:57,168 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:57,157 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-one[0m
+[Host Controller] [0m[0m23:13:57,202 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-one[0m
+[Host Controller] [0m[0m23:13:57,209 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server main-three[0m
+[Server:other-one] 23:13:57,231 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 77ms
+[0m23:13:57,248 INFO  [org.jboss.as.process.Server:other-one.status] (reaper for Server:other-one) WFLYPC0011: Process 'Server:other-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:57,252 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-one[0m
+[Server:main-three] 23:13:57,256 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[Host Controller] [0m[0m23:13:57,260 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server main-four[0m
+[0m23:13:57,261 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-three'
+[0m[Host Controller] [0m[0m23:13:57,273 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-three] 23:13:57,264 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Server:main-one] 23:13:57,303 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 83ms
+[Server:main-four] 23:13:57,310 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[Host Controller] [0m[0m23:13:57,313 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server reload-two[0m
+[0m23:13:57,314 INFO  [org.jboss.as.process.Server:main-four.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:main-four'
+[0m[Server:main-four] 23:13:57,316 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[0m23:13:57,319 INFO  [org.jboss.as.process.Server:main-one.status] (reaper for Server:main-one) WFLYPC0011: Process 'Server:main-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:57,325 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three[0m
+[Host Controller] [0m[0m23:13:57,338 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-one[0m
+[Server:main-three] 23:13:57,349 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 50ms
+[Host Controller] [0m[0m23:13:57,361 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-four[0m
+[0m23:13:57,365 INFO  [org.jboss.as.process.Server:main-three.status] (reaper for Server:main-three) WFLYPC0011: Process 'Server:main-three' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:57,383 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-two[0m
+[0m23:13:57,386 INFO  [org.jboss.as.process.Server:reload-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:reload-two'
+[0m[Server:reload-two] 23:13:57,381 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[Server:reload-two] 23:13:57,388 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:57,388 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-three[0m
+[Server:main-four] 23:13:57,389 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 54ms
+[Server:other-two] 23:13:57,397 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:13:57,400 INFO  [org.jboss.as.process.Server:main-four.status] (reaper for Server:main-four) WFLYPC0011: Process 'Server:main-four' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:57,403 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server main-four[0m
+[0m23:13:57,405 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[Server:other-two] 23:13:57,406 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:13:57,420 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m23:13:57,452 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:reload-two] 23:13:57,467 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 72ms
+[Server:other-two] 23:13:57,476 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 38ms
+[0m23:13:57,485 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:57,487 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[0m23:13:57,488 INFO  [org.jboss.as.process.Server:reload-two.status] (reaper for Server:reload-two) WFLYPC0011: Process 'Server:reload-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:13:57,489 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server reload-two[0m
+[Host Controller] [0m[0m23:13:57,526 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server other-one[0m
+[0m23:13:57,629 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-one'
+[0m[Server:other-one] 23:13:58,910 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-one] 23:13:59,305 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-one] 23:13:59,314 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-one] 23:13:59,450 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-one] 23:13:59,535 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:other-one] 23:13:59,541 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-one] 23:13:59,576 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+[Server:other-one] 23:13:59,958 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:00,534 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-one] connected using connection [Channel ID 7dcdc73a (inbound) of Remoting connection 93205323 to rhel7-large-81357/127.0.0.1:43626 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:14:00,546 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-one[0m
+[Host Controller] [0m[0m23:14:00,565 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-two[0m
+[0m23:14:00,669 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+[0m[Server:other-one] 23:14:00,998 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-one] 23:14:01,223 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-one] 23:14:01,230 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3288ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[Server:other-two] 23:14:01,961 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-two] 23:14:02,387 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-two] 23:14:02,396 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-two] 23:14:02,661 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:14:02,861 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.5.Final
+[Server:other-two] 23:14:02,874 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-two] 23:14:02,947 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+[Server:other-two] 23:14:03,314 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:03,830 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 43b34fb2 (inbound) of Remoting connection 57d40ecc to rhel7-large-81357/127.0.0.1:35640 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:03,840 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 23:14:04,030 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:14:04,143 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 23:14:04,148 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3276ms - Started 43 of 67 services (30 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:14:04,270 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server other-one[0m
+[Server:other-one] 23:14:04,298 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:04,339 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-one'
+[0m[Server:other-one] 23:14:04,341 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:04,364 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server other-one[0m
+[Server:other-one] 23:14:04,371 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 20ms
+[0m23:14:04,385 INFO  [org.jboss.as.process.Server:other-one.status] (reaper for Server:other-one) WFLYPC0011: Process 'Server:other-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:04,426 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-one[0m
+[Host Controller] [0m[0m23:14:04,468 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server other-one[0m
+[0m23:14:04,609 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-one'
+[0m[Server:other-one] 23:14:05,403 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-one] 23:14:05,810 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-one] 23:14:05,819 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-one] 23:14:06,035 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-one] 23:14:06,238 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+[Server:other-one] 23:14:06,246 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-one] 23:14:06,293 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+[Server:other-one] 23:14:07,157 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:07,752 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-one] connected using connection [Channel ID 04b786dc (inbound) of Remoting connection 5006a9fc to rhel7-large-81357/127.0.0.1:43630 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:14:07,758 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-one[0m
+[Host Controller] [0m[0m23:14:07,822 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-two[0m
+[Server:other-two] 23:14:07,889 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:07,935 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[Server:other-two] 23:14:07,945 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:07,984 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 23:14:07,997 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 46ms
+[Server:other-one] 23:14:08,001 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[0m23:14:08,016 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:08,018 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-one] 23:14:08,044 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-one] 23:14:08,046 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3300ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:14:08,059 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-two[0m
+[0m23:14:08,219 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+[0m[Server:other-two] 23:14:09,307 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-two] 23:14:09,748 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-two] 23:14:09,759 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-two] 23:14:09,932 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:14:10,040 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+[Server:other-two] 23:14:10,049 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-two] 23:14:10,097 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.8.Final
+[Server:other-two] 23:14:10,446 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:10,964 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 08a1d8b0 (inbound) of Remoting connection d3900c50 to rhel7-large-81357/127.0.0.1:35644 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:10,978 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 23:14:11,180 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:14:11,310 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 23:14:11,316 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2790ms - Started 43 of 67 services (30 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:14:11,419 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server other-one[0m
+[Server:other-one] 23:14:11,460 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:11,502 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-one'
+[0m[Server:other-one] 23:14:11,504 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:11,527 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server other-one[0m
+[Server:other-one] 23:14:11,549 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 38ms
+[0m23:14:11,556 INFO  [org.jboss.as.process.Server:other-one.status] (reaper for Server:other-one) WFLYPC0011: Process 'Server:other-one' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:11,557 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-one[0m
+[Host Controller] [0m[0m23:14:11,599 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server other-one[0m
+[0m23:14:11,751 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-one'
+[0m[Server:other-one] 23:14:12,601 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-one] 23:14:13,038 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-one] 23:14:13,047 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-one] 23:14:13,186 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-one] 23:14:13,287 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+[Server:other-one] 23:14:13,296 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-one] 23:14:13,344 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:other-one] 23:14:13,770 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:14,355 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:other-one] connected using connection [Channel ID 48a17b6c (inbound) of Remoting connection 59e5b861 to rhel7-large-81357/127.0.0.1:43634 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:14:14,361 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-one[0m
+[Host Controller] [0m[0m23:14:14,409 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-two[0m
+[Server:other-two] 23:14:14,445 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:14,489 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[Server:other-two] 23:14:14,490 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:14,522 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 23:14:14,531 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 29ms
+[0m23:14:14,547 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:14,549 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-one] 23:14:14,562 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Host Controller] [0m[0m23:14:14,591 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-two[0m
+[Server:other-one] 23:14:14,651 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-one] 23:14:14,654 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2762ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[0m23:14:14,734 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+[0m[Server:other-two] 23:14:15,524 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-two] 23:14:15,940 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-two] 23:14:15,949 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-two] 23:14:16,088 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:14:16,302 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:other-two] 23:14:16,311 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-two] 23:14:16,348 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.8.Final
+[Server:other-two] 23:14:16,723 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:17,257 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 20bc0981 (inbound) of Remoting connection 38d9f1f9 to rhel7-large-81357/127.0.0.1:35648 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:17,265 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 23:14:17,490 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:14:17,566 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 23:14:17,569 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2696ms - Started 43 of 67 services (30 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:14:17,720 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0024: Stopping server other-one[0m
+[Server:other-one] 23:14:17,747 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:17,753 INFO  [org.jboss.as.process.Server:other-one.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-one'
+[0m[Server:other-one] 23:14:17,755 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:17,760 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-two[0m
+[Host Controller] [0m[0m23:14:17,787 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0027: Unregistering server other-one[0m
+[Server:other-one] 23:14:17,802 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 30ms
+[Server:other-two] 23:14:17,806 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:17,812 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[0m23:14:17,813 INFO  [org.jboss.as.process.Server:other-one.status] (reaper for Server:other-one) WFLYPC0011: Process 'Server:other-one' finished with an exit status of 0
+[0m[Server:other-two] 23:14:17,816 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:17,843 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 23:14:17,854 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 29ms
+[Host Controller] [0m[0m23:14:17,856 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-one[0m
+[0m23:14:17,863 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:17,904 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[Host Controller] [0m[0m23:14:17,981 INFO  [org.jboss.as.host.controller] (management-handler-thread - 2) WFLYHC0023: Starting server main-one[0m
+[0m23:14:18,082 INFO  [org.jboss.as.process.Server:main-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-one'
+[0m[Server:main-one] 23:14:18,905 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-one] 23:14:19,351 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-one] 23:14:19,360 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-one] 23:14:19,499 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-one] 23:14:19,594 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+[Server:main-one] 23:14:19,600 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-one] 23:14:19,636 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+[Server:main-one] 23:14:20,169 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:20,761 INFO  [org.jboss.as.host.controller] (management task-1) WFLYHC0021: Server [Server:main-one] connected using connection [Channel ID 4c9dc5ad (inbound) of Remoting connection 80bcac73 to rhel7-large-81357/127.0.0.1:43638 of endpoint "master:MANAGEMENT" <f7e761d8>][0m
+[Host Controller] [0m[0m23:14:20,766 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-one[0m
+[Host Controller] [0m[0m23:14:20,821 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server main-three[0m
+[0m23:14:20,920 INFO  [org.jboss.as.process.Server:main-three.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:main-three'
+[0m[Server:main-one] 23:14:21,227 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-one] 23:14:21,368 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-one] 23:14:21,374 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3147ms - Started 42 of 58 services (21 services are lazy, passive or on-demand)
+[Server:main-three] 23:14:21,957 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:main-three] 23:14:22,387 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:main-three] 23:14:22,396 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:main-three] 23:14:22,533 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:main-three] 23:14:22,623 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:main-three] 23:14:22,631 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:main-three] 23:14:22,670 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+[Server:main-three] 23:14:23,060 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:23,615 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 1bd73024 (inbound) of Remoting connection a0186a40 to rhel7-large-81357/127.0.0.1:35652 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:23,620 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three[0m
+[Host Controller] [0m[0m23:14:23,663 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-two[0m
+[0m23:14:23,761 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+[0m[Server:main-three] 23:14:23,822 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-three] 23:14:23,872 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-three] 23:14:23,875 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2816ms - Started 43 of 59 services (22 services are lazy, passive or on-demand)
+[Server:other-two] 23:14:24,628 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-two] 23:14:25,069 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-two] 23:14:25,078 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-two] 23:14:25,215 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:14:25,314 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:other-two] 23:14:25,330 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-two] 23:14:25,392 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.8.Final
+[Server:other-two] 23:14:26,081 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:26,622 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 2d116c11 (inbound) of Remoting connection b2c36810 to rhel7-large-81357/127.0.0.1:35654 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:26,636 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 23:14:26,858 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:14:26,940 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 23:14:26,943 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2988ms - Started 43 of 67 services (30 services are lazy, passive or on-demand)
+[Host Controller] [0m[31m23:14:27,048 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("verify-running-server") failed - address: ([("host" => "master")]) - failure description: "WFLYHC0078: Server (main-one) still running"[0m
+[Host Controller] [0m[0m23:14:27,069 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server other-two[0m
+[Server:other-two] 23:14:27,095 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:27,097 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:other-two'
+[0m[Server:other-two] 23:14:27,099 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:27,113 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server other-two[0m
+[Server:other-two] 23:14:27,120 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 16ms
+[0m23:14:27,126 INFO  [org.jboss.as.process.Server:other-two.status] (reaper for Server:other-two) WFLYPC0011: Process 'Server:other-two' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:27,168 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server other-two[0m
+[Host Controller] [0m[0m23:14:27,250 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0023: Starting server other-two[0m
+[0m23:14:27,396 INFO  [org.jboss.as.process.Server:other-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:other-two'
+[0m[Server:other-two] 23:14:28,248 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:other-two] 23:14:28,687 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:other-two] 23:14:28,696 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:other-two] 23:14:28,834 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:other-two] 23:14:28,930 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.5.Final
+[Server:other-two] 23:14:28,944 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.5.Final
+[Server:other-two] 23:14:29,007 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+[Server:other-two] 23:14:29,384 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:29,962 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:other-two] connected using connection [Channel ID 5cdcd280 (inbound) of Remoting connection 36de4773 to rhel7-large-81357/127.0.0.1:35656 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:29,968 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server other-two[0m
+[Server:other-two] 23:14:30,335 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:other-two] 23:14:30,460 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:other-two] 23:14:30,462 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 2862ms - Started 43 of 67 services (30 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:14:32,909 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 12) WFLYHC0023: Starting server includes-server[0m
+[0m23:14:33,008 INFO  [org.jboss.as.process.Server:includes-server.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:includes-server'
+[0m[Server:includes-server] 23:14:34,855 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+[Server:includes-server] 23:14:35,248 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+[Server:includes-server] 23:14:35,257 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+[Server:includes-server] 23:14:35,393 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Server:includes-server] 23:14:35,602 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.6.5.Final
+[Server:includes-server] 23:14:35,615 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.6.5.Final
+[Server:includes-server] 23:14:35,683 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.8.Final
+[Server:includes-server] 23:14:36,147 INFO  [org.wildfly.security] (ServerService Thread Pool -- 2) ELY00001: WildFly Elytron version 1.7.0.CR2
+[Host Controller] [0m[0m23:14:36,871 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:includes-server] connected using connection [Channel ID 51448137 (inbound) of Remoting connection 37575534 to rhel7-large-81357/127.0.0.1:35658 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:36,879 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server includes-server[0m
+[Server:includes-server] 23:14:37,097 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:includes-server] 23:14:37,136 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:includes-server] 23:14:37,139 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 3725ms - Started 43 of 59 services (22 services are lazy, passive or on-demand)
+[Host Controller] [0m[0m23:14:38,527 INFO  [org.jboss.as.host.controller] (Host Controller Service Threads - 2) WFLYHC0024: Stopping server includes-server[0m
+[Server:includes-server] 23:14:38,575 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 2) WFLYSRV0236: Suspending server with no timeout.
+[0m23:14:38,605 INFO  [org.jboss.as.process.Server:includes-server.status] (ProcessController-threads - 3) WFLYPC0019: Stopping process 'Server:includes-server'
+[0m[Server:includes-server] 23:14:38,609 INFO  [org.jboss.as.server] (main) WFLYSRV0240: ProcessController has signalled to shut down; shutting down
+[Host Controller] [0m[0m23:14:38,693 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0027: Unregistering server includes-server[0m
+[Server:includes-server] 23:14:38,743 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 97ms
+[0m23:14:38,767 INFO  [org.jboss.as.process.Server:includes-server.status] (reaper for Server:includes-server) WFLYPC0011: Process 'Server:includes-server' finished with an exit status of 0
+[0m[Host Controller] [0m[0m23:14:38,810 INFO  [org.jboss.as.host.controller] (ProcessControllerConnection-thread - 2) WFLYHC0027: Unregistering server includes-server[0m
+[Host Controller] [0m[0m23:14:39,132 INFO  [org.jboss.as.host.controller] (management I/O-2) WFLYHC0027: Unregistering server main-three[0m
+[Server:main-three] 23:14:39,140 INFO  [org.jboss.as] (MSC service thread 1-8) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 38ms
+[Server:main-three] 23:14:39,142 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+[Host Controller] [0m[0m23:14:39,223 INFO  [org.jboss.as.host.controller] (management task-2) WFLYHC0021: Server [Server:main-three] connected using connection [Channel ID 55a0bea4 (inbound) of Remoting connection 242ea63c to rhel7-large-81357/127.0.0.1:35660 of endpoint "slave:MANAGEMENT" <2b5787f9>][0m
+[Host Controller] [0m[0m23:14:39,233 INFO  [org.jboss.as.host.controller] (server-registration-threads - 1) WFLYHC0020: Registering server main-three[0m
+[Server:main-three] 23:14:39,313 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+[Server:main-three] 23:14:39,377 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+[Server:main-three] 23:14:39,379 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Core 7.0.0.Alpha3-SNAPSHOT started in 236ms - Started 43 of 59 services (22 services are lazy, passive or on-demand)
+[Host Controller] [31m[0m[31m23:14:39,415 ERROR [org.jboss.as.controller.management-operation] (management-handler-thread - 2) WFLYCTL0013: Operation ("read-resource") failed - address: ([("host" => "*")]): org.jboss.as.controller.access.rbac.UnknowRoleException: WFLYCTL0327: Unknown role 'slave-monitor'[0m
+[Host Controller] [31m	at org.jboss.as.controller.access.rbac.SuperUserRoleMapper.canRunAs(SuperUserRoleMapper.java:87)[0m
+[Host Controller] [31m	at org.jboss.as.controller.access.rbac.RunAsRoleMapper.mapRoles(RunAsRoleMapper.java:143)[0m
+[Host Controller] [31m	at org.jboss.as.controller.access.rbac.RunAsRoleMapper.mapRoles(RunAsRoleMapper.java:71)[0m
+[Host Controller] [31m	at org.jboss.as.controller.access.rbac.DefaultPermissionFactory.getUserPermissions(DefaultPermissionFactory.java:109)[0m
+[Host Controller] [31m	at org.jboss.as.controller.access.permission.ManagementPermissionAuthorizer.authorize(ManagementPermissionAuthorizer.java:91)[0m
+[Host Controller] [31m	at org.jboss.as.controller.access.management.DelegatingConfigurableAuthorizer.authorize(DelegatingConfigurableAuthorizer.java:99)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.getBasicAuthorizationResponse(OperationContextImpl.java:1871)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.authorize(OperationContextImpl.java:1769)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.authorize(OperationContextImpl.java:1728)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.getResourceRegistration(OperationContextImpl.java:575)[0m
+[Host Controller] [31m	at org.jboss.as.domain.controller.operations.coordination.PrepareStepHandler.executeDirectOperation(PrepareStepHandler.java:126)[0m
+[Host Controller] [31m	at org.jboss.as.domain.controller.operations.coordination.OperationCoordinatorStepHandler.executeDirect(OperationCoordinatorStepHandler.java:139)[0m
+[Host Controller] [31m	at org.jboss.as.domain.controller.operations.coordination.OperationCoordinatorStepHandler.execute(OperationCoordinatorStepHandler.java:102)[0m
+[Host Controller] [31m	at org.jboss.as.domain.controller.operations.coordination.PrepareStepHandler.execute(PrepareStepHandler.java:93)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeStep(AbstractOperationContext.java:999)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.processStages(AbstractOperationContext.java:743)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AbstractOperationContext.executeOperation(AbstractOperationContext.java:467)[0m
+[Host Controller] [31m	at org.jboss.as.controller.OperationContextImpl.executeOperation(OperationContextImpl.java:1411)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.internalExecute(ModelControllerImpl.java:423)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.lambda$execute$1(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl$$Lambda$171.0000000024005390.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$116.00000000EC3AB120.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:289)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:255)[0m
+[Host Controller] [31m	at org.jboss.as.controller.ModelControllerImpl.execute(ModelControllerImpl.java:243)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.doExecute(ModelControllerClientOperationHandler.java:240)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler.access$400(ModelControllerClientOperationHandler.java:138)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:162)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1$1.run(ModelControllerClientOperationHandler.java:158)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity$$Lambda$170.0000000024003460.run(Unknown Source)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:313)[0m
+[Host Controller] [31m	at org.wildfly.security.auth.server.SecurityIdentity.runAs(SecurityIdentity.java:270)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:254)[0m
+[Host Controller] [31m	at org.jboss.as.controller.AccessAuditContext.doAs(AccessAuditContext.java:225)[0m
+[Host Controller] [31m	at org.jboss.as.controller.remote.ModelControllerClientOperationHandler$ExecuteRequestHandler$1.execute(ModelControllerClientOperationHandler.java:158)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$1.doExecute(ManagementRequestContextImpl.java:70)[0m
+[Host Controller] [31m	at org.jboss.as.protocol.mgmt.ManagementRequestContextImpl$AsyncTaskRunner.run(ManagementRequestContextImpl.java:160)[0m
+[Host Controller] [31m	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)[0m
+[Host Controller] [31m	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)[0m
+[Host Controller] [31m	at java.lang.Thread.run(Thread.java:811)[0m
+[Host Controller] [31m	at org.jboss.threads.JBossThread.run(JBossThread.java:485)[0m
+[Host Controller] [31m[0m
+[Host Controller] [31m[0m[0m23:14:39,659 INFO  [org.jboss.as.domain.controller] (management task-1) WFLYHC0026: Unregistered remote slave host "slave"[0m

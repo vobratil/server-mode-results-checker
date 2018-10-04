@@ -1,0 +1,11 @@
+WARN: can't find jboss-cli.xml. Using default configuration values.
+WARN: can't find jboss-cli.xml. Using default configuration values.
+Oct 03, 2018 5:07:48 PM org.jboss.as.cli.impl.CommandContextImpl print
+INFO: {
+    "outcome" : "success",
+    "result" : {}
+}
+{
+    "outcome" : "success",
+    "result" : {}
+}

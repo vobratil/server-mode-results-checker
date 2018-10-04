@@ -1,0 +1,38 @@
+Oct 03, 2018 5:15:13 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 5:15:13 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 5:15:14 PM org.xnio.Xnio <clinit>
+INFO: XNIO version 3.6.5.Final
+Oct 03, 2018 5:15:14 PM org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.6.5.Final
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO002: Worker 'third-worker' has auto-configured to 8 core threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'fourth-worker' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO002: Worker 'third-worker' has auto-configured to 8 core threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'fourth-worker' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO002: Worker 'third-worker' has auto-configured to 8 core threads based on your 4 available processors
+Oct 03, 2018 5:15:14 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'fourth-worker' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:15 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:15 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO002: Worker 'third-worker' has auto-configured to 8 core threads based on your 4 available processors
+Oct 03, 2018 5:15:15 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'fourth-worker' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:15 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+Oct 03, 2018 5:15:15 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO002: Worker 'third-worker' has auto-configured to 8 core threads based on your 4 available processors
+Oct 03, 2018 5:15:15 PM org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'fourth-worker' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors

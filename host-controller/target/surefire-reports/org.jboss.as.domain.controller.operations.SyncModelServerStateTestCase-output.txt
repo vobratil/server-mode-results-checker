@@ -1,0 +1,450 @@
+Oct 03, 2018 4:59:00 PM org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.5.Final
+Oct 03, 2018 4:59:00 PM org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.3.2.Final
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:01 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-three"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:01 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("system-property" => "test")]
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("socket-binding-group" => "binding-one"),
+    ("socket-binding" => "testing")
+]
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:01 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment-overlay" => "test")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-one"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment-overlay" => "test")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/other/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment-overlay" => "test")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [("deployment-overlay" => "test")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment-overlay" => "test")]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("deployment-overlay" => "test"),
+    ("content" => "/some/path")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test")
+]
+Oct 03, 2018 4:59:02 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment-overlay" => "test"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("system-property" => "test")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-two"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:03 PM org.jboss.as.domain.controller.operations.deployment.DeploymentRemoveHandler$SlaveDeploymentRemoveHandler removeContent
+WARN: WFLYDC0073: test.jar deployment has been re-deployed, its content will not be removed. You will need to restart it.
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-one"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [
+    ("server-group" => "group-one"),
+    ("deployment" => "test.jar")
+]
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-removed is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-one
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-two
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.host.controller.ManagedServerBootCmdFactory getServerLaunchCommand
+WARN: WFLYHC0204: No logging configuration file could be found for the servers initial boot. Logging will not be configured until the logging subsystem is activated for the server server-three
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [("deployment" => "test.jar")]
+Oct 03, 2018 4:59:03 PM org.jboss.as.controller.AbstractOperationContext emitNotifications
+WARN: WFLYCTL0357: Notification of type resource-added is not described for the resource at the address [
+    ("server-group" => "group-one"),
+    ("deployment" => "test.jar")
+]

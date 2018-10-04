@@ -1,0 +1,44 @@
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+Warning! The CLI is running in a non-modular environment and cannot load commands from management extensions.
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{"outcome" => "success"}
+{
+    "outcome" => "failed",
+    "failure-description" => "WFLYCTL0216: Management resource '[(\"system-property\" => \"prop_test\")]' not found",
+    "rolled-back" => true
+}
+{
+    "outcome" => "failed",
+    "failure-description" => "WFLYCTL0216: Management resource '[(\"system-property\" => \"prop_test2\")]' not found",
+    "rolled-back" => true
+}
+{"outcome" => "success"}
+[0m22:22:54,411 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0236: Suspending server with no timeout.
+[0m[0m22:22:54,414 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+[0m[0m22:22:54,441 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 19ms
+[0m

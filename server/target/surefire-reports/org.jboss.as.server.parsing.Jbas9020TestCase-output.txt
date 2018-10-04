@@ -1,0 +1,10 @@
+{
+    "operation" => "add",
+    "address" => [("deployment" => "test.war")],
+    "runtime-name" => "test-run.war",
+    "enabled" => true,
+    "content" => [{
+        "archive" => true,
+        "path" => "${jboss.home}/content/welcome.jar"
+    }]
+}

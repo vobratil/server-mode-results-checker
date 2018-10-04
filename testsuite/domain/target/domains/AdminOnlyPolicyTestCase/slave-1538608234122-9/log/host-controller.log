@@ -1,0 +1,29 @@
+2018-10-03 23:11:25,366 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2018-10-03 23:11:25,713 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.5.Final
+2018-10-03 23:11:25,727 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2018-10-03 23:11:25,781 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Core 7.0.0.Alpha3-SNAPSHOT starting
+2018-10-03 23:11:26,298 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-9/core-service=management/management-interface=native-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:11:26,300 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/host=slave-1538608234122-9/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:11:26,301 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2018-10-03 23:11:26,391 INFO  [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0003: Creating http management service using network interface (management) port (29990) securePort (-1)
+2018-10-03 23:11:26,409 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.6.5.Final
+2018-10-03 23:11:26,426 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.6.5.Final
+2018-10-03 23:11:26,470 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly cumulative patch ID is: base, one-off patches include: none
+2018-10-03 23:11:26,537 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.8.Final
+2018-10-03 23:11:26,617 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) WFLYRMT0001: Listening on 127.0.0.1:29999
+2018-10-03 23:11:26,708 ERROR [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0145: The host cannot start because it was started in running mode 'ADMIN_ONLY' with no access to a local copy of the domain wide configuration policy, and the 'admin-only-policy' attribute was set to 'require-local-config'. Startup will be aborted. Use the '--cached-dc' command line argument to start in running mode 'ADMIN_ONLY'.
+2018-10-03 23:11:26,709 FATAL [org.jboss.as.host.controller] (Controller Boot Thread) WFLYHC0178: Aborting with exit code 99
+2018-10-03 23:11:26,779 ERROR [org.xnio.listener] (management I/O-2) XNIO001007: A channel event listener threw an exception: java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620)
+	at org.jboss.remoting3.remote.RemoteConnection$RemoteWriteListener.send(RemoteConnection.java:357)
+	at org.jboss.remoting3.remote.RemoteConnection.send(RemoteConnection.java:127)
+	at org.jboss.remoting3.remote.ServerConnectionOpenListener.handleEvent(ServerConnectionOpenListener.java:102)
+	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.handleAccepted(RemoteConnectionProvider.java:407)
+	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface.lambda$createServer$1(RemoteConnectionProvider.java:375)
+	at org.jboss.remoting3.remote.RemoteConnectionProvider$ProviderInterface$$Lambda$92.00000000E40DED00.handleEvent(Unknown Source)
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92)
+	at org.xnio.nio.QueuedNioTcpServer$1.run(QueuedNioTcpServer.java:131)
+	at org.xnio.nio.WorkerThread.safeRun(WorkerThread.java:612)
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:479)
+
+2018-10-03 23:11:26,791 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Core 7.0.0.Alpha3-SNAPSHOT stopped in 70ms
